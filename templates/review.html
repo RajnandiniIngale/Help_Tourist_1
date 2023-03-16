@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:large;
+	background-image: url(../static/images/bg_body.jpg);
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=dropdown] {
+ 
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+ 
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+ .signupbtn {
+  margin-left : 400px;
+  width: 40%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+h1
+{
+text-align:center;
+font-family:"Times New Roman", Times, serif;
+}
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+.checked {
+  color: orange;
+}
+
+</style>
+
+
+
+
+<body>
+
+<form action="index.html" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Reviews and Ratings</h1>
+   
+    <hr>
+	 <table width="50%" border="1" align="center">
+       <tr>
+         <td width="235">Type:</td>
+         <td width="535"><input type="text" placeholder="Enter type" name="name2" required></td>
+       </tr>
+       <tr>
+         <td>Name:</td>
+         <td><input type="text" placeholder="Enter name" name="name" required></td>
+       </tr>
+       <tr>
+         <td>Number of people visited :</td>
+         <td><input type="text" placeholder="Enter number of people visited " name="noOfPeople" required></td>
+       </tr>
+       <tr>
+         <td>Number of children: </td>
+         <td><input type="text" placeholder="Enter number of children visited " name="noOfChildren" required></td>
+       </tr>
+       <tr>
+         <td>Time:</td>
+         <td><input type="text" placeholder="Enter time of visit " name="time" required></td>
+         <blockquote>&nbsp;</blockquote>
+       </tr>
+       <tr>
+         <td bordercolor="#F0F0F0">Rating:</td>
+         <td><input type="text" placeholder="Enter ratings " name="ratings" required></td>
+       </tr>
+       <tr>
+         <td>Review : </td>
+         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
+       </tr>
+       <tr>
+         <td>How likely are you to recommend a friend :</td>
+         <td><input type="text" placeholder="" name="reviews22" required></td>
+       </tr>
+       <tr>
+         <td>&nbsp;</td>
+         <td><input type="submit" name="Submit" value="Submit"></td>
+       </tr>
+     </table> 
+  </div>
+</form>
+
+</body>
+</html>
