@@ -1,5 +1,4 @@
 import csv
-import json
 import nltk
 
 from nltk import word_tokenize
@@ -19,32 +18,25 @@ arr = data.to_numpy()   #convert csv data into array
 
 #features1 =["food","location","staff","service","Rooms"]
 
-clean = ["cleanliness","cleaning services"," hygienic"," clean"]
 
-food = ["Breakfast","buffet","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",
+food = ["Breakfast","buffet","taste","lunch","dinner","dinning","delicious","Chef","Food quality"," dosas",
         "chef"  "roasted","chicken","oily ","juicy","south Indian","utappam","Non veg","Veg","cook ","live counters"]
 
-property1 = ["property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
-    ,"amenities","structure","Heritage","building","Picturesque"]
+clean = ["cleanliness","cleaning services"," hygienic"," clean"]
 
-location = ["location ","place","greenary","airy","surrounding ","landscapes ","far ","market"]
-
-rooms = ["rooms","Big ","Neat","lobby ","small","floor ","carpeted","size"]
-
-recreation = ["activities","fountain","engaged ","entertained","pool","Gym","Spa","garden","sports","adventure",
+location = ["location ","place","greenary","airy","surrounding ","landscapes ","far ","market","property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
+    ,"amenities","structure","Heritage","building","Picturesque","rooms","Big ","Neat","lobby ","small","floor ","carpeted","size","activities","fountain","engaged ","entertained","pool","Gym","Spa","garden","sports","adventure",
               "recreational","play","trek","climbing ", "fitness "]
 
-service = ["hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time"]
+service = ["hospitality","services","Satisfactory ","lethargic","Bed sheets","Towels","blankets","on time"
+             ,"courteous ", "staff","unprofessional","management","cordial","friendly","co-operative","ready to help","people",
+            "humble","helpful","hospitable"]
 
-staff = ["courteous ","staff","unprofessional","management","cordial","friendly","co-operative","ready to help","people",
-         "humble","helpful" ,"hospitable"]
-
-money = ["money","overpriced","rates","bit","higher","budget","expensive","worth","price",
-         "Prices","costly","little","upmarket","upscale","penny"]
+money = ["money","overpriced","rates","higher","budget","expensive","worth","price",
+         "Prices","costly","upmarket","upscale","penny"]
 
 
 stop_words = set(stopwords.words('english'))
-
 
 
 word_tokens = word_tokenize(str(arr))
@@ -87,27 +79,9 @@ for k in arr1:
             file.writelines(feat+" : "+k + "\n")
             file.close()
 
-    for feat in property1:
-        if feat.lower() in k:
-            file = open("property1.txt", "a", encoding="utf-8")
-            file.writelines(feat+" : "+k + "\n")
-            file.close()
-
     for feat in location:
         if feat.lower() in k:
             file = open("location.txt", "a", encoding="utf-8")
-            file.writelines(feat+" : "+k + "\n")
-            file.close()
-
-    for feat in rooms:
-        if feat.lower() in k:
-            file = open("rooms.txt", "a", encoding="utf-8")
-            file.writelines(feat+" : "+k + "\n")
-            file.close()
-
-    for feat in staff:
-        if feat.lower() in k:
-            file = open("staff.txt", "a", encoding="utf-8")
             file.writelines(feat+" : "+k + "\n")
             file.close()
 
@@ -122,13 +96,6 @@ for k in arr1:
             file = open("money.txt", "a", encoding="utf-8")
             file.writelines(feat+" : "+k + "\n")
             file.close()
-
-    for feat in recreation:
-        if feat.lower() in k:
-            file = open("recreation.txt", "a", encoding="utf-8")
-            file.writelines(feat+" : "+k+"\n")
-            file.close()
-
 
 # print("Bigram text")
 # bigrm = list(nltk.bigrams(fin.split()))

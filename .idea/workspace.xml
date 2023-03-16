@@ -1,137 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess1 (1).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/superfish.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/touchTouch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/900px-Mahabaleshwar_Panorama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/arbab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/arrowws.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bandra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/barbeque.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg_body.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/big9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bq_bot_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/chingari-restaurant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/cincin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/dam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download (1).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download (2).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download-_1_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download-_2_ (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download-_2_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/download.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/envel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gateway.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/hotel.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/images (1).jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/jyotiba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/kolhapur.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/magnify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mahalakshi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/maratha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/marker1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/marroite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mumbai-hotel1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mumbai1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page1_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page1_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page1_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page1_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page1_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page2_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page3_img9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page4_img6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page5_img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/page5_img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/parakh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/park.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/prevnext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/rankala.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sayaji_hotel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/shahu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/slide.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/tandoor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/totop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/ven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/venna.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/venna1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/venna1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wilson.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wilson1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/PIE.htc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-migrate-1.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.carouFredSel-6.1.0-packed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.equalheights.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.jqtransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.touchSwipe.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.ui.totop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/sForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/superfish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/tms-0.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/touchTouch.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr.py" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="preprocess1 added">
+      <change afterPath="$PROJECT_DIR$/preprocess1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess1 (1).py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +38,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Admin\PycharmProjects\Help_Tourist_1\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -189,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678592822658</updated>
     </task>
+    <task id="LOCAL-00001" summary="preprocess1 added">
+      <created>1678984216586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678984216586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="preprocess1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="preprocess1 added" />
   </component>
 </project>
