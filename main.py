@@ -3,7 +3,6 @@ import mimetypes
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-
 mimetypes.add_type("text/css", ".css", True)
 
 
