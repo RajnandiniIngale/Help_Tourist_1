@@ -1,5 +1,5 @@
 import csv
-import json
+
 import nltk
 
 from nltk import word_tokenize

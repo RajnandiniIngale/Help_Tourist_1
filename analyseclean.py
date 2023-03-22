@@ -5,13 +5,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 import nltk
 import ssl
-#
-# try:
-#      _create_unverified_https_context = ssl._create_unverified_context
-# except AttributeError:
-#      pass
-# else:
-#      ssl._create_default_https_context = _create_unverified_https_context
+
 
 #nltk.download()
 
@@ -21,7 +15,7 @@ sia = SentimentIntensityAnalyzer()
 # Define a list of reviews to analyze
 
 # Using readlines()
-file1 = open('food.txt', 'r')
+file1 = open('clean.txt', 'r')
 Lines = file1.readlines()
 
 count = 0

@@ -21,7 +21,7 @@ sia = SentimentIntensityAnalyzer()
 # Define a list of reviews to analyze
 
 # Using readlines()
-file1 = open('food.txt', 'r')
+file1 = open('location.txt', 'r')
 Lines = file1.readlines()
 
 count = 0

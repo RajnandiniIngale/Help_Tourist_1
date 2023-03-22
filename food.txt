@@ -1,36 +1,27 @@
-buffet :  Only thing disappointed time food particularly buffet 
-taste :  variety taste 
-Breakfast :  breakfast buffet still good compare dinner buffet 
-buffet :  breakfast buffet still good compare dinner buffet 
-dinner :  breakfast buffet still good compare dinner buffet 
-taste :  Room service food tasted amazing bit overpriced 
-Breakfast :  Buffet breakfast worth 
-cook  :  ] [ 'Everybody staff cook cordial 
-dinning :  ] [ 'Stay dinning super awesome 
-Food quality :  food quality decreased compared 
-Chef :  live counters courteous staff chef' 
-live counters :  live counters courteous staff chef' 
-buffet :  The buffet lunch provided good price also reasonable 
-lunch :  The buffet lunch provided good price also reasonable 
-cook  :  ] [ 'Everybody staff cook cordial 
-dinner :  ] [ 'Went birthday dinner today 
-buffet :  good buffet 
-buffet :  Only thing disappointed time food particularly buffet 
-taste :  variety taste 
-Breakfast :  breakfast buffet still good compare dinner buffet 
-buffet :  breakfast buffet still good compare dinner buffet 
-dinner :  breakfast buffet still good compare dinner buffet 
-taste :  Room service food tasted amazing bit overpriced
-buffet : Break fast buffet good amazing dosas served Shankar choose eyes 
- dosas : Break fast buffet good amazing dosas served Shankar choose eyes 
-buffet : Dinner buffet good roasted chicken stood 
-chicken : Dinner buffet good roasted chicken stood 
-chicken :  The best chicken 
-oily  :  Not oily yet juicy 
-juicy :  Not oily yet juicy 
-Veg :  Veg Non veg 
-utappam :  I liked Chef Shankar south Indian utappam' 
-buffet :  The buffet lunch provided good price also reasonable 
-lunch :  The buffet lunch provided good price also reasonable 
-delicious :  ] [ 'Great surrounding awesome ambience coupled delicious food hospitality 
-Food quality :  excellent food quality 
+ Only thing disappointed time food particularly buffet 
+ variety taste 
+ breakfast buffet still good compare dinner buffet 
+ Room service food tasted amazing bit overpriced 
+ Buffet breakfast worth 
+ ] [ 'Everybody staff cook cordial 
+ ] [ 'Stay dinning super awesome 
+ food quality decreased compared 
+ live counters courteous staff chef' 
+ The buffet lunch provided good price also reasonable 
+ ] [ 'Everybody staff cook cordial 
+ ] [ 'Went birthday dinner today 
+ good buffet 
+ Only thing disappointed time food particularly buffet 
+ variety taste 
+ breakfast buffet still good compare dinner buffet 
+ Room service food tasted amazing bit overpriced
+Break fast buffet good amazing dosas served Shankar choose eyes 
+ That says lot dosa
+Dinner buffet good roasted chicken stood 
+ The best chicken 
+ Not oily yet juicy 
+ Veg Non veg 
+ I liked Chef Shankar south Indian utappam' 
+ The buffet lunch provided good price also reasonable 
+ ] [ 'Great surrounding awesome ambience coupled delicious food hospitality 
+ excellent food quality 
