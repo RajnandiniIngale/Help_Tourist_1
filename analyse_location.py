@@ -5,13 +5,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 import nltk
 import ssl
-#
-# try:
-#      _create_unverified_https_context = ssl._create_unverified_context
-# except AttributeError:
-#      pass
-# else:
-#      ssl._create_default_https_context = _create_unverified_https_context
+
 
 #nltk.download()
 
@@ -27,7 +21,7 @@ Lines = file1.readlines()
 count = 0
 # Strips the newline character
 for line in Lines:
-    review=line
+    review = line
     scores = sia.polarity_scores(review)
     print(review)
     print("Negative Score:", scores['neg'])
@@ -36,7 +30,7 @@ for line in Lines:
     print("Compound Score:", scores['compound'])
     print()
 
-    stars=0
+    stars = 0
 
 
     if scores["compound"]<0:
