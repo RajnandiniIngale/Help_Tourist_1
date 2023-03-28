@@ -73,6 +73,7 @@ def tours():
         stars["starsfoodkeys"]=(str)(starsfoodkeys)
 
     file1.close()
+
     file1 = open('location.txt', 'r', encoding="utf8")
     Lines = file1.readlines()
 
@@ -108,6 +109,82 @@ def tours():
 
         print("stars  " + ((str))(starslocationkeys))
         stars["starslocationkeys"] = (str)(starslocationkeys)
+
+        file1.close()
+
+        file1 = open('clean.txt', 'r', encoding="utf8")
+        Lines = file1.readlines()
+
+        count = 0
+        # Strips the newline character
+        for line in Lines:
+            review = line
+            scores = sia.polarity_scores(review)
+            print(review)
+            print("Negative Score:", scores['neg'])
+            print("Neutral Score:", scores['neu'])
+            print("Positive Score:", scores['pos'])
+            print("Compound Score:", scores['compound'])
+            print()
+
+            starscleankeys = 0
+
+            if scores["compound"] < 0:
+                starscleankeys = 1
+            else:
+
+                if scores["compound"] == 0 and scores["neu"] == 1:
+                    starscleankeys = 2
+                else:
+                    if scores["compound"] > 0 and scores["compound"] <= 0.4:
+                        starscleankeys = 3
+                    else:
+                        if scores["compound"] > 0 and scores["compound"] <= 0.6:
+                            starscleankeys = 4
+                        else:
+                            if scores["compound"] > 0.6:
+                                starscleankeys = 5;
+
+            print("stars  " + ((str))(starscleankeys))
+            stars["starscleankeys"] = (str)(starscleankeys)
+
+            file1.close()
+
+            file1 = open('service.txt', 'r', encoding="utf8")
+            Lines = file1.readlines()
+
+            count = 0
+            # Strips the newline character
+            for line in Lines:
+                review = line
+                scores = sia.polarity_scores(review)
+                print(review)
+                print("Negative Score:", scores['neg'])
+                print("Neutral Score:", scores['neu'])
+                print("Positive Score:", scores['pos'])
+                print("Compound Score:", scores['compound'])
+                print()
+
+                starsservicekeys = 0
+
+                if scores["compound"] < 0:
+                    starsservicekeys = 1
+                else:
+
+                    if scores["compound"] == 0 and scores["neu"] == 1:
+                        starsservicekeys = 2
+                    else:
+                        if scores["compound"] > 0 and scores["compound"] <= 0.4:
+                            starsservicekeys = 3
+                        else:
+                            if scores["compound"] > 0 and scores["compound"] <= 0.6:
+                                starsservicekeys = 4
+                            else:
+                                if scores["compound"] > 0.6:
+                                    starsservicekeys = 5;
+
+                print("stars  " + ((str))(starsservicekeys))
+                stars["starsservicekeys"] = (str)(starsservicekeys)
 
     return render_template("tours.html",ratingsk=stars)
 
