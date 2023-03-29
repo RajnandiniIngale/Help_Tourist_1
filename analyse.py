@@ -21,21 +21,21 @@ sia = SentimentIntensityAnalyzer()
 # Define a list of reviews to analyze
 
 # Using readlines()
-file1 = open('food.txt', 'r')
+file1 = open('food.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
-foodfile = open("starsparkclean.txt", "w", encoding="utf-8")
+ffile = open("starskeysfood.txt", "w", encoding="utf-8")
 
 count = 0
 # Strips the newline character
 for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
-    foodfile.writelines(review + "\n")
-    print(review)
-    foodfile.writelines("Negative Score:", scores['neg'])
-    foodfile.writelines("Neutral Score:", scores['neu'])
-    foodfile.writelines("Positive Score:", scores['pos'])
-    foodfile.writelines("Compound Score:",+ scores['compound'])
+    ffile.writelines(review + "\n")
+
+    ffile.writelines("Negative Score:" + str(scores['neg']))
+    ffile.writelines("Neutral Score:" + str(scores['neu']))
+    ffile.writelines("Positive Score:" + str(scores['pos']))
+    ffile.writelines("Compound Score:" + str(scores['compound']))
 
     stars=0
 
@@ -59,4 +59,4 @@ for line in Lines:
 
 
 
-        foodfile.writelines("stars  " +((str))(stars))
+        ffile.writelines("stars  " +((str))(stars))

@@ -5,7 +5,13 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 import nltk
 import ssl
-
+#
+# try:
+#      _create_unverified_https_context = ssl._create_unverified_context
+# except AttributeError:
+#      pass
+# else:
+#      ssl._create_default_https_context = _create_unverified_https_context
 
 #nltk.download()
 
@@ -15,22 +21,23 @@ sia = SentimentIntensityAnalyzer()
 # Define a list of reviews to analyze
 
 # Using readlines()
-file1 = open('location.txt', 'r', encoding="utf8")
+file1 = open('location.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
+ffile = open("starskeyslocation.txt", "w", encoding="utf-8")
 
 count = 0
 # Strips the newline character
 for line in Lines:
-    review = line
+    review=line
     scores = sia.polarity_scores(review)
-    print(review)
-    print("Negative Score:", scores['neg'])
-    print("Neutral Score:", scores['neu'])
-    print("Positive Score:", scores['pos'])
-    print("Compound Score:", scores['compound'])
-    print()
+    ffile.writelines(review + "\n")
 
-    stars = 0
+    ffile.writelines("Negative Score:" + str(scores['neg']))
+    ffile.writelines("Neutral Score:" + str(scores['neu']))
+    ffile.writelines("Positive Score:" + str(scores['pos']))
+    ffile.writelines("Compound Score:" + str(scores['compound']))
+
+    stars=0
 
 
     if scores["compound"]<0:
@@ -47,6 +54,9 @@ for line in Lines:
                     stars=4
                 else:
                     if scores["compound"]>0.6:
-                        stars=5;
+                       stars=5;
 
-     open("park_food.txt", "w", encoding="utf-8")
+
+
+
+        ffile.writelines("stars  " +((str))(stars))
