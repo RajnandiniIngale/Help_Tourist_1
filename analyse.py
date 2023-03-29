@@ -32,10 +32,10 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     foodfile.writelines(review + "\n")
     print(review)
-    foodfile.writelines("Negative Score:" + scores['neg'])
-    foodfile.writelines("Neutral Score:" + scores['neu'])
-    foodfile.writelines("Positive Score:" + scores['pos'])
-    foodfile.writelines("Compound Score:" + scores['compound'])
+    foodfile.writelines("Negative Score:", scores['neg'])
+    foodfile.writelines("Neutral Score:", scores['neu'])
+    foodfile.writelines("Positive Score:", scores['pos'])
+    foodfile.writelines("Compound Score:",+ scores['compound'])
 
     stars=0
 
