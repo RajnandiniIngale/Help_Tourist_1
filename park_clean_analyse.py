@@ -47,5 +47,5 @@ for line in Lines:
                     if scores["compound"]>0.6:
                         stars=5;
 
-                    pfile = open("starsparkclean.txt", "w", encoding="utf-8")
+                    pfile = open("starsparkclean.txt", "a", encoding="utf-8")
 
