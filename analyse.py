@@ -54,8 +54,9 @@ for line in Lines:
                     stars=4
                 else:
                     if scores["compound"]>0.6:
-                        stars=5;
+                       stars=5;
 
 
 
-             foodfile.writelines("stars  " +((str))(stars))
+
+        foodfile.writelines("stars  " +((str))(stars))
