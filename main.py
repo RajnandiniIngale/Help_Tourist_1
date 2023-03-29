@@ -196,7 +196,7 @@ def tours():
                 for line in Lines:
                     review = line
                     scores = sia.polarity_scores(review)
-                   # print(review)
+                    print(review)
                     print("Negative Score:", scores['neg'])
                     print("Neutral Score:", scores['neu'])
                     print("Positive Score:", scores['pos'])
