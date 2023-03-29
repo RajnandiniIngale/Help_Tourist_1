@@ -48,4 +48,4 @@ for line in Lines:
 
 
 
-    print("stars  "+((str))(stars))
+    open("starsparklocation.txt", "w", encoding="utf-8")

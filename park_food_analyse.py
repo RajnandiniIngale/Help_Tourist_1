@@ -47,5 +47,4 @@ for line in Lines:
                         stars=5;
 
 
-
-    print("stars  "+((str))(stars))
+    open("starsparkfood.txt", "w", encoding="utf-8")

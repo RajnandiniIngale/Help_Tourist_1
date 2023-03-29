@@ -13,6 +13,7 @@ sia = SentimentIntensityAnalyzer()
 
 # Using readlines()
 file = open('park_clean.txt', 'r',encoding="utf-8")
+
 Lines = file.readlines()
 
 count = 0
@@ -46,6 +47,5 @@ for line in Lines:
                     if scores["compound"]>0.6:
                         stars=5;
 
+                    pfile = open("starsparkclean.txt", "w", encoding="utf-8")
 
-
-    print("stars  "+((str))(stars))

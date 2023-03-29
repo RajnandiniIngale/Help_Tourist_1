@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="main.py modified&#10;tours.html modified" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="main.py modified&#10;tours.html modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_clean_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_clean_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_food_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_food_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_location_analayse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_location_analayse.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/park_clean_analyse.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.park_clean_analyse">
     <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680088102969</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="main.py modified&#10;tours.html modified">
+      <created>1680088166260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680088166260</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

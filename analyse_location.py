@@ -49,6 +49,4 @@ for line in Lines:
                     if scores["compound"]>0.6:
                         stars=5;
 
-
-
-    print("stars  "+((str))(stars))
+     open("park_food.txt", "w", encoding="utf-8")
