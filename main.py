@@ -186,6 +186,46 @@ def tours():
                 print("stars  " + ((str))(starsservicekeys))
                 stars["starsservicekeys"] = (str)(starsservicekeys)
 
+                file1.close()
+
+                file1 = open('park_food.txt', 'r', encoding="utf8")
+                Lines = file1.readlines()
+
+                count = 0
+                # Strips the newline character
+                for line in Lines:
+                    review = line
+                    scores = sia.polarity_scores(review)
+                   # print(review)
+                    print("Negative Score:", scores['neg'])
+                    print("Neutral Score:", scores['neu'])
+                    print("Positive Score:", scores['pos'])
+                    print("Compound Score:", scores['compound'])
+                    print()
+
+                    foodpark = 0
+
+                    if scores["compound"] < 0:
+                        foodpark = 1
+                    else:
+
+                        if scores["compound"] == 0 and scores["neu"] == 1:
+                            foodpark = 2
+                        else:
+                            if scores["compound"] > 0 and scores["compound"] <= 0.4:
+                                foodpark = 3
+                            else:
+                                if scores["compound"] > 0 and scores["compound"] <= 0.6:
+                                    foodpark = 4
+                                else:
+                                    if scores["compound"] > 0.6:
+                                        foodpark = 5;
+
+                    print("stars  " + ((str))(foodpark))
+                    stars["foodpark"] = (str)(foodpark)
+
+                    file1.close()
+
     return render_template("tours.html",ratingsk=stars)
 
 
