@@ -25,3 +25,30 @@ upscale :  ] [ 'Very upscale hotel '
 expensive :  bit expensive worth penny' 
 worth :  bit expensive worth penny' 
 penny :  bit expensive worth penny' 
+overpriced :  Room service food tasted amazing bit overpriced 
+price :  Room service food tasted amazing bit overpriced 
+worth :  Buffet breakfast worth 
+rates :  Room rates bit higher side though 
+higher :  Room rates bit higher side though 
+budget :  budget room 
+expensive :  expensive 
+worth :  Was bit hesitant book first completely worth 
+price :  The buffet lunch provided good price also reasonable 
+expensive :  The price bit expensive though 
+price :  The price bit expensive though 
+price :  Rooms level per price quoted 
+expensive :  expensive 
+price :  However rooms size price varies based window facing 
+overpriced :  Room service food tasted amazing bit overpriced
+price :  Room service food tasted amazing bit overpriced
+price :  The buffet lunch provided good price also reasonable 
+costly :  ] [ `` Too costly 's value 
+worth :  The hospitality worth every penny 
+penny :  The hospitality worth every penny 
+expensive :  Food quality good little expensive 
+upmarket :  ] [ 'Very upmarket place 
+budget :  Very good ur budget concern 
+upscale :  ] [ 'Very upscale hotel ' 
+expensive :  bit expensive worth penny' 
+worth :  bit expensive worth penny' 
+penny :  bit expensive worth penny' 
