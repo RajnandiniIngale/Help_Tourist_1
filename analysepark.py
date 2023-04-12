@@ -21,9 +21,9 @@ sia = SentimentIntensityAnalyzer()
 # Define a list of reviews to analyze
 
 # Using readlines()
-file1 = open('food.txt', 'r',encoding="utf-8")
+file1 = open('park_food.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
-ffile = open("keys.txt", "w", encoding="utf-8")
+ffile = open("park_plaza.txt", "w", encoding="utf-8")
 
 count = 0
 sum=0
@@ -56,9 +56,9 @@ else:
 
 
 
-ffile.writelines("stars_food :" +((str))(stars)+"\n")
+ffile.writelines("park_food :" +((str))(stars)+"\n")
 
-file1 = open('clean.txt', 'r', encoding="utf-8")
+file1 = open('park_clean.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
 print(sum)
 
@@ -90,11 +90,11 @@ else:
                 if sum > 0.6:
                     stars = 5;
 
-ffile.writelines("stars_clean :" + ((str))(stars) + "\n")
+ffile.writelines("park_clean :" + ((str))(stars) + "\n")
 
 
 print(sum)
-file1 = open('service.txt', 'r', encoding="utf-8")
+file1 = open('park_service.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
 
 
@@ -124,9 +124,9 @@ else:
                 if sum > 0.6:
                     stars = 5;
 
-ffile.writelines("stars_service :" + ((str))(stars) + "\n")
+ffile.writelines("park_service :" + ((str))(stars) + "\n")
 
-file1 = open('location.txt', 'r', encoding="utf-8")
+file1 = open('park_location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
 print(sum)
 
@@ -157,4 +157,4 @@ else:
                 if sum > 0.6:
                     stars = 5;
 print(sum)
-ffile.writelines("stars_location :" + ((str))(stars) + "\n")
+ffile.writelines("park_location :" + ((str))(stars) + "\n")
