@@ -42,3 +42,48 @@ Kudos staff
  lots variety activities hospitable staff 
  ] [ 'Awesome hotel good people 
  Very helpful staff 
+staff :  ] [ 'the reception staff rude called book room dont knw greet customers calland talk courtesy 
+staff :  star property ur keeping ur staff dis mannered' 
+staff :  ] [ 'Everybody staff cook cordial 
+cordial :  ] [ 'Everybody staff cook cordial 
+hospitality :  nice ambience excellent hospitality 
+hospitality :  Great hospitality 
+hospitality :  excellent service hospitality 
+services :  cleaning services good 
+staff :  staff good cooperative 
+courteous  :  good service courteous staff 
+staff :  good service courteous staff 
+staff :  ] [ 'The staff unprofessional though finalized place stay staffs attitude forced cancel move 
+unprofessional :  ] [ 'The staff unprofessional though finalized place stay staffs attitude forced cancel move 
+lethargic :  ] [ 'Place awesome service lethargic 
+staff : rd class staff 
+management :  Zero management ' 
+hospitality : Amazing hospitality 
+courteous  :  live counters courteous staff chef' 
+staff :  live counters courteous staff chef' 
+staff :  The staff friendly 
+friendly :  The staff friendly 
+staff :  cordial staff 
+cordial :  cordial staff 
+staff :  ] [ 'Everybody staff cook cordial 
+cordial :  ] [ 'Everybody staff cook cordial 
+hospitality :  good hospitality 
+staff :  Very co-operative friendly staff' 
+friendly :  Very co-operative friendly staff' 
+co-operative :  Very co-operative friendly staff' 
+hospitality :  ambience hospitality 
+staff :  Good staff 
+blankets :  washroom blankets drivers 
+staff : Kudos staff 
+staff :  great staff 
+staff :  The staff friendly 
+friendly :  The staff friendly 
+hospitality :  ] [ 'Great surrounding awesome ambience coupled delicious food hospitality 
+hospitality :  The hospitality worth every penny 
+staff :  ] [ 'Nice property humble staff ' 
+humble :  ] [ 'Nice property humble staff ' 
+staff :  lots variety activities hospitable staff 
+hospitable :  lots variety activities hospitable staff 
+people :  ] [ 'Awesome hotel good people 
+staff :  Very helpful staff 
+helpful :  Very helpful staff 

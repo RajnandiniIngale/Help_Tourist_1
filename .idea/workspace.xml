@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="analyse files created for keys and park_plaza">
-      <change afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse_location.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyseclean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_clean_analyse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_food_analyse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_location_analyse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_service_analyse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starskeysclean.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starskeysfood.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starskeyslocation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starskeysservice.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsparkclean.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsparkfood.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsparklocation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starsparkservice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyseclean.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyseclean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_clean_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_clean_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_food_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_food_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_location_analayse.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_location_analyse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +47,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/analysepark.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/park_service_analyse.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.analysepark">
-    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.park_service_analyse">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,7 +63,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysepark.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +116,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.park_service_analyse" />
-      <item itemvalue="Python.analysepark" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.park_location_analyse" />
     </list>
   </component>
@@ -265,21 +255,7 @@
       <option name="project" value="LOCAL" />
       <updated>1680090861811</updated>
     </task>
-    <task id="LOCAL-00019" summary="..">
-      <created>1680092827752</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1680092827752</updated>
-    </task>
-    <task id="LOCAL-00020" summary="analyse files created for keys and park_plaza">
-      <created>1680092896059</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1680092896059</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +286,6 @@
     <MESSAGE value="analysis files added" />
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
-    <MESSAGE value="analyse files created for keys and park_plaza" />
-    <option name="LAST_COMMIT_MESSAGE" value="analyse files created for keys and park_plaza" />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
 </project>
