@@ -1,0 +1,4 @@
+stars_food :5
+stars_clean :5
+stars_service :5
+stars_location :5
