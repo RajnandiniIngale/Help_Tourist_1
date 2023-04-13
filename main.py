@@ -266,7 +266,7 @@ def tours1():
 
                             print("stars  " + ((str))(starscleanmaratha))
                             stars["starscleanmaratha"] = (str)(starscleanmaratha)
-    return render_template("tours1.html",ratingsk=stars)
+                return render_template("tours1.html",ratingsk=stars)
 
 
 @app.route('/mumbai')

@@ -37,21 +37,21 @@ for line in Lines:
 
 sum=sum/10
 
-if sum<0:
-    stars=1
+if sum < 0.3:
+    stars = 1
 else:
 
-    if sum<=0.2:
-     stars=2
+    if sum <= 0.5:
+        stars = 2
     else:
-        if sum<=0.4:
-         stars=3
+        if sum <= 1.5:
+            stars = 3
         else:
-            if sum<=0.6:
-                stars=4
+            if sum <= 2.5:
+                stars = 4
             else:
-                if sum>0.6:
-                     stars=5;
+                if sum > 2.5:
+                    stars = 5;
 
 
 
@@ -74,20 +74,20 @@ for line in Lines:
     stars = 0
 sum=sum/10
 
-if sum < 0:
+if sum < 0.3:
     stars = 1
 else:
 
-    if sum <= 0.2:
+    if sum <= 0.5:
         stars = 2
     else:
-        if sum <= 0.4:
+        if sum <= 1.5:
             stars = 3
         else:
-            if sum <= 0.6:
-                 stars = 4
+            if sum <= 2.5:
+                stars = 4
             else:
-                if sum > 0.6:
+                if sum > 2.5:
                     stars = 5;
 
 ffile.writelines("park_clean :" + ((str))(stars) + "\n")
@@ -108,20 +108,20 @@ for line in Lines:
 
     stars = 0
 sum = sum / 10
-if sum < 0:
+if sum < 0.3:
     stars = 1
 else:
 
-    if sum <= 0.2:
+    if sum <= 0.5:
         stars = 2
     else:
-        if sum <= 0.4:
+        if sum <= 1.5:
             stars = 3
         else:
-            if sum <= 0.6:
+            if sum <= 2.5:
                 stars = 4
             else:
-                if sum > 0.6:
+                if sum > 2.5:
                     stars = 5;
 
 ffile.writelines("park_service :" + ((str))(stars) + "\n")
@@ -141,20 +141,20 @@ for line in Lines:
 sum = sum / 10
 stars = 0
 
-if sum < 0:
+if sum < 0.3:
     stars = 1
 else:
 
-    if sum <= 0.2:
+    if sum <= 0.5:
         stars = 2
     else:
-        if sum <= 0.4:
+        if sum <= 1.5:
             stars = 3
         else:
-            if sum <= 0.6:
+            if sum <= 2.5:
                 stars = 4
             else:
-                if sum > 0.6:
+                if sum > 2.5:
                     stars = 5;
 print(sum)
 ffile.writelines("park_location :" + ((str))(stars) + "\n")
