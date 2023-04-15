@@ -36,12 +36,13 @@ for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
     sum=sum+scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
+    reviewfile.writelines(review+":"+str(scores['compound']).lstrip())
+
+    #reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    #reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    #reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    #reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    #reviewfile.writelines("\n")
 
     stars=0
 
@@ -68,7 +69,7 @@ else:
 
 
 
-ffile.writelines("stars_food :" +((str))(stars)+"\n")
+ffile.writelines("stars_food:" +((str))(stars)+"\n")
 
 file1 = open('clean.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -110,7 +111,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("stars_clean :" + ((str))(stars) + "\n")
+ffile.writelines("stars_clean:" + ((str))(stars) + "\n")
 
 
 print(sum)
@@ -154,7 +155,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("stars_service :" + ((str))(stars) + "\n")
+ffile.writelines("stars_service:" + ((str))(stars) + "\n")
 
 file1 = open('location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -198,4 +199,4 @@ else:
                 if sum > 2.5:
                     stars = 5;
 print(sum)
-ffile.writelines("stars_location :" + ((str))(stars) + "\n")
+ffile.writelines("stars_location:" + ((str))(stars) + "\n")

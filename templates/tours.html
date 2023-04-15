@@ -69,34 +69,98 @@ $(function () {
                 <p class="text1"><strong>The KEYS Hotel</strong></p>
                 <p class="price">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>
                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
-                <a href="/review" class="btn">Reviews</a> </div>
+                <a href="/review?name='keys'" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
-               {{ ratingsk|length }}
+
                {% set f=ratingsk['stars_food'] %}
-               {{f}}
+
                {%set s=ratingsk['stars_service'] %}
+              {%set c=ratingsk['stars_clean'] %}
+              {%set l=ratingsk['stars_location'] %}
+                FOOD :
                {% if f==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                 <img src="static/images/1star.png">
                {% elif
                  (f) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.jpg">
 
                {% elif
                   f == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                 <img src="static/images/3star..png">
 
                {% elif
                    f == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                 <img src="static/images/4star.jpg">
 
                {% elif
                    f == 5 %}
+                <img src="static/images/5star.jpg">
+
+               {% endif %}
+
+               {% if s==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (s) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  s == 3 %}
+                <div> <img src="static/images/3star..png"></div>
+
+               {% elif
+                   s == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   s == 5 %}
                 <div> <img src="static/images/5star.jpg"></div>
 
                {% endif %}
+
+
+                 {% if c==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (c) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  c == 3 %}
+                <div> <img src="static/images/3star..png"></div>
+
+               {% elif
+                   c == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   c == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
                {% endif %}
 
+
+                 {% if l==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (l) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  l == 3 %}
+                <div> <img src="static/images/3star..png"></div>
+
+               {% elif
+                   l == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   l == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+              {% endif %}
                 <br/>
                 LOCATION RATING: {{ratingsk["starslocationkeys"]}}
               <br>
@@ -114,6 +178,7 @@ $(function () {
                 <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
                  FOOD RATING: {{ratingsk["foodpark"]}}
+
                 <br/>
             </div>
           </div>
