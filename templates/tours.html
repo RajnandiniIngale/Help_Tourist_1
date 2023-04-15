@@ -70,7 +70,33 @@ $(function () {
                 <p class="price">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>
                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
-                FOOD RATING: {{ratingsk["starsfoodkeys"]}}
+                <br/>
+               {% if ratingsk | length >1 %}
+               {{ ratingsk|length }}
+               {% set f=ratingsk['stars_food'] %}
+               {{f}}
+               {%set s=ratingsk['stars_service'] %}
+               {% if f==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (f) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  f == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   f == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   f == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+               {% endif %}
+
                 <br/>
                 LOCATION RATING: {{ratingsk["starslocationkeys"]}}
               <br>
