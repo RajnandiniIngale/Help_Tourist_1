@@ -119,51 +119,61 @@ def review():
 
 @app.route('/tours1')
 def tours1():
+        stars = {}
+        #
+        # try:
+        #      _create_unverified_https_context = ssl._create_unverified_context
+        # except AttributeError:
+        #      pass
+        # else:
+        #      ssl._create_default_https_context = _create_unverified_https_context
 
+        # nltk.download()
 
-                file1 = open('food.txt', 'r')
-                Lines = file1.readlines()
+        # Initialize the sentiment analyzer
+        sia = SentimentIntensityAnalyzer()
 
-                count = 0
-                # Strips the newline character
-                for line in Lines:
-                    review = line
-                    scores = sia.polarity_scores(review)
-                    print(review)
-                    print("Negative Score:", scores['neg'])
-                    print("Neutral Score:", scores['neu'])
-                    print("Positive Score:", scores['pos'])
-                    print("Compound Score:", scores['compound'])
-                    print()
+        # Define a list of reviews to analyze
 
-                    starsfoodmaratha = 0
+        # Using readlines()
+        for line in Lines:
+                 review = line
+                 scores = sia.polarity_scores(review)
+                 print(review)
+                 print("Negative Score:", scores['neg'])
+                 print("Neutral Score:", scores['neu'])
+                 print("Positive Score:", scores['pos'])
+                 print("Compound Score:", scores['compound'])
+                 print()
 
-                    if scores["compound"] < 0:
-                        starsfoodmaratha = 1
-                    else:
+                 starsfoodmaratha = 0
+
+                 if scores["compound"] < 0:
+                       starsfoodmaratha = 1
+                 else:
 
                         if scores["compound"] == 0 and scores["neu"] == 1:
-                            starsfoodmaratha = 2
+                                starsfoodmaratha = 2
                         else:
                             if scores["compound"] > 0 and scores["compound"] <= 0.4:
-                                starsfoodmaratha = 3
+                                    starsfoodmaratha = 3
                             else:
                                 if scores["compound"] > 0 and scores["compound"] <= 0.6:
-                                    starsfoodmaratha = 4
+                                        starsfoodmaratha = 4
                                 else:
                                     if scores["compound"] > 0.6:
-                                        starsfoodmaratha = 5;
+                                            starsfoodmaratha = 5;
 
-                    print("stars  " + ((str))(starsfoodmaratha))
-                    stars["starsfoodmaratha"] = (str)(starsfoodmaratha)
+                        print("stars  " + ((str))(starsfoodmaratha))
+                        stars["starsfoodmaratha"] = (str)(starsfoodmaratha)
 
-                file1.close()
-                file1 = open('location.txt', 'r', encoding="utf8")
-                Lines = file1.readlines()
+                        file1.close()
+        file1 = open('location.txt', 'r', encoding="utf8")
+        Lines = file1.readlines()
 
-                count = 0
-                # Strips the newline character
-                for line in Lines:
+        count = 0
+        # Strips the newline character
+        for line in Lines:
                     review = line
                     scores = sia.polarity_scores(review)
                     print(review)
@@ -266,7 +276,7 @@ def tours1():
 
                             print("stars  " + ((str))(starscleanmaratha))
                             stars["starscleanmaratha"] = (str)(starscleanmaratha)
-                return render_template("tours1.html",ratingsk=stars)
+        return render_template("tours1.html",ratingsk=stars)
 
 
 @app.route('/mumbai')
