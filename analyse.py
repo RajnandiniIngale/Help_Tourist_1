@@ -16,7 +16,8 @@ import ssl
 #nltk.download()
 
 # Initialize the sentiment analyzer
-sia = SentimentIntensityAnalyzer()
+sia = SentimentIntensityAnalyzer()      #create
+# object
 
 # Define a list of reviews to analyze
 
@@ -24,8 +25,9 @@ sia = SentimentIntensityAnalyzer()
 file1 = open('food.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
 x = len(Lines)
-print(x)
+print("no of reviews : ",x)
 ffile = open("keys.txt", "w", encoding="utf-8")
+reviewfile = open("keysreviews.txt","w",encoding="utf-8")
 
 count = 0
 sum=0
@@ -34,6 +36,12 @@ for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
     sum=sum+scores["compound"]
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
 
     stars=0
 
@@ -76,7 +84,12 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     #print(scores["compound"])
     sum = sum + scores["compound"]
-
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
     stars = 0
 #sum=(100*sum)/x
 sum=sum/10
@@ -114,7 +127,12 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
     stars = 0
     
 x = len(Lines)
@@ -150,7 +168,12 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
 
 #print(sum)
 x = len(Lines)

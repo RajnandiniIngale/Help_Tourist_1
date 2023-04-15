@@ -1,4 +1,4 @@
 park_food :3
-park_clean :3
-park_service :4
-park_location :5
+park_clean :2
+park_service :3
+park_location :4

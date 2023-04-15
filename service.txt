@@ -1,89 +1,45 @@
- ] [ 'the reception staff rude called book room dont knw greet customers calland talk courtesy 
- star property ur keeping ur staff dis mannered' 
- Room service food tasted amazing bit overpriced 
- excellent service nice food options 
- ] [ 'Everybody staff cook cordial 
- nice ambience excellent hospitality 
+ ] [ 'the reception staff was so rude i called to book a room and he dont knw how to greet the customers on calland talk with courtesy 
+ star property and how ur keeping ur staff so dis mannered' 
+ Room service food tasted amazing but a bit overpriced 
+ excellent service and nice food options 
+ ] [ 'Everybody from the staff to the cook is very cordial 
+ nice ambience and excellent hospitality 
  Great hospitality 
- excellent service hospitality 
+ excellent service and hospitality 
  cleaning services good 
  staff good cooperative 
  good service courteous staff 
- suitable good service 
- ] [ 'The staff unprofessional though finalized place stay staffs attitude forced cancel move 
- ] [ 'Place awesome service lethargic 
+ suitable for good service 
+ ] [ 'The staff is very unprofessional and though had finalized the place to stay the staffs attitude forced me to cancel and move out 
+ ] [ 'Place is awesome but the service was very lethargic 
  Worst service 
 rd class staff 
  Zero management ' 
- ] [ 'Guest service slightly deteriorated 
+ ] [ 'Guest service has slightly deteriorated 
 Amazing hospitality 
  room service 
- live counters courteous staff chef' 
- The staff friendly 
- Room service excellent 
+ live counters and courteous staff and chef' 
+ The staff are very friendly 
+ Room service is excellent 
  cordial staff 
- ] [ 'Everybody staff cook cordial 
+ ] [ 'Everybody from the staff to the cook is very cordial 
  good hospitality 
- ] [ 'Excellent place good rooms service ' 
+ ] [ 'Excellent place with good rooms and service ' 
  good service nice ambiance 
- Very co-operative friendly staff' 
- suitable good service 
- ambience hospitality 
+ Very co-operative and friendly staff' 
+ suitable for good service 
+ ambience and hospitality 
  Good staff 
- washroom blankets drivers 
- Room service food tasted amazing bit overpriced
-Kudos staff 
+ washroom and blankets for drivers 
+ Room service food tasted amazing but a bit overpriced
+Kudos to staff 
  great staff 
- The staff friendly 
- Room service excellent 
- ] [ 'Great surrounding awesome ambience coupled delicious food hospitality 
- The hospitality worth every penny 
- ] [ 'Nice property humble staff ' 
- lots variety activities hospitable staff 
- ] [ 'Awesome hotel good people 
+ always on time and ready to help 
+ The staff are very friendly 
+ Room service is excellent 
+ ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality 
+ The hospitality is worth every penny 
+ ] [ 'Nice property and humble staff ' 
+ lots of variety of activities and very hospitable staff 
+ ] [ 'Awesome hotel with good people 
  Very helpful staff 
-staff :  ] [ 'the reception staff rude called book room dont knw greet customers calland talk courtesy 
-staff :  star property ur keeping ur staff dis mannered' 
-staff :  ] [ 'Everybody staff cook cordial 
-cordial :  ] [ 'Everybody staff cook cordial 
-hospitality :  nice ambience excellent hospitality 
-hospitality :  Great hospitality 
-hospitality :  excellent service hospitality 
-services :  cleaning services good 
-staff :  staff good cooperative 
-courteous  :  good service courteous staff 
-staff :  good service courteous staff 
-staff :  ] [ 'The staff unprofessional though finalized place stay staffs attitude forced cancel move 
-unprofessional :  ] [ 'The staff unprofessional though finalized place stay staffs attitude forced cancel move 
-lethargic :  ] [ 'Place awesome service lethargic 
-staff : rd class staff 
-management :  Zero management ' 
-hospitality : Amazing hospitality 
-courteous  :  live counters courteous staff chef' 
-staff :  live counters courteous staff chef' 
-staff :  The staff friendly 
-friendly :  The staff friendly 
-staff :  cordial staff 
-cordial :  cordial staff 
-staff :  ] [ 'Everybody staff cook cordial 
-cordial :  ] [ 'Everybody staff cook cordial 
-hospitality :  good hospitality 
-staff :  Very co-operative friendly staff' 
-friendly :  Very co-operative friendly staff' 
-co-operative :  Very co-operative friendly staff' 
-hospitality :  ambience hospitality 
-staff :  Good staff 
-blankets :  washroom blankets drivers 
-staff : Kudos staff 
-staff :  great staff 
-staff :  The staff friendly 
-friendly :  The staff friendly 
-hospitality :  ] [ 'Great surrounding awesome ambience coupled delicious food hospitality 
-hospitality :  The hospitality worth every penny 
-staff :  ] [ 'Nice property humble staff ' 
-humble :  ] [ 'Nice property humble staff ' 
-staff :  lots variety activities hospitable staff 
-hospitable :  lots variety activities hospitable staff 
-people :  ] [ 'Awesome hotel good people 
-staff :  Very helpful staff 
-helpful :  Very helpful staff 

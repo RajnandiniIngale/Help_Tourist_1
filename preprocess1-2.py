@@ -51,9 +51,9 @@ filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
 filtered_sentence = []
 fin = ""
 for w in word_tokens:
-    if w not in stop_words:
-        filtered_sentence.append(w)
-        fin=fin+" "+w
+    #if w not in stop_words:
+     #   filtered_sentence.append(w)
+    fin=fin+" "+w
 
 print(word_tokens)
 
@@ -63,7 +63,7 @@ print(fin)
 import re
 arr1 = re.split("[.|,|!,0-9]", fin)
 
-print(arr1)
+print(arr1)     # arr after removing after removing punctuations
 
 print('')
 file = open("food.txt", "w", encoding="utf-8")
@@ -73,7 +73,7 @@ file3 = open("service.txt", "w", encoding="utf-8")
 
 
 
-for k in arr1:
+for k in arr1:           #traversing through the arr of useful words
     for feat in food:
         if feat.lower() in k:
             file.writelines(k + "\n")

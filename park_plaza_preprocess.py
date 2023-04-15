@@ -50,8 +50,8 @@ filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
 filtered_sentence = []
 fin = ""
 for w in word_tokens:
-    if w not in stop_words:
-        filtered_sentence.append(w)
+    #if w not in stop_words:
+     #   filtered_sentence.append(w)
         fin=fin+" "+w
 
 print(word_tokens)

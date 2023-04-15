@@ -4,33 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="preprocess1 added">
-      <change afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_clean_analyse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_food_analyse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_location_analyse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_service_analyse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayaji_tr.py" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="analyse.py &amp; analysepark.py&#10;created keys.txt &amp; park_plaza.txt">
       <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24-03-2023_21_29__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24-03-2023_21_29__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-03-2023_22_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-03-2023_22_23__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29-03-2023_21_09_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29-03-2023_21_09__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysemaratha.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysemaratha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysepark.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clean.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keys_hotel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/location.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maratha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maratha.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/money.txt" beforeDir="false" afterPath="$PROJECT_DIR$/money.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_clean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_location.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/park_plaza.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sayaji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_plaza_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_service.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess1-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/service.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starmarathafood.txt" beforeDir="false" afterPath="$PROJECT_DIR$/starmarathafood.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/tr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,93 +65,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
-  },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
-    ]
-  }
-}]]></component>
-  <component name="RunManager" selected="Python.analysemaratha">
-    <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/analysepark.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.analysepark">
+    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="analysemaratha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Help_Tourist_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysemaratha.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Help_Tourist_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysepark.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="analysesayaji" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Help_Tourist_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysesayaji.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,19 +112,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="park_clean_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="park_location_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/park_clean_analyse.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Admin\PycharmProjects\Help_Tourist_2\park_location_analyse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,20 +134,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.analyse" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.park_clean_analyse" />
-      <item itemvalue="Python.analysemaratha" />
       <item itemvalue="Python.analysepark" />
-      <item itemvalue="Python.analysesayaji" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.park_location_analyse" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.analysemaratha" />
-        <item itemvalue="Python.analysepark" />
-        <item itemvalue="Python.analysesayaji" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -268,7 +190,91 @@
       <option name="project" value="LOCAL" />
       <updated>1679897804161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="analysis files added">
+      <created>1679924123170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924123170</updated>
+    </task>
+    <task id="LOCAL-00008" summary="main.py modified&#10;tours.html modified">
+      <created>1680017194549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680017194549</updated>
+    </task>
+    <task id="LOCAL-00009" summary="main.py modified&#10;tours.html modified">
+      <created>1680087149073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680087149073</updated>
+    </task>
+    <task id="LOCAL-00010" summary="main.py modified&#10;tours.html modified">
+      <created>1680087550338</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680087550338</updated>
+    </task>
+    <task id="LOCAL-00011" summary="main.py modified&#10;tours.html modified">
+      <created>1680088004314</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680088004314</updated>
+    </task>
+    <task id="LOCAL-00012" summary="main.py modified&#10;tours.html modified">
+      <created>1680088102969</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680088102969</updated>
+    </task>
+    <task id="LOCAL-00013" summary="main.py modified&#10;tours.html modified">
+      <created>1680088166260</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680088166260</updated>
+    </task>
+    <task id="LOCAL-00014" summary="main.py modified&#10;tours.html modified">
+      <created>1680090266232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680090266232</updated>
+    </task>
+    <task id="LOCAL-00015" summary="..">
+      <created>1680090428406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680090428406</updated>
+    </task>
+    <task id="LOCAL-00016" summary="..">
+      <created>1680090693279</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680090693279</updated>
+    </task>
+    <task id="LOCAL-00017" summary="..">
+      <created>1680090808633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680090808633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="..">
+      <created>1680090861811</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680090861811</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,24 +301,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="analysis files added" />
     <MESSAGE value="preprocess1 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="preprocess1 added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analyse.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/analysesayaji.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="analysis files added" />
+    <MESSAGE value="main.py modified&#10;tours.html modified" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
 </project>
