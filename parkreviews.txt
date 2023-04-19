@@ -1,0 +1,582 @@
+ [ [ 'Best food for vegetarian have daily different type of food everyday ' ] [ `` Rates are on higher side 
+ Negative Score : 0.0 Neutral Score : 0.792 Positive Score :0.208 Compound Score : 0.6369
+
+ Also I felt it 's an old property which needs renovation very badly '' ] [ 'Its pure vegan hotel 
+ Negative Score : 0.175 Neutral Score : 0.825 Positive Score :0.0 Compound Score : -0.5256
+
+ ' ] [ 'Very decent property with decently maintained rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Loved the veg food although I am a hardcore non vegetarian 
+ Negative Score : 0.0 Neutral Score : 0.672 Positive Score :0.328 Compound Score : 0.5994
+
+ You can always other non veg food from the main market and will be delivered to your room
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ But lunch and dinner was good 
+ Negative Score : 0.0 Neutral Score : 0.565 Positive Score :0.435 Compound Score : 0.5927
+
+\n- the little food and beverages we had was not well made at all
+ Negative Score : 0.122 Neutral Score : 0.878 Positive Score :0.0 Compound Score : -0.2057
+
+ You will get a call for lunch/dinner/breakfast 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Last day we were in hurry so they sent breakfast to our room
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\nFood- they prepare only veg items and limited variety but thr food is not bad 
+ Negative Score : 0.08 Neutral Score : 0.713 Positive Score :0.207 Compound Score : 0.5147
+
+ Morning breakfast is good 
+ Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+
+ But good service and decent food 
+ Negative Score : 0.0 Neutral Score : 0.565 Positive Score :0.435 Compound Score : 0.5927
+
+ Food is pure veg with decent taste 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ food was delicious 
+ Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
+
+ perfect for vegetarian good service n we will definitely visit again ' ] [ 'Bad experience 
+ Negative Score : 0.168 Neutral Score : 0.385 Positive Score :0.447 Compound Score : 0.7003
+
+ hot water available only in morning ' ] [ 'Best resort in mahabaleshwar for family & friends with swimming pool and buffets 
+ Negative Score : 0.0 Neutral Score : 0.687 Positive Score :0.313 Compound Score : 0.8074
+
+ Santosh for cooperation ' ] [ 'Excellent place to stay and very good veg food ' ] [ 'Awesome weather when i reached\nAnd in this place it felt like double happiness
+ Negative Score : 0.0 Neutral Score : 0.526 Positive Score :0.474 Compound Score : 0.9524
+
+ lot 's of things to enjoy\nPlease visit one 's in a lifetime '' ] [ 'Very serene place away from crowds beautiful surroundings wholesome food ' ] [ 'Nice place to stay with friends n family both 
+ Negative Score : 0.0 Neutral Score : 0.665 Positive Score :0.335 Compound Score : 0.92
+
+ staff and proper meals ' ] [ ' A beautiful place to stay 
+ Negative Score : 0.0 Neutral Score : 0.642 Positive Score :0.358 Compound Score : 0.5994
+
+ staff and proper meals ' ] [ 'Good family stay for vegetarians 
+ Negative Score : 0.0 Neutral Score : 0.734 Positive Score :0.266 Compound Score : 0.4404
+
+ rooms in this hotel there is no power backup 
+ Negative Score : 0.216 Neutral Score : 0.784 Positive Score :0.0 Compound Score : -0.296
+
+ ' ] [ 'Very decent property with decently maintained rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ then try their cottage rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ super deluxe rooms could be better 
+ Negative Score : 0.0 Neutral Score : 0.37 Positive Score :0.63 Compound Score : 0.7783
+
+ ' ] [ 'Lovely place to visit we went there just to check but rooms seemed spacious also there was no hotel smell which generally is there in hotels huge property lovely entrance vintage look 
+ Negative Score : 0.068 Neutral Score : 0.677 Positive Score :0.255 Compound Score : 0.8294
+
+ The staff were very friendly and professional in services and the room provided was very good and maintained in clean condition with all the necessary facilities 
+ Negative Score : 0.0 Neutral Score : 0.71 Positive Score :0.29 Compound Score : 0.855
+
+ if more customers are staying in normal rooms then the food is normal local dishes and if more people are staying in luxurious [ just for name ] rooms then the standard of food is like hotel dishes
+ Negative Score : 0.0 Neutral Score : 0.933 Positive Score :0.067 Compound Score : 0.3612
+
+\n ' ] [ `` Very clumsy walk way to rooms and unhygienic 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Very big swimming pool ambience ' ] [ `` Had very bad experience 
+ Negative Score : 0.296 Neutral Score : 0.704 Positive Score :0.0 Compound Score : -0.5849
+
+ The place does not have any mobile network connectivity from the rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ You get wifi access only in reception areas not in the rooms
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ there is no exhaust in the bathrooms
+ Negative Score : 0.468 Neutral Score : 0.532 Positive Score :0.0 Compound Score : -0.5267
+
+ We booked std rooms but rooms were clean and tidy
+ Negative Score : 0.0 Neutral Score : 0.717 Positive Score :0.283 Compound Score : 0.5499
+
+ property is quite big and well maintained 
+ Negative Score : 0.0 Neutral Score : 0.717 Positive Score :0.283 Compound Score : 0.3321
+
+ hotel rooms is not in good condition 
+ Negative Score : 0.286 Neutral Score : 0.714 Positive Score :0.0 Compound Score : -0.3412
+
+ not clean 
+ Negative Score : 0.693 Neutral Score : 0.307 Positive Score :0.0 Compound Score : -0.3089
+
+ rooms are smelling and we can not open balcony door due to Monkey 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ bathrooms are not cleaned and it was likaged 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ clean rooms 
+ Negative Score : 0.0 Neutral Score : 0.27 Positive Score :0.73 Compound Score : 0.4019
+
+ Have Fun ' ] [ 'Resort looks awsome from outside but rooms are ok ok but in this price you will better rooms 
+ Negative Score : 0.0 Neutral Score : 0.58 Positive Score :0.42 Compound Score : 0.891
+
+ Old fashioned rooms ' ] [ 'Nice 
+ Negative Score : 0.0 Neutral Score : 0.517 Positive Score :0.483 Compound Score : 0.4215
+
+ Average service 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Amazing Hospitality and service 
+ Negative Score : 0.0 Neutral Score : 0.441 Positive Score :0.559 Compound Score : 0.5859
+
+ but worst service 
+ Negative Score : 0.739 Neutral Score : 0.261 Positive Score :0.0 Compound Score : -0.7684
+
+ courteous staff 
+ Negative Score : 0.0 Neutral Score : 0.233 Positive Score :0.767 Compound Score : 0.5106
+
+ people 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+Great hospitality and great location 
+ Negative Score : 0.0 Neutral Score : 0.268 Positive Score :0.732 Compound Score : 0.8481
+
+ ' ] [ 'It was a fabulous experience to us
+ Negative Score : 0.0 Neutral Score : 0.595 Positive Score :0.405 Compound Score : 0.5267
+
+\nSupporting staff
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The surrounding and hospitality was really good 
+ Negative Score : 0.0 Neutral Score : 0.653 Positive Score :0.347 Compound Score : 0.4927
+
+ The staff were very friendly and professional in services and the room provided was very good and maintained in clean condition with all the necessary facilities 
+ Negative Score : 0.0 Neutral Score : 0.71 Positive Score :0.29 Compound Score : 0.855
+
+ if more customers are staying in normal rooms then the food is normal local dishes and if more people are staying in luxurious [ just for name ] rooms then the standard of food is like hotel dishes
+ Negative Score : 0.0 Neutral Score : 0.933 Positive Score :0.067 Compound Score : 0.3612
+
+ No proper ventilation in toilets and for room service 
+ Negative Score : 0.216 Neutral Score : 0.784 Positive Score :0.0 Compound Score : -0.296
+
+ we have to personally contact the desk for room service
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Service is superb 
+ Negative Score : 0.0 Neutral Score : 0.328 Positive Score :0.672 Compound Score : 0.6249
+
+ Very good in hospitality
+ Negative Score : 0.0 Neutral Score : 0.484 Positive Score :0.516 Compound Score : 0.4927
+
+co-operative staff 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Most worst thing was the Night duty manager very arrogant and do n't know how to behave with the guests 
+ Negative Score : 0.305 Neutral Score : 0.695 Positive Score :0.0 Compound Score : -0.8354
+
+ but it takes too long and is barely sufficient ) \n- swimming pool timings are 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Too shallow for grown people 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\n- there is no grill or net on the windows even though there are many monkeys in the area\n- the night manager is exceedingly rude 
+ Negative Score : 0.184 Neutral Score : 0.816 Positive Score :0.0 Compound Score : -0.6369
+
+ Do not expect even the slightest help from him
+ Negative Score : 0.0 Neutral Score : 0.748 Positive Score :0.252 Compound Score : 0.4019
+
+ Rs ( how far ur hotel is doesn ’ t matter its fix rate : P ) anyways … so we arrived early in the morning Hotel staff is very polite helpful and responsible 
+ Negative Score : 0.0 Neutral Score : 0.787 Positive Score :0.213 Compound Score : 0.6682
+
+ friendly staff good food for Vegetarians 
+ Negative Score : 0.0 Neutral Score : 0.396 Positive Score :0.604 Compound Score : 0.7269
+
+ But good service and decent food 
+ Negative Score : 0.0 Neutral Score : 0.565 Positive Score :0.435 Compound Score : 0.5927
+
+ Room service is good 
+ Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+
+ Need to improve room interior and essential services much more 
+ Negative Score : 0.0 Neutral Score : 0.756 Positive Score :0.244 Compound Score : 0.4404
+
+ Environment friendly 
+ Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+
+ ' ] [ 'Nice location and courteous staff 
+ Negative Score : 0.0 Neutral Score : 0.33 Positive Score :0.67 Compound Score : 0.7269
+
+ perfect for vegetarian good service n we will definitely visit again ' ] [ 'Bad experience 
+ Negative Score : 0.168 Neutral Score : 0.385 Positive Score :0.447 Compound Score : 0.7003
+
+ staff is cooperative 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Friendly staff 
+ Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+
+only in food is good rest and staff is good 
+ Negative Score : 0.0 Neutral Score : 0.58 Positive Score :0.42 Compound Score : 0.7003
+
+\nCons-\nNo network\nNo wifi\nNo geyser ' ] [ 'awesome resort ever 
+ Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.6249
+
+ \nstaff is really good 
+ Negative Score : 0.0 Neutral Score : 0.484 Positive Score :0.516 Compound Score : 0.4927
+
+ and responsible 
+ Negative Score : 0.0 Neutral Score : 0.303 Positive Score :0.697 Compound Score : 0.3182
+
+ ' ] [ 'Excellent 👍🏻 hotel was good co-operative staff and Good food 
+ Negative Score : 0.0 Neutral Score : 0.424 Positive Score :0.576 Compound Score : 0.8591
+
+\nQuick working staff 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ on time 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ good staff 
+ Negative Score : 0.0 Neutral Score : 0.256 Positive Score :0.744 Compound Score : 0.4404
+
+ food is also nice\n ' ] [ 'Very nice location and staff is very polite & helpful
+ Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.7328
+
+ \nWould totaly recommend\nNature at your door step\nExcellent staff
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\nWould like to visit again ' ] [ `` The hotel is nice but there 's no network in the room and even wifi is not available which I found worst 😓 '' ] [ 'Full marks to customer service 
+ Negative Score : 0.206 Neutral Score : 0.706 Positive Score :0.089 Compound Score : -0.7783
+
+ excellent service guys 
+ Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
+
+ staff and proper meals ' ] [ ' A beautiful place to stay 
+ Negative Score : 0.0 Neutral Score : 0.642 Positive Score :0.358 Compound Score : 0.5994
+
+ Service needs to be improved 
+ Negative Score : 0.0 Neutral Score : 0.563 Positive Score :0.437 Compound Score : 0.4767
+
+ staff and proper meals ' ] [ 'Good family stay for vegetarians 
+ Negative Score : 0.0 Neutral Score : 0.734 Positive Score :0.266 Compound Score : 0.4404
+
+ staff is really cooperative and friendly ' ] [ 'Great location 
+ Negative Score : 0.0 Neutral Score : 0.442 Positive Score :0.558 Compound Score : 0.8207
+
+ No hotwater 
+ Negative Score : 0.688 Neutral Score : 0.312 Positive Score :0.0 Compound Score : -0.296
+
+ No electricity ' ] ]
+ Negative Score : 0.688 Neutral Score : 0.312 Positive Score :0.0 Compound Score : -0.296
+
+ [ [ 'Best food for vegetarian have daily different type of food everyday ' ] [ `` Rates are on higher side 
+ Negative Score : 0.0 Neutral Score : 0.792 Positive Score :0.208 Compound Score : 0.6369
+
+ If I had to pay so much high price here then I would prefer staying in a 
+ Negative Score : 0.097 Neutral Score : 0.903 Positive Score :0.0 Compound Score : -0.1027
+
+ Also I felt it 's an old property which needs renovation very badly '' ] [ 'Its pure vegan hotel 
+ Negative Score : 0.175 Neutral Score : 0.825 Positive Score :0.0 Compound Score : -0.5256
+
+ But the garden view is pretty cool 
+ Negative Score : 0.0 Neutral Score : 0.408 Positive Score :0.592 Compound Score : 0.8047
+
+Hotel have Amenities like pool table 
+ Negative Score : 0.0 Neutral Score : 0.667 Positive Score :0.333 Compound Score : 0.3612
+
+ table tanis and garden
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\nBut if you want budget stay than i will suggest about it 
+ Negative Score : 0.0 Neutral Score : 0.885 Positive Score :0.115 Compound Score : 0.0772
+
+ ' ] [ 'Though a nice scenic hotel 
+ Negative Score : 0.0 Neutral Score : 0.517 Positive Score :0.483 Compound Score : 0.4215
+
+ Always after money 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ money and money 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ On our last trip to mahabaleshwar we stayed at this place 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ rooms in this hotel there is no power backup 
+ Negative Score : 0.216 Neutral Score : 0.784 Positive Score :0.0 Compound Score : -0.296
+
+ no maintenance of indoor games 
+ Negative Score : 0.355 Neutral Score : 0.645 Positive Score :0.0 Compound Score : -0.296
+
+ no wifi 
+ Negative Score : 0.688 Neutral Score : 0.312 Positive Score :0.0 Compound Score : -0.296
+
+ no mobile networks 
+ Negative Score : 0.524 Neutral Score : 0.476 Positive Score :0.0 Compound Score : -0.296
+
+ ' ] [ 'Very decent property with decently maintained rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ They have a well maintained swimming pool 
+ Negative Score : 0.0 Neutral Score : 0.704 Positive Score :0.296 Compound Score : 0.2732
+
+ View from room balcony is very good especially during sunrise 
+ Negative Score : 0.0 Neutral Score : 0.738 Positive Score :0.262 Compound Score : 0.4927
+
+ Ample parking space 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ super deluxe rooms could be better 
+ Negative Score : 0.0 Neutral Score : 0.37 Positive Score :0.63 Compound Score : 0.7783
+
+ You can always other non veg food from the main market and will be delivered to your room
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+Great hospitality and great location 
+ Negative Score : 0.0 Neutral Score : 0.268 Positive Score :0.732 Compound Score : 0.8481
+
+Pleasent view from balcony 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Lovely place to visit we went there just to check but rooms seemed spacious also there was no hotel smell which generally is there in hotels huge property lovely entrance vintage look 
+ Negative Score : 0.068 Neutral Score : 0.677 Positive Score :0.255 Compound Score : 0.8294
+
+ also vintage artefact separate indoor game section 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ \nBut over all good place to stay
+ Negative Score : 0.0 Neutral Score : 0.674 Positive Score :0.326 Compound Score : 0.4404
+
+\nBit away from mahableshwar market\nNeed personal vehicle\nBeautiful landscapes and scenery 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\nCalm place
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'The hotel is conveniently to travel and my overall experience was awesome 
+ Negative Score : 0.0 Neutral Score : 0.728 Positive Score :0.272 Compound Score : 0.6249
+
+ The surrounding and hospitality was really good 
+ Negative Score : 0.0 Neutral Score : 0.653 Positive Score :0.347 Compound Score : 0.4927
+
+ My stay at this hotel was peaceful as it was a relaxation trip 
+ Negative Score : 0.0 Neutral Score : 0.602 Positive Score :0.398 Compound Score : 0.765
+
+ ' ] [ `` Not a nice experience compared to the reviews 
+ Negative Score : 0.25 Neutral Score : 0.75 Positive Score :0.0 Compound Score : -0.3252
+
+ but just to fill in the empty space available 
+ Negative Score : 0.216 Neutral Score : 0.784 Positive Score :0.0 Compound Score : -0.296
+
+ No proper ventilation in toilets and for room service 
+ Negative Score : 0.216 Neutral Score : 0.784 Positive Score :0.0 Compound Score : -0.296
+
+\nExpect for gardens and outlook of hotel everything inside is of 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ And also no proper network after reception area 
+ Negative Score : 0.239 Neutral Score : 0.761 Positive Score :0.0 Compound Score : -0.296
+
+ Wo n't recommend anybody to go to this place 
+ Negative Score : 0.209 Neutral Score : 0.791 Positive Score :0.0 Compound Score : -0.2755
+
+ '' ] [ `` Oh my god I just fell in love with PARKYARD it 's such a beautiful place to live even if you do n't go out in mahableshwar for shopping or other things you can truly have peace 
+ Negative Score : 0.0 Neutral Score : 0.658 Positive Score :0.342 Compound Score : 0.9485
+
+ calmness 
+ Negative Score : 0.0 Neutral Score : 0.0 Positive Score :1.0 Compound Score : 0.4019
+
+ Very big swimming pool ambience ' ] [ `` Had very bad experience 
+ Negative Score : 0.296 Neutral Score : 0.704 Positive Score :0.0 Compound Score : -0.5849
+
+ Rooms are very expensive when compared to prices 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ old construction needs a lot of improvement 
+ Negative Score : 0.0 Neutral Score : 0.625 Positive Score :0.375 Compound Score : 0.4588
+
+ We definitely wo n't recommend this place to any one 
+ Negative Score : 0.165 Neutral Score : 0.625 Positive Score :0.211 Compound Score : 0.1506
+
+ '' ] [ 'The hotel operates with different names : They have Hotel Parkyard written in the hotel and Park Plaza written in the net 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The hotel has a large area and offers good view from the room 
+ Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4404
+
+ The place does not have any mobile network connectivity from the rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ You get wifi access only in reception areas not in the rooms
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Here 's what you need to know before booking : \n- vodafone/jio/airtel/idea network is nearly nonexistent 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ fluctuates
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ but it takes too long and is barely sufficient ) \n- swimming pool timings are 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\n- the little food and beverages we had was not well made at all
+ Negative Score : 0.122 Neutral Score : 0.878 Positive Score :0.0 Compound Score : -0.2057
+
+ be prepared to give up basic room amenities 
+ Negative Score : 0.0 Neutral Score : 0.787 Positive Score :0.213 Compound Score : 0.2263
+
+ km away from Mahabaleshwar market and local rickshawala charges straight 
+ Negative Score : 0.175 Neutral Score : 0.667 Positive Score :0.158 Compound Score : -0.0516
+
+ Rs ( how far ur hotel is doesn ’ t matter its fix rate : P ) anyways … so we arrived early in the morning Hotel staff is very polite helpful and responsible 
+ Negative Score : 0.0 Neutral Score : 0.787 Positive Score :0.213 Compound Score : 0.6682
+
+\nThey have garden 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ swimming pool ( swimming costume is compulsory ) 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ indoor games ( like chess 
+ Negative Score : 0.0 Neutral Score : 0.545 Positive Score :0.455 Compound Score : 0.3612
+
+ TT and carrom ) and space to watch sunset 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ property is quite big and well maintained 
+ Negative Score : 0.0 Neutral Score : 0.717 Positive Score :0.283 Compound Score : 0.3321
+
+ Since its away from Market u feel quiet and peaceful here
+ Negative Score : 0.0 Neutral Score : 0.738 Positive Score :0.262 Compound Score : 0.4939
+
+ Every room has a private balcony 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ While returning from sightseeing you can get down at market and eat whatever u want
+ Negative Score : 0.0 Neutral Score : 0.909 Positive Score :0.091 Compound Score : 0.0772
+
+\nIts very nice place 
+ Negative Score : 0.0 Neutral Score : 0.492 Positive Score :0.508 Compound Score : 0.4754
+
+ ' ] [ 'Good place for weekend but not for the weekdays 
+ Negative Score : 0.0 Neutral Score : 0.804 Positive Score :0.196 Compound Score : 0.2382
+
+ nice stay ' ] [ `` Establishment is a retired veteran 
+ Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+
+ But now due to lack of maintenance it 's literally stinks 
+ Negative Score : 0.377 Neutral Score : 0.623 Positive Score :0.0 Compound Score : -0.6652
+
+ In season it offers good view of the valley '' ] [ 'Food is great 
+ Negative Score : 0.0 Neutral Score : 0.611 Positive Score :0.389 Compound Score : 0.7906
+
+ ' ] [ 'Nice location and courteous staff 
+ Negative Score : 0.0 Neutral Score : 0.33 Positive Score :0.67 Compound Score : 0.7269
+
+ dirty and wastage of money 
+ Negative Score : 0.42 Neutral Score : 0.58 Positive Score :0.0 Compound Score : -0.4404
+
+ very expensive only one good thing is food was ok 
+ Negative Score : 0.0 Neutral Score : 0.611 Positive Score :0.389 Compound Score : 0.6249
+
+ rooms are smelling and we can not open balcony door due to Monkey 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ outside ambience is ok
+ Negative Score : 0.0 Neutral Score : 0.577 Positive Score :0.423 Compound Score : 0.296
+
+\r\nSome drawbacks : very far from market - around 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ hot water available only in morning ' ] [ 'Best resort in mahabaleshwar for family & friends with swimming pool and buffets 
+ Negative Score : 0.0 Neutral Score : 0.687 Positive Score :0.313 Compound Score : 0.8074
+
+ Few meters away from the main market on the old road 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Have Fun ' ] [ 'Resort looks awsome from outside but rooms are ok ok but in this price you will better rooms 
+ Negative Score : 0.0 Neutral Score : 0.58 Positive Score :0.42 Compound Score : 0.891
+
+ \nresort is in awesome place 
+ Negative Score : 0.0 Neutral Score : 0.494 Positive Score :0.506 Compound Score : 0.6249
+
+ \nswimming pool and indoor games court is just awesome 
+ Negative Score : 0.0 Neutral Score : 0.661 Positive Score :0.339 Compound Score : 0.6249
+
+ ' ] [ 'Nice place to stay with the family 
+ Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+
+ Food is nice
+ Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.4215
+
+ Santosh for cooperation ' ] [ 'Excellent place to stay and very good veg food ' ] [ 'Awesome weather when i reached\nAnd in this place it felt like double happiness
+ Negative Score : 0.0 Neutral Score : 0.526 Positive Score :0.474 Compound Score : 0.9524
+
+ 👍👍 ' ] [ `` Awesome place to stay for the whole vacation 
+ Negative Score : 0.0 Neutral Score : 0.687 Positive Score :0.313 Compound Score : 0.6249
+
+ outdoor games 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ swimming pool 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ garden 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ natural view 
+ Negative Score : 0.0 Neutral Score : 0.286 Positive Score :0.714 Compound Score : 0.3612
+
+ perfect location 
+ Negative Score : 0.0 Neutral Score : 0.213 Positive Score :0.787 Compound Score : 0.5719
+
+ lot 's of things to enjoy\nPlease visit one 's in a lifetime '' ] [ 'Very serene place away from crowds beautiful surroundings wholesome food ' ] [ 'Nice place to stay with friends n family both 
+ Negative Score : 0.0 Neutral Score : 0.665 Positive Score :0.335 Compound Score : 0.92
+
+ food is also nice\n ' ] [ 'Very nice location and staff is very polite & helpful
+ Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.7328
+
+\nWould like to visit again ' ] [ `` The hotel is nice but there 's no network in the room and even wifi is not available which I found worst 😓 '' ] [ 'Full marks to customer service 
+ Negative Score : 0.206 Neutral Score : 0.706 Positive Score :0.089 Compound Score : -0.7783
+
+ Adil tausif Santosh these are the stars of resort who let us feel like home 
+ Negative Score : 0.0 Neutral Score : 0.848 Positive Score :0.152 Compound Score : 0.3612
+
+ hatsoff guys 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Awesome hotel with good locality 
+ Negative Score : 0.0 Neutral Score : 0.3 Positive Score :0.7 Compound Score : 0.7906
+
+ staff and proper meals ' ] [ ' A beautiful place to stay 
+ Negative Score : 0.0 Neutral Score : 0.642 Positive Score :0.358 Compound Score : 0.5994
+
+ Swimming pool and badminton is the attraction 
+ Negative Score : 0.0 Neutral Score : 0.667 Positive Score :0.333 Compound Score : 0.4588
+
+ ' ] [ 'Awesome hotel with good locality 
+ Negative Score : 0.0 Neutral Score : 0.3 Positive Score :0.7 Compound Score : 0.7906
+
+ staff is really cooperative and friendly ' ] [ 'Great location 
+ Negative Score : 0.0 Neutral Score : 0.442 Positive Score :0.558 Compound Score : 0.8207
+
+ bit old property 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Great place to stay in mahabaleshwar 
+ Negative Score : 0.0 Neutral Score : 0.549 Positive Score :0.451 Compound Score : 0.6249
+
+ ' ] [ 'Very nice hotel ' ] [ 'Good one to visit 
+ Negative Score : 0.0 Neutral Score : 0.444 Positive Score :0.556 Compound Score : 0.7397
+
+ little bit far from market 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'So nice but we discover later that they gave us high price than others ' ] [ 'Rates are on higher side 
+ Negative Score : 0.0 Neutral Score : 0.898 Positive Score :0.102 Compound Score : 0.2609
+
+ good food but far from market ' ] [ 'Nice ambience and calm place ' ] [ 'Awesome location ' ] [ 'Average hotel in Mahabaleshwar 
+ Negative Score : 0.0 Neutral Score : 0.477 Positive Score :0.523 Compound Score : 0.9354
+
+ ' ] [ 'expensive & dirty ' ] [ 'No Laundry 
+ Negative Score : 0.718 Neutral Score : 0.282 Positive Score :0.0 Compound Score : -0.6249
+
