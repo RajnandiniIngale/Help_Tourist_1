@@ -17,8 +17,6 @@ data = pd.read_csv('keys_hotel.csv')
 arr = data.to_numpy()   #convert csv data into array
 
 
-
-
 clean = ["cleanliness","cleaning services"," hygienic"," clean","rooms","Big ","Neat","lobby ","small","floor ","carpeted","size"]
 
 food = ["Breakfast","buffet","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",

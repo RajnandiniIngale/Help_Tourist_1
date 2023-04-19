@@ -12,25 +12,23 @@ import numpy as np
 
 #read csv file
 
-data = pd.read_csv('keys_hotel.csv')
+data = pd.read_csv('barbequebay.csv')
 
 arr = data.to_numpy()   #convert csv data into array
 
 
 
 
-clean = ["cleanliness","cleaning services"," hygienic"," clean","rooms","Big ","Neat","lobby ","small","floor ","carpeted","size"]
-
 food = ["Delicious ","dine","kid friendly","Wonderful ","Excellent ","grills ","Barbecue ","tasty","choices","Starters ","Main course","sweets ","Breakfast","cravings","buffet","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",
        "not enough","mockta","mojito ","quantity","quality", "biryani","kebab","Desserts ","Best","Barbeque","recommended ","chef","spread","grills","Overpriced ","live counter","bland","roasted","spread of food","enjoyed","level up","chicken","oily ","juicy","south Indian","utappam","Non veg","Veg","cook ","live counters"]
 
 
-location = ["worth ","definitely try","Decent ","Best ","disheartened "," top notch","loved ","spread of food ","location ","place","greenary","airy","surrounding ","landscapes ","far ","market","property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
+location = ["definitely try","Decent ","Best ","disheartened "," top notch","loved ","spread of food ","location ","place","greenary","airy","surrounding ","landscapes ","far ","market","property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
     ,"celebration","amenities","structure","Heritage","building","Picturesque","activities","fountain","engaged ","entertained","pool","Gym","Spa","garden","sports","adventure",
-    "local delicacies", " open air","weather""costlier ","Very Good" ,"atmosphere", "costly ","time","great", "overpriced ","failed ", "Horrible ", "great time","recreational","play","trek","climbing ", "fitness ","money","overpriced","rates","bit","higher","budget","expensive","worth","price",
-      "bill ","disappointed","must  visit",  "double the price ","half the quantity","at par", "avoid ","reputed brand","Prices","costly","little","fair","Limited ","upmarket","upscale","premises","penny","pleasant","memorable"]
+    "local delicacies", " open air","weather","Very Good" ,"atmosphere", "costly ","time","great","failed ", "Horrible ", "great time","recreational","play","trek","climbing ", "fitness ","money","overpriced","rates","bit","higher","budget"
+      ,"disappointed","must  visit","at par", "avoid ","reputed brand","Limited ","premises","pleasant","memorable"]
 
-
+money = ["bill ","worth ","expensive","price","penny","costlier","double the price ","upmarket","penny","upscale","half the quantity","overpriced ","Prices","costly","little","fair","half the quantity"]
 service = ["Excellent ","personalized ","Kudos ","extreme pressure","courteous ","warm ","concern ","help","staff","special","unprofessional","management","cordial","friendly","co-operative","ready to help","people",
          "slow","match ","humble","helpful" ,"best ","music","hospitable","hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time"]
 
@@ -67,7 +65,7 @@ print(arr1)     # arr after removing after removing punctuations
 
 print('')
 file = open("bbqfood.txt", "w", encoding="utf-8")
-file1 = open("bbqclean.txt", "w", encoding="utf-8")
+file1 = open("bbqmoney.txt", "w", encoding="utf-8")
 file2 = open("bbqlocation.txt", "w", encoding="utf-8")
 file3 = open("bbqservice.txt", "w", encoding="utf-8")
 
@@ -80,7 +78,7 @@ for k in arr1:           #traversing through the arr of useful words
             break
 
 
-    for feat in clean:
+    for feat in money:
         if feat.lower() in k:
             file1.writelines(k + "\n")
             break

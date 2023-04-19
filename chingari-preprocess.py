@@ -12,7 +12,7 @@ import numpy as np
 
 #read csv file
 
-data = pd.read_csv('keys_hotel.csv')
+data = pd.read_csv('chingari.csv')
 
 arr = data.to_numpy()   #convert csv data into array
 
@@ -27,10 +27,10 @@ food = ["great ","Breakfast","non spicy","plain dal ","set menu","dry sabzi","bu
 
 location = ["location ","place","greenary","airy","surrounding ","disappointed","humiliating","landscapes ","far ","market","property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
     ,"amenities","structure","Heritage","building","Picturesque","activities","fountain","engaged ","entertained","pool","Gym","Spa","garden","sports","adventure","five-star","5 start"
-        "atmosphere ","perfect", "special", "bless", "experience", "bless","Expensive","recreational","play","trek","climbing ", "fitness ","money","overpriced","rates","bit","higher","budget","expensive","worth","price",
-         "Prices","costly","visit ","little","decor ","upmarket","upscale","penny","Overrated ","nice ","fond memories ","recommend"]
+        ,"atmosphere ","perfect", "special", "bless", "experience", "bless","recreational","play","trek","climbing ", "fitness ","visit ","decor ","nice ","fond memories ","recommend"]
 
 
+money = ["Prices","costly","little","upmarket","upscale","penny","Overrated ","Expensive","money","overpriced","rates","bit","higher","budget","expensive","worth","price"]
 service = ["great ","gentle ","gesture ","anytime","courteous ","staff","unprofessional","management","cordial","server","friendly","co-operative","ready to help","people",
         "awesome", "shout out","humble","winner ","accommodating ","trusted ","helpful" ,"Brilliant","prior reservation","cordial ","welcoming","fellow ","hospitable","worth it","hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time","excellent"]
 
@@ -67,7 +67,7 @@ print(arr1)     # arr after removing after removing punctuations
 
 print('')
 file = open("chfood.txt", "w", encoding="utf-8")
-file1 = open("chclean.txt", "w", encoding="utf-8")
+file1 = open("chmoney.txt", "w", encoding="utf-8")
 file2 = open("chlocation.txt", "w", encoding="utf-8")
 file3 = open("chservice.txt", "w", encoding="utf-8")
 
@@ -80,7 +80,7 @@ for k in arr1:           #traversing through the arr of useful words
             break
 
 
-    for feat in clean:
+    for feat in money:
         if feat.lower() in k:
             file1.writelines(k + "\n")
             break
