@@ -13,7 +13,7 @@ import numpy as np
 
 #read csv file
 
-data = pd.read_csv('sayaji.csv')
+data = pd.read_csv('silverinn.csv')
 
 arr = data.to_numpy()   #convert csv data into array
 
@@ -65,10 +65,10 @@ arr1 = re.split("[.|,|!,0-9]", fin)
 print(arr1)
 
 print('')
-sfile = open("sayaji_food.txt", "w", encoding="utf-8")
-sfile1 = open("sayaji_clean.txt", "w", encoding="utf-8")
-sfile2 = open("sayaji_location.txt", "w", encoding="utf-8")
-sfile3 = open("sayaji_service.txt", "w", encoding="utf-8")
+sfile = open("silverinn_food.txt", "w", encoding="utf-8")
+sfile1 = open("silverinn_clean.txt", "w", encoding="utf-8")
+sfile2 = open("silverinn_location.txt", "w", encoding="utf-8")
+sfile3 = open("silverinn_service.txt", "w", encoding="utf-8")
 
 
 

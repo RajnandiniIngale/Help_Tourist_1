@@ -1,4 +1,4 @@
-stars_food :1
-stars_clean :3
-stars_service :3
-stars_location :4
+maratha_food :1
+maratha_clean :3
+maratha_service :3
+maratha_location :4

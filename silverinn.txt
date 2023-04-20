@@ -1,0 +1,4 @@
+silverinn_food :1
+silverinn_clean :3
+silverinn_service :3
+silverinn_location :3

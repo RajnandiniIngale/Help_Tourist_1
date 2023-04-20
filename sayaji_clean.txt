@@ -1,4 +1,3 @@
-<<<<<<< HEAD
  rooms hotel power backup 
  ' ] [ 'Very decent property decently maintained rooms 
  try cottage rooms 
@@ -20,26 +19,3 @@ property quite\r\nbig well\r\nmaintained
  clean rooms 
  Have Fun ' ] [ 'Resort looks awsome outside rooms ok ok price better rooms 
 Old ' ] [ 'fashioned ' ] [ 'rooms ' ] [ 'Nice 
-=======
- rooms hotel power backup 
- ' ] [ 'Very decent property decently maintained rooms 
- try cottage rooms 
- super deluxe rooms could better 
- ' ] [ 'Lovely place visit went check rooms seemed spacious also hotel smell generally hotels huge property lovely entrance vintage look 
-The ' ] [ 'staff ' ] [ 'were ' ] [ 'very ' ] [ 'friendly professional services ' ] [ 'room ' ] [ 'provided ' ] [ 'was ' ] [ 'very ' ] [ 'good maintained clean ' ] [ 'condition ' ] [ 'with necessary facilities
- customers staying normal rooms food normal local dishes people staying luxurious [ name ] rooms standard food like hotel dishes
-\r\n ' ] [ 'Very ' ] [ 'clumsy ' ] [ 'walk ' ] [ 'way ' ] [ 'to ' ] [ 'rooms unhygienic
-Very ' ] [ 'big ' ] [ 'swimming ' ] [ 'pool ' ] [ 'ambience ' ] [ `` Had bad experience 
- The place mobile network connectivity rooms 
- You get wifi access reception areas rooms
- no\r\nexhaust the\r\nbathrooms
- We booked std rooms rooms clean tidy
-property quite\r\nbig well\r\nmaintained
- hotel rooms good condition 
- clean 
- rooms smelling open balcony door due Monkey 
- bathrooms cleaned likaged 
- clean rooms 
- Have Fun ' ] [ 'Resort looks awsome outside rooms ok ok price better rooms 
-Old ' ] [ 'fashioned ' ] [ 'rooms ' ] [ 'Nice 
->>>>>>> d001bfe (preprocess1 added)

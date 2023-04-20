@@ -1,8 +1,8 @@
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
-import pandas as pd     #create dataframe read csv file & save file in csv format
+#import pandas as pd     #create dataframe read csv file & save file in csv format
 
 #read csv file
 
@@ -10,16 +10,16 @@ import pandas as pd     #create dataframe read csv file & save file in csv forma
 
 #print(data)
 
-#import ssl
+import ssl
 
-#try:
- #    _create_unverified_https_context = ssl._create_unverified_context
-#except AttributeError:
- #    pass
-#else:
- #    ssl._create_default_https_context = _create_unverified_https_context
+try:
+     _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+     pass
+else:
+     ssl._create_default_https_context = _create_unverified_https_context
 
-#nltk.download()
+nltk.download()
 
 # Initialize the sentiment analyzer
 sia = SentimentIntensityAnalyzer()
