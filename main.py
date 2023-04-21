@@ -19,7 +19,7 @@ def index():
 
 @app.route('/tours')
 def tours():
-    stars={}
+    stars={}#dictionary
 
     file1=open("keys.txt")
     lines=file1.readlines()
@@ -34,6 +34,7 @@ def tours():
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
+
 
     return render_template("tours.html",ratingsk=stars)
 
