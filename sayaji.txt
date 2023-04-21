@@ -1,4 +1,4 @@
-stars_food :2
-stars_clean :3
-stars_service :3
-stars_location :4
+sayaji_food :2
+sayaji_clean :3
+sayaji_service :3
+sayaji_location :4

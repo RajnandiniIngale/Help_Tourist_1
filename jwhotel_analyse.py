@@ -31,14 +31,9 @@ sum=0
 for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
-    sum=sum+scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
-    stars=0
+    sum = sum + scores["compound"]
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    stars = 0
 
 sum=sum/10
 
@@ -75,13 +70,7 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     #print(scores["compound"])
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
-
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
     stars = 0
 sum=sum/10
 
@@ -116,14 +105,10 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
-
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
     stars = 0
+
+
 sum = sum / 10
 if sum < 0.3:
     stars = 1
@@ -154,12 +139,8 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+
 
 sum = sum / 10
 stars = 0

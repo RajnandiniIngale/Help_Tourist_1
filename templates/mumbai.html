@@ -70,6 +70,99 @@ $(function () {
                 <p class="price">147, Marol Maroshi Road, Near Marol Fire Bridge Station, Mumbai 400059</p>
                 <p class="price"> 1 day 1 Night<span>₹ 12,000</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
+
+                <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['silverinn_food'] %}
+
+               {%set s=ratingsk['silverinn_service'] %}
+              {%set c=ratingsk['silverinn_clean'] %}
+              {%set l=ratingsk['silverinn_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" width="10" height="10" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.jpg">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.jpg" width="1000" height="1000">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.jpg">
+
+               {% endif %}
+                SERVICE :
+               {% if s==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (s) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  s == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   s == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   s == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                CLEAN :
+                 {% if c==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (c) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  c == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   c == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   c == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                LOCATION :
+                 {% if l==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (l) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  l == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   l == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   l == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega">
@@ -79,6 +172,98 @@ $(function () {
                 <p class="price">Juhu Tara Rd, Juhu Tara, Juhu, Mumbai, Maharashtra 400049</span></p>
                 <p class="price">2 days 2 Nights<span>₹ 30,000</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['jwhotel_food'] %}
+
+               {%set s=ratingsk['jwhotel_service'] %}
+              {%set c=ratingsk['jwhotel_clean'] %}
+              {%set l=ratingsk['jwhotel_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" width="10" height="10" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.jpg">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.jpg" width="1000" height="1000">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.jpg">
+
+               {% endif %}
+                SERVICE :
+               {% if s==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (s) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  s == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   s == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   s == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                CLEAN :
+                 {% if c==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (c) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  c == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   c == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   c == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                LOCATION :
+                 {% if l==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (l) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  l == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   l == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   l == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="clear"></div>
@@ -90,6 +275,98 @@ $(function () {
                 <p class="price">Plot no 117, Shop, no 4, 28th Rd, Bandra West, Mumbai, Maharashtra 400050</p>
                 <p class="price">Indian, Arabian </p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['arbab_food'] %}
+
+               {%set s=ratingsk['arbab_service'] %}
+              {%set c=ratingsk['arbab_money'] %}
+              {%set l=ratingsk['arbab_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" width="10" height="10" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.jpg">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.jpg" width="1000" height="1000">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.jpg">
+
+               {% endif %}
+                SERVICE :
+               {% if s==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (s) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  s == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   s == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   s == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                MONEY :
+                 {% if c==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (c) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  c == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   c == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   c == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                LOCATION :
+                 {% if l==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (l) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  l == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   l == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   l == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega">
@@ -99,6 +376,98 @@ $(function () {
                 <p class="price">Ground Floor, Raheja Towers , Near Yauatcha Restaurant, Mumbai, Maharashtra 400051</p>
                 <p class="price">Italian, European</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['cincin_food'] %}
+
+               {%set s=ratingsk['cincin_service'] %}
+              {%set c=ratingsk['cincin_money'] %}
+              {%set l=ratingsk['cincin_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" width="10" height="10" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.jpg">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.jpg" width="1000" height="1000">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.jpg">
+
+               {% endif %}
+                SERVICE :
+               {% if s==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (s) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  s == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   s == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   s == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                MONEY :
+                 {% if c==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (c) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  c == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   c == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   c == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+
+                LOCATION :
+                 {% if l==1 %}:
+                <div> <img src="static/images/1star.png"></div>
+               {% elif
+                 (l) == 2 %}
+                <div> <img src="static/images/2star.jpg"></div>
+
+               {% elif
+                  l == 3 %}
+                <div> <img src="static/images/3star.png"></div>
+
+               {% elif
+                   l == 4 %}
+                <div> <img src="static/images/4star.jpg"></div>
+
+               {% elif
+                   l == 5 %}
+                <div> <img src="static/images/5star.jpg"></div>
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="clear"></div>
