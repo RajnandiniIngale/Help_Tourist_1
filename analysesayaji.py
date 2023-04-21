@@ -24,6 +24,7 @@ sia = SentimentIntensityAnalyzer()
 file1 = open('sayaji_food.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
 ffile = open("sayaji.txt", "w", encoding="utf-8")
+reviewfile = open("sayajireviews.txt","w",encoding="utf-8")
 
 count = 0
 sum=0

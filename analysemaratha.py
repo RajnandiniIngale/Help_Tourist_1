@@ -24,7 +24,7 @@ sia = SentimentIntensityAnalyzer()
 file1 = open('maratha_food.txt', 'r',encoding="utf-8")
 Lines = file1.readlines()
 ffile = open("maratha.txt", "w", encoding="utf-8")
-
+reviewfile = open("marathareviews.txt","w",encoding="utf-8")
 count = 0
 sum=0
 # Strips the newline character
@@ -32,13 +32,15 @@ for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
     sum=sum+scores["compound"]
-
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
     stars=0
 
-x = len(Lines)
-#sum=(100*sum)/x
 sum=sum/10
-print(sum)
 
 if sum < 0.3:
     stars = 1
@@ -57,7 +59,9 @@ else:
                     stars = 5;
 
 
-ffile.writelines("stars_food :" +((str))(stars)+"\n")
+
+
+ffile.writelines("maratha_food :" +((str))(stars)+"\n")
 
 file1 = open('maratha_clean.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -71,12 +75,15 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     #print(scores["compound"])
     sum = sum + scores["compound"]
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
 
     stars = 0
-x = len(Lines)
-#sum=(100*sum)/x
 sum=sum/10
-print(sum)
 
 if sum < 0.3:
     stars = 1
@@ -94,7 +101,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("stars_clean :" + ((str))(stars) + "\n")
+ffile.writelines("maratha_clean :" + ((str))(stars) + "\n")
 
 
 print(sum)
@@ -109,14 +116,15 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
 
     stars = 0
-
-x = len(Lines)
-sum=sum/10
-#sum=(100*sum)/x
-print(sum)
-
+sum = sum / 10
 if sum < 0.3:
     stars = 1
 else:
@@ -133,7 +141,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("stars_service :" + ((str))(stars) + "\n")
+ffile.writelines("maratha_service :" + ((str))(stars) + "\n")
 
 file1 = open('maratha_location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -146,12 +154,14 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
+    reviewfile.writelines(review)
+    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
+    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
+    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
+    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines("\n\n")
 
-x = len(Lines)
-#sum=(100*sum)/x
-sum=sum/10
-print(sum)
-
+sum = sum / 10
 stars = 0
 
 if sum < 0.3:
@@ -170,4 +180,4 @@ else:
                 if sum > 2.5:
                     stars = 5;
 print(sum)
-ffile.writelines("stars_location :" + ((str))(stars) + "\n")
+ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
