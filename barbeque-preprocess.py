@@ -20,15 +20,15 @@ arr = data.to_numpy()   #convert csv data into array
 
 
 food = ["Delicious ","dine","kid friendly","Wonderful ","Excellent ","grills ","Barbecue ","tasty","choices","Starters ","Main course","sweets ","Breakfast","cravings","buffet","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",
-       "not enough","mockta","mojito ","quantity","quality", "biryani","kebab","Desserts ","Best","Barbeque","recommended ","chef","spread","grills","Overpriced ","live counter","bland","roasted","spread of food","enjoyed","level up","chicken","oily ","juicy","south Indian","utappam","Non veg","Veg","cook ","live counters"]
+       "not enough","mockta","local delicacies","mojito ","quantity","quality", "biryani","kebab","Desserts ","Best","Barbeque","recommended ","chef","spread","grills","live counter","bland","roasted","spread of food","enjoyed","level up","chicken","oily ","juicy","south Indian","utappam","Non veg","Veg","cook ","live counters"]
 
 
 location = ["definitely try","Decent ","Best ","disheartened "," top notch","loved ","spread of food ","location ","place","greenary","airy","surrounding ","landscapes ","far ","market","property ","aesthetic ","architecture","Parking ","Space","ambiance","ambience","proprietor ","wonderful"
     ,"celebration","amenities","structure","Heritage","building","Picturesque","activities","fountain","engaged ","entertained","pool","Gym","Spa","garden","sports","adventure",
-    "local delicacies", " open air","weather","Very Good" ,"atmosphere", "costly ","time","great","failed ", "Horrible ", "great time","recreational","play","trek","climbing ", "fitness ","money","overpriced","rates","bit","higher","budget"
-      ,"disappointed","must  visit","at par", "avoid ","reputed brand","Limited ","premises","pleasant","memorable"]
+ " open air","weather","Very Good" ,"atmosphere","time","great","failed ", "Horrible ", "great time","recreational","play","trek","climbing ", "fitness "
+      ,"disappointed","must  visit", "avoid ","reputed brand","Limited ","premises","pleasant","memorable"]
 
-money = ["bill ","worth ","expensive","price","penny","costlier","double the price ","upmarket","penny","upscale","half the quantity","overpriced ","Prices","costly","little","fair","half the quantity"]
+money = ["bill ","at par","worth ","expensive","price","penny","costlier","costly" ,"double the price ","upmarket","penny","upscale","Overpriced","half the quantity","overpriced ","Prices","costly","little","fair","money","overpriced","rates","bit","higher","budget"]
 service = ["Excellent ","personalized ","Kudos ","extreme pressure","courteous ","warm ","concern ","help","staff","special","unprofessional","management","cordial","friendly","co-operative","ready to help","people",
          "slow","match ","humble","helpful" ,"best ","music","hospitable","hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time"]
 
@@ -59,7 +59,7 @@ print("Text without stop words")
 print(fin)
 
 import re
-arr1 = re.split("[.|,|!,0-9]", fin)
+arr1 = re.split("[.|,|!|0-9]", fin)
 
 print(arr1)     # arr after removing after removing punctuations
 
@@ -70,13 +70,11 @@ file2 = open("bbqlocation.txt", "w", encoding="utf-8")
 file3 = open("bbqservice.txt", "w", encoding="utf-8")
 
 
-
 for k in arr1:           #traversing through the arr of useful words
     for feat in food:
         if feat.lower() in k:
             file.writelines(k + "\n")
             break
-
 
     for feat in money:
         if feat.lower() in k:
@@ -97,13 +95,3 @@ for k in arr1:           #traversing through the arr of useful words
 
 
 
-
-# print("Bigram text")
-# bigrm = list(nltk.bigrams(fin.split()))
-#
-# print(bigrm)
-#
-# print("Trigram Text")
-# trigrm = list(nltk.trigrams(fin.split()))
-#
-# print(trigrm)

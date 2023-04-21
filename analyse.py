@@ -36,8 +36,8 @@ for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
     sum=sum+scores["compound"]
-    reviewfile.writelines(review+":"+str(scores['compound']).lstrip())
-
+    reviewfile.writelines(review.rstrip()+":"+str(scores['compound'])
+                          )
     #reviewfile.writelines(" Negative Score : " + str(scores['neg']))
     #reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
     #reviewfile.writelines(" Positive Score :" + str(scores['pos']))

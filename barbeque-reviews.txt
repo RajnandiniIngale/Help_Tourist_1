@@ -1,306 +1,321 @@
  Avijit for helping with our food cravings
- Negative Score : 0.0 Neutral Score : 0.732 Positive Score :0.268 Compound Score : 0.296
+ Compound Score:0.296
 
  \r\n\r\nNot many choices 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  Main course or sweets were not great\r\n\r\nLive music was good 
- Negative Score : 0.0 Neutral Score : 0.567 Positive Score :0.433 Compound Score : 0.7269
+ Compound Score:0.7269
 
  \r\n\r\nBut still a fair family experience '' ] [ 'Limited parking available on premises ' ] [ 'Wonderful dinner at saj mahabaleshwar 
- Negative Score : 0.091 Neutral Score : 0.622 Positive Score :0.287 Compound Score : 0.6249
+ Compound Score:0.6249
 
  Barbecue and grills at this restaurant with buffet was tasty 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  I must say the barbecue was quite delicious 
- Negative Score : 0.0 Neutral Score : 0.6 Positive Score :0.4 Compound Score : 0.6115
+ Compound Score:0.6115
 
  and so was the rest of the spread 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  They had a dozen barbecue options veg and nonveg both 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  Really enjoyed and Palash took extra care that we had a great time 
- Negative Score : 0.0 Neutral Score : 0.452 Positive Score :0.548 Compound Score : 0.8977
+ Compound Score:0.8977
 
  ' ] [ 'Everything top notch was there yesterday and loved it and would specially say comparing to last year when we came the spread of food and the taste has gone top notch towards level up way way better then last year loved it a lot 
- Negative Score : 0.0 Neutral Score : 0.727 Positive Score :0.273 Compound Score : 0.9231
+ Compound Score:0.9231
 
  delicious food 
- Negative Score : 0.0 Neutral Score : 0.213 Positive Score :0.787 Compound Score : 0.5719
+ Compound Score:0.5719
 
  enjoyed food 
- Negative Score : 0.0 Neutral Score : 0.233 Positive Score :0.767 Compound Score : 0.5106
+ Compound Score:0.5106
 
  thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.7964
+ Compound Score:0.7964
 
  In short they failed badly while trying to copy and implement BBQ nation or Absolut Barbecue experience as well as taste 
- Negative Score : 0.242 Neutral Score : 0.679 Positive Score :0.079 Compound Score : -0.6486
+ Compound Score:-0.6486
 
  The starter taste were bland 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  the buffet spread doesn ’ t have much option 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
 
  No live counter 
- Negative Score : 0.524 Neutral Score : 0.476 Positive Score :0.0 Compound Score : -0.296
+ Compound Score:-0.296
 
  ' ] [ 'Excellent food and service provided… one of the best restaurants for dine out in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.622 Positive Score :0.378 Compound Score : 0.836
+ Compound Score:0.836
 
  ' ] [ 'Good food they one more option for buffet dinner you can check that one also ' ] [ 'Ambience 
- Negative Score : 0.0 Neutral Score : 0.838 Positive Score :0.162 Compound Score : 0.4404
+ Compound Score:0.4404
 
  an experience you should definitely try if you love grills 
- Negative Score : 0.0 Neutral Score : 0.537 Positive Score :0.463 Compound Score : 0.7845
+ Compound Score:0.7845
 
  I enjoyed a lot 
- Negative Score : 0.0 Neutral Score : 0.233 Positive Score :0.767 Compound Score : 0.5106
+ Compound Score:0.5106
 
  enjoyed barbeque spread ' ] [ 'Half the quality and more than double the price 
- Negative Score : 0.0 Neutral Score : 0.769 Positive Score :0.231 Compound Score : 0.5106
+ Compound Score:0.5106
 
  You will be disappointed when the bill is almost double per person for half the quantity and quality 
- Negative Score : 0.154 Neutral Score : 0.846 Positive Score :0.0 Compound Score : -0.4767
-
- ' ] [ 'Best dinner I had in my Life at Barbecue Bay Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.6369
-
- Highly recommended to all for any kind of celebration 
- Negative Score : 0.0 Neutral Score : 0.793 Positive Score :0.207 Compound Score : 0.2716
-
- ' ] [ 'excellent mockta session done by Mr
- Negative Score : 0.0 Neutral Score : 0.575 Positive Score :0.425 Compound Score : 0.5719
-
- Manas and Mr subhanksr at barbecue bay restaurant 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- mojito was excellent 
- Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
-
- best barbecue at mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.6369
-
- ' ] [ 'Food taste was good 
- Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
-
- although not enough variety of starters
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
-\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj 
- Negative Score : 0.0 Neutral Score : 0.664 Positive Score :0.336 Compound Score : 0.7964
-
- Special thanks to Manas and rahul team for best hospitality 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.8689
-
- Highly recommended to all must visit ' ] [ 'It is costlier as compared to other barbecue restaurant in the metro cities and even the quantity 
- Negative Score : 0.0 Neutral Score : 0.913 Positive Score :0.087 Compound Score : 0.2716
-
- quality and taste is not at par 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- ' ] [ ' I went in for dine in but they should have kept some kid friendly food too ' ] [ 'Very good taste and personalized service 
- Negative Score : 0.0 Neutral Score : 0.689 Positive Score :0.311 Compound Score : 0.8621
-
- Delicious kebabs with live music 
- Negative Score : 0.0 Neutral Score : 0.519 Positive Score :0.481 Compound Score : 0.5719
-
- mainly Barbeques ' ] [ 'It was excellent food and service by Mr manas ' ] [ 'Good Ambience and Good Food ' ] [ 'Very Good 
- Negative Score : 0.0 Neutral Score : 0.53 Positive Score :0.47 Compound Score : 0.9081
-
- ' ] [ 'Not worth it ' ] [ ' # clubmahendrasach we enjoyed the kebab 
- Negative Score : 0.152 Neutral Score : 0.547 Positive Score :0.301 Compound Score : 0.3887
-
- the non veg biryani 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- by chef Palash ' ] [ 'Very nice atmosphere ' ] [ 'Buffet Service 
- Negative Score : 0.0 Neutral Score : 0.694 Positive Score :0.306 Compound Score : 0.4754
-
- Desserts are the recommended dishes ' ] [ 'Nice hotel ' ] ]
- Negative Score : 0.0 Neutral Score : 0.521 Positive Score :0.479 Compound Score : 0.5574
-
- Sukhdeb for our birthday was so good it made our day special
- Negative Score : 0.0 Neutral Score : 0.608 Positive Score :0.392 Compound Score : 0.7537
-
- special thanks to Ms
- Negative Score : 0.0 Neutral Score : 0.263 Positive Score :0.737 Compound Score : 0.6808
-
- Avijit for helping with our food cravings
- Negative Score : 0.0 Neutral Score : 0.732 Positive Score :0.268 Compound Score : 0.296
-
- Main course or sweets were not great\r\n\r\nLive music was good 
- Negative Score : 0.0 Neutral Score : 0.567 Positive Score :0.433 Compound Score : 0.7269
-
- Service was warm and great hospitality 
- Negative Score : 0.0 Neutral Score : 0.4 Positive Score :0.6 Compound Score : 0.7184
-
- Good live music 
- Negative Score : 0.0 Neutral Score : 0.408 Positive Score :0.592 Compound Score : 0.4404
-
- Raj for their concern and help 
- Negative Score : 0.0 Neutral Score : 0.649 Positive Score :0.351 Compound Score : 0.4019
-
- ' ] [ 'Everything top notch was there yesterday and loved it and would specially say comparing to last year when we came the spread of food and the taste has gone top notch towards level up way way better then last year loved it a lot 
- Negative Score : 0.0 Neutral Score : 0.727 Positive Score :0.273 Compound Score : 0.9231
-
- staff is under extreme pressure to meet sales targets and are giving fake bills 
- Negative Score : 0.283 Neutral Score : 0.588 Positive Score :0.128 Compound Score : -0.4404
-
- thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.7964
-
- ' ] [ 'Excellent food and service provided… one of the best restaurants for dine out in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.622 Positive Score :0.378 Compound Score : 0.836
-
- Service is very slow 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- ' ] [ 'Food was good with iive music in rain 
- Negative Score : 0.0 Neutral Score : 0.707 Positive Score :0.293 Compound Score : 0.4404
-
- Narshing & Shake gave us good service
- Negative Score : 0.198 Neutral Score : 0.465 Positive Score :0.337 Compound Score : 0.296
-
- ' ] [ 'Good service and ambience 
- Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
-
- Excellent service given by Manas and Abhijeet 
- Negative Score : 0.0 Neutral Score : 0.619 Positive Score :0.381 Compound Score : 0.5719
-
- Excellent Live music 
- Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
-
- ' ] [ 'excellent mockta session done by Mr
- Negative Score : 0.0 Neutral Score : 0.575 Positive Score :0.425 Compound Score : 0.5719
-
- mojito was excellent 
- Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
-
- best barbecue at mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.6369
-
- They have tried to replicate Barbeque nation but couldn ’ t match the service
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
-\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj 
- Negative Score : 0.0 Neutral Score : 0.664 Positive Score :0.336 Compound Score : 0.7964
-
- Excellent food and services 
- Negative Score : 0.0 Neutral Score : 0.448 Positive Score :0.552 Compound Score : 0.5719
-
- Special thanks to Manas and rahul team for best hospitality 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.8689
-
- ' ] [ ' I went in for dine in but they should have kept some kid friendly food too ' ] [ 'Very good taste and personalized service 
- Negative Score : 0.0 Neutral Score : 0.689 Positive Score :0.311 Compound Score : 0.8621
-
- Delicious kebabs with live music 
- Negative Score : 0.0 Neutral Score : 0.519 Positive Score :0.481 Compound Score : 0.5719
-
- ' ] [ 'Great food experience ' ] [ 'Excellent restaurant with live music ' ] [ 'Excellent food 
- Negative Score : 0.0 Neutral Score : 0.378 Positive Score :0.622 Compound Score : 0.91
-
- mainly Barbeques ' ] [ 'It was excellent food and service by Mr manas ' ] [ 'Good Ambience and Good Food ' ] [ 'Very Good 
- Negative Score : 0.0 Neutral Score : 0.53 Positive Score :0.47 Compound Score : 0.9081
-
-\r\nFinally Miss Nisha has ensured that our stay in the resort was memorable and pleasant in all respects\r\nKudos team Saj 
- Negative Score : 0.07 Neutral Score : 0.786 Positive Score :0.144 Compound Score : 0.4019
-
- \r\n\r\nOtherwise ( except for price ) does n't stand up to BBQ nation or so 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- Main course or sweets were not great\r\n\r\nLive music was good 
- Negative Score : 0.0 Neutral Score : 0.567 Positive Score :0.433 Compound Score : 0.7269
-
- \r\n\r\nBut still a fair family experience '' ] [ 'Limited parking available on premises ' ] [ 'Wonderful dinner at saj mahabaleshwar 
- Negative Score : 0.091 Neutral Score : 0.622 Positive Score :0.287 Compound Score : 0.6249
-
- Service was warm and great hospitality 
- Negative Score : 0.0 Neutral Score : 0.4 Positive Score :0.6 Compound Score : 0.7184
-
- Really enjoyed and Palash took extra care that we had a great time 
- Negative Score : 0.0 Neutral Score : 0.452 Positive Score :0.548 Compound Score : 0.8977
-
- ' ] [ 'Everything top notch was there yesterday and loved it and would specially say comparing to last year when we came the spread of food and the taste has gone top notch towards level up way way better then last year loved it a lot 
- Negative Score : 0.0 Neutral Score : 0.727 Positive Score :0.273 Compound Score : 0.9231
-
- Really disheartened as this is part of Mahindra Group 
- Negative Score : 0.304 Neutral Score : 0.696 Positive Score :0.0 Compound Score : -0.5413
-
- and not expected at all from such a reputed brand 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.7964
-
- In short they failed badly while trying to copy and implement BBQ nation or Absolut Barbecue experience as well as taste 
- Negative Score : 0.242 Neutral Score : 0.679 Positive Score :0.079 Compound Score : -0.6486
-
- Overpriced drink 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
- avoid this place and try other restaurants 
- Negative Score : 0.268 Neutral Score : 0.732 Positive Score :0.0 Compound Score : -0.296
-
- ' ] [ 'Excellent food and service provided… one of the best restaurants for dine out in Mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.622 Positive Score :0.378 Compound Score : 0.836
-
- Music and Food is great 
- Negative Score : 0.0 Neutral Score : 0.494 Positive Score :0.506 Compound Score : 0.6249
-
- an experience you should definitely try if you love grills 
- Negative Score : 0.0 Neutral Score : 0.537 Positive Score :0.463 Compound Score : 0.7845
-
- ' ] [ 'Great time ❤️ ' ] [ 'Very costly and food was ok
- Negative Score : 0.121 Neutral Score : 0.429 Positive Score :0.45 Compound Score : 0.6815
-
- ' ] [ 'Good service and ambience 
- Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
-
- enjoyed barbeque spread ' ] [ 'Half the quality and more than double the price 
- Negative Score : 0.0 Neutral Score : 0.769 Positive Score :0.231 Compound Score : 0.5106
-
- If you are looking for experience similar to Bbq nation and other similar joints then you will be disappointed 
- Negative Score : 0.147 Neutral Score : 0.853 Positive Score :0.0 Compound Score : -0.4767
-
- You will be disappointed when the bill is almost double per person for half the quantity and quality 
- Negative Score : 0.154 Neutral Score : 0.846 Positive Score :0.0 Compound Score : -0.4767
+ Compound Score:-0.4767
 
  Instead explore local delicacies around the town 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
+
+ ' ] [ 'Best dinner I had in my Life at Barbecue Bay Mahabaleshwar 
+ Compound Score:0.6369
 
  Highly recommended to all for any kind of celebration 
- Negative Score : 0.0 Neutral Score : 0.793 Positive Score :0.207 Compound Score : 0.2716
+ Compound Score:0.2716
+
+ ' ] [ 'excellent mockta session done by Mr
+ Compound Score:0.5719
+
+ Manas and Mr subhanksr at barbecue bay restaurant 
+ Compound Score:0.0
+
+ mojito was excellent 
+ Compound Score:0.5719
 
  best barbecue at mahabaleshwar 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.6369
+ Compound Score:0.6369
 
- subhankar was the bartendar and dipali also was nice ' ] [ 'Not worth it 
- Negative Score : 0.115 Neutral Score : 0.691 Positive Score :0.194 Compound Score : 0.281
+ ' ] [ 'Food taste was good 
+ Compound Score:0.4404
 
-\r\nToo expensive
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
-
-\r\nPerhaps only good side is open air and good weather 
- Negative Score : 0.0 Neutral Score : 0.58 Positive Score :0.42 Compound Score : 0.7003
+ although not enough variety of starters
+ Compound Score:0.0
 
 \nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj 
- Negative Score : 0.0 Neutral Score : 0.664 Positive Score :0.336 Compound Score : 0.7964
+ Compound Score:0.7964
 
  Special thanks to Manas and rahul team for best hospitality 
- Negative Score : 0.0 Neutral Score : 0.417 Positive Score :0.583 Compound Score : 0.8689
+ Compound Score:0.8689
+
+ Highly recommended to all must visit ' ] [ 'It is costlier as compared to other barbecue restaurant in the metro cities and even the quantity 
+ Compound Score:0.2716
 
  quality and taste is not at par 
- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+ Compound Score:0.0
+
+ ' ] [ ' I went in for dine in but they should have kept some kid friendly food too ' ] [ 'Very good taste and personalized service 
+ Compound Score:0.8621
+
+ Delicious kebabs with live music 
+ Compound Score:0.5719
+
+ mainly Barbeques ' ] [ 'It was excellent food and service by Mr manas ' ] [ 'Good Ambience and Good Food ' ] [ 'Very Good 
+ Compound Score:0.9081
 
  ' ] [ 'Not worth it ' ] [ ' # clubmahendrasach we enjoyed the kebab 
- Negative Score : 0.152 Neutral Score : 0.547 Positive Score :0.301 Compound Score : 0.3887
+ Compound Score:0.3887
+
+ the non veg biryani 
+ Compound Score:0.0
 
  by chef Palash ' ] [ 'Very nice atmosphere ' ] [ 'Buffet Service 
- Negative Score : 0.0 Neutral Score : 0.694 Positive Score :0.306 Compound Score : 0.4754
+ Compound Score:0.4754
+
+ Desserts are the recommended dishes ' ] [ 'Nice hotel ' ] ]
+ Compound Score:0.5574
+
+ \r\n\r\nOtherwise ( except for price ) does n't stand up to BBQ nation or so 
+ Compound Score:0.0
+
+ \r\n\r\nBut still a fair family experience '' ] [ 'Limited parking available on premises ' ] [ 'Wonderful dinner at saj mahabaleshwar 
+ Compound Score:0.6249
+
+ thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
+ Compound Score:0.7964
+
+ Overpriced drink 
+ Compound Score:0.0
+
+ ' ] [ 'Great time ❤️ ' ] [ 'Very costly and food was ok
+ Compound Score:0.6815
+
+ enjoyed barbeque spread ' ] [ 'Half the quality and more than double the price 
+ Compound Score:0.5106
+
+ You will be disappointed when the bill is almost double per person for half the quantity and quality 
+ Compound Score:-0.4767
+
+ subhankar was the bartendar and dipali also was nice ' ] [ 'Not worth it 
+ Compound Score:0.281
+
+\r\nToo expensive
+ Compound Score:0.0
+
+ Highly recommended to all must visit ' ] [ 'It is costlier as compared to other barbecue restaurant in the metro cities and even the quantity 
+ Compound Score:0.2716
+
+ quality and taste is not at par 
+ Compound Score:0.0
+
+ ' ] [ 'Not worth it ' ] [ ' # clubmahendrasach we enjoyed the kebab 
+ Compound Score:0.3887
+
+ Sukhdeb for our birthday was so good it made our day special
+ Compound Score:0.7537
+
+ special thanks to Ms
+ Compound Score:0.6808
+
+ Avijit for helping with our food cravings
+ Compound Score:0.296
+
+ Main course or sweets were not great\r\n\r\nLive music was good 
+ Compound Score:0.7269
+
+ Service was warm and great hospitality 
+ Compound Score:0.7184
+
+ Good live music 
+ Compound Score:0.4404
+
+ Raj for their concern and help 
+ Compound Score:0.4019
+
+ ' ] [ 'Everything top notch was there yesterday and loved it and would specially say comparing to last year when we came the spread of food and the taste has gone top notch towards level up way way better then last year loved it a lot 
+ Compound Score:0.9231
+
+ staff is under extreme pressure to meet sales targets and are giving fake bills 
+ Compound Score:-0.4404
+
+ thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
+ Compound Score:0.7964
+
+ ' ] [ 'Excellent food and service provided… one of the best restaurants for dine out in Mahabaleshwar 
+ Compound Score:0.836
+
+ Service is very slow 
+ Compound Score:0.0
+
+ ' ] [ 'Food was good with iive music in rain 
+ Compound Score:0.4404
+
+ Narshing & Shake gave us good service
+ Compound Score:0.296
+
+ ' ] [ 'Good service and ambience 
+ Compound Score:0.4404
+
+ Excellent service given by Manas and Abhijeet 
+ Compound Score:0.5719
+
+ Excellent Live music 
+ Compound Score:0.5719
+
+ ' ] [ 'excellent mockta session done by Mr
+ Compound Score:0.5719
+
+ mojito was excellent 
+ Compound Score:0.5719
+
+ best barbecue at mahabaleshwar 
+ Compound Score:0.6369
+
+ They have tried to replicate Barbeque nation but couldn ’ t match the service
+ Compound Score:0.0
+
+\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj 
+ Compound Score:0.7964
+
+ Excellent food and services 
+ Compound Score:0.5719
+
+ Special thanks to Manas and rahul team for best hospitality 
+ Compound Score:0.8689
+
+ ' ] [ ' I went in for dine in but they should have kept some kid friendly food too ' ] [ 'Very good taste and personalized service 
+ Compound Score:0.8621
+
+ Delicious kebabs with live music 
+ Compound Score:0.5719
+
+ ' ] [ 'Great food experience ' ] [ 'Excellent restaurant with live music ' ] [ 'Excellent food 
+ Compound Score:0.91
+
+ mainly Barbeques ' ] [ 'It was excellent food and service by Mr manas ' ] [ 'Good Ambience and Good Food ' ] [ 'Very Good 
+ Compound Score:0.9081
+
+\r\nFinally Miss Nisha has ensured that our stay in the resort was memorable and pleasant in all respects\r\nKudos team Saj 
+ Compound Score:0.4019
+
+ Main course or sweets were not great\r\n\r\nLive music was good 
+ Compound Score:0.7269
+
+ \r\n\r\nBut still a fair family experience '' ] [ 'Limited parking available on premises ' ] [ 'Wonderful dinner at saj mahabaleshwar 
+ Compound Score:0.6249
+
+ Service was warm and great hospitality 
+ Compound Score:0.7184
+
+ Really enjoyed and Palash took extra care that we had a great time 
+ Compound Score:0.8977
+
+ ' ] [ 'Everything top notch was there yesterday and loved it and would specially say comparing to last year when we came the spread of food and the taste has gone top notch towards level up way way better then last year loved it a lot 
+ Compound Score:0.9231
+
+ Really disheartened as this is part of Mahindra Group 
+ Compound Score:-0.5413
+
+ and not expected at all from such a reputed brand 
+ Compound Score:0.0
+
+ thanks chef palash for best service ' ] [ 'One of the most overpriced eateries in Mahabaleshwar 
+ Compound Score:0.7964
+
+ In short they failed badly while trying to copy and implement BBQ nation or Absolut Barbecue experience as well as taste 
+ Compound Score:-0.6486
+
+ avoid this place and try other restaurants 
+ Compound Score:-0.296
+
+ ' ] [ 'Excellent food and service provided… one of the best restaurants for dine out in Mahabaleshwar 
+ Compound Score:0.836
+
+ Music and Food is great 
+ Compound Score:0.6249
+
+ an experience you should definitely try if you love grills 
+ Compound Score:0.7845
+
+ ' ] [ 'Great time ❤️ ' ] [ 'Very costly and food was ok
+ Compound Score:0.6815
+
+ ' ] [ 'Good service and ambience 
+ Compound Score:0.4404
+
+ If you are looking for experience similar to Bbq nation and other similar joints then you will be disappointed 
+ Compound Score:-0.4767
+
+ You will be disappointed when the bill is almost double per person for half the quantity and quality 
+ Compound Score:-0.4767
+
+ Highly recommended to all for any kind of celebration 
+ Compound Score:0.2716
+
+ best barbecue at mahabaleshwar 
+ Compound Score:0.6369
+
+\r\nPerhaps only good side is open air and good weather 
+ Compound Score:0.7003
+
+\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj 
+ Compound Score:0.7964
+
+ Special thanks to Manas and rahul team for best hospitality 
+ Compound Score:0.8689
+
+ by chef Palash ' ] [ 'Very nice atmosphere ' ] [ 'Buffet Service 
+ Compound Score:0.4754
 

@@ -27,10 +27,7 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
     reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     reviewfile.writelines("\n\n")
 
     stars = 0
@@ -56,10 +53,10 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("barbeque_food :" + ((str))(stars) + "\n")
+ffile.writelines("barbeque_food:" + ((str))(stars) + "\n")
 
 
-file1 = open('bbqclean.txt', 'r', encoding="utf-8")
+file1 = open('bbqmoney.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
 x = len(Lines)
 print(sum)
@@ -73,10 +70,7 @@ for line in Lines:
     # print(scores["compound"])
     sum = sum + scores["compound"]
     reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     reviewfile.writelines("\n\n")
     stars = 0
 # sum=(100*sum)/x
@@ -99,7 +93,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("barbeque_clean :" + ((str))(stars) + "\n")
+ffile.writelines("barbeque_money:" + ((str))(stars) + "\n")
 
 print(sum)
 
@@ -114,10 +108,7 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
     reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     reviewfile.writelines("\n\n")
     stars = 0
 
@@ -141,7 +132,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("barbeque_service :" + ((str))(stars) + "\n")
+ffile.writelines("barbeque_service:" + ((str))(stars) + "\n")
 
 file1 = open('bbqlocation.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -155,10 +146,7 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
     reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
+    reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     reviewfile.writelines("\n\n")
 
 # print(sum)
@@ -185,4 +173,4 @@ else:
                 if sum > 2.5:
                     stars = 5;
 print(sum)
-ffile.writelines("barbeque_location :" + ((str))(stars) + "\n")
+ffile.writelines("barbeque_location:" + ((str))(stars) + "\n")

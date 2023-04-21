@@ -18,10 +18,7 @@ arr = data.to_numpy()   #convert csv data into array
 
 
 
-
-clean = ["cleanliness","cleaning services"," hygienic"," clean","rooms","Big ","Neat","lobby ","small","floor ","carpeted","size"]
-
-food = ["great ","Breakfast","non spicy","plain dal ","set menu","dry sabzi","buffet","mind-blowing","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",
+food = ["great","Breakfast","non spicy","plain dal ","set menu","dry sabzi","buffet","mind-blowing","taste","lunch","dinner","dinning","delicious","Chef","Food quality","dosas "," dosa",
       "chicken roganjosh","bharwaan alu","flavorful ","optimum spice", "Indian cuisine", "loved ","baked ","exceptional","Talented ","dal makhani","galouti","steals the show","chicken lababdar ","fine dine","kulcha ","lip smacking","portion ","Dum Ki Biryani","savoury ","worth it","pricey ","appetisers ","recommendations","perfection ","requirements","chef" ,"served ","Good ","excellent","spices", "roasted","chicken","oily ","juicy","south Indian","utappam","Non veg","Veg","cook ","live counters"]
 
 
@@ -30,9 +27,11 @@ location = ["location ","place","greenary","airy","surrounding ","disappointed",
         ,"atmosphere ","perfect", "special", "bless", "experience", "bless","recreational","play","trek","climbing ", "fitness ","visit ","decor ","nice ","fond memories ","recommend"]
 
 
-money = ["Prices","costly","little","upmarket","upscale","penny","Overrated ","Expensive","money","overpriced","rates","bit","higher","budget","expensive","worth","price"]
+money = ["Prices","costly","little","worth it","upmarket","upscale","penny","Overrated ","Expensive","money","overpriced","rates","bit","higher","budget","expensive","worth","price"]
+
+
 service = ["great ","gentle ","gesture ","anytime","courteous ","staff","unprofessional","management","cordial","server","friendly","co-operative","ready to help","people",
-        "awesome", "shout out","humble","winner ","accommodating ","trusted ","helpful" ,"Brilliant","prior reservation","cordial ","welcoming","fellow ","hospitable","worth it","hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time","excellent"]
+        "awesome", "shout out","humble","winner ","accommodating ","trusted ","helpful" ,"Brilliant","prior reservation","cordial ","welcoming","fellow ","hospitable","hospitality","services","Satisfactory ","service","lethargic","Bed sheets","Towels","blankets","on time","excellent"]
 
 
 
