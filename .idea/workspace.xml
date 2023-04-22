@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/1star.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/1star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/2star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/3star.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/3star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/4star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/5star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keysreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keysreviews.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +38,14 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MthX2gT0u8if6rBI7jmyMfZSFk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/Help_Tourist_1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
-    </key>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/analyse.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.analyse">
     <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -88,8 +76,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9 (Tourist_help0)" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -286,42 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681559131540</updated>
     </task>
-    <task id="LOCAL-00022" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1682023924710</created>
+    <task id="LOCAL-00022" summary="keysreviews modified">
+      <created>1681888652749</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1682023924710</updated>
+      <updated>1681888652749</updated>
     </task>
-    <task id="LOCAL-00023" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1682024049032</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1682024049032</updated>
-    </task>
-    <task id="LOCAL-00024" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1682104981738</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1682104981738</updated>
-    </task>
-    <task id="LOCAL-00025" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1682105037618</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1682105037618</updated>
-    </task>
-    <task id="LOCAL-00026" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1682105051661</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1682105051661</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,14 +307,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="analysis files added" />
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
     <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <MESSAGE value="keysreviews modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="keysreviews modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,16 +323,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>26</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tr.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>72</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
