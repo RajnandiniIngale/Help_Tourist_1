@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
@@ -88,14 +88,38 @@ font-family:"Times New Roman", Times, serif;
 </style>
 
 
+<script>
+function x()
+{
+     paramString = window.location.href.split('?')[1];
+     queryString = new URLSearchParams(paramString);
+
+for (let pair of queryString.entries())
+{
+   console.log("Key is: " + pair[0]);
+   console.log("Value is: " + pair[1]);
+   var imgu;
+       if(pair[1]=="'keys'")
+       {
+        imgu="http://localhost:8000/static/images/park.jpg"
 
 
-<body>
+        imgu="http://localhost:8000/static/images/park.jpg"
 
+        document.getElementById("myImg").src = imgu;
+        }
+}
+
+}
+</script>
+
+<body onload="x()">
+ <img src="" id="myImg" alt="">
 <form action="index.html" style="border:1px solid #ccc">
   <div class="container">
     <h1>Reviews and Ratings</h1>
-   
+
+
     <hr>
 	 <table width="50%" border="1" align="center">
        <tr>
