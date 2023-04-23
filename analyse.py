@@ -84,12 +84,13 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     #print(scores["compound"])
     sum = sum + scores["compound"]
-    reviewfile.writelines(review.strip()+":"+str(scores['compound']))
+    reviewfile.writelines(review.rstrip()+":"+str(scores['compound']))
 
     # reviewfile.writelines(" Negative Score:" + str(scores['neg']))
     # reviewfile.writelines(" Neutral Score:" + str(scores['neu']))
     # reviewfile.writelines(" Positive Score:" + str(scores['pos']))
     # reviewfile.writelines(" Compound Score:" + str(scores['compound']))
+    reviewfile.writelines("\n")
     # reviewfile.writelines("\n\n")
     stars = 0
 #sum=(100*sum)/x
@@ -128,12 +129,13 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review+":"+str(scores['compound']).lstrip())
+    reviewfile.writelines(review.rstrip()+":"+str(scores['compound']))
     # reviewfile.writelines(" Negative Score:" + str(scores['neg']))
     # reviewfile.writelines(" Neutral Score:" + str(scores['neu']))
     # reviewfile.writelines(" Positive Score:" + str(scores['pos']))
     # reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     # reviewfile.writelines("\n\n")
+    reviewfile.writelines("\n")
     stars = 0
     
 x = len(Lines)
@@ -169,12 +171,13 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review+":"+str(scores['compound']).lstrip())
+    reviewfile.writelines(review.rstrip()+":"+str(scores['compound']))
     # reviewfile.writelines(" Negative Score:" + str(scores['neg']))
     # reviewfile.writelines(" Neutral Score:" + str(scores['neu']))
     # reviewfile.writelines(" Positive Score:" + str(scores['pos']))
     # reviewfile.writelines(" Compound Score:" + str(scores['compound']))
     # reviewfile.writelines("\n\n")
+    reviewfile.writelines("\n")
 
 #print(sum)
 x = len(Lines)
