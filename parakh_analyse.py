@@ -61,7 +61,7 @@ else:
 ffile.writelines("parakh_food :" + ((str))(stars) + "\n")
 
 
-file1 = open('parakh_clean.txt', 'r', encoding="utf-8")
+file1 = open('parakh_money.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
 x = len(Lines)
 print(sum)
@@ -96,7 +96,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("parakh_clean :" + ((str))(stars) + "\n")
+ffile.writelines("parakh_money :" + ((str))(stars) + "\n")
 
 print(sum)
 

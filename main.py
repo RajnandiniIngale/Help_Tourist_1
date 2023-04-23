@@ -68,7 +68,13 @@ def tours1():
     for line in lines:
         review = line.split(":")
         stars[review[0].rstrip()] = int(review[1])
+        file1.close()
+        file1 = open("parakh.txt")
+        lines = file1.readlines()
 
+        for line in lines:
+            review = line.split(":")
+            stars[review[0].rstrip()] = int(review[1])
     print(stars)
     return render_template("tours1.html", ratingsk=stars)
 
@@ -97,6 +103,14 @@ def mumbai():
     for line in lines:
             review = line.split(":")
             stars[review[0].rstrip()] = int(review[1])
+    file1.close()
+    file1 = open("cincin.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0].rstrip()] = int(review[1])
+    print(stars)
     return render_template("mumbai.html",ratingsk=stars)
 
 
