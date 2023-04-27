@@ -229,14 +229,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.parakh_analyse" />
-      <item itemvalue="Python.parakh_preprocess" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.analyse" />
       <item itemvalue="Python.cincin_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
-      <item itemvalue="Python.analyse" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.parakh_analyse" />
+      <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
-      <item itemvalue="Python.Unnamed" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
