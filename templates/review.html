@@ -110,11 +110,60 @@ for (let pair of queryString.entries())
         }
 }
 
+y();
+
+}
+function y()
+{
+// Read the CSV file using XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    // Parse the CSV data
+    var lines = this.responseText.split("\n");
+
+    //var headers = lines[0].split(",");
+    var data = [];
+
+
+    // Display the data in an HTML table
+    var table = document.getElementById("csvTable");
+    var tbody = table.getElementsByTagName("tbody")[0];
+    for (var i = 0; i < data.length; i++) {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+
+      td1.innerHTML = data[i].Review;
+      td2.innerHTML = data[i].Rating;
+
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+
+      tbody.appendChild(tr);
+    }
+  }
+};
+xhr.open("GET", "/static/js/test.csv");
+xhr.send();
+
 }
 </script>
 
 <body onload="x()">
  <img src="" id="myImg" alt="">
+ <table id="csvTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
 <form action="index.html" style="border:1px solid #ccc">
   <div class="container">
     <h1>Reviews and Ratings</h1>
