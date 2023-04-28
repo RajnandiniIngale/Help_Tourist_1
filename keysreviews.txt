@@ -25,8 +25,6 @@ Dinner buffet is good to but the roasted chicken stood out:0.2382
  The buffet lunch provided is very good and price is also reasonable:0.4927
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality:0.9169
  excellent food quality:0.5719
- ] [ 'food was delicious ':0.5719
- ] [ 'food was not delicious ':-0.4585
  pls checkout who is the person and take some step otherwise its a big concern about the property:0.0772
  The cleanliness and maintenance of this place is amazing:0.5859
  cleaning services good:0.4404
@@ -50,6 +48,8 @@ The rooms are nice and clean:0.6705
  small rooms ':0.0
  Rooms are small ':0.0
  However the floor is not carpeted and therefore too cold to walk barefoot:0.0
+ ] [ 'This hotel is very clean:0.4576
+ Provides good foodThis hotel is very clean:0.7089
  ] [ 'the reception staff was so rude i called to book a room and he dont knw how to greet the customers on calland talk with courtesy:-0.0171
  star property and how ur keeping ur staff so dis mannered':0.0
  Room service food tasted amazing but a bit overpriced:0.34
@@ -195,3 +195,4 @@ Garden and fountain nicely decorated:0.4404
  ] [ 'Beautiful Heritage building for comfortable stay at Mahabaleshwar:0.802
  a bit expensive but worth each penny':0.3291
  ] [ 'Nice place:0.4215
+ Provides good foodlocation is good:0.7003
