@@ -78,6 +78,19 @@ def tours1():
     print(stars)
     return render_template("tours1.html", ratingsk=stars)
 
+
+@app.route('/insert_csv')
+def insert_keys_csv():
+    x=request.form
+    name='keys'#request.form['name']
+    rev=request.form['reviews2']
+
+    if name=='keys':
+        file1 = open('keys_hotel.csv', 'w+')
+        file1.writelines(rev)
+    endif
+
+
 @app.route('/mumbai')
 def mumbai():
     stars = {}

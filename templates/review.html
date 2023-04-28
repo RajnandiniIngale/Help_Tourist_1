@@ -129,13 +129,13 @@ xhr.onreadystatechange = function() {
     // Display the data in an HTML table
     var table = document.getElementById("csvTable");
     var tbody = table.getElementsByTagName("tbody")[0];
-    for (var i = 0; i < data.length; i++) {
+    for (var i = 0; i < 10; i++) {
       var tr = document.createElement("tr");
       var td1 = document.createElement("td");
       var td2 = document.createElement("td");
-
-      td1.innerHTML = data[i].Review;
-      td2.innerHTML = data[i].Rating;
+       dat=lines[i].split(",");
+      td1.innerHTML = dat[0];
+      td2.innerHTML = dat[1];
 
       tr.appendChild(td1);
       tr.appendChild(td2);
@@ -144,6 +144,7 @@ xhr.onreadystatechange = function() {
     }
   }
 };
+
 xhr.open("GET", "/static/js/test.csv");
 xhr.send();
 
@@ -151,12 +152,12 @@ xhr.send();
 </script>
 
 <body onload="x()">
- <img src="" id="myImg" alt="">
- <table id="csvTable">
+ <img src="" id="myImg" alt="" align="center">
+ <table id="csvTable" border="1" align="center">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Age</th>
+        <th>Review</th>
+        <th>Ratings</th>
 
       </tr>
     </thead>
@@ -164,51 +165,24 @@ xhr.send();
     </tbody>
   </table>
 
-<form action="index.html" style="border:1px solid #ccc">
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
   <div class="container">
     <h1>Reviews and Ratings</h1>
 
 
     <hr>
 	 <table width="50%" border="1" align="center">
+
        <tr>
-         <td width="235">Type:</td>
-         <td width="535"><input type="text" placeholder="Enter type" name="name2" required></td>
-       </tr>
-       <tr>
-         <td>Name:</td>
-         <td><input type="text" placeholder="Enter name" name="name" required></td>
-       </tr>
-       <tr>
-         <td>Number of people visited :</td>
-         <td><input type="text" placeholder="Enter number of people visited " name="noOfPeople" required></td>
-       </tr>
-       <tr>
-         <td>Number of children: </td>
-         <td><input type="text" placeholder="Enter number of children visited " name="noOfChildren" required></td>
-       </tr>
-       <tr>
-         <td>Time:</td>
-         <td><input type="text" placeholder="Enter time of visit " name="time" required></td>
-         <blockquote>&nbsp;</blockquote>
-       </tr>
-       <tr>
-         <td bordercolor="#F0F0F0">Rating:</td>
-         <td><input type="text" placeholder="Enter ratings " name="ratings" required></td>
-       </tr>
-       <tr>
-         <td>Review : </td>
+         <td>Write a Review </td>
          <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
        </tr>
+
        <tr>
-         <td>How likely are you to recommend a friend :</td>
-         <td><input type="text" placeholder="" name="reviews22" required></td>
-       </tr>
-       <tr>
-         <td>&nbsp;</td>
+           <td>  </td>
          <td><input type="submit" name="Submit" value="Submit"></td>
        </tr>
-     </table> 
+     </table>
   </div>
 </form>
 
