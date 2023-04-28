@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
-      <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keysreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keysreviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess1-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+    <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_39_[Changes]/shelved.patch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682668378316</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="preprocess1 added">
+      <created>1682692089920</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1682692089920</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -543,14 +545,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="preprocess1 added" />
     <MESSAGE value="analysis files added" />
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
     <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="keysreviews modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="keysreviews modified" />
+    <MESSAGE value="preprocess1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="preprocess1 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
