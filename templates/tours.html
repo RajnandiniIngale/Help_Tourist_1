@@ -70,21 +70,20 @@ $(function () {
                 <p class="price">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>
                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
                 <a href="/review?name='keys'" class="btn">Reviews</a> </div>
-                <br/>
+               <br/>
                {% if ratingsk | length >1 %}
 
-               {% set f=ratingsk['stars_food'] %}
+               {% set f=ratingsk['park_food'] %}
 
-               {%set s=ratingsk['stars_service'] %}
-              {%set c=ratingsk['stars_clean'] %}
-              {%set l=ratingsk['stars_location'] %}
-
-                FOOD :
+               {%set s=ratingsk['park_service'] %}
+              {%set c=ratingsk['park_clean'] %}
+              {%set l=ratingsk['park_location'] %}
+                 FOOD:
                {% if f==1 %}:
-                 <img src="static/images/1star.png" width="10" height="10" >
+                 <img src="static/images/1star.png" >
                {% elif
                  (f) == 2 %}
-                <img src="static/images/2star.jpg">
+                <img src="static/images/2star.png">
 
                {% elif
                   f == 3 %}
@@ -92,76 +91,78 @@ $(function () {
 
                {% elif
                    f == 4 %}
-                 <img src="static/images/4star.jpg" width="1000" height="1000">
+                 <img src="static/images/4star.png">
 
                {% elif
                    f == 5 %}
-                <img src="static/images/5star.jpg">
+                <img src="static/images/5star.png">
 
                {% endif %}
-
+                <br/>
+                SERVICE :
                {% if s==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (s) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   s == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    s == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    s == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
-
-
+                <br/>
+                CLEAN:
                  {% if c==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (c) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   c == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    c == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    c == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
-
-
+                <br/>
+                LOCATION :
                  {% if l==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (l) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   l == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    l == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    l == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
               {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega">
@@ -171,23 +172,20 @@ $(function () {
                 <p class="price">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>
                 <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
-
                 <br/>
+               {% if ratingsk | length >1 %}
 
-                {% if ratingsk | length >1 %}
+               {% set f=ratingsk['stars_food'] %}
 
-               {% set f=ratingsk['park_food'] %}
-
-               {%set s=ratingsk['park_service'] %}
-              {%set c=ratingsk['park_clean'] %}
-              {%set l=ratingsk['park_location'] %}
-
-                FOOD :
+               {%set s=ratingsk['stars_service'] %}
+              {%set c=ratingsk['stars_clean'] %}
+              {%set l=ratingsk['stars_location'] %}
+                 FOOD:
                {% if f==1 %}:
-                 <img src="static/images/1star.png" width="10" height="10" >
+                 <img src="static/images/1star.png" >
                {% elif
                  (f) == 2 %}
-                <img src="static/images/2star.jpg">
+                <img src="static/images/2star.png">
 
                {% elif
                   f == 3 %}
@@ -195,78 +193,78 @@ $(function () {
 
                {% elif
                    f == 4 %}
-                 <img src="static/images/4star.jpg" width="10" height="10">
+                 <img src="static/images/4star.png">
 
                {% elif
                    f == 5 %}
-                <img src="static/images/5star.jpg">
+                <img src="static/images/5star.png">
 
                {% endif %}
-
-                SERVICE:
+                <br/>
+                SERVICE :
                {% if s==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (s) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   s == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    s == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    s == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
-
+                <br/>
                 CLEAN:
                  {% if c==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (c) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   c == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    c == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    c == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
-
-                LOCATION:
+                <br/>
+                LOCATION :
                  {% if l==1 %}:
-                <div> <img src="static/images/1star.png"></div>
+                <img src="static/images/1star.png">
                {% elif
                  (l) == 2 %}
-                <div> <img src="static/images/2star.jpg"></div>
+                <img src="static/images/2star.png">
 
                {% elif
                   l == 3 %}
-                <div> <img src="static/images/3star.png"></div>
+                <img src="static/images/3star.png">
 
                {% elif
                    l == 4 %}
-                <div> <img src="static/images/4star.jpg"></div>
+                <img src="static/images/4star.png">
 
                {% elif
                    l == 5 %}
-                <div> <img src="static/images/5star.jpg"></div>
+                <img src="static/images/5star.png">
 
                {% endif %}
               {% endif %}
-
+                <br/>
 
             </div>
           </div>
@@ -279,7 +277,99 @@ $(function () {
                 <p class="price">211 212 Le Meridien Mahabaleshwar Resort & Spa, Mahabaleshwar 412806 India</p>
                 <p class="price">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</p>
                 <a href="/review" class="btn">Reviews</a> </div>
-              {{ratingsf}}
+               <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['chingari_food'] %}
+
+               {%set s=ratingsk['chingari_service'] %}
+              {%set c=ratingsk['chingari_money'] %}
+              {%set l=ratingsk['chingari_location'] %}
+                 FOOD:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN:
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega">
@@ -289,6 +379,99 @@ $(function () {
                 <p class="price">Metgutad Village, Mahabaleshar Panchgani Road, Mahabaleshwar 412806 India</p>
                 <p class="price">Indian, Barbecue, Grill, Fusion</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                 <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['barbeque_food'] %}
+
+               {%set s=ratingsk['barbeque_service'] %}
+              {%set c=ratingsk['barbeque_money'] %}
+              {%set l=ratingsk['barbeque_location'] %}
+                 FOOD:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN:
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="clear"></div>

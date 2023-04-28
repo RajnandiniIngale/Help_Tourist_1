@@ -79,16 +79,20 @@ def tours1():
     return render_template("tours1.html", ratingsk=stars)
 
 
-@app.route('/insert_csv')
+@app.route('/insert_csv',methods=['GET', 'POST'])
 def insert_keys_csv():
     x=request.form
-    name='keys'#request.form['name']
+    print(x)
+    name=request.form['nm']
     rev=request.form['reviews2']
 
     if name=='keys':
-        file1 = open('keys_hotel.csv', 'w+')
-        file1.writelines(rev)
-    endif
+        file1 = open('keys_hotel.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+",0,0,0")
+
+        file1.close()
+    return render_template("review.html")
 
 
 @app.route('/mumbai')

@@ -1,3 +1,6 @@
+import numpy as np
+import ast
+import csv
 
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
@@ -204,3 +207,5 @@ else:
                     stars = 5;
 print(sum)
 ffile.writelines("stars_location:" + ((str))(stars) + "\n")
+
+

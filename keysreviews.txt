@@ -3,7 +3,6 @@
  breakfast buffet was still good compare to dinner buffet:0.4404
  Room service food tasted amazing but a bit overpriced:0.34
  Buffet breakfast is worth it:0.2263
- ] [ 'Everybody from the staff to the cook is very cordial:0.0
  ] [ 'Stay and dinning were super awesome:0.8402
  food quality has decreased now as compared to:0.0
  live counters and courteous staff and chef':0.5106
@@ -11,10 +10,6 @@
  ] [ 'Everybody from the staff to the cook is very cordial:0.0
  ] [ 'Went for my birthday dinner today:0.0
  good buffet:0.4404
- Only thing disappointed this time was the food particularly buffet:-0.4767
- their was variety but not taste:0.0
- breakfast buffet was still good compare to dinner buffet:0.4404
- Room service food tasted amazing but a bit overpriced:0.34
 Break fast buffet is good with amazing dosas served by Shankar which we choose over eyes:0.7717
  That says a lot about the dosa:0.0
 Dinner buffet is good to but the roasted chicken stood out:0.2382
@@ -22,13 +17,11 @@ Dinner buffet is good to but the roasted chicken stood out:0.2382
  Not oily yet juicy:0.0
  Veg and Non veg:0.0
  I liked Chef Shankar south Indian utappam':0.4215
- The buffet lunch provided is very good and price is also reasonable:0.4927
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality:0.9169
  excellent food quality:0.5719
  ] [ 'food was delicious ':0.5719
  ] [ 'food was not delicious ':-0.4585
  pls checkout who is the person and take some step otherwise its a big concern about the property:0.0772
- The cleanliness and maintenance of this place is amazing:0.5859
  cleaning services good:0.4404
  ] [ `` Small rooms:0.0
  U can try out some Boutique properties like Tranquil ( nearby ) or Dreamland ( atleast rooms are big enough ) '':0.4019
@@ -43,8 +36,6 @@ Dinner buffet is good to but the roasted chicken stood out:0.2382
  Well maintained hotel with clean rooms:0.5859
  However all rooms are of same size and price varies based on window facing:0.0
 The rooms are nice and clean:0.6705
- The rooms are very neat and comfortable to stay:0.7818
- Pool is big to use if the weather permits:0.0
  ] [ 'Good lobby:0.4588
  rooms not good:-0.3412
  small rooms ':0.0
@@ -54,7 +45,6 @@ The rooms are nice and clean:0.6705
  star property and how ur keeping ur staff so dis mannered':0.0
  Room service food tasted amazing but a bit overpriced:0.34
  excellent service and nice food options:0.7579
- ] [ 'Everybody from the staff to the cook is very cordial:0.0
  nice ambience and excellent hospitality:0.7579
  Great hospitality:0.6249
  excellent service and hospitality:0.5719
@@ -83,12 +73,6 @@ Amazing hospitality:0.5859
  ambience and hospitality:0.0
  Good staff:0.4404
  washroom and blankets for drivers:0.0
- Room service food tasted amazing but a bit overpriced:0.34
-Kudos to staff:0.5106
- great staff:0.6249
- always on time and ready to help:0.6369
- The staff are very friendly:0.5413
- Room service is excellent:0.5719
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality:0.9169
  The hospitality is worth every penny:0.2263
  ] [ 'Nice property and humble staff ':0.4215
@@ -108,9 +92,6 @@ Evershine Resort is the best place for Families and Friends to visit:0.8074
  Room rates are a bit on the higher side though:0.0
  ] [ 'Good property:0.4404
  Special focus on Kids activities':0.4019
- The cleanliness and maintenance of this place is amazing:0.5859
- And the best part is the proprietor of this hotel:0.6369
- She is a wonderful lady:0.5719
  ] [ 'Nice property:0.4215
  nice ambience and excellent hospitality:0.7579
  Will suggest and like to visit the property again and again:0.3612
@@ -154,10 +135,6 @@ Evershine Resort is the best place for Families and Friends to visit:0.8074
  ] [ 'Great location good food ambience nice decor well maintained ':0.8979
  ambience and hospitality:0.0
  However all rooms are of same size and price varies based on window facing:0.0
- ] [ 'The place is amazing as far as the location goes:0.5859
- They have various activities inside the resort which keeps everyone engaged and entertained:0.6597
- The pool is great and the ambience is amazing:0.836
- Room service food tasted amazing but a bit overpriced:0.34
  They have a lot of activities for kids as well as adults:0.2732
  The kids play area:0.34
  jungle trek:0.0
@@ -167,11 +144,6 @@ Evershine Resort is the best place for Families and Friends to visit:0.8074
  During monsoons a treat to walk in the foggy gardens:0.4019
  Recreation area has a spa:0.0
  fitness center and a swimming pool:0.2732
- ] [ `` Very nice place:0.4754
- not far from the venna lake and market:0.0
- The buffet lunch provided is very good and price is also reasonable:0.4927
- They provided activities indoor games as well to entertain kids:0.5267
- Overall a very good place to stay at Mahabaleshwar:0.4927
  ] [ `` Too costly for it 's value:0.25
  Service and food equivalent to any regular hotel in Mumbai but the property and swimming pool are very good:0.6474
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality:0.9169
