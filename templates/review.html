@@ -90,10 +90,12 @@ font-family:"Times New Roman", Times, serif;
 
 <script>
 var nm1=""
+
 function x()
 {
      paramString = window.location.href.split('?')[1];
      queryString = new URLSearchParams(paramString);
+
 
 
 for (let pair of queryString.entries())
@@ -149,8 +151,12 @@ xhr.onreadystatechange = function() {
   }
 };
 
+if(nm1=='keys')
+{
 xhr.open("GET", "/static/js/test.csv");
 xhr.send();
+}
+
 
 }
 </script>

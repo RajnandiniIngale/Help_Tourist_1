@@ -1,14 +1,24 @@
+ Good Quality food served:0.4404
  Only thing disappointed this time was the food particularly buffet:-0.4767
  their was variety but not taste:0.0
  breakfast buffet was still good compare to dinner buffet:0.4404
  Room service food tasted amazing but a bit overpriced:0.34
  Buffet breakfast is worth it:0.2263
+ excellent service and nice food options:0.7579
  ] [ 'Stay and dinning were super awesome:0.8402
+ food awesome:0.6249
+ nice food ':0.4215
+ ambience as well as food:0.2732
  food quality has decreased now as compared to:0.0
+ Delicious food:0.5719
  live counters and courteous staff and chef':0.5106
  The buffet lunch provided is very good and price is also reasonable:0.4927
+ Good food:0.4404
  ] [ 'Everybody from the staff to the cook is very cordial:0.0
  ] [ 'Went for my birthday dinner today:0.0
+ The food was lovely:0.5859
+ nice food ':0.4215
+ ] [ 'Great location good food ambience nice decor well maintained ':0.8979
  good buffet:0.4404
 Break fast buffet is good with amazing dosas served by Shankar which we choose over eyes:0.7717
  That says a lot about the dosa:0.0
@@ -17,10 +27,19 @@ Dinner buffet is good to but the roasted chicken stood out:0.2382
  Not oily yet juicy:0.0
  Veg and Non veg:0.0
  I liked Chef Shankar south Indian utappam':0.4215
+ Service and food equivalent to any regular hotel in Mumbai but the property and swimming pool are very good:0.6474
+ But food is average ':0.0
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality:0.9169
+Nice food:0.4215
+ Awesome food:0.6249
+ ] [ 'Nice resort but food could be more better:0.7343
  excellent food quality:0.5719
+ Excellent food:0.5719
+ Good food:0.4404
  ] [ 'food was delicious ':0.5719
  ] [ 'food was not delicious ':-0.4585
+ ] [ ' I liked the food ':0.4215
+ ] [ 'The food is best ':0.6369
  pls checkout who is the person and take some step otherwise its a big concern about the property:0.0772
  cleaning services good:0.4404
  ] [ `` Small rooms:0.0
