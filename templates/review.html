@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
@@ -88,54 +88,112 @@ font-family:"Times New Roman", Times, serif;
 </style>
 
 
+<script>
+var nm1=""
+
+function x()
+{
+     paramString = window.location.href.split('?')[1];
+     queryString = new URLSearchParams(paramString);
 
 
-<body>
 
-<form action="index.html" style="border:1px solid #ccc">
+for (let pair of queryString.entries())
+{
+   console.log("Key is: " + pair[0]);
+   console.log("Value is: " + pair[1]);
+   nm1=pair[1];
+   var imgu;
+       if(pair[1]=="'keys'")
+       {
+        imgu="http://localhost:8000/static/images/park.jpg"
+        document.getElementById("nm").value = 'keys';
+
+
+        imgu="http://localhost:8000/static/images/park.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+}
+
+y();
+
+}
+function y()
+{
+// Read the CSV file using XMLHttpRequest
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    // Parse the CSV data
+    var lines = this.responseText.split("\n");
+
+    //var headers = lines[0].split(",");
+    var data = [];
+
+
+    // Display the data in an HTML table
+    var table = document.getElementById("csvTable");
+    var tbody = table.getElementsByTagName("tbody")[0];
+    for (var i = 0; i < 10; i++) {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+       dat=lines[i].split(",");
+      td1.innerHTML = dat[0];
+      td2.innerHTML = dat[1];
+
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+
+      tbody.appendChild(tr);
+    }
+  }
+};
+
+if(nm1=='keys')
+{
+xhr.open("GET", "/static/js/test.csv");
+xhr.send();
+}
+
+
+}
+</script>
+
+<body onload="x()">
+ <img src="" id="myImg" alt="" align="center">
+ <table id="csvTable" border="1" align="center">
+    <thead>
+      <tr>
+        <th>Review</th>
+        <th>Ratings</th>
+
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+<form method="post" style="border:1px solid #ccc" action="/insert_csv?name='keys'">
   <div class="container">
     <h1>Reviews and Ratings</h1>
-   
+
+
     <hr>
 	 <table width="50%" border="1" align="center">
+
        <tr>
-         <td width="235">Type:</td>
-         <td width="535"><input type="text" placeholder="Enter type" name="name2" required></td>
-       </tr>
-       <tr>
-         <td>Name:</td>
-         <td><input type="text" placeholder="Enter name" name="name" required></td>
-       </tr>
-       <tr>
-         <td>Number of people visited :</td>
-         <td><input type="text" placeholder="Enter number of people visited " name="noOfPeople" required></td>
-       </tr>
-       <tr>
-         <td>Number of children: </td>
-         <td><input type="text" placeholder="Enter number of children visited " name="noOfChildren" required></td>
-       </tr>
-       <tr>
-         <td>Time:</td>
-         <td><input type="text" placeholder="Enter time of visit " name="time" required></td>
-         <blockquote>&nbsp;</blockquote>
-       </tr>
-       <tr>
-         <td bordercolor="#F0F0F0">Rating:</td>
-         <td><input type="text" placeholder="Enter ratings " name="ratings" required></td>
-       </tr>
-       <tr>
-         <td>Review : </td>
+         <td>Write a Review </td>
+           <input type="hidden" name="nm" id="nm">
          <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
        </tr>
+
        <tr>
-         <td>How likely are you to recommend a friend :</td>
-         <td><input type="text" placeholder="" name="reviews22" required></td>
-       </tr>
-       <tr>
-         <td>&nbsp;</td>
+           <td>  </td>
          <td><input type="submit" name="Submit" value="Submit"></td>
        </tr>
-     </table> 
+     </table>
   </div>
 </form>
 

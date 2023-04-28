@@ -70,13 +70,101 @@ $(function () {
                 <p class="price">2104/15, E Ward, Old Pune-Bangalore Hwy, Kawala Naka, Shahupuri, Kolhapur, Maharashtra 416005</p>
                 <p class="price"> 1 Day 1 Night<span>₹ 5,600</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
-              FOOD RATING: {{ratingsk["starsfoodsayaji"]}}
                 <br/>
-                LOCATION RATING: {{ratingsk["starslocationsayaji"]}}
-              <br>
-                CLEANLINESS RATING : {{ ratingsk["starscleansayaji"] }}
-              <br>
-              SERVICE RATING : {{ ratingsk["starsservicesayaji"] }}
+
+
+               {% if ratingsk | length  > 1 %}
+
+               {% set f = ratingsk['sayaji_food'] %}
+               {% set s = ratingsk['sayaji_service'] %}
+              {% set c = ratingsk['sayaji_clean'] %}
+              {% set l = ratingsk['sayaji_location'] %}
+                FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" width="10" height="10" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png" width="1000" height="1000">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN :
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
+
             </div>
           </div>
           <div class="grid_4 omega">
@@ -86,13 +174,99 @@ $(function () {
                 <p class="price">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>
                 <p class="price">1 day 1 Night<span>₹ 2,707</span></p>
                 <a href="/review" class="btn">Reviews</a> </div>
-              FOOD RATING: {{ratingsk["starsfoodmaratha"]}}
                 <br/>
-                LOCATION RATING: {{ratingsk["starslocationmaratha"]}}
-              <br>
-                CLEANLINESS RATING : {{ ratingsk["starscleanmaratha"] }}
-              <br>
-              SERVICE RATING : {{ ratingsk["starsservicemaratha"] }}
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['maratha_food'] %}
+
+               {%set s=ratingsk['maratha_service'] %}
+              {%set c=ratingsk['maratha_clean'] %}
+              {%set l=ratingsk['maratha_location'] %}
+                 FOOD:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN:
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="clear"></div>
@@ -104,6 +278,99 @@ $(function () {
                 <p class="price">No.266, E Ward, Patole Wadi, near Gajanan Nagari Patsanstha, Kolhapur, Maharashtra 416005</p>
                 <p class="price">Mutton Thali of Kolhapur with tambda and pandhra rassa</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                 <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['parakh_food'] %}
+
+               {%set s=ratingsk['parakh_service'] %}
+              {%set c=ratingsk['parakh_money'] %}
+              {%set l=ratingsk['parakh_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN :
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega">
@@ -113,6 +380,99 @@ $(function () {
                 <p class="price">Shop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</p>
                 <p class="price">Indian, Chicken Specialities ,Vegetarian Friendly, Vegan Options</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+               {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['tandoor_food'] %}
+
+               {%set s=ratingsk['tandoor_service'] %}
+              {%set c=ratingsk['tandoor_money'] %}
+              {%set l=ratingsk['tandoor_location'] %}
+                 FOOD :
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                MONEY:
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="clear"></div>
@@ -133,21 +493,7 @@ $(function () {
                 <a href="/review" class="btn">Reviews</a> </div>
             </div>
           </div>
-		  <div class="clear"></div>
-		  <div class="grid_4 alpha">
-            <div class="tour"> <img src="static/images/rankala.jpg" width="180" height="150" alt="" class="img_inner fleft">
-              <div class="extra_wrapper">
-                <p class="text1"><strong>Rankala Lake</strong> </p>
-                <p class="price">Rankala Lake is a freshwater lake located in Kolhapur, Maharashtra. The Lake is surrounded by Chaupati and other gardens.</p>
-                <a href="/review" class="btn">Reviews</a> </div>
-            </div>
-          </div>
-          <div class="grid_4 omega">
-            <div class="tour"> <img src="static/images/jyotiba.jpg" width="180" height="150" alt="img" class="img_inner fleft">
-              <div class="extra_wrapper">
-                <p class="text1"><strong>Shree Jyotiba Devasthan</strong></p>
-                <p class="price">Jyotiba Temple is a holy site of Hinduism near Wadi Ratnagiri in Kolhapur district of Maharashtra state in western India.</p>
-                <a href="/review" class="btn">Reviews</a> </div>
+
             </div>
           </div>
         </div>
