@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_39_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bandrafort.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bandrafort_analyse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bandrafort_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayindia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayindia_analyse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayindia_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mahalakshmi_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mahalaxmi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalace.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalace_all.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalace_analyse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalace_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newpalacereviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_23,_1_20_pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_04_23__1_20_pm__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_2023_2_23_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_2023_2_23_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keys_hotel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratha_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/maratha_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_clean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_service.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +77,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/PycharmProjects/Help_Tourist_1&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\Help_Tourist_1" />
       <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2" />
       <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\templates" />
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.displayrev">
+  <component name="RunManager">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +323,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="" />
+      <changelist id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added" />
       <created>1678592822658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -514,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682692089920</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="preprocess1 added">
+      <created>1682692442249</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1682692442249</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">

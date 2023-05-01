@@ -483,6 +483,33 @@ $(function () {
                 <p class="text1"><strong>Shri Mahalaxmi - Ambabai Temple</strong> </p>
                 <p class="price">Ambabai Temple is an important Hindu temple dedicated to Goddess Lakshmi, worshipped by locals as Ambabai.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+                {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['mahalaxmi_all'] %}
+
+                 Overall:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
 		  <div class="grid_4 omega">
@@ -491,13 +518,39 @@ $(function () {
                 <p class="text1"><strong>Chhatrapati Shahu Palace </strong></p>
                 <p class="price">New Palace, Kolhapur is a palace situated in Kolhapur. The Palace took 7 years to complete, from 1877 to 1884.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
-            </div>
-          </div>
+                <br/>
+                {% if ratingsk | length >1 %}
 
+               {% set f=ratingsk['newpalace_all'] %}
+
+                 Overall:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
       <div class="grid_3">
         <h3>Browse Tours</h3>
         <form method="post" id="form1" class="form1" action="#">
