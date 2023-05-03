@@ -106,10 +106,15 @@ for (let pair of queryString.entries())
    var imgu;
        if(pair[1]=='keys')
        {
-        imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("nm").value = 'keys';
 
+        imgu="http://localhost:8000/static/images/unnamed.jpg"
 
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='park')
+       {
+        document.getElementById("nm").value = 'park';
         imgu="http://localhost:8000/static/images/park.jpg"
 
         document.getElementById("myImg").src = imgu;
@@ -162,6 +167,14 @@ xhr.open("GET", "/static/js/test.csv");
 xhr.send();
 }
 
+if(nm1=='park')
+{
+
+xhr.open("GET", "/static/js/parktest.csv");
+
+xhr.send();
+}
+
 
 }
 </script>
@@ -180,7 +193,7 @@ xhr.send();
     </tbody>
   </table>
 
-<form method="post" style="border:1px solid #ccc" action="/insert_csv?name='keys'">
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
   <div class="container">
     <h1>Reviews and Ratings</h1>
 
