@@ -1,0 +1,846 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM__Changes_.xml	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ /dev/null	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]" date="1682003706877" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 4/20/2023 10:14 AM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ /dev/null	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
+@@ -1,51 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"analyse &amp; anayse.py modified\">\r\n      <change afterPath=\"$PROJECT_DIR$/barbeque-analyse.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/barbeque-preprocess.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chingari-preprocess.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chingarianalyse.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/analyse.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/analyse.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MthX2gT0u8if6rBI7jmyMfZSFk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.analyse\">\r\n    <configuration name=\"analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"park_location_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\park_location_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.analyse\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.park_location_analyse\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"\" />\r\n      <created>1678592822658</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678592822658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"preprocess1 added\">\r\n      <created>1678984216586</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678984216586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"analysis files added\">\r\n      <created>1679479597258</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479597259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"analysis files added\">\r\n      <created>1679479772020</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479772021</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"analysis files added\">\r\n      <created>1679739915613</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679739915614</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"analysis files added\">\r\n      <created>1679897781379</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897781379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"analysis files added\">\r\n      <created>1679897804161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897804161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"analysis files added\">\r\n      <created>1679924123170</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679924123170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680017194549</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680017194549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087149073</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087149073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087550338</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087550338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088004314</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088004314</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088102969</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088102969</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088166260</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088166260</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680090266232</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090266232</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"..\">\r\n      <created>1680090428406</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090428406</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"..\">\r\n      <created>1680090693279</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090693279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"..\">\r\n      <created>1680090808633</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090808633</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"..\">\r\n      <created>1680090861811</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090861811</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"analyse &amp; anayse.py modified\">\r\n      <created>1681528691645</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681528691645</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"20\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"preprocess1 added\" />\r\n    <MESSAGE value=\"analysis files added\" />\r\n    <MESSAGE value=\"main.py modified&#10;tours.html modified\" />\r\n    <MESSAGE value=\"..\" />\r\n    <MESSAGE value=\"analyse &amp; anayse.py modified\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"analyse &amp; anayse.py modified\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision e90792a8e01bb68f1aecfac15a80bc317e6f3e5a)
+-+++ b/.idea/workspace.xml	(date 1681556529239)
+-@@ -4,13 +4,8 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="analyse &amp; anayse.py modified">
+--      <change afterPath="$PROJECT_DIR$/barbeque-analyse.py" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/barbeque-preprocess.py" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/chingari-preprocess.py" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/chingarianalyse.py" afterDir="false" />
+-+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -260,7 +255,14 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1681528691645</updated>
+-     </task>
+--    <option name="localTasksCounter" value="20" />
+-+    <task id="LOCAL-00020" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-+      <created>1681547439535</created>
+-+      <option name="number" value="00020" />
+-+      <option name="presentableId" value="LOCAL-00020" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1681547439535</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="21" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -292,6 +294,7 @@
+-     <MESSAGE value="main.py modified&#10;tours.html modified" />
+-     <MESSAGE value=".." />
+-     <MESSAGE value="analyse &amp; anayse.py modified" />
+--    <option name="LAST_COMMIT_MESSAGE" value="analyse &amp; anayse.py modified" />
+-+    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+-   </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ /dev/null	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
+@@ -1,133 +0,0 @@
+-Index: tr.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import nltk\r\nfrom nltk.sentiment import SentimentIntensityAnalyzer\r\n#nltk.download('vader_lexicon')\r\n\r\nimport pandas as pd     #create dataframe read csv file & save file in csv format\r\n\r\n#read csv file\r\n\r\n#data = pd.read_csv('keys_hotel.csv')\r\n\r\n#print(data)\r\n\r\n#import ssl\r\n\r\n#try:\r\n #    _create_unverified_https_context = ssl._create_unverified_context\r\n#except AttributeError:\r\n #    pass\r\n#else:\r\n #    ssl._create_default_https_context = _create_unverified_https_context\r\n\r\n#nltk.download()\r\n\r\n# Initialize the sentiment analyzer\r\nsia = SentimentIntensityAnalyzer()\r\n\r\n# Define a list of reviews to analyze\r\nreviews = [\r\n    \"the reception staff was so rude i called to book a room and he dont knw how to greet the customers on calland talk with courtesy. i called him around 1:30 pls checkout who is the person and take some step otherwise its a big concern about the property . hoteln is a 4 star property and how ur keeping ur staff so dis mannered\",\r\n   \"I had a terrible experience at this hotel. The room was dirty and the staff was rude.\",\r\n    \"I really enjoyed my stay at this resort. The facilities were top-notch and the staff was friendly and helpful.\",\r\n    \"The movie was just okay. It had some good moments but overall it was pretty boring.\",\r\n    \"I love this product! It's exactly what I was looking for and it works perfectly.\",\r\n    \"The food was delicious\",\r\n    \"The food was not delicious\"\r\n    ]\r\n\r\n\r\n\r\n# Analyze the sentiment of each review\r\nfor review in reviews:\r\n scores = sia.polarity_scores(review)\r\n print(review)\r\n print(\"Negative Score:\", scores['neg'])\r\n print(\"Neutral Score:\", scores['neu'])\r\n print(\"Positive Score:\", scores['pos'])\r\n print(\"Compound Score:\", scores['compound'])\r\n print()\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/tr.py b/tr.py
+---- a/tr.py	(revision 775266fa76af3c1987d67c6c07f2618ba12d0785)
+-+++ b/tr.py	(date 1681995580680)
+-@@ -1,25 +1,25 @@
+- import nltk
+- from nltk.sentiment import SentimentIntensityAnalyzer
+--#nltk.download('vader_lexicon')
+-+nltk.download('vader_lexicon')
+- 
+- import pandas as pd     #create dataframe read csv file & save file in csv format
+- 
+- #read csv file
+- 
+--#data = pd.read_csv('keys_hotel.csv')
+-+data = pd.read_csv('keys_hotel.csv')
+- 
+--#print(data)
+-+print(data)
+- 
+--#import ssl
+-+import ssl
+- 
+--#try:
+-- #    _create_unverified_https_context = ssl._create_unverified_context
+--#except AttributeError:
+-- #    pass
+--#else:
+-- #    ssl._create_default_https_context = _create_unverified_https_context
+-+try:
+-+     _create_unverified_https_context = ssl._create_unverified_context
+-+except AttributeError:
+-+     pass
+-+else:
+-+     ssl._create_default_https_context = _create_unverified_https_context
+- 
+--#nltk.download()
+-+nltk.download()
+- 
+- # Initialize the sentiment analyzer
+- sia = SentimentIntensityAnalyzer()
+-Index: .idea/Help_Tourist_1.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n  <component name=\"PyDocumentationSettings\">\r\n    <option name=\"format\" value=\"PLAIN\" />\r\n    <option name=\"myDocStringFormat\" value=\"Plain\" />\r\n  </component>\r\n</module>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/Help_Tourist_1.iml b/.idea/Help_Tourist_1.iml
+---- a/.idea/Help_Tourist_1.iml	(revision 775266fa76af3c1987d67c6c07f2618ba12d0785)
+-+++ b/.idea/Help_Tourist_1.iml	(date 1681995297925)
+-@@ -1,7 +1,7 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <module version="4">
+-   <component name="NewModuleRootManager">
+--    <orderEntry type="inheritedJdk" />
+-+    <orderEntry type="jdk" jdkName="Python 3.9 (Tourist_help0)" jdkType="Python SDK" />
+-     <orderEntry type="sourceFolder" forTests="false" />
+-   </component>
+-   <component name="PyDocumentationSettings">
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.8\" project-jdk-type=\"Python SDK\" />\r\n  <component name=\"PyCharmProfessionalAdvertiser\">\r\n    <option name=\"shown\" value=\"true\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision 775266fa76af3c1987d67c6c07f2618ba12d0785)
+-+++ b/.idea/misc.xml	(date 1681995297970)
+-@@ -1,6 +1,6 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+--  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
+-+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (Tourist_help0)" project-jdk-type="Python SDK" />
+-   <component name="PyCharmProfessionalAdvertiser">
+-     <option name="shown" value="true" />
+-   </component>
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/analyse.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/analyse.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/park_plaza.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/park_plaza.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/tours.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/tours.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MthX2gT0u8if6rBI7jmyMfZSFk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.analyse\">\r\n    <configuration name=\"analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"park_location_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\park_location_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.analyse\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.park_location_analyse\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"\" />\r\n      <created>1678592822658</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678592822658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"preprocess1 added\">\r\n      <created>1678984216586</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678984216586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"analysis files added\">\r\n      <created>1679479597258</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479597259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"analysis files added\">\r\n      <created>1679479772020</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479772021</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"analysis files added\">\r\n      <created>1679739915613</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679739915614</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"analysis files added\">\r\n      <created>1679897781379</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897781379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"analysis files added\">\r\n      <created>1679897804161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897804161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"analysis files added\">\r\n      <created>1679924123170</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679924123170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680017194549</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680017194549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087149073</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087149073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087550338</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087550338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088004314</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088004314</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088102969</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088102969</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088166260</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088166260</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680090266232</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090266232</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"..\">\r\n      <created>1680090428406</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090428406</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"..\">\r\n      <created>1680090693279</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090693279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"..\">\r\n      <created>1680090808633</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090808633</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"..\">\r\n      <created>1680090861811</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090861811</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"analyse &amp; anayse.py modified\">\r\n      <created>1681528691645</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681528691645</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681557227024</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681557227024</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681559131540</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681559131540</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"22\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"preprocess1 added\" />\r\n    <MESSAGE value=\"analysis files added\" />\r\n    <MESSAGE value=\"main.py modified&#10;tours.html modified\" />\r\n    <MESSAGE value=\"..\" />\r\n    <MESSAGE value=\"analyse &amp; anayse.py modified\" />\r\n    <MESSAGE value=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>26</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 775266fa76af3c1987d67c6c07f2618ba12d0785)
+-+++ b/.idea/workspace.xml	(date 1682003689601)
+-@@ -5,11 +5,13 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24-03-2023_21_29__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24-03-2023_21_29__Changes_.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-03-2023_22_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26-03-2023_22_23__Changes_.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-03-2023_17_58__Changes_.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/park_plaza.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza.txt" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/tr.py" beforeDir="false" afterPath="$PROJECT_DIR$/tr.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -43,11 +45,15 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent">
+--    <property name="last_opened_file_path" value="$PROJECT_DIR$/analyse.py" />
+--    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+--  </component>
+--  <component name="RunManager" selected="Python.analyse">
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/Help_Tourist_1&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+-+  }
+-+}</component>
+-+  <component name="RunManager">
+-     <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+-       <module name="Help_Tourist_1" />
+-       <option name="INTERPRETER_OPTIONS" value="" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM__Changes_.xml	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ /dev/null	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]" date="1681557206906" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 4/15/2023 4:41 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/images/1star.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/images/1star.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/images/2star.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/images/3star.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/images/3star.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/images/4star.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/images/5star.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/templates/tours1.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/tours1.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MthX2gT0u8if6rBI7jmyMfZSFk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/Help_Tourist_1&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.analyse\">\r\n    <configuration name=\"analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\USER\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"SDK_NAME\" value=\"Python 3.9 (Tourist_help0)\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"park_location_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\park_location_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.analyse\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.park_location_analyse\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"41a0fb03-7071-4400-b8eb-795ed5e459d2\" name=\"Changes\" comment=\"\" />\r\n      <created>1678592822658</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678592822658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"preprocess1 added\">\r\n      <created>1678984216586</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678984216586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"analysis files added\">\r\n      <created>1679479597258</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479597259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"analysis files added\">\r\n      <created>1679479772020</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479772021</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"analysis files added\">\r\n      <created>1679739915613</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679739915614</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"analysis files added\">\r\n      <created>1679897781379</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897781379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"analysis files added\">\r\n      <created>1679897804161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897804161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"analysis files added\">\r\n      <created>1679924123170</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679924123170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680017194549</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680017194549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087149073</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087149073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087550338</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087550338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088004314</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088004314</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088102969</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088102969</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088166260</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088166260</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680090266232</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090266232</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"..\">\r\n      <created>1680090428406</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090428406</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"..\">\r\n      <created>1680090693279</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090693279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"..\">\r\n      <created>1680090808633</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090808633</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"..\">\r\n      <created>1680090861811</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090861811</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"analyse &amp; anayse.py modified\">\r\n      <created>1681528691645</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681528691645</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681557227024</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681557227024</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681559131540</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681559131540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682023924710</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682023924710</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682024049032</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682024049032</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682104981738</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682104981738</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682105037618</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682105037618</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682105051661</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682105051661</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"27\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"preprocess1 added\" />\r\n    <MESSAGE value=\"analysis files added\" />\r\n    <MESSAGE value=\"main.py modified&#10;tours.html modified\" />\r\n    <MESSAGE value=\"..\" />\r\n    <MESSAGE value=\"analyse &amp; anayse.py modified\" />\r\n    <MESSAGE value=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>26</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/tr.py</url>\r\n          <line>4</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>72</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ b/.idea/workspace.xml	(date 1682661105136)
+@@ -4,14 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
++    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_15_2023_4_41_PM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_20_2023_10_14_AM__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_2023_2_23_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_21_2023_2_23_PM__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/images/1star.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/1star.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/images/2star.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/images/3star.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/3star.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/images/4star.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/images/5star.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -47,19 +48,12 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/Help_Tourist_1&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+-  }
+-}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.analyse">
++  <component name="RunManager" selected="Python.main">
+     <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="Help_Tourist_1" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -88,10 +82,9 @@
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
+-      <option name="SDK_NAME" value="Python 3.9 (Tourist_help0)" />
++      <option name="SDK_HOME" value="" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+@@ -300,28 +293,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1682024049032</updated>
+     </task>
+-    <task id="LOCAL-00024" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-      <created>1682104981738</created>
+-      <option name="number" value="00024" />
+-      <option name="presentableId" value="LOCAL-00024" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682104981738</updated>
+-    </task>
+-    <task id="LOCAL-00025" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-      <created>1682105037618</created>
+-      <option name="number" value="00025" />
+-      <option name="presentableId" value="LOCAL-00025" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682105037618</updated>
+-    </task>
+-    <task id="LOCAL-00026" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+-      <created>1682105051661</created>
+-      <option name="number" value="00026" />
+-      <option name="presentableId" value="LOCAL-00026" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1682105051661</updated>
+-    </task>
+-    <option name="localTasksCounter" value="27" />
++    <option name="localTasksCounter" value="24" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -372,7 +344,7 @@
+         </line-breakpoint>
+         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+           <url>file://$PROJECT_DIR$/main.py</url>
+-          <line>72</line>
++          <line>87</line>
+           <option name="timeStamp" value="3" />
+         </line-breakpoint>
+       </breakpoints>
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import nltk\r\nfrom nltk.sentiment import SentimentIntensityAnalyzer\r\n# nltk.download('vader_lexicon')\r\n\r\n\r\nimport ssl\r\n\r\nimport mimetypes\r\nfrom flask import Flask, render_template, request\r\napp = Flask(__name__)\r\n\r\nmimetypes.add_type(\"text/css\", \".css\", True)\r\n\r\n\r\n@app.route('/')\r\ndef index():\r\n    return render_template(\"index.html\")\r\n\r\n\r\n@app.route('/tours')\r\ndef tours():\r\n    stars={}#dictionary\r\n\r\n    file1=open(\"keys.txt\")\r\n    lines=file1.readlines()\r\n\r\n    for line in lines:\r\n        review=line.split(\":\")\r\n        stars[review[0]]=int(review[1])\r\n    file1.close()\r\n    file1 = open(\"park_plaza.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n\r\n    return render_template(\"tours.html\",ratingsk=stars)\r\n\r\n\r\n@app.route('/review')\r\ndef review():\r\n    return render_template(\"review.html\")\r\n\r\n\r\n@app.route('/tours1')\r\ndef tours1():\r\n    stars = {}\r\n\r\n    file1 = open(\"sayaji.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"maratha.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"tandoor.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n\r\n    print(stars)\r\n    return render_template(\"tours1.html\", ratingsk=stars)\r\n\r\n@app.route('/mumbai')\r\ndef mumbai():\r\n    stars = {}\r\n\r\n    file1 = open(\"silverinn.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"jwhotel.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"arbab.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n            review = line.split(\":\")\r\n            stars[review[0].rstrip()] = int(review[1])\r\n    return render_template(\"mumbai.html\",ratingsk=stars)\r\n\r\n\r\nif __name__ == '__main__':\r\n    app.run(host=\"localhost\",port=\"8000\",debug=\"true\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ b/main.py	(date 1682147319592)
+@@ -28,13 +28,31 @@
+         review=line.split(":")
+         stars[review[0]]=int(review[1])
+     file1.close()
++
++
+     file1 = open("park_plaza.txt")
+     lines = file1.readlines()
+ 
+     for line in lines:
+         review = line.split(":")
+         stars[review[0]] = int(review[1])
++    file1.close()
++
++    file1 = open("barbeque.txt")
++    lines = file1.readlines()
+ 
++    for line in lines:
++        review = line.split(":")
++        stars[review[0]] = int(review[1])
++    file1.close()
++
++    file1 = open("chingari.txt")
++    lines = file1.readlines()
++
++    for line in lines:
++        review = line.split(":")
++        stars[review[0]] = int(review[1])
++    file1.close()
+ 
+     return render_template("tours.html",ratingsk=stars)
+ 
+Index: templates/tours.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<title>Journey | Tours</title>\r\n<meta charset=\"utf-8\">\r\n<link rel=\"icon\" href=\"static/images/favicon.ico\">\r\n<link rel=\"shortcut icon\" href=\"static/images/favicon.ico\">\r\n<link rel=\"stylesheet\" href=\"static/css/style.css\">\r\n<script src=\"static/js/jquery.js\"></script>\r\n<script src=\"static/js/jquery-migrate-1.1.1.js\"></script>\r\n<script src=\"static/js/superfish.js\"></script>\r\n<script src=\"static/js/jquery.jqtransform.js\"></script>\r\n<script src=\"static/js/jquery.equalheights.js\"></script>\r\n<script src=\"static/js/jquery.easing.1.3.js\"></script>\r\n<script src=\"static/js/jquery.ui.totop.js\"></script>\r\n<script>\r\n$(window).load(function () {\r\n    $().UItoTop({\r\n        easingType: 'easeOutQuart'\r\n    });\r\n});\r\n$(function () {\r\n    $(\".form1\").jqTransform();\r\n});\r\n</script>\r\n<!--[if lt IE 9]>\r\n<script src=\"js/html5shiv.js\"></script>\r\n<link rel=\"stylesheet\" media=\"screen\" href=\"static/css/ie.css\">\r\n<![endif]-->\r\n</head>\r\n<body>\r\n<header>\r\n  <div class=\"container_12\">\r\n    <div class=\"grid_12\">\r\n      <h1><a href=\"index.html\"><img src=\"static/images/logo.png\" alt=\"\"></a></h1>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n    <div class=\"menu_block\">\r\n      <nav>\r\n        <ul class=\"sf-menu\">\r\n          <li><a href=\"/index\">Home</a></li>\r\n          <li><a href=\"/about\">About</a>\r\n            <ul>\r\n              <li><a href=\"#\">Agency</a></li>\r\n              <li><a href=\"#\">News</a></li>\r\n              <li><a href=\"#\">Team</a></li>\r\n            </ul>\r\n          </li>\r\n          <li><a href=\"gallery.html\">Gallery</a></li>\r\n          <li class=\"current\"><a href=\"tours.html\">Tours</a></li>\r\n          <li><a href=\"blog.html\">Blog</a></li>\r\n          <li><a href=\"contacts.html\">Contacts</a></li>\r\n        </ul>\r\n      </nav>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n  </div>\r\n</header>\r\n<div class=\"main\">\r\n  <div class=\"content\">\r\n    <div class=\"container_12\">\r\n      <div class=\"grid_9\">\r\n        <h3>Hotels</h3>\r\n        <div class=\"tours\">\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/unnamed.jpg\" alt=\"\" width=\"180\" height=\"150\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>The KEYS Hotel</strong></p>\r\n                <p class=\"price\">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>\r\n                <p class=\"price\"> 2 days 1 Night<span>₹ 4,999</span></p>\r\n                <a href=\"/review?name='keys'\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n               {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['stars_food'] %}\r\n\r\n               {%set s=ratingsk['stars_service'] %}\r\n              {%set c=ratingsk['stars_clean'] %}\r\n              {%set l=ratingsk['stars_location'] %}\r\n\r\n                FOOD :\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\" width=\"10\" height=\"10\" >\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.jpg\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.jpg\" width=\"1000\" height=\"1000\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.jpg\">\r\n\r\n               {% endif %}\r\n\r\n               {% if s==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n\r\n\r\n                 {% if c==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n\r\n\r\n                 {% if l==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n            </div>\r\n          </div>\r\n          <div class=\"grid_4 omega\">\r\n            <div class=\"tour\"> <img src=\"static/images/park.jpg\" alt=\"\" width=\"180\" height=\"150\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Hotel Park Plaza </strong></p>\r\n                <p class=\"price\">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>\r\n                <p class=\"price\">2 days 1 Night<span>₹ 3,893</span></p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n\r\n                <br/>\r\n\r\n                {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['park_food'] %}\r\n\r\n               {%set s=ratingsk['park_service'] %}\r\n              {%set c=ratingsk['park_clean'] %}\r\n              {%set l=ratingsk['park_location'] %}\r\n\r\n                FOOD :\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\" width=\"10\" height=\"10\" >\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.jpg\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.jpg\" width=\"10\" height=\"10\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.jpg\">\r\n\r\n               {% endif %}\r\n\r\n                SERVICE:\r\n               {% if s==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n\r\n                CLEAN:\r\n                 {% if c==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n\r\n                LOCATION:\r\n                 {% if l==1 %}:\r\n                <div> <img src=\"static/images/1star.png\"></div>\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <div> <img src=\"static/images/2star.jpg\"></div>\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <div> <img src=\"static/images/3star.png\"></div>\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <div> <img src=\"static/images/4star.jpg\"></div>\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <div> <img src=\"static/images/5star.jpg\"></div>\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n\r\n\r\n            </div>\r\n          </div>\r\n          <div class=\"clear\"></div>\r\n\t\t  <h3>Restaurants</h3>\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/chingari-restaurant.jpg\" width=\"180\" height=\"150\" alt=\"\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Chingari</strong></p>\r\n                <p class=\"price\">211 212 Le Meridien Mahabaleshwar Resort & Spa, Mahabaleshwar 412806 India</p>\r\n                <p class=\"price\">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n              {{ratingsf}}\r\n            </div>\r\n          </div>\r\n          <div class=\"grid_4 omega\">\r\n            <div class=\"tour\"> <img src=\"static/images/image.jpg\" width=\"180\" height=\"150\" alt=\"img\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Barbeque Bay </strong></p>\r\n                <p class=\"price\">Metgutad Village, Mahabaleshar Panchgani Road, Mahabaleshwar 412806 India</p>\r\n                <p class=\"price\">Indian, Barbecue, Grill, Fusion</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"clear\"></div>\r\n\t\t  <h3>Places to Visit</h3>\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/wilson1.jpg\" width=\"180\" height=\"150\" alt=\"\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Wilson Point</strong> </p>\r\n                <p class=\"price\">Situated at an altitude of 1439 m, Wilson Point is also known as Sunrise Point and one can experience the beautiful sunrise from this point.</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"grid_4 omega \">\r\n            <div class=\"tour\"> <img src=\"static/images/venna1.jpg\" width=\"180\" height=\"150\" alt=\"img\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Venna Lake </strong></p>\r\n                <p class=\"price\">Venna lake is a man made lake and not a natural lake. It is surrounded by trees. Tourists can enjoy a boat ride over the lake or a horse ride next to the lake. </p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"grid_3\">\r\n        <h3>Browse Tours</h3>\r\n        <form method=\"post\" id=\"form1\" class=\"form1\" action=\"#\">\r\n          <label class=\"mb0\"> <span>Browse by Tour Operator</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Browse by Tour Operator</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <div class=\"clear\"></div>\r\n          <a onClick=\"document.getElementById('form1').submit()\" href=\"#\" class=\"btn\"> Search</a>\r\n        </form>\r\n        <h3>Search Tours</h3>\r\n        <form method=\"post\" id=\"form2\" class=\"form1\" action=\"#\">\r\n          <label > <span><span class=\"col1\">All Tour Operators</span><br>\r\n            Destination</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any destination</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label > <span>Departing</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any departing</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label> <span>Price</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any price</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label class=\"mb0\"> <span>Duration</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any duration</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <div class=\"clear\"></div>\r\n          <a onClick=\"document.getElementById('form2').submit()\" href=\"#\" class=\"btn\"> Search</a>\r\n        </form>\r\n      </div>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"bottom_block\">\r\n    <div class=\"container_12\">\r\n      <div class=\"grid_2 prefix_2\">\r\n        <ul>\r\n          <li><a href=\"#\">FAQS Page</a></li>\r\n          <li><a href=\"#\">People Say</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <ul>\r\n          <li><a href=\"#\">Useful links</a></li>\r\n          <li><a href=\"#\">Partners</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <ul>\r\n          <li><a href=\"#\">Insurance</a></li>\r\n          <li><a href=\"#\">Family Travel</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <h4>Contact Us:</h4>\r\n        TEL: 1-800-234-5678<br>\r\n        <a href=\"#\">info@demolink.org</a> </div>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<footer>\r\n  <div class=\"container_12\">\r\n    <div class=\"grid_12\">\r\n      <div class=\"socials\"> <a href=\"#\"></a> <a href=\"#\"></a> <a href=\"#\"></a> <a href=\"#\"></a> </div>\r\n      <div class=\"copy\"> Journey &copy; 2045 | <a href=\"#\">Privacy Policy</a> | Design by: <a href=\"http://www.templatemonster.com/\">TemplateMonster.com</a> </div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n  </div>\r\n</footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/tours.html b/templates/tours.html
+--- a/templates/tours.html	(revision 38d96edd9eb23a32ad483ca8b9fd9781acdd02a4)
++++ b/templates/tours.html	(date 1682147761648)
+@@ -70,21 +70,20 @@
+                 <p class="price">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>
+                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
+                 <a href="/review?name='keys'" class="btn">Reviews</a> </div>
+-                <br/>
++               <br/>
+                {% if ratingsk | length >1 %}
+ 
+-               {% set f=ratingsk['stars_food'] %}
++               {% set f=ratingsk['park_food'] %}
+ 
+-               {%set s=ratingsk['stars_service'] %}
+-              {%set c=ratingsk['stars_clean'] %}
+-              {%set l=ratingsk['stars_location'] %}
+-
+-                FOOD :
++               {%set s=ratingsk['park_service'] %}
++              {%set c=ratingsk['park_clean'] %}
++              {%set l=ratingsk['park_location'] %}
++                 FOOD:
+                {% if f==1 %}:
+-                 <img src="static/images/1star.png" width="10" height="10" >
++                 <img src="static/images/1star.png" >
+                {% elif
+                  (f) == 2 %}
+-                <img src="static/images/2star.jpg">
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   f == 3 %}
+@@ -92,76 +91,78 @@
+ 
+                {% elif
+                    f == 4 %}
+-                 <img src="static/images/4star.jpg" width="1000" height="1000">
++                 <img src="static/images/4star.png">
+ 
+                {% elif
+                    f == 5 %}
+-                <img src="static/images/5star.jpg">
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
++                <br/>
++                SERVICE :
+                {% if s==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (s) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   s == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    s == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    s == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
+-
++                <br/>
++                CLEAN:
+                  {% if c==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (c) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   c == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    c == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    c == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
+-
++                <br/>
++                LOCATION :
+                  {% if l==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (l) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   l == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    l == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    l == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+               {% endif %}
++                <br/>
+             </div>
+           </div>
+           <div class="grid_4 omega">
+@@ -171,23 +172,20 @@
+                 <p class="price">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>
+                 <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
+                 <a href="/review" class="btn">Reviews</a> </div>
+-
+                 <br/>
+-
+-                {% if ratingsk | length >1 %}
++               {% if ratingsk | length >1 %}
+ 
+-               {% set f=ratingsk['park_food'] %}
++               {% set f=ratingsk['stars_food'] %}
+ 
+-               {%set s=ratingsk['park_service'] %}
+-              {%set c=ratingsk['park_clean'] %}
+-              {%set l=ratingsk['park_location'] %}
+-
+-                FOOD :
++               {%set s=ratingsk['stars_service'] %}
++              {%set c=ratingsk['stars_clean'] %}
++              {%set l=ratingsk['stars_location'] %}
++                 FOOD:
+                {% if f==1 %}:
+-                 <img src="static/images/1star.png" width="10" height="10" >
++                 <img src="static/images/1star.png" >
+                {% elif
+                  (f) == 2 %}
+-                <img src="static/images/2star.jpg">
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   f == 3 %}
+@@ -195,78 +193,78 @@
+ 
+                {% elif
+                    f == 4 %}
+-                 <img src="static/images/4star.jpg" width="10" height="10">
++                 <img src="static/images/4star.png">
+ 
+                {% elif
+                    f == 5 %}
+-                <img src="static/images/5star.jpg">
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
+-                SERVICE:
++                <br/>
++                SERVICE :
+                {% if s==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (s) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   s == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    s == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    s == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
++                <br/>
+                 CLEAN:
+                  {% if c==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (c) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   c == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    c == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    c == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+-
+-                LOCATION:
++                <br/>
++                LOCATION :
+                  {% if l==1 %}:
+-                <div> <img src="static/images/1star.png"></div>
++                <img src="static/images/1star.png">
+                {% elif
+                  (l) == 2 %}
+-                <div> <img src="static/images/2star.jpg"></div>
++                <img src="static/images/2star.png">
+ 
+                {% elif
+                   l == 3 %}
+-                <div> <img src="static/images/3star.png"></div>
++                <img src="static/images/3star.png">
+ 
+                {% elif
+                    l == 4 %}
+-                <div> <img src="static/images/4star.jpg"></div>
++                <img src="static/images/4star.png">
+ 
+                {% elif
+                    l == 5 %}
+-                <div> <img src="static/images/5star.jpg"></div>
++                <img src="static/images/5star.png">
+ 
+                {% endif %}
+               {% endif %}
+-
++                <br/>
+ 
+             </div>
+           </div>
+@@ -279,7 +277,99 @@
+                 <p class="price">211 212 Le Meridien Mahabaleshwar Resort & Spa, Mahabaleshwar 412806 India</p>
+                 <p class="price">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</p>
+                 <a href="/review" class="btn">Reviews</a> </div>
+-              {{ratingsf}}
++               <br/>
++               {% if ratingsk | length >1 %}
++
++               {% set f=ratingsk['chingari_food'] %}
++
++               {%set s=ratingsk['chingari_service'] %}
++              {%set c=ratingsk['chingari_money'] %}
++              {%set l=ratingsk['chingari_location'] %}
++                 FOOD:
++               {% if f==1 %}:
++                 <img src="static/images/1star.png" >
++               {% elif
++                 (f) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  f == 3 %}
++                 <img src="static/images/3star.png">
++
++               {% elif
++                   f == 4 %}
++                 <img src="static/images/4star.png">
++
++               {% elif
++                   f == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                SERVICE :
++               {% if s==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (s) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  s == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   s == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   s == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                CLEAN:
++                 {% if c==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (c) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  c == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   c == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   c == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                LOCATION :
++                 {% if l==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (l) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  l == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   l == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   l == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++              {% endif %}
++                <br/>
+             </div>
+           </div>
+           <div class="grid_4 omega">
+@@ -289,6 +379,99 @@
+                 <p class="price">Metgutad Village, Mahabaleshar Panchgani Road, Mahabaleshwar 412806 India</p>
+                 <p class="price">Indian, Barbecue, Grill, Fusion</p>
+                 <a href="/review" class="btn">Reviews</a> </div>
++                 <br/>
++               {% if ratingsk | length >1 %}
++
++               {% set f=ratingsk['barbeque_food'] %}
++
++               {%set s=ratingsk['barbeque_service'] %}
++              {%set c=ratingsk['barbeque_money'] %}
++              {%set l=ratingsk['barbeque_location'] %}
++                 FOOD:
++               {% if f==1 %}:
++                 <img src="static/images/1star.png" >
++               {% elif
++                 (f) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  f == 3 %}
++                 <img src="static/images/3star.png">
++
++               {% elif
++                   f == 4 %}
++                 <img src="static/images/4star.png">
++
++               {% elif
++                   f == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                SERVICE :
++               {% if s==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (s) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  s == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   s == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   s == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                CLEAN:
++                 {% if c==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (c) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  c == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   c == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   c == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++                <br/>
++                LOCATION :
++                 {% if l==1 %}:
++                <img src="static/images/1star.png">
++               {% elif
++                 (l) == 2 %}
++                <img src="static/images/2star.png">
++
++               {% elif
++                  l == 3 %}
++                <img src="static/images/3star.png">
++
++               {% elif
++                   l == 4 %}
++                <img src="static/images/4star.png">
++
++               {% elif
++                   l == 5 %}
++                <img src="static/images/5star.png">
++
++               {% endif %}
++              {% endif %}
++                <br/>
+             </div>
+           </div>
+           <div class="clear"></div>

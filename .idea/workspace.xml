@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
-      <change afterPath="$PROJECT_DIR$/analyse-venna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analyse-wilson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overall.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/overall_venna.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocess-venna.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wilson.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wilsonreviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/wilson-preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/wilson-preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venna.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vennareviews.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -531,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683097450322</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="keysreviews modified">
+      <created>1683106256803</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683106256803</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
