@@ -35,6 +35,22 @@ def tours():
         review = line.split(":")
         stars[review[0]] = int(review[1])
 
+    file1.close()
+    file1 = open("chingari.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+
+    file1.close()
+    file1 = open("barbeque.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+
 
     return render_template("tours.html",ratingsk=stars)
 
