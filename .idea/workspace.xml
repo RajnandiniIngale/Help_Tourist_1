@@ -9,12 +9,9 @@
       <change beforePath="$PROJECT_DIR$/clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clean.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keys_hotel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keysreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keysreviews.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/location.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/service.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681559131540</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1682666043800</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682666043800</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,11 +395,6 @@
           <url>file://$PROJECT_DIR$/analyse.py</url>
           <line>28</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocess1-2.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
