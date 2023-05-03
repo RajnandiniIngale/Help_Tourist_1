@@ -104,7 +104,7 @@ for (let pair of queryString.entries())
    console.log("Value is: " + pair[1]);
    nm1=pair[1];
    var imgu;
-       if(pair[1]=="'keys'")
+       if(pair[1]=='keys')
        {
         imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("nm").value = 'keys';
@@ -122,10 +122,13 @@ y();
 function y()
 {
 // Read the CSV file using XMLHttpRequest
+
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     // Parse the CSV data
+
+
     var lines = this.responseText.split("\n");
 
     //var headers = lines[0].split(",");
@@ -155,6 +158,7 @@ if(nm1=='keys')
 {
 
 xhr.open("GET", "/static/js/test.csv");
+
 xhr.send();
 }
 
