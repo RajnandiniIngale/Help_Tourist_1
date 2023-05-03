@@ -137,7 +137,7 @@ def insert_keys_csv():
     name=request.form['nm']
     rev=request.form['reviews2']
 
-    if name=='keys':
+    if name=='keys':            #write new review added by user
         file1 = open('keys_hotel.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+",0,0,0")
