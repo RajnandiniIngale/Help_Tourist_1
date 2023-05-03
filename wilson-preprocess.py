@@ -12,7 +12,7 @@ import numpy as np
 
 #read csv file
 
-data = pd.read_csv('keys_hotel.csv')
+data = pd.read_csv('wilson.csv')
 
 arr = data.to_numpy()   #convert csv data into array
 

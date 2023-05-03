@@ -482,6 +482,35 @@ $(function () {
                 <p class="text1"><strong>Wilson Point</strong> </p>
                 <p class="price">Situated at an altitude of 1439 m, Wilson Point is also known as Sunrise Point and one can experience the beautiful sunrise from this point.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br>
+                 {% if ratingsk | length >1 %}
+
+               {% set o=ratingsk['wilson_overall'] %}
+
+                 WORTH VISITING:
+               {% if o==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 o == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  o == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   o == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   o == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega ">
@@ -490,6 +519,35 @@ $(function () {
                 <p class="text1"><strong>Venna Lake </strong></p>
                 <p class="price">Venna lake is a man made lake and not a natural lake. It is surrounded by trees. Tourists can enjoy a boat ride over the lake or a horse ride next to the lake. </p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                 <br>
+                 {% if ratingsk | length >1 %}
+
+               {% set o=ratingsk['wilson_overall'] %}
+
+                 WORTH VISITING:
+               {% if o==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 o == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  o == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   o == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   o == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+
+              {% endif %}
+                <br/>
             </div>
           </div>
         </div>
