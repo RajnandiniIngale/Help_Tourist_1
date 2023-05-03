@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
-      <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keysreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keysreviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess1-2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/wilson-preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venna.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wilson.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_17__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_27__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_39__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28-04-2023_19_39__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
