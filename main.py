@@ -91,6 +91,20 @@ def tours1():
         for line in lines:
             review = line.split(":")
             stars[review[0].rstrip()] = int(review[1])
+        file1.close()
+        file1 = open("mahalaxmi.txt")
+        lines = file1.readlines()
+
+        for line in lines:
+            review = line.split(":")
+            stars[review[0].rstrip()] = int(review[1])
+        file1.close()
+        file1 = open("newpalace.txt")
+        lines = file1.readlines()
+
+        for line in lines:
+            review = line.split(":")
+            stars[review[0].rstrip()] = int(review[1])
     print(stars)
     return render_template("tours1.html", ratingsk=stars)
 
@@ -138,6 +152,20 @@ def mumbai():
             stars[review[0].rstrip()] = int(review[1])
     file1.close()
     file1 = open("cincin.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0].rstrip()] = int(review[1])
+    file1.close()
+    file1 = open("gatewayindia.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0].rstrip()] = int(review[1])
+    file1.close()
+    file1 = open("bandrafort.txt")
     lines = file1.readlines()
 
     for line in lines:

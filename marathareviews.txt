@@ -1,1 +1,354 @@
- There seperate place food buffet lunch/dinner served:0.0 ' ] [ 'Limited items best quality food served breakfast:0.5106 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 rooms decent great:0.6249 breakfast tasty n loads varieties eat:0.0 enjoyed delicious traditional maharashtrian food - pitla- bhakri & bharlerli vangi:0.7906 Not forget delectable Tambda rassa Pandhra rassa non vegetarians:-0.357 chicken mutton dishes:0.0 ' ] [ 'Went dinner restaurant:0.0 parking everything excellent ' ] [ 'Rooms resonable size see cracks wall:0.5719 # hygienic room:0.0\r\nRooms spacious neat clean:0.6908 Bathrooms clean:0.4019 Basic rooms:0.0 It great place small events food particularly good:0.807 The washrooms best clean sufficient parking space also available:0.7845 clean place ' ] [ 'Rooms clean expectations based charge:0.6597 clean quiet:0.4019 Room clean along fast service:0.4019 cleanliness\r\nBathroom everything good:0.4404 Basic rooms:0.0 The rooms nice big:0.4215 clean rooms- may look bit old though:0.4019 Should pay attention keep rooms bed/linen moisture-free:-0.1027 ' ] [ 'Decent hotel well maintained rooms good food service:0.6124 Rooms also good vibe neat:0.7096 The rooms clean:0.4019\r\nCons : No Kettle provided non-AC rooms:-0.296 ' ] [ `` No cleanliness room:-0.296 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 rooms decent great:0.6249 lovely n clean rooms:0.7579 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555 The rooms beautiful large french windows enjoy view outside:0.7964 enjoyed good time family singing Antakshari playing damcharades rooms really needed relax short stay Hotel Maratha Regency:0.8801 ' ] [ 'Worst rooms:-0.6249 Curtains even proper size:0.0 Star hotel providing even Hot water cattle Tea pouch rooms:0.0\r\nNever try stay ' ] [ 'Neat clean rooms:0.6908 My dad lost pajama room cleaned:-0.3182 neat n clean rooms:0.6908 ' ] [ 'Rooms clean:0.4019 ' ] [ 'Rooms clean:0.4019 stars wierd smell lobby restaurant:0.0258 staff:0.0 The staff also appear trained politeness guest queries:0.0 people seated:0.0 ' ] [ 'Staff polite room tarriff quite reasonable:0.0 Thanks maratha regency wonderful service food:0.765 friendly staff:0.4939 room service little slow:0.0 child friendly:0.4939 Room clean along fast service:0.4019 service:0.0 cooperative staff:0.0 ' ] [ 'Decent hotel well maintained rooms good food service:0.6124 Pathetic service house keeping:-0.5719 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 Nice food polite staff hotel:0.4215 Food also awesome important staff well behaved service fast:0.7906 ' ] [ 'Good food The staff also good:0.7003 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555\r\nThe travel desk staff helped us book travel destination:0.0\r\nI thank staff helped us making Kolhapur trip enjoyable:0.6597 hotel staff agreed instantly helped us keep sweet surprise:0.7351 The staff humble polite:0.0 I impressed service quality:0.4767 There much effort part hotel management locate:0.0 Staff friendly:0.4939 bit expensive according service given:0.0 bit expensive according service given:0.0 The service excellent:0.5719 ambience:0.0 parking everything excellent ' ] [ 'Rooms resonable size see cracks wall:0.5719 ' ] [ ' # budget hotel:0.0\r\nRooms spacious neat clean:0.6908\r\nOverall good place:0.4404 ' ] [ 'Nice place stay city:0.4215 It great place small events food particularly good:0.807 There seperate place food buffet lunch/dinner served:0.0 The washrooms best clean sufficient parking space also available:0.7845 Thanks maratha regency wonderful service food:0.765 hotel near Mahalakshmi Devasthanam main market:0.0 room service little slow:0.0 clean place ' ] [ 'Rooms clean expectations based charge:0.6597 Food freaking expensive:-0.4215 \r\nFood quality nice:0.4215 Ambience nice:0.4215 reasonable rates\r\nOverall good experience:0.4404\r\nValue money 😊👍 ' ] [ 'Good Hotel:0.4404 The rooms nice big:0.4215 ' ] [ 'Good location:0.4404\r\nGood property:0.0 clean rooms- may look bit old though:0.4019 The ambience really good:0.4927 Ample parking space:0.0 complimentary per day pushes us place order Restaurant need water instant tea/coffee:0.4404 please n't waste hard earned money kind hotels:0.8089 '' ] [ 'Good budget hotel value money:0.6486 nice place stay Kolhapur:0.4215 This place much accessible important parts city:0.2023 ' ] [ 'Hotel location nearer Railway station:0.0 affordable price:0.0 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555 The rooms beautiful large french windows enjoy view outside:0.7964 divine eye catching Shree Mahalakshmi Ambabai Devi Mandir beautiful places:0.8176\r\nIt good addicted mobile phones wifi connectivity strong enough:0.7351 enjoyed good time family singing Antakshari playing damcharades rooms really needed relax short stay Hotel Maratha Regency:0.8801 thank giving us wonderful experience stay:0.8225 Nice ambience:0.4215 value money hotel:0.34 bit expensive according service given:0.0 bit expensive according service given:0.0 stars wierd smell lobby restaurant:0.0258 The mattresses bit harder side:0.0
+ [ [ 'food is delicious 
+ Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
+
+ ' ] [ 'food is not delicious 
+ Negative Score : 0.5 Neutral Score : 0.5 Positive Score :0.0 Compound Score : -0.4585
+
+ There is a seperate place for food where buffet lunch/dinner can be served 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Limited items but best quality food was served for breakfast 
+ Negative Score : 0.095 Neutral Score : 0.525 Positive Score :0.38 Compound Score : 0.7469
+
+ Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+ Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+
+ rooms are decent not so great 
+ Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296
+
+ breakfast was tasty n loads of varieties to eat 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ we enjoyed delicious traditional maharashtrian food - pitla- bhakri & bharlerli vangi 
+ Negative Score : 0.0 Neutral Score : 0.533 Positive Score :0.467 Compound Score : 0.7906
+
+ Not to forget the most delectable Tambda rassa and Pandhra rassa for non vegetarians 
+ Negative Score : 0.0 Neutral Score : 0.672 Positive Score :0.328 Compound Score : 0.7058
+
+ chicken and mutton dishes
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Went for dinner at their restaurant 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall 
+ Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291
+
+ # hygienic room 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\r\nRooms are spacious neat and clean 
+ Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908
+
+ Bathrooms are clean 
+ Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+
+ Basic rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ It is a great place for small events and the food is particularly very good 
+ Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211
+
+ The washrooms are best and clean and a sufficient parking space is also available 
+ Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845
+
+ clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge 
+ Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019
+
+ clean and quiet 
+ Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+
+ Room is very clean along with fast service
+ Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576
+
+ cleanliness\r\nBathroom everything was good 
+ Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+
+ Basic rooms 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The rooms are nice and big 
+ Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+
+ clean rooms- may look a bit old though 
+ Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019
+
+ Should pay more attention in keep the rooms and bed/linen moisture-free 
+ Negative Score : 0.123 Neutral Score : 0.877 Positive Score :0.0 Compound Score : -0.1027
+
+ ' ] [ 'Decent hotel with well maintained rooms and good food and service 
+ Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124
+
+ Rooms are also having a good vibe and very neat 
+ Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.7346
+
+ The rooms are clean 
+ Negative Score : 0.0 Neutral Score : 0.526 Positive Score :0.474 Compound Score : 0.4019
+
+\r\nCons : No Kettle provided in non-AC rooms 
+ Negative Score : 0.268 Neutral Score : 0.732 Positive Score :0.0 Compound Score : -0.296
+
+ ' ] [ `` No cleanliness in the room 
+ Negative Score : 0.306 Neutral Score : 0.694 Positive Score :0.0 Compound Score : -0.296
+
+ Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+ Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+
+ rooms are decent not so great 
+ Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296
+
+ lovely n clean rooms 
+ Negative Score : 0.0 Neutral Score : 0.133 Positive Score :0.867 Compound Score : 0.7579
+
+ ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+ Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+
+ The rooms were so beautiful with large french windows to enjoy the view outside
+ Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478
+
+ so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency
+ Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935
+
+ ' ] [ 'Worst rooms 
+ Negative Score : 0.804 Neutral Score : 0.196 Positive Score :0.0 Compound Score : -0.6249
+
+ Curtains not even of proper size
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Star hotel but not providing even a Hot water cattle and Tea pouch in rooms
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\r\nNever try to stay ' ] [ 'Neat and clean rooms 
+ Negative Score : 0.0 Neutral Score : 0.513 Positive Score :0.487 Compound Score : 0.6908
+
+ My dad lost a pajama when the room was cleaned 
+ Negative Score : 0.223 Neutral Score : 0.777 Positive Score :0.0 Compound Score : -0.3182
+
+ neat n clean rooms 
+ Negative Score : 0.0 Neutral Score : 0.149 Positive Score :0.851 Compound Score : 0.6908
+
+ ' ] [ 'Rooms are clean 
+ Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+
+ ' ] [ 'Rooms are clean 
+ Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+
+ stars is because there was some wierd smell in the lobby and restaurant 
+ Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258
+
+ staff 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The staff was also did not appear to be trained for politeness to guest queries 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ people can be seated 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Staff was very polite and the room tarriff was quite reasonable 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Thanks maratha regency for your wonderful service and food 
+ Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765
+
+ friendly staff 
+ Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+
+ room service was little slow 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ child friendly 
+ Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+
+ Room is very clean along with fast service
+ Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576
+
+ service 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ cooperative staff
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Decent hotel with well maintained rooms and good food and service 
+ Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124
+
+ Pathetic service by house keeping 
+ Negative Score : 0.481 Neutral Score : 0.519 Positive Score :0.0 Compound Score : -0.5719
+
+ Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+ Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+
+ Nice food and very polite staff hotel 
+ Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+
+ Food is also awesome and most important staff is well behaved and service is very fast 
+ Negative Score : 0.0 Neutral Score : 0.611 Positive Score :0.389 Compound Score : 0.807
+
+ ' ] [ 'Good food The staff is also good 
+ Negative Score : 0.0 Neutral Score : 0.463 Positive Score :0.537 Compound Score : 0.7003
+
+ ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+ Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+
+\r\nThe travel desk staff helped us book travel destination 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\r\nI thank all the staff who helped us in making our Kolhapur trip so enjoyable
+ Negative Score : 0.0 Neutral Score : 0.676 Positive Score :0.324 Compound Score : 0.7384
+
+ which the hotel staff agreed instantly and helped us to keep it a sweet surprise
+ Negative Score : 0.0 Neutral Score : 0.604 Positive Score :0.396 Compound Score : 0.7351
+
+ The staff is humble and polite 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ I was not impressed at the service quality 
+ Negative Score : 0.299 Neutral Score : 0.701 Positive Score :0.0 Compound Score : -0.3724
+
+ There was not much effort on the part of the hotel management to locate it 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ Staff is friendly 
+ Negative Score : 0.0 Neutral Score : 0.385 Positive Score :0.615 Compound Score : 0.4939
+
+ but a bit expensive according to the service which were given 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ but a bit expensive according to the service which were given 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The service was excellent 
+ Negative Score : 0.0 Neutral Score : 0.448 Positive Score :0.552 Compound Score : 0.5719
+
+ ambience 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall 
+ Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291
+
+ ' ] [ ' # budget hotel 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+\r\nRooms are spacious neat and clean 
+ Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908
+
+\r\nOverall a good place 
+ Negative Score : 0.0 Neutral Score : 0.408 Positive Score :0.592 Compound Score : 0.4404
+
+ ' ] [ 'Nice place to stay in the city 
+ Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+
+ It is a great place for small events and the food is particularly very good 
+ Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211
+
+ There is a seperate place for food where buffet lunch/dinner can be served 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ The washrooms are best and clean and a sufficient parking space is also available 
+ Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845
+
+ Thanks maratha regency for your wonderful service and food 
+ Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765
+
+ the hotel is near Mahalakshmi Devasthanam and main market 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ room service was little slow 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge 
+ Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019
+
+ Food is freaking expensive 
+ Negative Score : 0.483 Neutral Score : 0.517 Positive Score :0.0 Compound Score : -0.4215
+
+ \r\nFood quality is nice 
+ Negative Score : 0.0 Neutral Score : 0.517 Positive Score :0.483 Compound Score : 0.4215
+
+ Ambience is very nice 
+ Negative Score : 0.0 Neutral Score : 0.492 Positive Score :0.508 Compound Score : 0.4754
+
+thank you so much Hotel Maratha regency 
+ Negative Score : 0.0 Neutral Score : 0.706 Positive Score :0.294 Compound Score : 0.3612
+
+ reasonable rates\r\nOverall good experience
+ Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+
+\r\nValue for money 😊👍 ' ] [ 'Good Hotel 
+ Negative Score : 0.0 Neutral Score : 0.633 Positive Score :0.367 Compound Score : 0.4404
+
+ The rooms are nice and big 
+ Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+
+ ' ] [ 'Good location 
+ Negative Score : 0.0 Neutral Score : 0.256 Positive Score :0.744 Compound Score : 0.4404
+
+\r\nGood property 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ clean rooms- may look a bit old though 
+ Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019
+
+ The ambience is really good 
+ Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.4927
+
+ Ample parking space
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ only as complimentary per day and pushes us to place order at Restaurant if we need more water or instant tea/coffee 
+ Negative Score : 0.0 Neutral Score : 0.873 Positive Score :0.127 Compound Score : 0.4404
+
+ please do n't waste your hard earned money with these kind of hotels 
+ Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.6031
+
+ '' ] [ 'Good budget hotel and value for money 
+ Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.6486
+
+ nice place to stay in Kolhapur 
+ Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+
+ This place is very much accessible from all the important parts of city 
+ Negative Score : 0.0 Neutral Score : 0.87 Positive Score :0.13 Compound Score : 0.2023
+
+ ' ] [ 'Hotel location is nearer to Railway station 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ affordable price 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+ Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+
+ The rooms were so beautiful with large french windows to enjoy the view outside
+ Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478
+
+ divine and eye catching Shree Mahalakshmi Ambabai Devi Mandir and other beautiful places 
+ Negative Score : 0.0 Neutral Score : 0.595 Positive Score :0.405 Compound Score : 0.8176
+
+\r\nIt was good that we were not addicted to our mobile phones as wifi connectivity was not strong enough 
+ Negative Score : 0.12 Neutral Score : 0.752 Positive Score :0.128 Compound Score : 0.0511
+
+ so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency
+ Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935
+
+ we once again thank you for giving us such a wonderful experience during our stay 
+ Negative Score : 0.0 Neutral Score : 0.561 Positive Score :0.439 Compound Score : 0.8225
+
+ Nice ambience 
+ Negative Score : 0.0 Neutral Score : 0.263 Positive Score :0.737 Compound Score : 0.4215
+
+ value for money hotel 
+ Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.34
+
+ but a bit expensive according to the service which were given 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ but a bit expensive according to the service which were given 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
+ stars is because there was some wierd smell in the lobby and restaurant 
+ Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258
+
+ The mattresses are bit on the harder side 
+ Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+
