@@ -1,4 +1,3 @@
-
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 #nltk.download('vader_lexicon')
@@ -7,8 +6,6 @@ import nltk
 import ssl
 import numpy as np
 import ast
-import csv
-#
 # try:
 #      _create_unverified_https_context = ssl._create_unverified_context
 # except AttributeError:
@@ -174,8 +171,9 @@ else:
 print(sum)
 ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
 
+
 file1.close()
-reviewfile.close()
+
 file1 = open('marathareviews.txt', 'r' ,encoding='UTF-8')
 
 Lines = file1.readlines()
@@ -184,19 +182,18 @@ count = 0
 # Strips the newline character
 for line in Lines:
     review=line
-    print(review)
-    arr = review.split(":", 1)
+    arr=review.split(":",1)
     if len(arr) > 1:
-        key = arr[0].replace(' ] [', '')
-        my_dict[key] = (arr[1].rstrip())
-
+        key=arr[0].replace(' ] [','')
+        my_dict[key]=(arr[1].rstrip())
+    #print(review)
 
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 
 
-sorted_value_index = np.argsort(values)[::-1]    #sort in descending order
-sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
+sorted_value_index = np.argsort(values)[::-1]    #sort in descending order ==> list of values
+sorted_dict = {keys[i]: values[i] for i in sorted_value_index}      # create dictionary from list
 
 print(sorted_dict)
 with open('static/js/maratha_test.csv', 'w',encoding='UTF-8') as f:

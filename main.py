@@ -156,6 +156,12 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+    if name == 'sayaji':
+        file1 = open('sayaji.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev + ",0,0,0")
+
+        file1.close()
     return render_template("review.html")
 
 
