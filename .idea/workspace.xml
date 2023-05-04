@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added">
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,10 +270,10 @@
       <item itemvalue="Python.cincin_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.preprocess1-2" />
     </list>
     <recent_temporary>
@@ -546,7 +544,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683112529232</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="preprocess1 added">
+      <created>1683213991250</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683213991250</updated>
+    </task>
+    <task id="LOCAL-00038" summary="preprocess1 added">
+      <created>1683214069570</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1683214069570</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="UnknownFeatures">
