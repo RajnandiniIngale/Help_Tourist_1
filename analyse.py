@@ -8,6 +8,9 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 import nltk
 import ssl
+import numpy as np
+import ast
+import csv
 #
 # try:
 #      _create_unverified_https_context = ssl._create_unverified_context
@@ -207,6 +210,37 @@ else:
                     stars = 5;
 print(sum)
 ffile.writelines("stars_location:" + ((str))(stars) + "\n")
+
+file1.close()
+
+file1 = open('keysreviews.txt', 'r' ,encoding='UTF-8')
+
+Lines = file1.readlines()
+my_dict={}
+count = 0
+# Strips the newline character
+for line in Lines:
+    review=line
+    arr=review.split(":",1)
+    if len(arr) > 1:
+        key=arr[0].replace(' ] [','')
+        my_dict[key]=(arr[1].rstrip())
+    #print(review)
+
+keys = list(my_dict.keys())
+values = list(my_dict.values())
+
+
+sorted_value_index = np.argsort(values)[::-1]    #sort in descending order
+sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
+
+print(sorted_dict)
+with open('static/js/test.csv', 'w',encoding='UTF-8') as f:
+    for key in sorted_dict.keys():
+        f.write("%s,%s\n"%(key,sorted_dict[key]))
+
+
+
 
 
 file1.close()

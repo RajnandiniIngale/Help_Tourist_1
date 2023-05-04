@@ -106,15 +106,10 @@ for (let pair of queryString.entries())
    var imgu;
        if(pair[1]=='keys')
        {
+        imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("nm").value = 'keys';
 
-        imgu="http://localhost:8000/static/images/unnamed.jpg"
 
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='park')
-       {
-        document.getElementById("nm").value = 'park';
         imgu="http://localhost:8000/static/images/park.jpg"
 
         document.getElementById("myImg").src = imgu;
@@ -167,10 +162,79 @@ xhr.open("GET", "/static/js/test.csv");
 xhr.send();
 }
 
-if(nm1=='park')
+
+}
+</script>
+<script>
+var nm1=""
+
+function x()
+{
+     paramString = window.location.href.split('?')[1];
+     queryString = new URLSearchParams(paramString);
+
+
+
+for (let pair of queryString.entries())
+{
+   console.log("Key is: " + pair[0]);
+   console.log("Value is: " + pair[1]);
+   nm1=pair[1];
+   var imgu;
+       if(pair[1]=='maratha')
+       {
+        imgu="http://localhost:8000/static/images/park.jpg"
+        document.getElementById("nm").value = 'maratha';
+
+
+        imgu="http://localhost:8000/static/images/park.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+}
+
+y();
+
+}
+function y()
+{
+// Read the CSV file using XMLHttpRequest
+
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    // Parse the CSV data
+
+
+    var lines = this.responseText.split("\n");
+
+    //var headers = lines[0].split(",");
+    var data = [];
+
+
+    // Display the data in an HTML table
+    var table = document.getElementById("csvTable");
+    var tbody = table.getElementsByTagName("tbody")[0];
+    for (var i = 0; i < 10; i++) {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      var td2 = document.createElement("td");
+       dat=lines[i].split(",");
+      td1.innerHTML = dat[0];
+      td2.innerHTML = dat[1];
+
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+
+      tbody.appendChild(tr);
+    }
+  }
+};
+
+if(nm1=='maratha')
 {
 
-xhr.open("GET", "/static/js/parktest.csv");
+xhr.open("GET", "/static/js/maratha_test.csv");
 
 xhr.send();
 }

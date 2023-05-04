@@ -5,6 +5,9 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 import nltk
 import ssl
+import numpy as np
+import ast
+import csv
 #
 # try:
 #      _create_unverified_https_context = ssl._create_unverified_context
@@ -34,7 +37,11 @@ for line in Lines:
 
     sum = sum + scores["compound"]
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+
+    reviewfile.writelines("\n")
+
     stars=0
+
 
 sum=sum/10
 
@@ -72,7 +79,7 @@ for line in Lines:
     #print(scores["compound"])
     sum = sum + scores["compound"]
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
-
+    reviewfile.writelines("\n")
 
     stars = 0
 sum=sum/10
@@ -110,7 +117,7 @@ for line in Lines:
     sum = sum + scores["compound"]
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
     stars = 0
-
+    reviewfile.writelines("\n")
 
 sum = sum / 10
 if sum < 0.3:
@@ -143,6 +150,7 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars = 0
 
 sum = sum / 10
@@ -165,3 +173,34 @@ else:
                     stars = 5;
 print(sum)
 ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
+
+file1.close()
+reviewfile.close()
+file1 = open('marathareviews.txt', 'r' ,encoding='UTF-8')
+
+Lines = file1.readlines()
+my_dict={}
+count = 0
+# Strips the newline character
+for line in Lines:
+    review=line
+    print(review)
+    arr = review.split(":", 1)
+    if len(arr) > 1:
+        key = arr[0].replace(' ] [', '')
+        my_dict[key] = (arr[1].rstrip())
+
+
+keys = list(my_dict.keys())
+values = list(my_dict.values())
+
+
+sorted_value_index = np.argsort(values)[::-1]    #sort in descending order
+sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
+
+print(sorted_dict)
+with open('static/js/maratha_test.csv', 'w',encoding='UTF-8') as f:
+    for key in sorted_dict.keys():
+        f.write("%s,%s\n"%(key,sorted_dict[key]))
+
+
