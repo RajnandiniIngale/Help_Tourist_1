@@ -1,0 +1,810 @@
+Index: templates/review.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html xmlns=\"http://www.w3.org/1999/html\">\r\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n<style>\r\nbody {\r\n\tfont-family:\"Times New Roman\", Times, serif;\r\n\tfont-size:large;\r\n\tbackground-image: url(../static/images/bg_body.jpg);\r\n}\r\n* {box-sizing: border-box}\r\n\r\n/* Full-width input fields */\r\ninput[type=text], input[type=password],input[type=dropdown] {\r\n \r\n  padding: 15px;\r\n  margin: 5px 0 22px 0;\r\n  display: inline-block;\r\n  border: none;\r\n \r\n}\r\n\r\ninput[type=text]:focus, input[type=password]:focus {\r\n  background-color: #ddd;\r\n  outline: none;\r\n}\r\n\r\nhr {\r\n  border: 1px solid #f1f1f1;\r\n  margin-bottom: 25px;\r\n}\r\n\r\n/* Set a style for all buttons */\r\nbutton {\r\n  background-color: #04AA6D;\r\n  color: white;\r\n  padding: 14px 20px;\r\n  margin: 8px 0;\r\n  border: none;\r\n  cursor: pointer;\r\n  width: 100%;\r\n  opacity: 0.9;\r\n}\r\n\r\nbutton:hover {\r\n  opacity:1;\r\n}\r\n\r\n/* Extra styles for the cancel button */\r\n.cancelbtn {\r\n  padding: 14px 20px;\r\n  background-color: #f44336;\r\n}\r\n\r\n/* Float cancel and signup buttons and add an equal width */\r\n .signupbtn {\r\n  margin-left : 400px;\r\n  width: 40%;\r\n}\r\n\r\n/* Add padding to container elements */\r\n.container {\r\n  padding: 16px;\r\n}\r\n\r\nh1\r\n{\r\ntext-align:center;\r\nfont-family:\"Times New Roman\", Times, serif;\r\n}\r\n/* Clear floats */\r\n.clearfix::after {\r\n  content: \"\";\r\n  clear: both;\r\n  display: table;\r\n}\r\n\r\n/* Change styles for cancel button and signup button on extra small screens */\r\n@media screen and (max-width: 300px) {\r\n  .cancelbtn, .signupbtn {\r\n     width: 100%;\r\n  }\r\n}\r\n\r\n.checked {\r\n  color: orange;\r\n}\r\n\r\n</style>\r\n\r\n\r\n<script>\r\nvar nm1=\"\"\r\n\r\nfunction x()\r\n{\r\n     paramString = window.location.href.split('?')[1];\r\n     queryString = new URLSearchParams(paramString);\r\n\r\n\r\n\r\nfor (let pair of queryString.entries())\r\n{\r\n   console.log(\"Key is: \" + pair[0]);\r\n   console.log(\"Value is: \" + pair[1]);\r\n   nm1=pair[1];\r\n   var imgu;\r\n       if(pair[1]=='keys')\r\n       {\r\n        imgu=\"http://localhost:8000/static/images/park.jpg\"\r\n        document.getElementById(\"nm\").value = 'keys';\r\n\r\n\r\n        imgu=\"http://localhost:8000/static/images/park.jpg\"\r\n\r\n        document.getElementById(\"myImg\").src = imgu;\r\n        }\r\n}\r\n\r\ny();\r\n\r\n}\r\nfunction y()\r\n{\r\n// Read the CSV file using XMLHttpRequest\r\n\r\nvar xhr = new XMLHttpRequest();\r\nxhr.onreadystatechange = function() {\r\n  if (this.readyState == 4 && this.status == 200) {\r\n    // Parse the CSV data\r\n\r\n\r\n    var lines = this.responseText.split(\"\\n\");\r\n\r\n    //var headers = lines[0].split(\",\");\r\n    var data = [];\r\n\r\n\r\n    // Display the data in an HTML table\r\n    var table = document.getElementById(\"csvTable\");\r\n    var tbody = table.getElementsByTagName(\"tbody\")[0];\r\n    for (var i = 0; i < 10; i++) {\r\n      var tr = document.createElement(\"tr\");\r\n      var td1 = document.createElement(\"td\");\r\n      var td2 = document.createElement(\"td\");\r\n       dat=lines[i].split(\",\");\r\n      td1.innerHTML = dat[0];\r\n      td2.innerHTML = dat[1];\r\n\r\n      tr.appendChild(td1);\r\n      tr.appendChild(td2);\r\n\r\n      tbody.appendChild(tr);\r\n    }\r\n  }\r\n};\r\n\r\nif(nm1=='keys')\r\n{\r\n\r\nxhr.open(\"GET\", \"/static/js/test.csv\");\r\n\r\nxhr.send();\r\n}\r\n\r\n\r\n}\r\n</script>\r\n\r\n<body onload=\"x()\">\r\n <img src=\"\" id=\"myImg\" alt=\"\" align=\"center\">\r\n <table id=\"csvTable\" border=\"1\" align=\"center\">\r\n    <thead>\r\n      <tr>\r\n        <th>Review</th>\r\n        <th>Ratings</th>\r\n\r\n      </tr>\r\n    </thead>\r\n    <tbody>\r\n    </tbody>\r\n  </table>\r\n\r\n<form method=\"post\" style=\"border:1px solid #ccc\" action=\"/insert_csv?name='keys'\">\r\n  <div class=\"container\">\r\n    <h1>Reviews and Ratings</h1>\r\n\r\n\r\n    <hr>\r\n\t <table width=\"50%\" border=\"1\" align=\"center\">\r\n\r\n       <tr>\r\n         <td>Write a Review </td>\r\n           <input type=\"hidden\" name=\"nm\" id=\"nm\">\r\n         <td><input type=\"text\" placeholder=\"Enter atleast 10 words  \" name=\"reviews2\" required></td>\r\n       </tr>\r\n\r\n       <tr>\r\n           <td>  </td>\r\n         <td><input type=\"submit\" name=\"Submit\" value=\"Submit\"></td>\r\n       </tr>\r\n     </table>\r\n  </div>\r\n</form>\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/review.html b/templates/review.html
+--- a/templates/review.html	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/templates/review.html	(date 1683116176204)
+@@ -102,6 +102,7 @@
+ {
+    console.log("Key is: " + pair[0]);
+    console.log("Value is: " + pair[1]);
++
+    nm1=pair[1];
+    var imgu;
+        if(pair[1]=='keys')
+@@ -109,6 +110,7 @@
+         imgu="http://localhost:8000/static/images/park.jpg"
+         document.getElementById("nm").value = 'keys';
+ 
++        document.getElementById("name_hotel").innerHTML="keys";
+ 
+         imgu="http://localhost:8000/static/images/park.jpg"
+ 
+@@ -138,6 +140,7 @@
+     // Display the data in an HTML table
+     var table = document.getElementById("csvTable");
+     var tbody = table.getElementsByTagName("tbody")[0];
++
+     for (var i = 0; i < 10; i++) {
+       var tr = document.createElement("tr");
+       var td1 = document.createElement("td");
+@@ -168,19 +171,8 @@
+ 
+ <body onload="x()">
+  <img src="" id="myImg" alt="" align="center">
+- <table id="csvTable" border="1" align="center">
+-    <thead>
+-      <tr>
+-        <th>Review</th>
+-        <th>Ratings</th>
+-
+-      </tr>
+-    </thead>
+-    <tbody>
+-    </tbody>
+-  </table>
+-
+-<form method="post" style="border:1px solid #ccc" action="/insert_csv?name='keys'">
++<div id="name_hotel" align="center"></div>
++<form method="post" style="border:1px solid #ccc" action="/insert_csv">
+   <div class="container">
+     <h1>Reviews and Ratings</h1>
+ 
+@@ -201,6 +193,17 @@
+      </table>
+   </div>
+ </form>
++<table id="csvTable" border="1" align="center">
++    <thead>
++      <tr>
++        <th>Review</th>
++        <th>Ratings</th>
++
++      </tr>
++    </thead>
++    <tbody>
++    </tbody>
++  </table>
+ 
+ </body>
+ </html>
+Index: analyse.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import numpy as np\r\nimport ast\r\nimport csv\r\n\r\nimport nltk\r\nfrom nltk.sentiment import SentimentIntensityAnalyzer\r\n#nltk.download('vader_lexicon')\r\n\r\nimport nltk\r\nimport ssl\r\n#\r\n# try:\r\n#      _create_unverified_https_context = ssl._create_unverified_context\r\n# except AttributeError:\r\n#      pass\r\n# else:\r\n#      ssl._create_default_https_context = _create_unverified_https_context\r\n\r\n#nltk.download()\r\n\r\n# Initialize the sentiment analyzer\r\nsia = SentimentIntensityAnalyzer()      #create\r\n# object\r\n\r\n# Define a list of reviews to analyze\r\n\r\n# Using readlines()\r\nfile1 = open('food.txt', 'r',encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nx = len(Lines)\r\nprint(\"no of reviews : \",x)\r\nffile = open(\"keys.txt\", \"w\", encoding=\"utf-8\")\r\nreviewfile = open(\"keysreviews.txt\",\"w\",encoding=\"utf-8\")\r\n\r\ncount = 0\r\nsum=0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review=line\r\n    scores = sia.polarity_scores(review)\r\n    sum=sum+scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip()+\":\"+str(scores['compound'])\r\n                          )\r\n    #reviewfile.writelines(\" Negative Score : \" + str(scores['neg']))\r\n    #reviewfile.writelines(\" Neutral Score : \" + str(scores['neu']))\r\n    #reviewfile.writelines(\" Positive Score :\" + str(scores['pos']))\r\n    #reviewfile.writelines(\" Compound Score : \" + str(scores['compound']))\r\n    reviewfile.writelines(\"\\n\")\r\n\r\n    stars=0\r\n\r\nsum=sum/10\r\nprint(x)\r\n#sum=(100*sum)/x\r\nprint(sum)\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\n\r\n\r\nffile.writelines(\"stars_food:\" +((str))(stars)+\"\\n\")\r\n\r\nfile1 = open('clean.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nx = len(Lines)\r\nprint(sum)\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    #print(scores[\"compound\"])\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip()+\":\"+str(scores['compound']))\r\n\r\n    # reviewfile.writelines(\" Negative Score:\" + str(scores['neg']))\r\n    # reviewfile.writelines(\" Neutral Score:\" + str(scores['neu']))\r\n    # reviewfile.writelines(\" Positive Score:\" + str(scores['pos']))\r\n    # reviewfile.writelines(\" Compound Score:\" + str(scores['compound']))\r\n    reviewfile.writelines(\"\\n\")\r\n    # reviewfile.writelines(\"\\n\\n\")\r\n    stars = 0\r\n#sum=(100*sum)/x\r\nsum=sum/10\r\nprint(sum)\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\nffile.writelines(\"stars_clean:\" + ((str))(stars) + \"\\n\")\r\n\r\n\r\nprint(sum)\r\n\r\nfile1 = open('service.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\n\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip()+\":\"+str(scores['compound']))\r\n    # reviewfile.writelines(\" Negative Score:\" + str(scores['neg']))\r\n    # reviewfile.writelines(\" Neutral Score:\" + str(scores['neu']))\r\n    # reviewfile.writelines(\" Positive Score:\" + str(scores['pos']))\r\n    # reviewfile.writelines(\" Compound Score:\" + str(scores['compound']))\r\n    # reviewfile.writelines(\"\\n\\n\")\r\n    reviewfile.writelines(\"\\n\")\r\n    stars = 0\r\n    \r\nx = len(Lines)\r\n#sum=(100*sum)/x\r\nsum=sum/10\r\nprint(sum)\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\nffile.writelines(\"stars_service:\" + ((str))(stars) + \"\\n\")\r\n\r\nfile1 = open('location.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nprint(sum)\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip()+\":\"+str(scores['compound']))\r\n    # reviewfile.writelines(\" Negative Score:\" + str(scores['neg']))\r\n    # reviewfile.writelines(\" Neutral Score:\" + str(scores['neu']))\r\n    # reviewfile.writelines(\" Positive Score:\" + str(scores['pos']))\r\n    # reviewfile.writelines(\" Compound Score:\" + str(scores['compound']))\r\n    # reviewfile.writelines(\"\\n\\n\")\r\n    reviewfile.writelines(\"\\n\")\r\n\r\n#print(sum)\r\nx = len(Lines)\r\n#sum=(100*sum)/x\r\nsum=sum/10\r\nprint(sum)\r\n\r\nstars = 0\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\nprint(sum)\r\nffile.writelines(\"stars_location:\" + ((str))(stars) + \"\\n\")\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/analyse.py b/analyse.py
+--- a/analyse.py	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/analyse.py	(date 1683115164018)
+@@ -8,6 +8,9 @@
+ 
+ import nltk
+ import ssl
++import numpy as np
++import ast
++import csv
+ #
+ # try:
+ #      _create_unverified_https_context = ssl._create_unverified_context
+@@ -208,4 +211,35 @@
+ print(sum)
+ ffile.writelines("stars_location:" + ((str))(stars) + "\n")
+ 
++file1.close()
++
++file1 = open('keysreviews.txt', 'r' ,encoding='UTF-8')
++
++Lines = file1.readlines()
++my_dict={}
++count = 0
++# Strips the newline character
++for line in Lines:
++    review=line
++    arr=review.split(":",1)
++    if len(arr) > 1:
++        key=arr[0].replace(' ] [','')
++        my_dict[key]=(arr[1].rstrip())
++    #print(review)
++
++keys = list(my_dict.keys())
++values = list(my_dict.values())
++
++
++sorted_value_index = np.argsort(values)[::-1]    #sort in descending order
++sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
++
++print(sorted_dict)
++with open('static/js/test.csv', 'w',encoding='UTF-8') as f:
++    for key in sorted_dict.keys():
++        f.write("%s,%s\n"%(key,sorted_dict[key]))
++
++
++
++
+ 
+Index: analysemaratha.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nimport nltk\r\nfrom nltk.sentiment import SentimentIntensityAnalyzer\r\n#nltk.download('vader_lexicon')\r\n\r\nimport nltk\r\nimport ssl\r\n#\r\n# try:\r\n#      _create_unverified_https_context = ssl._create_unverified_context\r\n# except AttributeError:\r\n#      pass\r\n# else:\r\n#      ssl._create_default_https_context = _create_unverified_https_context\r\n\r\n#nltk.download()\r\n\r\n# Initialize the sentiment analyzer\r\nsia = SentimentIntensityAnalyzer()\r\n\r\n# Define a list of reviews to analyze\r\n\r\n# Using readlines()\r\nfile1 = open('maratha_food.txt', 'r',encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nffile = open(\"maratha.txt\", \"w\", encoding=\"utf-8\")\r\nreviewfile = open(\"marathareviews.txt\",\"w\",encoding=\"utf-8\")\r\ncount = 0\r\nsum=0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review=line\r\n    scores = sia.polarity_scores(review)\r\n\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip() + \":\" + str(scores['compound']))\r\n    stars=0\r\n\r\nsum=sum/10\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\n\r\n\r\n\r\nffile.writelines(\"maratha_food :\" +((str))(stars)+\"\\n\")\r\n\r\nfile1 = open('maratha_clean.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nprint(sum)\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    #print(scores[\"compound\"])\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip() + \":\" + str(scores['compound']))\r\n\r\n\r\n    stars = 0\r\nsum=sum/10\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\nffile.writelines(\"maratha_clean :\" + ((str))(stars) + \"\\n\")\r\n\r\n\r\nprint(sum)\r\nfile1 = open('maratha_service.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\n\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip() + \":\" + str(scores['compound']))\r\n    stars = 0\r\n\r\n\r\nsum = sum / 10\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\n\r\nffile.writelines(\"maratha_service :\" + ((str))(stars) + \"\\n\")\r\n\r\nfile1 = open('maratha_location.txt', 'r', encoding=\"utf-8\")\r\nLines = file1.readlines()\r\nprint(sum)\r\n\r\ncount = 0\r\nsum = 0\r\n# Strips the newline character\r\nfor line in Lines:\r\n    review = line\r\n    scores = sia.polarity_scores(review)\r\n    sum = sum + scores[\"compound\"]\r\n    reviewfile.writelines(review.rstrip() + \":\" + str(scores['compound']))\r\n    stars = 0\r\n\r\nsum = sum / 10\r\n#stars = 0\r\n\r\nif sum < 0.3:\r\n    stars = 1\r\nelse:\r\n\r\n    if sum <= 0.5:\r\n        stars = 2\r\n    else:\r\n        if sum <= 1.5:\r\n            stars = 3\r\n        else:\r\n            if sum <= 2.5:\r\n                stars = 4\r\n            else:\r\n                if sum > 2.5:\r\n                    stars = 5;\r\nprint(sum)\r\nffile.writelines(\"maratha_location :\" + ((str))(stars) + \"\\n\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/analysemaratha.py b/analysemaratha.py
+--- a/analysemaratha.py	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/analysemaratha.py	(date 1683116571560)
+@@ -5,6 +5,9 @@
+ 
+ import nltk
+ import ssl
++import numpy as np
++import ast
++import csv
+ #
+ # try:
+ #      _create_unverified_https_context = ssl._create_unverified_context
+@@ -164,4 +167,34 @@
+                 if sum > 2.5:
+                     stars = 5;
+ print(sum)
+-ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
+\ No newline at end of file
++ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
++
++file1.close()
++
++file1 = open('marathareviews.txt', 'r' ,encoding='UTF-8')
++
++Lines = file1.readlines()
++my_dict={}
++count = 0
++# Strips the newline character
++for line in Lines:
++    review=line
++    arr = review.split(":", 1)
++    if len(arr) > 1:
++        key = arr[0].replace(' ] [', '')
++        my_dict[key] = (arr[1].rstrip())
++    #print(review)
++
++keys = list(my_dict.keys())
++values = list(my_dict.values())
++
++
++sorted_value_index = np.argsort(values)[::-1]    #sort in descending order
++sorted_dict = {keys[i]: values[i] for i in sorted_value_index}
++
++print(sorted_dict)
++with open('static/js/test.csv', 'w',encoding='UTF-8') as f:
++    for key in sorted_dict.keys():
++        f.write("%s,%s\n"%(key,sorted_dict[key]))
++
++
+Index: templates/tours1.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n<title>Journey | Tours</title>\r\n<meta charset=\"utf-8\">\r\n<link rel=\"icon\" href=\"static/images/favicon.ico\">\r\n<link rel=\"shortcut icon\" href=\"static/images/favicon.ico\">\r\n<link rel=\"stylesheet\" href=\"static/css/style.css\">\r\n<script src=\"static/js/jquery.js\"></script>\r\n<script src=\"static/js/jquery-migrate-1.1.1.js\"></script>\r\n<script src=\"static/js/superfish.js\"></script>\r\n<script src=\"static/js/jquery.jqtransform.js\"></script>\r\n<script src=\"static/js/jquery.equalheights.js\"></script>\r\n<script src=\"static/js/jquery.easing.1.3.js\"></script>\r\n<script src=\"static/js/jquery.ui.totop.js\"></script>\r\n<script>\r\n$(window).load(function () {\r\n    $().UItoTop({\r\n        easingType: 'easeOutQuart'\r\n    });\r\n});\r\n$(function () {\r\n    $(\".form1\").jqTransform();\r\n});\r\n</script>\r\n<!--[if lt IE 9]>\r\n<script src=\"static/js/html5shiv.js\"></script>\r\n<link rel=\"stylesheet\" media=\"screen\" href=\"static/css/ie.css\">\r\n<![endif]-->\r\n</head>\r\n<body>\r\n<header>\r\n  <div class=\"container_12\">\r\n    <div class=\"grid_12\">\r\n      <h1><a href=\"index.html\"><img src=\"static/images/logo.png\" alt=\"\"></a></h1>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n    <div class=\"menu_block\">\r\n      <nav>\r\n        <ul class=\"sf-menu\">\r\n          <li><a href=\"index.html\">Home</a></li>\r\n          <li><a href=\"about.html\">About</a>\r\n            <ul>\r\n              <li><a href=\"#\">Agency</a></li>\r\n              <li><a href=\"#\">News</a></li>\r\n              <li><a href=\"#\">Team</a></li>\r\n            </ul>\r\n          </li>\r\n          <li><a href=\"gallery.html\">Gallery</a></li>\r\n          <li class=\"current\"><a href=\"tours.html\">Tours</a></li>\r\n          <li><a href=\"blog.html\">Blog</a></li>\r\n          <li><a href=\"contacts.html\">Contacts</a></li>\r\n        </ul>\r\n      </nav>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n  </div>\r\n</header>\r\n<div class=\"main\">\r\n  <div class=\"content\">\r\n    <div class=\"container_12\">\r\n      <div class=\"grid_9\">\r\n        <h3>Hotels</h3>\r\n        <div class=\"tours\">\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/sayaji_hotel.jpg\" alt=\"\" width=\"180\" height=\"150\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Sayaji Hotel</strong></p>\r\n                <p class=\"price\">2104/15, E Ward, Old Pune-Bangalore Hwy, Kawala Naka, Shahupuri, Kolhapur, Maharashtra 416005</p>\r\n                <p class=\"price\"> 1 Day 1 Night<span>₹ 5,600</span></p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n\r\n\r\n               {% if ratingsk | length  > 1 %}\r\n\r\n               {% set f = ratingsk['sayaji_food'] %}\r\n               {% set s = ratingsk['sayaji_service'] %}\r\n              {% set c = ratingsk['sayaji_clean'] %}\r\n              {% set l = ratingsk['sayaji_location'] %}\r\n                FOOD :\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\" width=\"10\" height=\"10\" >\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\" width=\"1000\" height=\"1000\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                SERVICE :\r\n               {% if s==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                CLEAN :\r\n                 {% if c==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                LOCATION :\r\n                 {% if l==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n\r\n            </div>\r\n          </div>\r\n          <div class=\"grid_4 omega\">\r\n            <div class=\"tour\"> <img src=\"static/images/maratha.jpg\" alt=\"\" width=\"180\" height=\"150\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Hotel Maratha Regency </strong></p>\r\n                <p class=\"price\">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>\r\n                <p class=\"price\">1 day 1 Night<span>₹ 2,707</span></p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n               {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['maratha_food'] %}\r\n\r\n               {%set s=ratingsk['maratha_service'] %}\r\n              {%set c=ratingsk['maratha_clean'] %}\r\n              {%set l=ratingsk['maratha_location'] %}\r\n                 FOOD:\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\" >\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                SERVICE :\r\n               {% if s==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                CLEAN:\r\n                 {% if c==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                LOCATION :\r\n                 {% if l==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n            </div>\r\n          </div>\r\n          <div class=\"clear\"></div>\r\n\t\t  <h3>Restaurants</h3>\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/parakh.jpg\" width=\"180\" height=\"150\" alt=\"\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Hotel Parakh</strong></p>\r\n                <p class=\"price\">No.266, E Ward, Patole Wadi, near Gajanan Nagari Patsanstha, Kolhapur, Maharashtra 416005</p>\r\n                <p class=\"price\">Mutton Thali of Kolhapur with tambda and pandhra rassa</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                 <br/>\r\n               {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['parakh_food'] %}\r\n\r\n               {%set s=ratingsk['parakh_service'] %}\r\n              {%set c=ratingsk['parakh_money'] %}\r\n              {%set l=ratingsk['parakh_location'] %}\r\n                 FOOD :\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\" >\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                SERVICE :\r\n               {% if s==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                 <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                CLEAN :\r\n                 {% if c==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                LOCATION :\r\n                 {% if l==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n            </div>\r\n          </div>\r\n          <div class=\"grid_4 omega\">\r\n            <div class=\"tour\"> <img src=\"static/images/tandoor.jpg\" width=\"180\" height=\"150\" alt=\"img\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>HOTEL TANDOOR </strong></p>\r\n                <p class=\"price\">Shop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</p>\r\n                <p class=\"price\">Indian, Chicken Specialities ,Vegetarian Friendly, Vegan Options</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n               {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['tandoor_food'] %}\r\n\r\n               {%set s=ratingsk['tandoor_service'] %}\r\n              {%set c=ratingsk['tandoor_money'] %}\r\n              {%set l=ratingsk['tandoor_location'] %}\r\n                 FOOD :\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                SERVICE :\r\n               {% if s==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (s) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  s == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   s == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   s == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                MONEY:\r\n                 {% if c==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (c) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  c == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   c == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   c == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n                <br/>\r\n                LOCATION :\r\n                 {% if l==1 %}:\r\n                <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (l) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  l == 3 %}\r\n                <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   l == 4 %}\r\n                <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   l == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n            </div>\r\n          </div>\r\n          <div class=\"clear\"></div>\r\n\t\t  <h3>Places to Visit</h3>\r\n          <div class=\"grid_4 alpha\">\r\n            <div class=\"tour\"> <img src=\"static/images/mahalakshi.jpg\" width=\"180\" height=\"150\" alt=\"\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Shri Mahalaxmi - Ambabai Temple</strong> </p>\r\n                <p class=\"price\">Ambabai Temple is an important Hindu temple dedicated to Goddess Lakshmi, worshipped by locals as Ambabai.</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n                {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['mahalaxmi_all'] %}\r\n\r\n                 Overall:\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n            </div>\r\n          </div>\r\n\t\t  <div class=\"grid_4 omega\">\r\n            <div class=\"tour\"> <img src=\"static/images/shahu.jpg\" width=\"180\" height=\"150\" alt=\"img\" class=\"img_inner fleft\">\r\n              <div class=\"extra_wrapper\">\r\n                <p class=\"text1\"><strong>Chhatrapati Shahu Palace </strong></p>\r\n                <p class=\"price\">New Palace, Kolhapur is a palace situated in Kolhapur. The Palace took 7 years to complete, from 1877 to 1884.</p>\r\n                <a href=\"/review\" class=\"btn\">Reviews</a> </div>\r\n                <br/>\r\n                {% if ratingsk | length >1 %}\r\n\r\n               {% set f=ratingsk['newpalace_all'] %}\r\n\r\n                 Overall:\r\n               {% if f==1 %}:\r\n                 <img src=\"static/images/1star.png\">\r\n               {% elif\r\n                 (f) == 2 %}\r\n                <img src=\"static/images/2star.png\">\r\n\r\n               {% elif\r\n                  f == 3 %}\r\n                 <img src=\"static/images/3star.png\">\r\n\r\n               {% elif\r\n                   f == 4 %}\r\n                 <img src=\"static/images/4star.png\">\r\n\r\n               {% elif\r\n                   f == 5 %}\r\n                <img src=\"static/images/5star.png\">\r\n\r\n               {% endif %}\r\n              {% endif %}\r\n                <br/>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n      <div class=\"grid_3\">\r\n        <h3>Browse Tours</h3>\r\n        <form method=\"post\" id=\"form1\" class=\"form1\" action=\"#\">\r\n          <label class=\"mb0\"> <span>Browse by Tour Operator</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Browse by Tour Operator</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <div class=\"clear\"></div>\r\n          <a onClick=\"document.getElementById('form1').submit()\" href=\"#\" class=\"btn\"> Search</a>\r\n        </form>\r\n        <h3>Search Tours</h3>\r\n        <form method=\"post\" id=\"form2\" class=\"form1\" action=\"#\">\r\n          <label > <span><span class=\"col1\">All Tour Operators</span><br>\r\n            Destination</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any destination</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label > <span>Departing</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any departing</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label> <span>Price</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any price</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <label class=\"mb0\"> <span>Duration</span>\r\n            <select name=\"select\">\r\n              <option value=\"\">Any duration</option>\r\n              <option value=\"\">...</option>\r\n            </select>\r\n          </label>\r\n          <div class=\"clear\"></div>\r\n          <a onClick=\"document.getElementById('form2').submit()\" href=\"#\" class=\"btn\"> Search</a>\r\n        </form>\r\n      </div>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n  </div>\r\n  <div class=\"bottom_block\">\r\n    <div class=\"container_12\">\r\n      <div class=\"grid_2 prefix_2\">\r\n        <ul>\r\n          <li><a href=\"#\">FAQS Page</a></li>\r\n          <li><a href=\"#\">People Say</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <ul>\r\n          <li><a href=\"#\">Useful links</a></li>\r\n          <li><a href=\"#\">Partners</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <ul>\r\n          <li><a href=\"#\">Insurance</a></li>\r\n          <li><a href=\"#\">Family Travel</a></li>\r\n        </ul>\r\n      </div>\r\n      <div class=\"grid_2\">\r\n        <h4>Contact Us:</h4>\r\n        TEL: 1-800-234-5678<br>\r\n        <a href=\"#\">info@demolink.org</a> </div>\r\n      <div class=\"clear\"></div>\r\n    </div>\r\n  </div>\r\n</div>\r\n<footer>\r\n  <div class=\"container_12\">\r\n    <div class=\"grid_12\">\r\n      <div class=\"socials\"> <a href=\"#\"></a> <a href=\"#\"></a> <a href=\"#\"></a> <a href=\"#\"></a> </div>\r\n      <div class=\"copy\"> Journey &copy; 2045 | <a href=\"#\">Privacy Policy</a> | Design by: <a href=\"http://www.templatemonster.com/\">TemplateMonster.com</a> </div>\r\n    </div>\r\n    <div class=\"clear\"></div>\r\n  </div>\r\n</footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/templates/tours1.html b/templates/tours1.html
+--- a/templates/tours1.html	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/templates/tours1.html	(date 1683116571544)
+@@ -173,7 +173,7 @@
+                 <p class="text1"><strong>Hotel Maratha Regency </strong></p>
+                 <p class="price">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>
+                 <p class="price">1 day 1 Night<span>₹ 2,707</span></p>
+-                <a href="/review" class="btn">Reviews</a> </div>
++                <a href="/review?name=maratha" class="btn">Reviews</a> </div>
+                 <br/>
+                {% if ratingsk | length >1 %}
+ 
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import nltk\r\nfrom nltk.sentiment import SentimentIntensityAnalyzer\r\n# nltk.download('vader_lexicon')\r\n\r\n\r\nimport ssl\r\n\r\nimport mimetypes\r\nfrom flask import Flask, render_template, request\r\napp = Flask(__name__)\r\n\r\nmimetypes.add_type(\"text/css\", \".css\", True)\r\n\r\n\r\n@app.route('/')\r\ndef index():\r\n    return render_template(\"index.html\")\r\n\r\n@app.route('/about')\r\ndef about():\r\n    return render_template(\"about.html\")\r\n\r\n\r\n@app.route('/tours')\r\ndef tours():\r\n    stars={}#dictionary\r\n\r\n    file1=open(\"keys.txt\")\r\n    lines=file1.readlines()\r\n\r\n    for line in lines:\r\n        review=line.split(\":\")\r\n        stars[review[0]]=int(review[1])\r\n    file1.close()\r\n    file1 = open(\"park_plaza.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"chingari.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"barbeque.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"wilson.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"venna.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0]] = int(review[1])\r\n\r\n\r\n\r\n    return render_template(\"tours.html\",ratingsk=stars)\r\n\r\n\r\n@app.route('/review')\r\ndef review():\r\n    return render_template(\"review.html\")\r\n\r\n\r\n@app.route('/tours1')\r\ndef tours1():\r\n    stars = {}\r\n\r\n    file1 = open(\"sayaji.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"maratha.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"tandoor.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n        file1.close()\r\n        file1 = open(\"parakh.txt\")\r\n        lines = file1.readlines()\r\n\r\n        for line in lines:\r\n            review = line.split(\":\")\r\n            stars[review[0].rstrip()] = int(review[1])\r\n        file1.close()\r\n        file1 = open(\"mahalaxmi.txt\")\r\n        lines = file1.readlines()\r\n\r\n        for line in lines:\r\n            review = line.split(\":\")\r\n            stars[review[0].rstrip()] = int(review[1])\r\n        file1.close()\r\n        file1 = open(\"newpalace.txt\")\r\n        lines = file1.readlines()\r\n\r\n        for line in lines:\r\n            review = line.split(\":\")\r\n            stars[review[0].rstrip()] = int(review[1])\r\n    print(stars)\r\n    return render_template(\"tours1.html\", ratingsk=stars)\r\n\r\n\r\n@app.route('/insert_csv',methods=['GET', 'POST'])\r\ndef insert_keys_csv():\r\n    x=request.form\r\n    print(x)\r\n    name=request.form['nm']\r\n    rev=request.form['reviews2']\r\n\r\n    if name=='keys':\r\n        file1 = open('keys_hotel.csv', 'a+')\r\n        file1.writelines(\"\\n\")\r\n        file1.writelines(rev+\",0,0,0\")\r\n\r\n        file1.close()\r\n    return render_template(\"review.html\")\r\n\r\n\r\n@app.route('/mumbai')\r\ndef mumbai():\r\n    stars = {}\r\n\r\n    file1 = open(\"silverinn.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"jwhotel.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n\r\n    file1.close()\r\n    file1 = open(\"arbab.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n            review = line.split(\":\")\r\n            stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"cincin.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"gatewayindia.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    file1.close()\r\n    file1 = open(\"bandrafort.txt\")\r\n    lines = file1.readlines()\r\n\r\n    for line in lines:\r\n        review = line.split(\":\")\r\n        stars[review[0].rstrip()] = int(review[1])\r\n    print(stars)\r\n    return render_template(\"mumbai.html\",ratingsk=stars)\r\n\r\n\r\nif __name__ == '__main__':\r\n    app.run(host=\"localhost\",port=\"8000\",debug=\"true\")
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/main.py	(date 1683116585175)
+@@ -137,11 +137,17 @@
+     name=request.form['nm']
+     rev=request.form['reviews2']
+ 
+-    if name=='keys':
++    if name == 'keys':
+         file1 = open('keys_hotel.csv', 'a+')
+         file1.writelines("\n")
+         file1.writelines(rev+",0,0,0")
+ 
++    file1.close()
++    if name == 'maratha':
++        file1 = open('maratha.csv', 'a+')
++        file1.writelines("\n")
++        file1.writelines(rev + ",0,0,0")
++
+         file1.close()
+     return render_template("review.html")
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"57958191-8005-42e5-8574-ff2db02df52e\" name=\"Changes\" comment=\"preprocess1 added\">\r\n      <change beforePath=\"$PROJECT_DIR$/templates/about.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/templates/about.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2MthX2gT0u8if6rBI7jmyMfZSFk\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/PycharmProjects/Help_Tourist_1&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\admin\\PycharmProjects\\Help_Tourist_1\" />\r\n      <recent name=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\" />\r\n      <recent name=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\templates\" />\r\n      <recent name=\"C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Unnamed\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"cincin_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\USER\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/cincin_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"cincin_preprocess\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\USER\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/cincin_preprocess.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"displayrev\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/displayrev.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\admin\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"SDK_NAME\" value=\"Python 3.8 (Tourist_help0)\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"parakh_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\USER\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/parakh_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"parakh_preprocess\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\USER\\PycharmProjects\\Tourist_help0\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/parakh_preprocess.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"park_location_analyse\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python38\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\park_location_analyse.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"preprocess1-2\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Help_Tourist_1\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/preprocess1-2.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.Unnamed\" />\r\n      <item itemvalue=\"Python.analyse\" />\r\n      <item itemvalue=\"Python.cincin_analyse\" />\r\n      <item itemvalue=\"Python.cincin_preprocess\" />\r\n      <item itemvalue=\"Python.displayrev\" />\r\n      <item itemvalue=\"Python.parakh_analyse\" />\r\n      <item itemvalue=\"Python.parakh_preprocess\" />\r\n      <item itemvalue=\"Python.park_location_analyse\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.preprocess1-2\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.preprocess1-2\" />\r\n        <item itemvalue=\"Python.main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"57958191-8005-42e5-8574-ff2db02df52e\" name=\"Changes\" comment=\"preprocess1 added\" />\r\n      <created>1678592822658</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678592822658</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"preprocess1 added\">\r\n      <created>1678984216586</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678984216586</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"analysis files added\">\r\n      <created>1679479597258</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479597259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"analysis files added\">\r\n      <created>1679479772020</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679479772021</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"analysis files added\">\r\n      <created>1679739915613</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679739915614</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"analysis files added\">\r\n      <created>1679897781379</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897781379</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"analysis files added\">\r\n      <created>1679897804161</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679897804161</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"analysis files added\">\r\n      <created>1679924123170</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679924123170</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680017194549</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680017194549</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087149073</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087149073</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680087550338</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680087550338</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088004314</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088004314</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088102969</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088102969</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680088166260</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680088166260</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"main.py modified&#10;tours.html modified\">\r\n      <created>1680090266232</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090266232</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"..\">\r\n      <created>1680090428406</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090428406</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"..\">\r\n      <created>1680090693279</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090693279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"..\">\r\n      <created>1680090808633</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090808633</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"..\">\r\n      <created>1680090861811</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680090861811</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"analyse &amp; anayse.py modified\">\r\n      <created>1681528691645</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681528691645</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681557227024</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681557227024</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1681559131540</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1681559131540</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682023924710</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682023924710</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682024049032</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682024049032</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682104981738</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682104981738</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682105037618</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682105037618</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682105051661</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682105051661</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682145133221</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682145133221</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682145179259</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682145179259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682185541673</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682185541673</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\">\r\n      <created>1682185578972</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682185578972</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"keysreviews modified\">\r\n      <created>1682668378316</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682668378316</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"preprocess1 added\">\r\n      <created>1682692089920</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682692089920</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"preprocess1 added\">\r\n      <created>1682692442249</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682692442249</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"preprocess1 added\">\r\n      <created>1683112427431</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683112427432</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"preprocess1 added\">\r\n      <created>1683112457448</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683112457448</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"preprocess1 added\">\r\n      <created>1683112529232</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1683112529232</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"37\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"UnknownFeatures\">\r\n    <option featureType=\"com.intellij.fileTypeFactory\" implementationName=\"*.csv\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"analysis files added\" />\r\n    <MESSAGE value=\"main.py modified&#10;tours.html modified\" />\r\n    <MESSAGE value=\"..\" />\r\n    <MESSAGE value=\"analyse &amp; anayse.py modified\" />\r\n    <MESSAGE value=\"anayse.py,chingarianalyse.py,barbeque-analyse.py modified\" />\r\n    <MESSAGE value=\"keysreviews modified\" />\r\n    <MESSAGE value=\"preprocess1 added\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"preprocess1 added\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/tr.py</url>\r\n          <line>4</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/.idea/workspace.xml	(date 1683116632435)
+@@ -5,7 +5,14 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added">
+-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/analysemaratha.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysemaratha.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/marathareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marathareviews.txt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -546,7 +553,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1683112529232</updated>
+     </task>
+-    <option name="localTasksCounter" value="37" />
++    <task id="LOCAL-00037" summary="preprocess1 added">
++      <created>1683113111313</created>
++      <option name="number" value="00037" />
++      <option name="presentableId" value="LOCAL-00037" />
++      <option name="project" value="LOCAL" />
++      <updated>1683113111368</updated>
++    </task>
++    <option name="localTasksCounter" value="38" />
+     <servers />
+   </component>
+   <component name="UnknownFeatures">
+Index: static/js/test.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+> 'Great surrounding and awesome ambience coupled with delicious food and hospitality,0.9169\r\n 'Great location good food ambience nice decor well maintained ',0.8979\r\n 'Excellent place to relax with amazing climate,0.886\r\n 'Stay and dinning were super awesome,0.8402\r\n The pool is great and the ambience is amazing,0.836\r\n 'Amazing resort with beautiful landscapes and amenities ',0.8271\r\nEvershine Resort is the best place for Families and Friends to visit,0.8074\r\n 'Beautiful Heritage building for comfortable stay at Mahabaleshwar,0.802\r\n 'Awesome hotel with good people,0.7906\r\n The rooms are very neat and comfortable to stay,0.7818\r\nBreak fast buffet is good with amazing dosas served by Shankar which we choose over eyes,0.7717\r\n 'Excellent place with good rooms and service ',0.765\r\n 'Fantastic resort with good multiple recreational options on hills of Mahabaleshwar,0.7579\r\n excellent service and nice food options,0.7579\r\n nice ambience and excellent hospitality,0.7579\r\n ' A good and comfortable place to stay ',0.7351\r\n good service courteous staff,0.7351\r\n 'Nice resort but food could be more better,0.7343\r\n 'Neat and clean Big rooms,0.6908\r\n good service nice ambiance,0.6908\r\nThe rooms are nice and clean,0.6705\r\n They have various activities inside the resort which keeps everyone engaged and entertained,0.6597\r\n Service and food equivalent to any regular hotel in Mumbai but the property and swimming pool are very good,0.6474\r\n And the best part is the proprietor of this hotel,0.6369\r\n 'The food is best ',0.6369\r\n The best chicken i have had,0.6369\r\n Awesome food,0.6249\r\n Great hospitality,0.6249\r\n 'Superb ambience,0.6249\r\n food awesome,0.6249\r\n 'Very lovely and high end luxurious place,0.624\r\n 'Lovely ambience and aesthetic architecture,0.5859\r\n Well maintained hotel with clean rooms,0.5859\r\n The food was lovely,0.5859\r\nAmazing hospitality,0.5859\r\n 'Lovely rooms,0.5859\r\n 'The place is amazing as far as the location goes,0.5859\r\n The cleanliness and maintenance of this place is amazing,0.5859\r\n 'Very soothing and warm place,0.5799\r\n excellent service and hospitality,0.5719\r\n excellent property,0.5719\r\n Room service is excellent,0.5719\r\n She is a wonderful lady,0.5719\r\n 'food was delicious ',0.5719\r\n Excellent food,0.5719\r\n excellent food quality,0.5719\r\n Rick climbing and swimming pool are in excellent condition,0.5719\r\n Delicious food,0.5719\r\n The staff are very friendly,0.5413\r\n Very co-operative and friendly staff',0.5367\r\n They provided activities indoor games as well to entertain kids,0.5267\r\n live counters and courteous staff and chef',0.5106\r\n Overall a very good place to stay at Mahabaleshwar,0.4927\r\n Very good if ur budget is not a concern,0.4927\r\n A very good ambience,0.4927\r\n The buffet lunch provided is very good and price is also reasonable,0.4927\r\n Very helpful staff,0.4754\r\n `` Very nice place,0.4754\r\n 'Good lobby,0.4588\r\n good hospitality,0.4404\r\n Good food,0.4404\r\n suitable for good service,0.4404\r\n staff good cooperative,0.4404\r\n breakfast buffet was still good compare to dinner buffet,0.4404\r\n Good staff,0.4404\r\n cleaning services good,0.4404\r\n good buffet,0.4404\r\n Good Quality food served,0.4404\r\n 'Good place ',0.4404\r\nGarden and fountain nicely decorated,0.4404\r\n ' A good resort with all the amenities,0.4404\r\n 'Good property,0.4404\r\n good place to unwind',0.4404\r\n 'Good location,0.4404\r\n 'Nice property and humble staff ',0.4215\r\n 'Nice property,0.4215\r\n nice food ',0.4215\r\n I liked Chef Shankar south Indian utappam',0.4215\r\nNice food,0.4215\r\n ' I liked the food ',0.4215\r\n 'Nice structure,0.4215\r\n 'Nice place,0.4215\r\n U can try out some Boutique properties like Tranquil ( nearby ) or Dreamland ( atleast rooms are big enough ) '',0.4019\r\n Special focus on Kids activities',0.4019\r\n During monsoons a treat to walk in the foggy gardens,0.4019\r\n Picturesque property,0.3818\r\n Will suggest and like to visit the property again and again,0.3612\r\n The kids play area,0.34\r\n Room service food tasted amazing but a bit overpriced,0.34\r\n The property is very well done and maintained,0.3384\r\n a bit expensive but worth each penny',0.3291\r\n adventure activities in house,0.3182\r\n Was a bit hesitant to book at first but completely worth it,0.3159\r\n 'Well organised property ',0.2732\r\n well maintained pool,0.2732\r\n Well maintained garden,0.2732\r\n fitness center and a swimming pool,0.2732\r\n They have a lot of activities for kids as well as adults,0.2732\r\n ambience as well as food,0.2732\r\n `` Too costly for it 's value,0.25\r\nDinner buffet is good to but the roasted chicken stood out,0.2382\r\n Food quality is good but little expensive,0.2382\r\n Buffet breakfast is worth it,0.2263\r\n The hospitality is worth every penny,0.2263\r\n pls checkout who is the person and take some step otherwise its a big concern about the property,0.0772\r\n Not oily yet juicy,0.0\r\n their was variety but not taste,0.0\r\n 'Very upscale hotel ',0.0\r\n But food is average ',0.0\r\n jungle trek,0.0\r\n Spa -Tattva spa \uD83D\uDC4D,0.0\r\n Veg and Non veg,0.0\r\n lots of variety of activities and very hospitable staff,0.0\r\n Very airy and surrounded by greenary,0.0\r\n ambience and hospitality,0.0\r\n That says a lot about the dosa,0.0\r\n 'Very upmarket place,0.0\r\n Recreation area has a spa,0.0\r\n washroom and blankets for drivers,0.0\r\n 'Went for my birthday dinner today,0.0\r\nNew village Theme restaurant in open space near pool side,0.0\r\n food quality has decreased now as compared to,0.0\r\n 'Everybody from the staff to the cook is very cordial,0.0\r\n Zero management ',0.0\r\n sports area etc,0.0\r\n 'Most preferred place in Mahabaleshwar,0.0\r\n 'Guest service has slightly deteriorated,0.0\r\n budget room,0.0\r\n ' A must stay place,0.0\r\n star property and how ur keeping ur staff so dis mannered',0.0\r\n However the floor is not carpeted and therefore too cold to walk barefoot,0.0\r\n Rooms are small ',0.0\r\n small rooms ',0.0\r\n room service,0.0\r\nrd class staff,0.0\r\n expensive,0.0\r\n However all rooms are of same size and price varies based on window facing,0.0\r\n cordial staff,0.0\r\n cleanliness,0.0\r\n Room rates are a bit on the higher side though,0.0\r\n The price is a bit expensive though,0.0\r\n `` Small rooms,0.0\r\n Rooms are not to that level as per the price quoted by them,0.0\r\n hygienic,0.0\r\n not far from the venna lake and market,0.0\r\n Pool is big to use if the weather permits,0.0\r\n 'The staff is very unprofessional and though had finalized the place to stay the staffs attitude forced me to cancel and move out,-0.8221\r\n Worst service,-0.6249\r\n Nothing great abt this property now,-0.5096\r\n 'Not a great place at all ',-0.5096\r\n Only thing disappointed this time was the food particularly buffet,-0.4767\r\n 'food was not delicious ',-0.4585\r\n rooms not good,-0.3412\r\n 'Place is awesome but the service was very lethargic,-0.1753\r\n 'the reception staff was so rude i called to book a room and he dont knw how to greet the customers on calland talk with courtesy,-0.0171\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/static/js/test.csv b/static/js/test.csv
+--- a/static/js/test.csv	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/static/js/test.csv	(date 1683115219154)
+@@ -1,155 +1,0 @@
+- 'Great surrounding and awesome ambience coupled with delicious food and hospitality,0.9169
+- 'Great location good food ambience nice decor well maintained ',0.8979
+- 'Excellent place to relax with amazing climate,0.886
+- 'Stay and dinning were super awesome,0.8402
+- The pool is great and the ambience is amazing,0.836
+- 'Amazing resort with beautiful landscapes and amenities ',0.8271
+-Evershine Resort is the best place for Families and Friends to visit,0.8074
+- 'Beautiful Heritage building for comfortable stay at Mahabaleshwar,0.802
+- 'Awesome hotel with good people,0.7906
+- The rooms are very neat and comfortable to stay,0.7818
+-Break fast buffet is good with amazing dosas served by Shankar which we choose over eyes,0.7717
+- 'Excellent place with good rooms and service ',0.765
+- 'Fantastic resort with good multiple recreational options on hills of Mahabaleshwar,0.7579
+- excellent service and nice food options,0.7579
+- nice ambience and excellent hospitality,0.7579
+- ' A good and comfortable place to stay ',0.7351
+- good service courteous staff,0.7351
+- 'Nice resort but food could be more better,0.7343
+- 'Neat and clean Big rooms,0.6908
+- good service nice ambiance,0.6908
+-The rooms are nice and clean,0.6705
+- They have various activities inside the resort which keeps everyone engaged and entertained,0.6597
+- Service and food equivalent to any regular hotel in Mumbai but the property and swimming pool are very good,0.6474
+- And the best part is the proprietor of this hotel,0.6369
+- 'The food is best ',0.6369
+- The best chicken i have had,0.6369
+- Awesome food,0.6249
+- Great hospitality,0.6249
+- 'Superb ambience,0.6249
+- food awesome,0.6249
+- 'Very lovely and high end luxurious place,0.624
+- 'Lovely ambience and aesthetic architecture,0.5859
+- Well maintained hotel with clean rooms,0.5859
+- The food was lovely,0.5859
+-Amazing hospitality,0.5859
+- 'Lovely rooms,0.5859
+- 'The place is amazing as far as the location goes,0.5859
+- The cleanliness and maintenance of this place is amazing,0.5859
+- 'Very soothing and warm place,0.5799
+- excellent service and hospitality,0.5719
+- excellent property,0.5719
+- Room service is excellent,0.5719
+- She is a wonderful lady,0.5719
+- 'food was delicious ',0.5719
+- Excellent food,0.5719
+- excellent food quality,0.5719
+- Rick climbing and swimming pool are in excellent condition,0.5719
+- Delicious food,0.5719
+- The staff are very friendly,0.5413
+- Very co-operative and friendly staff',0.5367
+- They provided activities indoor games as well to entertain kids,0.5267
+- live counters and courteous staff and chef',0.5106
+- Overall a very good place to stay at Mahabaleshwar,0.4927
+- Very good if ur budget is not a concern,0.4927
+- A very good ambience,0.4927
+- The buffet lunch provided is very good and price is also reasonable,0.4927
+- Very helpful staff,0.4754
+- `` Very nice place,0.4754
+- 'Good lobby,0.4588
+- good hospitality,0.4404
+- Good food,0.4404
+- suitable for good service,0.4404
+- staff good cooperative,0.4404
+- breakfast buffet was still good compare to dinner buffet,0.4404
+- Good staff,0.4404
+- cleaning services good,0.4404
+- good buffet,0.4404
+- Good Quality food served,0.4404
+- 'Good place ',0.4404
+-Garden and fountain nicely decorated,0.4404
+- ' A good resort with all the amenities,0.4404
+- 'Good property,0.4404
+- good place to unwind',0.4404
+- 'Good location,0.4404
+- 'Nice property and humble staff ',0.4215
+- 'Nice property,0.4215
+- nice food ',0.4215
+- I liked Chef Shankar south Indian utappam',0.4215
+-Nice food,0.4215
+- ' I liked the food ',0.4215
+- 'Nice structure,0.4215
+- 'Nice place,0.4215
+- U can try out some Boutique properties like Tranquil ( nearby ) or Dreamland ( atleast rooms are big enough ) '',0.4019
+- Special focus on Kids activities',0.4019
+- During monsoons a treat to walk in the foggy gardens,0.4019
+- Picturesque property,0.3818
+- Will suggest and like to visit the property again and again,0.3612
+- The kids play area,0.34
+- Room service food tasted amazing but a bit overpriced,0.34
+- The property is very well done and maintained,0.3384
+- a bit expensive but worth each penny',0.3291
+- adventure activities in house,0.3182
+- Was a bit hesitant to book at first but completely worth it,0.3159
+- 'Well organised property ',0.2732
+- well maintained pool,0.2732
+- Well maintained garden,0.2732
+- fitness center and a swimming pool,0.2732
+- They have a lot of activities for kids as well as adults,0.2732
+- ambience as well as food,0.2732
+- `` Too costly for it 's value,0.25
+-Dinner buffet is good to but the roasted chicken stood out,0.2382
+- Food quality is good but little expensive,0.2382
+- Buffet breakfast is worth it,0.2263
+- The hospitality is worth every penny,0.2263
+- pls checkout who is the person and take some step otherwise its a big concern about the property,0.0772
+- Not oily yet juicy,0.0
+- their was variety but not taste,0.0
+- 'Very upscale hotel ',0.0
+- But food is average ',0.0
+- jungle trek,0.0
+- Spa -Tattva spa 👍,0.0
+- Veg and Non veg,0.0
+- lots of variety of activities and very hospitable staff,0.0
+- Very airy and surrounded by greenary,0.0
+- ambience and hospitality,0.0
+- That says a lot about the dosa,0.0
+- 'Very upmarket place,0.0
+- Recreation area has a spa,0.0
+- washroom and blankets for drivers,0.0
+- 'Went for my birthday dinner today,0.0
+-New village Theme restaurant in open space near pool side,0.0
+- food quality has decreased now as compared to,0.0
+- 'Everybody from the staff to the cook is very cordial,0.0
+- Zero management ',0.0
+- sports area etc,0.0
+- 'Most preferred place in Mahabaleshwar,0.0
+- 'Guest service has slightly deteriorated,0.0
+- budget room,0.0
+- ' A must stay place,0.0
+- star property and how ur keeping ur staff so dis mannered',0.0
+- However the floor is not carpeted and therefore too cold to walk barefoot,0.0
+- Rooms are small ',0.0
+- small rooms ',0.0
+- room service,0.0
+-rd class staff,0.0
+- expensive,0.0
+- However all rooms are of same size and price varies based on window facing,0.0
+- cordial staff,0.0
+- cleanliness,0.0
+- Room rates are a bit on the higher side though,0.0
+- The price is a bit expensive though,0.0
+- `` Small rooms,0.0
+- Rooms are not to that level as per the price quoted by them,0.0
+- hygienic,0.0
+- not far from the venna lake and market,0.0
+- Pool is big to use if the weather permits,0.0
+- 'The staff is very unprofessional and though had finalized the place to stay the staffs attitude forced me to cancel and move out,-0.8221
+- Worst service,-0.6249
+- Nothing great abt this property now,-0.5096
+- 'Not a great place at all ',-0.5096
+- Only thing disappointed this time was the food particularly buffet,-0.4767
+- 'food was not delicious ',-0.4585
+- rooms not good,-0.3412
+- 'Place is awesome but the service was very lethargic,-0.1753
+- 'the reception staff was so rude i called to book a room and he dont knw how to greet the customers on calland talk with courtesy,-0.0171
+Index: marathareviews.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+> [ [ 'food is delicious \r\n Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719\r\n\r\n ' ] [ 'food is not delicious \r\n Negative Score : 0.5 Neutral Score : 0.5 Positive Score :0.0 Compound Score : -0.4585\r\n\r\n There is a seperate place for food where buffet lunch/dinner can be served \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n ' ] [ 'Limited items but best quality food was served for breakfast \r\n Negative Score : 0.095 Neutral Score : 0.525 Positive Score :0.38 Compound Score : 0.7469\r\n\r\n Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly \r\n Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169\r\n\r\n rooms are decent not so great \r\n Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296\r\n\r\n breakfast was tasty n loads of varieties to eat \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n we enjoyed delicious traditional maharashtrian food - pitla- bhakri & bharlerli vangi \r\n Negative Score : 0.0 Neutral Score : 0.533 Positive Score :0.467 Compound Score : 0.7906\r\n\r\n Not to forget the most delectable Tambda rassa and Pandhra rassa for non vegetarians \r\n Negative Score : 0.0 Neutral Score : 0.672 Positive Score :0.328 Compound Score : 0.7058\r\n\r\n chicken and mutton dishes\r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n ' ] [ 'Went for dinner at their restaurant \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall \r\n Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291\r\n\r\n # hygienic room \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n\\r\\nRooms are spacious neat and clean \r\n Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908\r\n\r\n Bathrooms are clean \r\n Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019\r\n\r\n Basic rooms \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n It is a great place for small events and the food is particularly very good \r\n Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211\r\n\r\n The washrooms are best and clean and a sufficient parking space is also available \r\n Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845\r\n\r\n clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge \r\n Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019\r\n\r\n clean and quiet \r\n Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019\r\n\r\n Room is very clean along with fast service\r\n Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576\r\n\r\n cleanliness\\r\\nBathroom everything was good \r\n Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404\r\n\r\n Basic rooms \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n The rooms are nice and big \r\n Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215\r\n\r\n clean rooms- may look a bit old though \r\n Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019\r\n\r\n Should pay more attention in keep the rooms and bed/linen moisture-free \r\n Negative Score : 0.123 Neutral Score : 0.877 Positive Score :0.0 Compound Score : -0.1027\r\n\r\n ' ] [ 'Decent hotel with well maintained rooms and good food and service \r\n Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124\r\n\r\n Rooms are also having a good vibe and very neat \r\n Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.7346\r\n\r\n The rooms are clean \r\n Negative Score : 0.0 Neutral Score : 0.526 Positive Score :0.474 Compound Score : 0.4019\r\n\r\n\\r\\nCons : No Kettle provided in non-AC rooms \r\n Negative Score : 0.268 Neutral Score : 0.732 Positive Score :0.0 Compound Score : -0.296\r\n\r\n ' ] [ `` No cleanliness in the room \r\n Negative Score : 0.306 Neutral Score : 0.694 Positive Score :0.0 Compound Score : -0.296\r\n\r\n Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly \r\n Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169\r\n\r\n rooms are decent not so great \r\n Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296\r\n\r\n lovely n clean rooms \r\n Negative Score : 0.0 Neutral Score : 0.133 Positive Score :0.867 Compound Score : 0.7579\r\n\r\n ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel\r\n Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811\r\n\r\n The rooms were so beautiful with large french windows to enjoy the view outside\r\n Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478\r\n\r\n so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency\r\n Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935\r\n\r\n ' ] [ 'Worst rooms \r\n Negative Score : 0.804 Neutral Score : 0.196 Positive Score :0.0 Compound Score : -0.6249\r\n\r\n Curtains not even of proper size\r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n Star hotel but not providing even a Hot water cattle and Tea pouch in rooms\r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n\\r\\nNever try to stay ' ] [ 'Neat and clean rooms \r\n Negative Score : 0.0 Neutral Score : 0.513 Positive Score :0.487 Compound Score : 0.6908\r\n\r\n My dad lost a pajama when the room was cleaned \r\n Negative Score : 0.223 Neutral Score : 0.777 Positive Score :0.0 Compound Score : -0.3182\r\n\r\n neat n clean rooms \r\n Negative Score : 0.0 Neutral Score : 0.149 Positive Score :0.851 Compound Score : 0.6908\r\n\r\n ' ] [ 'Rooms are clean \r\n Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019\r\n\r\n ' ] [ 'Rooms are clean \r\n Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019\r\n\r\n stars is because there was some wierd smell in the lobby and restaurant \r\n Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258\r\n\r\n staff \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n The staff was also did not appear to be trained for politeness to guest queries \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n people can be seated \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n ' ] [ 'Staff was very polite and the room tarriff was quite reasonable \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n Thanks maratha regency for your wonderful service and food \r\n Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765\r\n\r\n friendly staff \r\n Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939\r\n\r\n room service was little slow \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n child friendly \r\n Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939\r\n\r\n Room is very clean along with fast service\r\n Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576\r\n\r\n service \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n cooperative staff\r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n ' ] [ 'Decent hotel with well maintained rooms and good food and service \r\n Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124\r\n\r\n Pathetic service by house keeping \r\n Negative Score : 0.481 Neutral Score : 0.519 Positive Score :0.0 Compound Score : -0.5719\r\n\r\n Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly \r\n Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169\r\n\r\n Nice food and very polite staff hotel \r\n Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215\r\n\r\n Food is also awesome and most important staff is well behaved and service is very fast \r\n Negative Score : 0.0 Neutral Score : 0.611 Positive Score :0.389 Compound Score : 0.807\r\n\r\n ' ] [ 'Good food The staff is also good \r\n Negative Score : 0.0 Neutral Score : 0.463 Positive Score :0.537 Compound Score : 0.7003\r\n\r\n ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel\r\n Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811\r\n\r\n\\r\\nThe travel desk staff helped us book travel destination \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n\\r\\nI thank all the staff who helped us in making our Kolhapur trip so enjoyable\r\n Negative Score : 0.0 Neutral Score : 0.676 Positive Score :0.324 Compound Score : 0.7384\r\n\r\n which the hotel staff agreed instantly and helped us to keep it a sweet surprise\r\n Negative Score : 0.0 Neutral Score : 0.604 Positive Score :0.396 Compound Score : 0.7351\r\n\r\n The staff is humble and polite \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n I was not impressed at the service quality \r\n Negative Score : 0.299 Neutral Score : 0.701 Positive Score :0.0 Compound Score : -0.3724\r\n\r\n There was not much effort on the part of the hotel management to locate it \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n Staff is friendly \r\n Negative Score : 0.0 Neutral Score : 0.385 Positive Score :0.615 Compound Score : 0.4939\r\n\r\n but a bit expensive according to the service which were given \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n but a bit expensive according to the service which were given \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n The service was excellent \r\n Negative Score : 0.0 Neutral Score : 0.448 Positive Score :0.552 Compound Score : 0.5719\r\n\r\n ambience \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall \r\n Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291\r\n\r\n ' ] [ ' # budget hotel \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n\\r\\nRooms are spacious neat and clean \r\n Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908\r\n\r\n\\r\\nOverall a good place \r\n Negative Score : 0.0 Neutral Score : 0.408 Positive Score :0.592 Compound Score : 0.4404\r\n\r\n ' ] [ 'Nice place to stay in the city \r\n Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215\r\n\r\n It is a great place for small events and the food is particularly very good \r\n Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211\r\n\r\n There is a seperate place for food where buffet lunch/dinner can be served \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n The washrooms are best and clean and a sufficient parking space is also available \r\n Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845\r\n\r\n Thanks maratha regency for your wonderful service and food \r\n Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765\r\n\r\n the hotel is near Mahalakshmi Devasthanam and main market \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n room service was little slow \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge \r\n Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019\r\n\r\n Food is freaking expensive \r\n Negative Score : 0.483 Neutral Score : 0.517 Positive Score :0.0 Compound Score : -0.4215\r\n\r\n \\r\\nFood quality is nice \r\n Negative Score : 0.0 Neutral Score : 0.517 Positive Score :0.483 Compound Score : 0.4215\r\n\r\n Ambience is very nice \r\n Negative Score : 0.0 Neutral Score : 0.492 Positive Score :0.508 Compound Score : 0.4754\r\n\r\nthank you so much Hotel Maratha regency \r\n Negative Score : 0.0 Neutral Score : 0.706 Positive Score :0.294 Compound Score : 0.3612\r\n\r\n reasonable rates\\r\\nOverall good experience\r\n Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404\r\n\r\n\\r\\nValue for money \uD83D\uDE0A\uD83D\uDC4D ' ] [ 'Good Hotel \r\n Negative Score : 0.0 Neutral Score : 0.633 Positive Score :0.367 Compound Score : 0.4404\r\n\r\n The rooms are nice and big \r\n Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215\r\n\r\n ' ] [ 'Good location \r\n Negative Score : 0.0 Neutral Score : 0.256 Positive Score :0.744 Compound Score : 0.4404\r\n\r\n\\r\\nGood property \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n clean rooms- may look a bit old though \r\n Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019\r\n\r\n The ambience is really good \r\n Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.4927\r\n\r\n Ample parking space\r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n only as complimentary per day and pushes us to place order at Restaurant if we need more water or instant tea/coffee \r\n Negative Score : 0.0 Neutral Score : 0.873 Positive Score :0.127 Compound Score : 0.4404\r\n\r\n please do n't waste your hard earned money with these kind of hotels \r\n Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.6031\r\n\r\n '' ] [ 'Good budget hotel and value for money \r\n Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.6486\r\n\r\n nice place to stay in Kolhapur \r\n Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215\r\n\r\n This place is very much accessible from all the important parts of city \r\n Negative Score : 0.0 Neutral Score : 0.87 Positive Score :0.13 Compound Score : 0.2023\r\n\r\n ' ] [ 'Hotel location is nearer to Railway station \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n affordable price \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel\r\n Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811\r\n\r\n The rooms were so beautiful with large french windows to enjoy the view outside\r\n Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478\r\n\r\n divine and eye catching Shree Mahalakshmi Ambabai Devi Mandir and other beautiful places \r\n Negative Score : 0.0 Neutral Score : 0.595 Positive Score :0.405 Compound Score : 0.8176\r\n\r\n\\r\\nIt was good that we were not addicted to our mobile phones as wifi connectivity was not strong enough \r\n Negative Score : 0.12 Neutral Score : 0.752 Positive Score :0.128 Compound Score : 0.0511\r\n\r\n so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency\r\n Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935\r\n\r\n we once again thank you for giving us such a wonderful experience during our stay \r\n Negative Score : 0.0 Neutral Score : 0.561 Positive Score :0.439 Compound Score : 0.8225\r\n\r\n Nice ambience \r\n Negative Score : 0.0 Neutral Score : 0.263 Positive Score :0.737 Compound Score : 0.4215\r\n\r\n value for money hotel \r\n Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.34\r\n\r\n but a bit expensive according to the service which were given \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n but a bit expensive according to the service which were given \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n stars is because there was some wierd smell in the lobby and restaurant \r\n Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258\r\n\r\n The mattresses are bit on the harder side \r\n Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/marathareviews.txt b/marathareviews.txt
+--- a/marathareviews.txt	(revision d4de4e9a922de8003b23394ac924d82b500cd043)
++++ b/marathareviews.txt	(date 1683115219210)
+@@ -1,354 +1,1 @@
+- [ [ 'food is delicious 
+- Negative Score : 0.0 Neutral Score : 0.351 Positive Score :0.649 Compound Score : 0.5719
+-
+- ' ] [ 'food is not delicious 
+- Negative Score : 0.5 Neutral Score : 0.5 Positive Score :0.0 Compound Score : -0.4585
+-
+- There is a seperate place for food where buffet lunch/dinner can be served 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- ' ] [ 'Limited items but best quality food was served for breakfast 
+- Negative Score : 0.095 Neutral Score : 0.525 Positive Score :0.38 Compound Score : 0.7469
+-
+- Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+- Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+-
+- rooms are decent not so great 
+- Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296
+-
+- breakfast was tasty n loads of varieties to eat 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- we enjoyed delicious traditional maharashtrian food - pitla- bhakri & bharlerli vangi 
+- Negative Score : 0.0 Neutral Score : 0.533 Positive Score :0.467 Compound Score : 0.7906
+-
+- Not to forget the most delectable Tambda rassa and Pandhra rassa for non vegetarians 
+- Negative Score : 0.0 Neutral Score : 0.672 Positive Score :0.328 Compound Score : 0.7058
+-
+- chicken and mutton dishes
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- ' ] [ 'Went for dinner at their restaurant 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall 
+- Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291
+-
+- # hygienic room 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+-\r\nRooms are spacious neat and clean 
+- Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908
+-
+- Bathrooms are clean 
+- Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+-
+- Basic rooms 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- It is a great place for small events and the food is particularly very good 
+- Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211
+-
+- The washrooms are best and clean and a sufficient parking space is also available 
+- Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845
+-
+- clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge 
+- Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019
+-
+- clean and quiet 
+- Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+-
+- Room is very clean along with fast service
+- Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576
+-
+- cleanliness\r\nBathroom everything was good 
+- Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+-
+- Basic rooms 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- The rooms are nice and big 
+- Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+-
+- clean rooms- may look a bit old though 
+- Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019
+-
+- Should pay more attention in keep the rooms and bed/linen moisture-free 
+- Negative Score : 0.123 Neutral Score : 0.877 Positive Score :0.0 Compound Score : -0.1027
+-
+- ' ] [ 'Decent hotel with well maintained rooms and good food and service 
+- Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124
+-
+- Rooms are also having a good vibe and very neat 
+- Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.7346
+-
+- The rooms are clean 
+- Negative Score : 0.0 Neutral Score : 0.526 Positive Score :0.474 Compound Score : 0.4019
+-
+-\r\nCons : No Kettle provided in non-AC rooms 
+- Negative Score : 0.268 Neutral Score : 0.732 Positive Score :0.0 Compound Score : -0.296
+-
+- ' ] [ `` No cleanliness in the room 
+- Negative Score : 0.306 Neutral Score : 0.694 Positive Score :0.0 Compound Score : -0.296
+-
+- Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+- Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+-
+- rooms are decent not so great 
+- Negative Score : 0.453 Neutral Score : 0.547 Positive Score :0.0 Compound Score : -0.6296
+-
+- lovely n clean rooms 
+- Negative Score : 0.0 Neutral Score : 0.133 Positive Score :0.867 Compound Score : 0.7579
+-
+- ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+- Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+-
+- The rooms were so beautiful with large french windows to enjoy the view outside
+- Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478
+-
+- so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency
+- Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935
+-
+- ' ] [ 'Worst rooms 
+- Negative Score : 0.804 Neutral Score : 0.196 Positive Score :0.0 Compound Score : -0.6249
+-
+- Curtains not even of proper size
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- Star hotel but not providing even a Hot water cattle and Tea pouch in rooms
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+-\r\nNever try to stay ' ] [ 'Neat and clean rooms 
+- Negative Score : 0.0 Neutral Score : 0.513 Positive Score :0.487 Compound Score : 0.6908
+-
+- My dad lost a pajama when the room was cleaned 
+- Negative Score : 0.223 Neutral Score : 0.777 Positive Score :0.0 Compound Score : -0.3182
+-
+- neat n clean rooms 
+- Negative Score : 0.0 Neutral Score : 0.149 Positive Score :0.851 Compound Score : 0.6908
+-
+- ' ] [ 'Rooms are clean 
+- Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+-
+- ' ] [ 'Rooms are clean 
+- Negative Score : 0.0 Neutral Score : 0.426 Positive Score :0.574 Compound Score : 0.4019
+-
+- stars is because there was some wierd smell in the lobby and restaurant 
+- Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258
+-
+- staff 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- The staff was also did not appear to be trained for politeness to guest queries 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- people can be seated 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- ' ] [ 'Staff was very polite and the room tarriff was quite reasonable 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- Thanks maratha regency for your wonderful service and food 
+- Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765
+-
+- friendly staff 
+- Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+-
+- room service was little slow 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- child friendly 
+- Negative Score : 0.0 Neutral Score : 0.238 Positive Score :0.762 Compound Score : 0.4939
+-
+- Room is very clean along with fast service
+- Negative Score : 0.0 Neutral Score : 0.7 Positive Score :0.3 Compound Score : 0.4576
+-
+- service 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- cooperative staff
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- ' ] [ 'Decent hotel with well maintained rooms and good food and service 
+- Negative Score : 0.0 Neutral Score : 0.643 Positive Score :0.357 Compound Score : 0.6124
+-
+- Pathetic service by house keeping 
+- Negative Score : 0.481 Neutral Score : 0.519 Positive Score :0.0 Compound Score : -0.5719
+-
+- Has a decent restaurant named Masala pot and has a bar too within the premises ' ] [ 'Rooms are clean Awesome service only thing is they should improve there breakfast only idli & Medu Vada were served for breakfast ' ] [ 'Pocket friendly 
+- Negative Score : 0.0 Neutral Score : 0.713 Positive Score :0.287 Compound Score : 0.9169
+-
+- Nice food and very polite staff hotel 
+- Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+-
+- Food is also awesome and most important staff is well behaved and service is very fast 
+- Negative Score : 0.0 Neutral Score : 0.611 Positive Score :0.389 Compound Score : 0.807
+-
+- ' ] [ 'Good food The staff is also good 
+- Negative Score : 0.0 Neutral Score : 0.463 Positive Score :0.537 Compound Score : 0.7003
+-
+- ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+- Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+-
+-\r\nThe travel desk staff helped us book travel destination 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+-\r\nI thank all the staff who helped us in making our Kolhapur trip so enjoyable
+- Negative Score : 0.0 Neutral Score : 0.676 Positive Score :0.324 Compound Score : 0.7384
+-
+- which the hotel staff agreed instantly and helped us to keep it a sweet surprise
+- Negative Score : 0.0 Neutral Score : 0.604 Positive Score :0.396 Compound Score : 0.7351
+-
+- The staff is humble and polite 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- I was not impressed at the service quality 
+- Negative Score : 0.299 Neutral Score : 0.701 Positive Score :0.0 Compound Score : -0.3724
+-
+- There was not much effort on the part of the hotel management to locate it 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- Staff is friendly 
+- Negative Score : 0.0 Neutral Score : 0.385 Positive Score :0.615 Compound Score : 0.4939
+-
+- but a bit expensive according to the service which were given 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- but a bit expensive according to the service which were given 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- The service was excellent 
+- Negative Score : 0.0 Neutral Score : 0.448 Positive Score :0.552 Compound Score : 0.5719
+-
+- ambience 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- parking and everything was excellent ' ] [ 'Rooms are of reasonable size but you can see cracks in wall 
+- Negative Score : 0.0 Neutral Score : 0.872 Positive Score :0.128 Compound Score : 0.3291
+-
+- ' ] [ ' # budget hotel 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+-\r\nRooms are spacious neat and clean 
+- Negative Score : 0.0 Neutral Score : 0.412 Positive Score :0.588 Compound Score : 0.6908
+-
+-\r\nOverall a good place 
+- Negative Score : 0.0 Neutral Score : 0.408 Positive Score :0.592 Compound Score : 0.4404
+-
+- ' ] [ 'Nice place to stay in the city 
+- Negative Score : 0.0 Neutral Score : 0.682 Positive Score :0.318 Compound Score : 0.4215
+-
+- It is a great place for small events and the food is particularly very good 
+- Negative Score : 0.0 Neutral Score : 0.613 Positive Score :0.387 Compound Score : 0.8211
+-
+- There is a seperate place for food where buffet lunch/dinner can be served 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- The washrooms are best and clean and a sufficient parking space is also available 
+- Negative Score : 0.0 Neutral Score : 0.615 Positive Score :0.385 Compound Score : 0.7845
+-
+- Thanks maratha regency for your wonderful service and food 
+- Negative Score : 0.0 Neutral Score : 0.515 Positive Score :0.485 Compound Score : 0.765
+-
+- the hotel is near Mahalakshmi Devasthanam and main market 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- room service was little slow 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- clean place ' ] [ 'Rooms were clean but not up to the expectations based on what they charge 
+- Negative Score : 0.0 Neutral Score : 0.791 Positive Score :0.209 Compound Score : 0.4019
+-
+- Food is freaking expensive 
+- Negative Score : 0.483 Neutral Score : 0.517 Positive Score :0.0 Compound Score : -0.4215
+-
+- \r\nFood quality is nice 
+- Negative Score : 0.0 Neutral Score : 0.517 Positive Score :0.483 Compound Score : 0.4215
+-
+- Ambience is very nice 
+- Negative Score : 0.0 Neutral Score : 0.492 Positive Score :0.508 Compound Score : 0.4754
+-
+-thank you so much Hotel Maratha regency 
+- Negative Score : 0.0 Neutral Score : 0.706 Positive Score :0.294 Compound Score : 0.3612
+-
+- reasonable rates\r\nOverall good experience
+- Negative Score : 0.0 Neutral Score : 0.508 Positive Score :0.492 Compound Score : 0.4404
+-
+-\r\nValue for money 😊👍 ' ] [ 'Good Hotel 
+- Negative Score : 0.0 Neutral Score : 0.633 Positive Score :0.367 Compound Score : 0.4404
+-
+- The rooms are nice and big 
+- Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+-
+- ' ] [ 'Good location 
+- Negative Score : 0.0 Neutral Score : 0.256 Positive Score :0.744 Compound Score : 0.4404
+-
+-\r\nGood property 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- clean rooms- may look a bit old though 
+- Negative Score : 0.0 Neutral Score : 0.69 Positive Score :0.31 Compound Score : 0.4019
+-
+- The ambience is really good 
+- Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.4927
+-
+- Ample parking space
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- only as complimentary per day and pushes us to place order at Restaurant if we need more water or instant tea/coffee 
+- Negative Score : 0.0 Neutral Score : 0.873 Positive Score :0.127 Compound Score : 0.4404
+-
+- please do n't waste your hard earned money with these kind of hotels 
+- Negative Score : 0.0 Neutral Score : 0.628 Positive Score :0.372 Compound Score : 0.6031
+-
+- '' ] [ 'Good budget hotel and value for money 
+- Negative Score : 0.0 Neutral Score : 0.531 Positive Score :0.469 Compound Score : 0.6486
+-
+- nice place to stay in Kolhapur 
+- Negative Score : 0.0 Neutral Score : 0.641 Positive Score :0.359 Compound Score : 0.4215
+-
+- This place is very much accessible from all the important parts of city 
+- Negative Score : 0.0 Neutral Score : 0.87 Positive Score :0.13 Compound Score : 0.2023
+-
+- ' ] [ 'Hotel location is nearer to Railway station 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- affordable price 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- ' ] [ 'Each & every one working at Hotel Maratha Regency was so helpful & co-operative specially Mr Prabhu Sir who personally looked into what were our requirements and helped us get wonderful rooms with all the good amenities at the hotel
+- Negative Score : 0.0 Neutral Score : 0.774 Positive Score :0.226 Compound Score : 0.8811
+-
+- The rooms were so beautiful with large french windows to enjoy the view outside
+- Negative Score : 0.0 Neutral Score : 0.594 Positive Score :0.406 Compound Score : 0.8478
+-
+- divine and eye catching Shree Mahalakshmi Ambabai Devi Mandir and other beautiful places 
+- Negative Score : 0.0 Neutral Score : 0.595 Positive Score :0.405 Compound Score : 0.8176
+-
+-\r\nIt was good that we were not addicted to our mobile phones as wifi connectivity was not strong enough 
+- Negative Score : 0.12 Neutral Score : 0.752 Positive Score :0.128 Compound Score : 0.0511
+-
+- so we enjoyed a good time with family singing Antakshari and playing damcharades in our rooms which was really needed to relax during our short stay at Hotel Maratha Regency
+- Negative Score : 0.0 Neutral Score : 0.681 Positive Score :0.319 Compound Score : 0.8935
+-
+- we once again thank you for giving us such a wonderful experience during our stay 
+- Negative Score : 0.0 Neutral Score : 0.561 Positive Score :0.439 Compound Score : 0.8225
+-
+- Nice ambience 
+- Negative Score : 0.0 Neutral Score : 0.263 Positive Score :0.737 Compound Score : 0.4215
+-
+- value for money hotel 
+- Negative Score : 0.0 Neutral Score : 0.556 Positive Score :0.444 Compound Score : 0.34
+-
+- but a bit expensive according to the service which were given 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- but a bit expensive according to the service which were given 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
+- stars is because there was some wierd smell in the lobby and restaurant 
+- Negative Score : 0.0 Neutral Score : 0.916 Positive Score :0.084 Compound Score : 0.0258
+-
+- The mattresses are bit on the harder side 
+- Negative Score : 0.0 Neutral Score : 1.0 Positive Score :0.0 Compound Score : 0.0
+-
++ There seperate place food buffet lunch/dinner served:0.0 ' ] [ 'Limited items best quality food served breakfast:0.5106 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 rooms decent great:0.6249 breakfast tasty n loads varieties eat:0.0 enjoyed delicious traditional maharashtrian food - pitla- bhakri & bharlerli vangi:0.7906 Not forget delectable Tambda rassa Pandhra rassa non vegetarians:-0.357 chicken mutton dishes:0.0 ' ] [ 'Went dinner restaurant:0.0 parking everything excellent ' ] [ 'Rooms resonable size see cracks wall:0.5719 # hygienic room:0.0\r\nRooms spacious neat clean:0.6908 Bathrooms clean:0.4019 Basic rooms:0.0 It great place small events food particularly good:0.807 The washrooms best clean sufficient parking space also available:0.7845 clean place ' ] [ 'Rooms clean expectations based charge:0.6597 clean quiet:0.4019 Room clean along fast service:0.4019 cleanliness\r\nBathroom everything good:0.4404 Basic rooms:0.0 The rooms nice big:0.4215 clean rooms- may look bit old though:0.4019 Should pay attention keep rooms bed/linen moisture-free:-0.1027 ' ] [ 'Decent hotel well maintained rooms good food service:0.6124 Rooms also good vibe neat:0.7096 The rooms clean:0.4019\r\nCons : No Kettle provided non-AC rooms:-0.296 ' ] [ `` No cleanliness room:-0.296 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 rooms decent great:0.6249 lovely n clean rooms:0.7579 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555 The rooms beautiful large french windows enjoy view outside:0.7964 enjoyed good time family singing Antakshari playing damcharades rooms really needed relax short stay Hotel Maratha Regency:0.8801 ' ] [ 'Worst rooms:-0.6249 Curtains even proper size:0.0 Star hotel providing even Hot water cattle Tea pouch rooms:0.0\r\nNever try stay ' ] [ 'Neat clean rooms:0.6908 My dad lost pajama room cleaned:-0.3182 neat n clean rooms:0.6908 ' ] [ 'Rooms clean:0.4019 ' ] [ 'Rooms clean:0.4019 stars wierd smell lobby restaurant:0.0258 staff:0.0 The staff also appear trained politeness guest queries:0.0 people seated:0.0 ' ] [ 'Staff polite room tarriff quite reasonable:0.0 Thanks maratha regency wonderful service food:0.765 friendly staff:0.4939 room service little slow:0.0 child friendly:0.4939 Room clean along fast service:0.4019 service:0.0 cooperative staff:0.0 ' ] [ 'Decent hotel well maintained rooms good food service:0.6124 Pathetic service house keeping:-0.5719 Has decent restaurant named Masala pot bar within premises ' ] [ 'Rooms clean Awesome service thing improve breakfast idli & Medu Vada served breakfast ' ] [ 'Pocket friendly:0.9169 Nice food polite staff hotel:0.4215 Food also awesome important staff well behaved service fast:0.7906 ' ] [ 'Good food The staff also good:0.7003 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555\r\nThe travel desk staff helped us book travel destination:0.0\r\nI thank staff helped us making Kolhapur trip enjoyable:0.6597 hotel staff agreed instantly helped us keep sweet surprise:0.7351 The staff humble polite:0.0 I impressed service quality:0.4767 There much effort part hotel management locate:0.0 Staff friendly:0.4939 bit expensive according service given:0.0 bit expensive according service given:0.0 The service excellent:0.5719 ambience:0.0 parking everything excellent ' ] [ 'Rooms resonable size see cracks wall:0.5719 ' ] [ ' # budget hotel:0.0\r\nRooms spacious neat clean:0.6908\r\nOverall good place:0.4404 ' ] [ 'Nice place stay city:0.4215 It great place small events food particularly good:0.807 There seperate place food buffet lunch/dinner served:0.0 The washrooms best clean sufficient parking space also available:0.7845 Thanks maratha regency wonderful service food:0.765 hotel near Mahalakshmi Devasthanam main market:0.0 room service little slow:0.0 clean place ' ] [ 'Rooms clean expectations based charge:0.6597 Food freaking expensive:-0.4215 \r\nFood quality nice:0.4215 Ambience nice:0.4215 reasonable rates\r\nOverall good experience:0.4404\r\nValue money 😊👍 ' ] [ 'Good Hotel:0.4404 The rooms nice big:0.4215 ' ] [ 'Good location:0.4404\r\nGood property:0.0 clean rooms- may look bit old though:0.4019 The ambience really good:0.4927 Ample parking space:0.0 complimentary per day pushes us place order Restaurant need water instant tea/coffee:0.4404 please n't waste hard earned money kind hotels:0.8089 '' ] [ 'Good budget hotel value money:0.6486 nice place stay Kolhapur:0.4215 This place much accessible important parts city:0.2023 ' ] [ 'Hotel location nearer Railway station:0.0 affordable price:0.0 ' ] [ 'Each & every one working Hotel Maratha Regency helpful & co-operative specially Mr Prabhu Sir personally looked requirements helped us get wonderful rooms good amenities hotel:0.8555 The rooms beautiful large french windows enjoy view outside:0.7964 divine eye catching Shree Mahalakshmi Ambabai Devi Mandir beautiful places:0.8176\r\nIt good addicted mobile phones wifi connectivity strong enough:0.7351 enjoyed good time family singing Antakshari playing damcharades rooms really needed relax short stay Hotel Maratha Regency:0.8801 thank giving us wonderful experience stay:0.8225 Nice ambience:0.4215 value money hotel:0.34 bit expensive according service given:0.0 bit expensive according service given:0.0 stars wierd smell lobby restaurant:0.0258 The mattresses bit harder side:0.0
+\ No newline at end of file
