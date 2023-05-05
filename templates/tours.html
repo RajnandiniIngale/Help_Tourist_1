@@ -71,107 +71,6 @@ $(function () {
                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
                 <a href="/review?name=keys" class="btn">Reviews</a> </div>
                <br/>
-               {% if ratingsk | length >1 %}
-
-               {% set f=ratingsk['park_food'] %}
-
-               {%set s=ratingsk['park_service'] %}
-              {%set c=ratingsk['park_clean'] %}
-              {%set l=ratingsk['park_location'] %}
-                 FOOD:
-               {% if f==1 %}:
-                 <img src="static/images/1star.png" >
-               {% elif
-                 (f) == 2 %}
-                <img src="static/images/2star.png">
-
-               {% elif
-                  f == 3 %}
-                 <img src="static/images/3star.png">
-
-               {% elif
-                   f == 4 %}
-                 <img src="static/images/4star.png">
-
-               {% elif
-                   f == 5 %}
-                <img src="static/images/5star.png">
-
-               {% endif %}
-                <br/>
-                SERVICE :
-               {% if s==1 %}:
-                <img src="static/images/1star.png">
-               {% elif
-                 (s) == 2 %}
-                <img src="static/images/2star.png">
-
-               {% elif
-                  s == 3 %}
-                <img src="static/images/3star.png">
-
-               {% elif
-                   s == 4 %}
-                <img src="static/images/4star.png">
-
-               {% elif
-                   s == 5 %}
-                <img src="static/images/5star.png">
-
-               {% endif %}
-                <br/>
-                CLEAN:
-                 {% if c==1 %}:
-                <img src="static/images/1star.png">
-               {% elif
-                 (c) == 2 %}
-                <img src="static/images/2star.png">
-
-               {% elif
-                  c == 3 %}
-                <img src="static/images/3star.png">
-
-               {% elif
-                   c == 4 %}
-                <img src="static/images/4star.png">
-
-               {% elif
-                   c == 5 %}
-                <img src="static/images/5star.png">
-
-               {% endif %}
-                <br/>
-                LOCATION :
-                 {% if l==1 %}:
-                <img src="static/images/1star.png">
-               {% elif
-                 (l) == 2 %}
-                <img src="static/images/2star.png">
-
-               {% elif
-                  l == 3 %}
-                <img src="static/images/3star.png">
-
-               {% elif
-                   l == 4 %}
-                <img src="static/images/4star.png">
-
-               {% elif
-                   l == 5 %}
-                <img src="static/images/5star.png">
-
-               {% endif %}
-              {% endif %}
-                <br/>
-            </div>
-          </div>
-          <div class="grid_4 omega">
-            <div class="tour"> <img src="static/images/park.jpg" alt="" width="180" height="150" class="img_inner fleft">
-              <div class="extra_wrapper">
-                <p class="text1"><strong>Hotel Park Plaza </strong></p>
-                <p class="price">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>
-                <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
-                 <a href="/review?name=park" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -268,6 +167,110 @@ $(function () {
 
             </div>
           </div>
+          <div class="grid_4 omega">
+            <div class="tour"> <img src="static/images/park.jpg" alt="" width="180" height="150" class="img_inner fleft">
+              <div class="extra_wrapper">
+                <p class="text1"><strong>Hotel Park Plaza </strong></p>
+                <p class="price">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>
+                <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
+                 <a href="/review?name=park" class="btn">Reviews</a> </div>
+                         <br/>
+                {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['park_food'] %}
+
+               {%set s=ratingsk['park_service'] %}
+              {%set c=ratingsk['park_clean'] %}
+              {%set l=ratingsk['park_location'] %}
+                 FOOD:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png" >
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                SERVICE :
+               {% if s==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (s) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  s == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   s == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   s == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                CLEAN:
+                 {% if c==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (c) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  c == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   c == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   c == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                <br/>
+                LOCATION :
+                 {% if l==1 %}:
+                <img src="static/images/1star.png">
+               {% elif
+                 (l) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  l == 3 %}
+                <img src="static/images/3star.png">
+
+               {% elif
+                   l == 4 %}
+                <img src="static/images/4star.png">
+
+               {% elif
+                   l == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
+
+                <br/>
+            </div>
+          </div>
           <div class="clear"></div>
 		  <h3>Restaurants</h3>
           <div class="grid_4 alpha">
@@ -276,7 +279,7 @@ $(function () {
                 <p class="text1"><strong>Chingari</strong></p>
                 <p class="price">211 212 Le Meridien Mahabaleshwar Resort & Spa, Mahabaleshwar 412806 India</p>
                 <p class="price">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</p>
-                <a href="/review" class="btn">Reviews</a> </div>
+              <a href="/review?name=chingari" class="btn">Reviews</a> </div>
                <br/>
                {% if ratingsk | length >1 %}
 
@@ -327,7 +330,7 @@ $(function () {
 
                {% endif %}
                 <br/>
-                CLEAN:
+                VALUE FOR MONEY:
                  {% if c==1 %}:
                 <img src="static/images/1star.png">
                {% elif
@@ -429,7 +432,7 @@ $(function () {
 
                {% endif %}
                 <br/>
-                CLEAN:
+                VALUE FOR MONEY:
                  {% if c==1 %}:
                 <img src="static/images/1star.png">
                {% elif

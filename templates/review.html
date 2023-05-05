@@ -119,6 +119,14 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
+        if(pair[1]=='chingari')
+       {
+        document.getElementById("nm").value = 'chingari';
+        imgu="http://localhost:8000/static/images/chingari-restaurant.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+
 }
 
 y();
@@ -171,6 +179,13 @@ if(nm1=='park')
 {
 
 xhr.open("GET", "/static/js/parktest.csv");
+
+xhr.send();
+}
+if(nm1=='park')
+{
+
+xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }
