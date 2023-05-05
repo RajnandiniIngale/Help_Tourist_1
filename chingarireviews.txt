@@ -1,110 +1,56 @@
- ' ] [ `` I ca n't think of a better way to cap off a day of sightseeing than great food and that 's what Chingari provides 
  ' ] [ `` I ca n't think of a better way to cap off a day of sightseeing than great food and that 's what Chingari provides:0.4007
- Rahul and Vishwanath were our hosts for the night and were always present anytime we required anything and were very helpful with their recommendations 
  Rahul and Vishwanath were our hosts for the night and were always present anytime we required anything and were very helpful with their recommendations:0.4754
- The food was delicious and if there was one recommendation I could make it would be the Chakunder ki galouti 
  The food was delicious and if there was one recommendation I could make it would be the Chakunder ki galouti:0.5719
- \r\nSpecial shout out to chef Harmeet and Vishwanath to make our evening so special 
  \r\nSpecial shout out to chef Harmeet and Vishwanath to make our evening so special:0.541
- ' ] [ 'Amazing food and warm hospitality by chef Harmeet Singh 
  ' ] [ 'Amazing food and warm hospitality by chef Harmeet Singh:0.6908
- He suggested food based on our requirements 
  He suggested food based on our requirements:0.0
- The food was prepared with perfection and served with love 
  The food was prepared with perfection and served with love:0.8689
- Very good food 
  Very good food:0.4927
- ' ] [ 'Best dinning place 
  ' ] [ 'Best dinning place:0.6369
- we really loved the gentle of gesture of the head chef 
  we really loved the gentle of gesture of the head chef:0.8104
- who made sure to attend all the guests at time intervals fo a small chit chat over the experience and food served 
  who made sure to attend all the guests at time intervals fo a small chit chat over the experience and food served:0.3182
- My father had an upset stomach and he wanted plain non spicy food 
  My father had an upset stomach and he wanted plain non spicy food:-0.3818
- Chef Hemant specially prepared plain dal and dry sabzi for him outside the set menu 
  Chef Hemant specially prepared plain dal and dry sabzi for him outside the set menu:0.2263
- My dad loved it 
  My dad loved it:0.5994
- We had ordered chicken roganjosh and bharwaan alu 
  We had ordered chicken roganjosh and bharwaan alu:0.0
- Extremely flavorful with optimum spice 
  Extremely flavorful with optimum spice:0.0
- The service was great too 
  The service was great too:0.6249
- The atmosphere was lovely and the food was exceptional 
  The atmosphere was lovely and the food was exceptional:0.5859
- Talented chefs 
  Talented chefs:0.5106
- We even got a congratulatory cake that the staff got together and baked for us 
  We even got a congratulatory cake that the staff got together and baked for us:0.0
- Truly a lovely experience and some of the best authentic Indian cuisine I 've tasted in a while
  Truly a lovely experience and some of the best authentic Indian cuisine I 've tasted in a while:0.8979
- If you are going then please do ask for chef Harmeet 
  If you are going then please do ask for chef Harmeet:0.3182
- he is an awesome cook and extremely nice man 
  he is an awesome cook and extremely nice man:0.8016
- we just trusted him and everything that came on our table was mind-blowing 
  we just trusted him and everything that came on our table was mind-blowing:0.4767
- We went there to have our anniversary dinner and guys over there did n't let any stone unturned to make it more special 
  We went there to have our anniversary dinner and guys over there did n't let any stone unturned to make it more special:0.4576
- Food is excellent 
  Food is excellent:0.5719
- ' ] [ 'Wonderful decor and great food 
  ' ] [ 'Wonderful decor and great food:0.8316
- Good for a fine dine evening ' ] [ 'Chingari is one of the restaurants in Le Meridien 
  Good for a fine dine evening ' ] [ 'Chingari is one of the restaurants in Le Meridien:0.5719
- We were treated to some delicious food by Chef Harmeet 
  We were treated to some delicious food by Chef Harmeet:0.5719
- Excellent service and good portion of food served 
  Excellent service and good portion of food served:0.765
- We had beetroot galouti 
  We had beetroot galouti:0.0
- dal makhni and kulcha ( all of these were lip smacking ) 
  dal makhni and kulcha ( all of these were lip smacking ):0.0
- Left with fond memories and a wonderful taste in our mouths 
  Left with fond memories and a wonderful taste in our mouths:0.765
- '' ] [ `` We were here for dinner & loved the ambience 
  '' ] [ `` We were here for dinner & loved the ambience:0.5994
- We 'd Dum Ki Biryani ( Prawns ) ; it was delicious 
  We 'd Dum Ki Biryani ( Prawns ) ; it was delicious:0.5719
- But the food and service is worth it 
  But the food and service is worth it:0.3291
- For the non vegetarians 
  For the non vegetarians:0.0
- chicken lababdar is a great one 
  chicken lababdar is a great one:0.6249
- Very good food 
  Very good food:0.4927
- ' ] [ 'This restaurant had the best dal makhani I have ever had 
  ' ] [ 'This restaurant had the best dal makhani I have ever had:0.6369
- Every bit was so sumptuous and savoury I couldn ’ t compare it with any 
  Every bit was so sumptuous and savoury I couldn ’ t compare it with any:0.0
- The appetisers were also good 
  The appetisers were also good:0.4404
- The food is pricey but you get what you pay for 
  The food is pricey but you get what you pay for:-0.1531
- The dal makhani truly steals the show 
  The dal makhani truly steals the show:-0.1027
- ' ] [ `` I ca n't think of a better way to cap off a day of sightseeing than great food and that 's what Chingari provides 
  ' ] [ `` I ca n't think of a better way to cap off a day of sightseeing than great food and that 's what Chingari provides:0.4007
- Rahul and Vishwanath were our hosts for the night and were always present anytime we required anything and were very helpful with their recommendations 
  Rahul and Vishwanath were our hosts for the night and were always present anytime we required anything and were very helpful with their recommendations:0.4754
- The food was delicious and if there was one recommendation I could make it would be the Chakunder ki galouti 
  The food was delicious and if there was one recommendation I could make it would be the Chakunder ki galouti:0.5719
- '' ] [ 'Amazing food and warm hospitality by chef Harmeet Singh 
  '' ] [ 'Amazing food and warm hospitality by chef Harmeet Singh:0.6908
- He suggested food based on our requirements 
  He suggested food based on our requirements:0.0
- The food was prepared with perfection and served with love 
  The food was prepared with perfection and served with love:0.8689
- \r\nSpecial shout out to chef Harmeet and Vishwanath to make our evening so special 
  \r\nSpecial shout out to chef Harmeet and Vishwanath to make our evening so special:0.541
- ' ] [ 'The food quality is excellent 
  ' ] [ 'The food quality is excellent:0.5719
- for Veg they have some good options ( though limited ) but still excellent 
  for Veg they have some good options ( though limited ) but still excellent:0.7615
- Loved the spices ' ] [ 'Overall Good experience ' ] [ 'Good restaurant 
  Loved the spices ' ] [ 'Overall Good experience ' ] [ 'Good restaurant:0.8658
  But the food and service is worth it:0.3291
  Every bit was so sumptuous and savoury I couldn ’ t compare it with any:0.0

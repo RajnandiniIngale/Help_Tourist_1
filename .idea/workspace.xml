@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="keysreviews modified">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-05-2023_17_55_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-05-2023_17_55__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_09_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_09_AM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/maratha.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/maratha_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="chingari modified">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysemaratha.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysemaratha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cincin_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/cincin_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marathareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marathareviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chingarianalyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/chingarianalyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chingarireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chingarireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/chingaritest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/chingaritest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -556,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683259735315</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="chingari modified">
+      <created>1683260118170</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683260118170</updated>
+    </task>
+    <task id="LOCAL-00037" summary="chingari modified">
+      <created>1683260192733</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683260192733</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -594,7 +594,8 @@
     <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="keysreviews modified" />
+    <MESSAGE value="chingari modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="chingari modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
