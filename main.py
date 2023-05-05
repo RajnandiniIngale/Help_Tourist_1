@@ -20,6 +20,18 @@ def index():
 def about():
     return render_template("about.html")
 
+@app.route('/blog')
+def blog():
+    return render_template("blog.html")
+
+@app.route('/contacts')
+def contacts():
+    return render_template("contacts.html")
+
+@app.route('/gallery')
+def gallery():
+    return render_template("gallery.html")
+
 
 @app.route('/tours')
 def tours():
