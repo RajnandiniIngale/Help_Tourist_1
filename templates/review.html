@@ -106,8 +106,18 @@ for (let pair of queryString.entries())
    var imgu;
        if(pair[1]=='keys')
        {
-        imgu="http://localhost:8000/static/images/park.jpg"
+        imgu="http://localhost:8000/static/images/unnamed.jpg"
         document.getElementById("nm").value = 'keys';
+
+
+        imgu="http://localhost:8000/static/images/unnamed.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='keys')
+       {
+        imgu="http://localhost:8000/static/images/park.jpg"
+        document.getElementById("nm").value = 'park';
 
 
         imgu="http://localhost:8000/static/images/park.jpg"
@@ -166,6 +176,20 @@ if(nm1=='keys')
 {
 
 xhr.open("GET", "/static/js/test.csv");
+
+xhr.send();
+}
+if(nm1=='park')
+{
+
+xhr.open("GET", "/static/js/parktest.csv");
+
+xhr.send();
+}
+if(nm1=='chingari')
+{
+
+xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }

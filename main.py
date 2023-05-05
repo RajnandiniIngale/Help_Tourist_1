@@ -150,6 +150,11 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+
+    if name=='chingari':
+        file1 = open('chingari.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
     return render_template("review.html")
 
 
