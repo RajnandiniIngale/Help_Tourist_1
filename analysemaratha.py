@@ -173,7 +173,7 @@ ffile.writelines("maratha_location :" + ((str))(stars) + "\n")
 
 
 file1.close()
-
+reviewfile.close()
 file1 = open('marathareviews.txt', 'r' ,encoding='UTF-8')
 
 Lines = file1.readlines()

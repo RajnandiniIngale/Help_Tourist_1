@@ -87,6 +87,24 @@ font-family:"Times New Roman", Times, serif;
 
 </style>
 
+<body onload="x()">
+ <img src="" id="myImg" alt="" align="center">
+ <table id="csvTable" border="1" align="center">
+    <thead>
+      <tr>
+        <th>Review</th>
+        <th>Ratings</th>
+
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
+  <div class="container">
+    <h1>Reviews and Ratings</h1>
+
 
 <script>
 var nm1=""
@@ -163,8 +181,11 @@ xhr.send();
 }
 
 }
+
 </script>
+
 <script>
+
 var nm1=""
 
 function x()
@@ -238,11 +259,27 @@ xhr.open("GET", "/static/js/maratha_test.csv");
 xhr.send();
 }
 
-
 }
 </script>
-<script>
-var nm1=""
+
+
+    <hr>
+	 <table width="50%" border="1" align="center">
+
+       <tr>
+         <td>Write a Review </td>
+           <input type="hidden" name="nm" id="nm">
+         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
+       </tr>
+
+       <tr>
+           <td>  </td>
+         <td><input type="submit" name="Submit" value="Submit"></td>
+       </tr>
+     </table>
+  </div>
+    <script>
+    var nm1=""
 
 function x()
 {
@@ -261,10 +298,7 @@ for (let pair of queryString.entries())
        {
         imgu="http://localhost:8000/static/images/sayaji.jpg"
         document.getElementById("nm").value = 'sayaji';
-
-
         imgu="http://localhost:8000/static/images/sayaji.jpg"
-
         document.getElementById("myImg").src = imgu;
         }
 }
@@ -315,43 +349,8 @@ xhr.open("GET", "/static/js/sayaji_test.csv");
 xhr.send();
 }
 
-
 }
 </script>
-<body onload="x()">
- <img src="" id="myImg" alt="" align="center">
- <table id="csvTable" border="1" align="center">
-    <thead>
-      <tr>
-        <th>Review</th>
-        <th>Ratings</th>
-
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-<form method="post" style="border:1px solid #ccc" action="/insert_csv">
-  <div class="container">
-    <h1>Reviews and Ratings</h1>
-
-
-    <hr>
-	 <table width="50%" border="1" align="center">
-
-       <tr>
-         <td>Write a Review </td>
-           <input type="hidden" name="nm" id="nm">
-         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
-       </tr>
-
-       <tr>
-           <td>  </td>
-         <td><input type="submit" name="Submit" value="Submit"></td>
-       </tr>
-     </table>
-  </div>
 </form>
 
 </body>
