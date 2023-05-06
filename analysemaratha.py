@@ -201,3 +201,4 @@ with open('static/js/maratha_test.csv', 'w',encoding='UTF-8') as f:
         f.write("%s,%s\n"%(key,sorted_dict[key]))
 
 
+file1.close()

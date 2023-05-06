@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysemaratha.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysemaratha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +55,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Unnamed">
+  <component name="RunManager">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,7 +168,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (Tourist_help0)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -524,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683116545968</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683381019061</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683381019061</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -559,10 +575,10 @@
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
-    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="keysreviews modified" />
+    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

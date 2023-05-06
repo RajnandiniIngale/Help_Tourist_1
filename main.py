@@ -84,7 +84,6 @@ def tours():
         stars[review[0]] = int(review[1])
 
 
-
     return render_template("tours.html",ratingsk=stars)
 
 
@@ -162,7 +161,18 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+    if name=='sayaji':
+        file1 = open('sayaji.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
 
+        file1.close()
+    if name=='maratha':
+        file1 = open('maratha.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
     if name=='chingari':
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")
