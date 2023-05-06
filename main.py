@@ -20,6 +20,18 @@ def index():
 def about():
     return render_template("about.html")
 
+@app.route('/blog')
+def blog():
+    return render_template("blog.html")
+
+@app.route('/contacts')
+def contacts():
+    return render_template("contacts.html")
+
+@app.route('/gallery')
+def gallery():
+    return render_template("gallery.html")
+
 
 @app.route('/tours')
 def tours():
@@ -137,16 +149,10 @@ def insert_keys_csv():
     name=request.form['nm']
     rev=request.form['reviews2']
 
-    if name == 'keys':
+    if name=='keys':            #write new review added by user
         file1 = open('keys_hotel.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+",0,0,0")
-
-        file1.close()
-    if name == 'maratha':
-        file1 = open('maratha.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev + ",0,0,0")
 
         file1.close()
 
@@ -156,12 +162,11 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
-    if name == 'sayaji':
-        file1 = open('sayaji.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev + ",0,0,0")
 
-        file1.close()
+    if name=='chingari':
+        file1 = open('chingari.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
     return render_template("review.html")
 
 
