@@ -44,45 +44,46 @@ def tours():
         review=line.split(":")
         stars[review[0]]=int(review[1])
     file1.close()
+
     file1 = open("park_plaza.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
-
     file1.close()
+
     file1 = open("chingari.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
-
     file1.close()
+
     file1 = open("barbeque.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
-
     file1.close()
+
     file1 = open("wilson.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
-
     file1.close()
+
     file1 = open("venna.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
-
+    file1.close()
 
     return render_template("tours.html",ratingsk=stars)
 
@@ -161,6 +162,33 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+    if name=='barbeque':
+        file1 = open('barbequebay.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+    if name=='chingari':
+        file1 = open('chingari.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='wilson':
+        file1 = open('wilson.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='venna':
+        file1 = open('venna.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
     if name=='sayaji':
         file1 = open('sayaji.csv', 'a+')
         file1.writelines("\n")

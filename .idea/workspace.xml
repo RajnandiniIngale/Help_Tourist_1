@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="chingari modified">
+      <change afterPath="$PROJECT_DIR$/static/js/bbqtest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/vennatest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/wilsontest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse-venna.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-venna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse-wilson.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-wilson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysepark.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barbeque-analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barbeque-reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overall_venna.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/park.csv" beforeDir="false" afterPath="$PROJECT_DIR$/park.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_plaza.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess-venna.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess-venna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venna.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wilson.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wilson.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +62,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\Help_Tourist_1" />
@@ -47,7 +75,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +188,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9 (Tourist_help0)" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -238,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,12 +287,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.analyse" />
       <item itemvalue="Python.cincin_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
-      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
       <item itemvalue="Python.main" />
@@ -273,7 +300,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.preprocess1-2" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -281,7 +307,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added" />
+      <changelist id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="chingari modified" />
       <created>1678592822658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -525,28 +551,49 @@
       <option name="project" value="LOCAL" />
       <updated>1683116545968</updated>
     </task>
-    <task id="LOCAL-00035" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1683381019061</created>
+    <task id="LOCAL-00035" summary="keysreviews modified">
+      <created>1683259735315</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1683381019061</updated>
+      <updated>1683259735315</updated>
     </task>
-    <task id="LOCAL-00036" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1683381957879</created>
+    <task id="LOCAL-00036" summary="chingari modified">
+      <created>1683260118170</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1683381957879</updated>
+      <updated>1683260118170</updated>
     </task>
-    <task id="LOCAL-00037" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <created>1683381981653</created>
+    <task id="LOCAL-00037" summary="chingari modified">
+      <created>1683260192733</created>
       <option name="number" value="00037" />
       <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1683381981653</updated>
+      <updated>1683260192733</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="chingari modified">
+      <created>1683260583521</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1683260583521</updated>
+    </task>
+    <task id="LOCAL-00039" summary="chingari modified">
+      <created>1683264302039</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1683264302039</updated>
+    </task>
+    <task id="LOCAL-00040" summary="chingari modified">
+      <created>1683264828499</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683264828499</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -581,10 +628,11 @@
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
+    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
-    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <MESSAGE value="chingari modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="chingari modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

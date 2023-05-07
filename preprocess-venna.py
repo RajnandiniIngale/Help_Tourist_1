@@ -61,14 +61,20 @@ arr1 = re.split("[.|,|!,0-9]", fin)
 print(arr1)     # arr after removing after removing punctuations
 
 print('')
-file = open("overall_venna.txt", "w", encoding="utf-8")
+file = open("venna_overall.txt", "w", encoding="utf-8")
 
 
 for k in arr1:           #traversing through the arr of useful words
     for feat in overall:
         if feat.lower() in k:
+            file.writelines(k + "")
             file.writelines(k + "\n")
             break
+
+
+
+
+
 
 
 

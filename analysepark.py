@@ -59,7 +59,7 @@ else:
 
 
 
-ffile.writelines("park_food :" +((str))(stars)+"\n")
+ffile.writelines("park_food:" +((str))(stars)+"\n")
 
 file1 = open('park_clean.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -94,7 +94,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("park_clean :" + ((str))(stars) + "\n")
+ffile.writelines("park_clean:" + ((str))(stars) + "\n")
 
 
 print(sum)
@@ -129,7 +129,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("park_service :" + ((str))(stars) + "\n")
+ffile.writelines("park_service:" + ((str))(stars) + "\n")
 
 file1 = open('park_location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -164,7 +164,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 print(sum)
-ffile.writelines("park_location :" + ((str))(stars) + "\n")
+ffile.writelines("park_location:" + ((str))(stars) + "\n")
 
 file1.close()
 
