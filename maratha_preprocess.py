@@ -72,6 +72,7 @@ pfile3 = open("maratha_service.txt", "w", encoding="utf-8")
 
 
 
+
 for k in arr1:
     for feat in food:
         if feat.lower() in k:

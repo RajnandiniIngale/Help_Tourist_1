@@ -482,6 +482,34 @@ $(function () {
                 <p class="text1"><strong>Gateway of India</strong> </p>
                 <p class="price">The Gateway of India is one of the significant and unique landmarks located in Mumbai, Maharashtra, India. The colossal structure of the Gateway of India was constructed in 1924.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+
+                <br/>
+                {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['gatewayindia_all'] %}
+
+                 Overall:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
           <div class="grid_4 omega ">
@@ -490,6 +518,33 @@ $(function () {
                 <p class="text1"><strong>Bandra Fort </strong></p>
                 <p class="price">The Bandra fort is one of the Portuguese forts from Mumbai. Bandra fort provides scenic views of the Arabian sea, river Mahim and the Bandra-Worli Sealink road at the same time. </p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                 <br/>
+                {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['bandrafort_all'] %}
+
+                 Overall:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
         </div>

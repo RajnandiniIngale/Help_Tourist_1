@@ -1,4 +1,6 @@
-
+import numpy as np
+import ast
+import csv
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 #nltk.download('vader_lexicon')
@@ -32,12 +34,8 @@ for line in Lines:
     review=line
     scores = sia.polarity_scores(review)
     sum=sum+scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars=0
 
 sum=sum/10
@@ -61,7 +59,7 @@ else:
 
 
 
-ffile.writelines("park_food :" +((str))(stars)+"\n")
+ffile.writelines("park_food:" +((str))(stars)+"\n")
 
 file1 = open('park_clean.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -75,13 +73,8 @@ for line in Lines:
     scores = sia.polarity_scores(review)
     #print(scores["compound"])
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
-
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars = 0
 sum=sum/10
 
@@ -101,7 +94,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("park_clean :" + ((str))(stars) + "\n")
+ffile.writelines("park_clean:" + ((str))(stars) + "\n")
 
 
 print(sum)
@@ -116,13 +109,8 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
-
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars = 0
 sum = sum / 10
 if sum < 0.3:
@@ -141,7 +129,7 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-ffile.writelines("park_service :" + ((str))(stars) + "\n")
+ffile.writelines("park_service:" + ((str))(stars) + "\n")
 
 file1 = open('park_location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
@@ -154,12 +142,8 @@ for line in Lines:
     review = line
     scores = sia.polarity_scores(review)
     sum = sum + scores["compound"]
-    reviewfile.writelines(review)
-    reviewfile.writelines(" Negative Score : " + str(scores['neg']))
-    reviewfile.writelines(" Neutral Score : " + str(scores['neu']))
-    reviewfile.writelines(" Positive Score :" + str(scores['pos']))
-    reviewfile.writelines(" Compound Score : " + str(scores['compound']))
-    reviewfile.writelines("\n\n")
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
 
 sum = sum / 10
 stars = 0
@@ -180,4 +164,33 @@ else:
                 if sum > 2.5:
                     stars = 5;
 print(sum)
-ffile.writelines("park_location :" + ((str))(stars) + "\n")
+ffile.writelines("park_location:" + ((str))(stars) + "\n")
+
+file1.close()
+
+file1 = open('parkreviews.txt', 'r' ,encoding='UTF-8')
+
+Lines = file1.readlines()
+my_dict={}
+count = 0
+# Strips the newline character
+for line in Lines:
+    review=line
+    arr=review.split(":",1)
+    if len(arr) > 1:
+        key=arr[0].replace(' ] [','')
+        my_dict[key]=(arr[1].rstrip())
+    #print(review)
+
+keys = list(my_dict.keys())
+values = list(my_dict.values())
+
+
+sorted_value_index = np.argsort(values)[::-1]    #sort in descending order ==> list of values
+sorted_dict = {keys[i]: values[i] for i in sorted_value_index}      # create dictionary from list
+
+print(sorted_dict)
+with open('static/js/parktest.csv', 'w',encoding='UTF-8') as f:
+    for key in sorted_dict.keys():
+        f.write("%s,%s\n"%(key,sorted_dict[key]))
+

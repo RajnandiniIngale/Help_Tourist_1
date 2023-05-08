@@ -25,3 +25,5 @@ Dinner buffet is good to but the roasted chicken stood out
  The buffet lunch provided is very good and price is also reasonable 
  ] [ 'Great surrounding and awesome ambience coupled with delicious food and hospitality 
  excellent food quality 
+ ] [ 'food was delicious ' 
+ ] [ 'food was not delicious ' 

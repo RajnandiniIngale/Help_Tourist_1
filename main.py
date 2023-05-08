@@ -16,6 +16,22 @@ mimetypes.add_type("text/css", ".css", True)
 def index():
     return render_template("index.html")
 
+@app.route('/about')
+def about():
+    return render_template("about.html")
+
+@app.route('/blog')
+def blog():
+    return render_template("blog.html")
+
+@app.route('/contacts')
+def contacts():
+    return render_template("contacts.html")
+
+@app.route('/gallery')
+def gallery():
+    return render_template("gallery.html")
+
 
 @app.route('/tours')
 def tours():
@@ -28,13 +44,46 @@ def tours():
         review=line.split(":")
         stars[review[0]]=int(review[1])
     file1.close()
+
     file1 = open("park_plaza.txt")
     lines = file1.readlines()
 
     for line in lines:
         review = line.split(":")
         stars[review[0]] = int(review[1])
+    file1.close()
 
+    file1 = open("chingari.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+    file1.close()
+
+    file1 = open("barbeque.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+    file1.close()
+
+    file1 = open("wilson.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+    file1.close()
+
+    file1 = open("venna.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0]] = int(review[1])
+    file1.close()
 
     return render_template("tours.html",ratingsk=stars)
 
@@ -75,6 +124,20 @@ def tours1():
         for line in lines:
             review = line.split(":")
             stars[review[0].rstrip()] = int(review[1])
+        file1.close()
+        file1 = open("mahalaxmi.txt")
+        lines = file1.readlines()
+
+        for line in lines:
+            review = line.split(":")
+            stars[review[0].rstrip()] = int(review[1])
+        file1.close()
+        file1 = open("newpalace.txt")
+        lines = file1.readlines()
+
+        for line in lines:
+            review = line.split(":")
+            stars[review[0].rstrip()] = int(review[1])
     print(stars)
     return render_template("tours1.html", ratingsk=stars)
 
@@ -86,12 +149,77 @@ def insert_keys_csv():
     name=request.form['nm']
     rev=request.form['reviews2']
 
-    if name=='keys':
+    if name=='keys':            #write new review added by user
         file1 = open('keys_hotel.csv', 'a+')
         file1.writelines("\n")
-        file1.writelines(rev+"0,0,0")
+        file1.writelines(rev+",0,0,0")
 
         file1.close()
+
+    if name=='park':
+        file1 = open('park.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+    if name=='barbeque':
+        file1 = open('barbequebay.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+    if name=='chingari':
+        file1 = open('chingari.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='wilson':
+        file1 = open('wilson.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='venna':
+        file1 = open('venna.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='sayaji':
+        file1 = open('sayaji.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+    if name=='maratha':
+        file1 = open('maratha.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='parakh':
+        file1 = open('parakh.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='tandoor':
+        file1 = open('Tandoor.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+
+    if name=='chingari':
+        file1 = open('chingari.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
     return render_template("review.html")
 
 
@@ -122,6 +250,20 @@ def mumbai():
             stars[review[0].rstrip()] = int(review[1])
     file1.close()
     file1 = open("cincin.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0].rstrip()] = int(review[1])
+    file1.close()
+    file1 = open("gatewayindia.txt")
+    lines = file1.readlines()
+
+    for line in lines:
+        review = line.split(":")
+        stars[review[0].rstrip()] = int(review[1])
+    file1.close()
+    file1 = open("bandrafort.txt")
     lines = file1.readlines()
 
     for line in lines:

@@ -69,7 +69,7 @@ $(function () {
                 <p class="text1"><strong>Sayaji Hotel</strong></p>
                 <p class="price">2104/15, E Ward, Old Pune-Bangalore Hwy, Kawala Naka, Shahupuri, Kolhapur, Maharashtra 416005</p>
                 <p class="price"> 1 Day 1 Night<span>₹ 5,600</span></p>
-                <a href="/review" class="btn">Reviews</a> </div>
+                <a href="/review?name=sayaji" class="btn">Reviews</a> </div>
                 <br/>
 
 
@@ -173,7 +173,7 @@ $(function () {
                 <p class="text1"><strong>Hotel Maratha Regency </strong></p>
                 <p class="price">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>
                 <p class="price">1 day 1 Night<span>₹ 2,707</span></p>
-                <a href="/review" class="btn">Reviews</a> </div>
+                <a href="/review?name=maratha" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -277,7 +277,7 @@ $(function () {
                 <p class="text1"><strong>Hotel Parakh</strong></p>
                 <p class="price">No.266, E Ward, Patole Wadi, near Gajanan Nagari Patsanstha, Kolhapur, Maharashtra 416005</p>
                 <p class="price">Mutton Thali of Kolhapur with tambda and pandhra rassa</p>
-                <a href="/review" class="btn">Reviews</a> </div>
+                <a href="/review?name=parakh" class="btn">Reviews</a> </div>
                  <br/>
                {% if ratingsk | length >1 %}
 
@@ -379,7 +379,7 @@ $(function () {
                 <p class="text1"><strong>HOTEL TANDOOR </strong></p>
                 <p class="price">Shop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</p>
                 <p class="price">Indian, Chicken Specialities ,Vegetarian Friendly, Vegan Options</p>
-                <a href="/review" class="btn">Reviews</a> </div>
+                <a href="/review?name=tandoor" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -483,6 +483,33 @@ $(function () {
                 <p class="text1"><strong>Shri Mahalaxmi - Ambabai Temple</strong> </p>
                 <p class="price">Ambabai Temple is an important Hindu temple dedicated to Goddess Lakshmi, worshipped by locals as Ambabai.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
+                <br/>
+                {% if ratingsk | length >1 %}
+
+               {% set f=ratingsk['mahalaxmi_all'] %}
+
+                 WORTH VISITING:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
 		  <div class="grid_4 omega">
@@ -491,13 +518,39 @@ $(function () {
                 <p class="text1"><strong>Chhatrapati Shahu Palace </strong></p>
                 <p class="price">New Palace, Kolhapur is a palace situated in Kolhapur. The Palace took 7 years to complete, from 1877 to 1884.</p>
                 <a href="/review" class="btn">Reviews</a> </div>
-            </div>
-          </div>
+                <br/>
+                {% if ratingsk | length >1 %}
 
+               {% set f=ratingsk['newpalace_all'] %}
+
+                 WORTH VISITING:
+               {% if f==1 %}:
+                 <img src="static/images/1star.png">
+               {% elif
+                 (f) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  f == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                   f == 4 %}
+                 <img src="static/images/4star.png">
+
+               {% elif
+                   f == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+              {% endif %}
+                <br/>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
       <div class="grid_3">
         <h3>Browse Tours</h3>
         <form method="post" id="form1" class="form1" action="#">

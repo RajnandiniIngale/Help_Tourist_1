@@ -87,13 +87,33 @@ font-family:"Times New Roman", Times, serif;
 
 </style>
 
+<body onload="x()">
+ <img src="" id="myImg" alt="" align="center">
+ <table id="csvTable" border="1" align="center">
+    <thead>
+      <tr>
+        <th>Review</th>
+        <th>Ratings</th>
+
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
+  <div class="container">
+    <h1>Reviews and Ratings</h1>
+
 
 <script>
 var nm1=""
+
 function x()
 {
      paramString = window.location.href.split('?')[1];
      queryString = new URLSearchParams(paramString);
+
 
 
 for (let pair of queryString.entries())
@@ -102,16 +122,66 @@ for (let pair of queryString.entries())
    console.log("Value is: " + pair[1]);
    nm1=pair[1];
    var imgu;
-       if(pair[1]=="'keys'")
+       if(pair[1]=='keys')
        {
-        imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("nm").value = 'keys';
-
-
-        imgu="http://localhost:8000/static/images/park.jpg"
+        imgu="http://localhost:8000/static/images/unnamed.jpg"
 
         document.getElementById("myImg").src = imgu;
         }
+
+        if(pair[1]=='park')
+       {
+        document.getElementById("nm").value = 'park';
+        imgu="http://localhost:8000/static/images/park.jpg"
+        document.getElementById("myImg").src = imgu;
+        }
+
+        if(pair[1]=='chingari')
+       {
+        document.getElementById("nm").value = 'chingari';
+        imgu="http://localhost:8000/static/images/chingari-restaurant.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='sayaji')
+       {
+
+        document.getElementById("nm").value = 'sayaji';
+
+        imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='maratha')
+       {
+
+        document.getElementById("nm").value = 'maratha';
+
+        imgu="http://localhost:8000/static/images/maratha.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='parakh')
+       {
+
+        document.getElementById("nm").value = 'parakh';
+
+        imgu="http://localhost:8000/static/images/parakh.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='tandoor')
+       {
+
+        document.getElementById("nm").value = 'tandoor';
+
+        imgu="http://localhost:8000/static/images/tandoor.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+
+
 }
 
 y();
@@ -120,10 +190,13 @@ y();
 function y()
 {
 // Read the CSV file using XMLHttpRequest
+
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     // Parse the CSV data
+
+
     var lines = this.responseText.split("\n");
 
     //var headers = lines[0].split(",");
@@ -149,29 +222,58 @@ xhr.onreadystatechange = function() {
   }
 };
 
-xhr.open("GET", "/static/js/test.csv");
-xhr.send();
+if(nm1=='keys')
+{
 
+xhr.open("GET", "/static/js/test.csv");
+
+xhr.send();
+}
+if(nm1=='park')
+{
+
+xhr.open("GET", "/static/js/parktest.csv");
+
+xhr.send();
+}
+if(nm1=='chingari')
+{
+
+xhr.open("GET", "/static/js/chingaritest.csv");
+
+xhr.send();
+}
+if(nm1=='sayaji')
+{
+
+xhr.open("GET", "/static/js/sayaji_test.csv");
+
+xhr.send();
+}
+if(nm1=='maratha')
+{
+
+xhr.open("GET", "/static/js/maratha_test.csv");
+
+xhr.send();
+}
+
+if(nm1=='parakh')
+{
+
+xhr.open("GET", "/static/js/parakhtest.csv");
+
+xhr.send();
+}
+if(nm1=='tandoor')
+{
+
+xhr.open("GET", "/static/js/tandoortest.csv");
+
+xhr.send();
+}
 }
 </script>
-
-<body onload="x()">
- <img src="" id="myImg" alt="" align="center">
- <table id="csvTable" border="1" align="center">
-    <thead>
-      <tr>
-        <th>Review</th>
-        <th>Ratings</th>
-
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-<form method="post" style="border:1px solid #ccc" action="/insert_csv?name='keys'">
-  <div class="container">
-    <h1>Reviews and Ratings</h1>
 
 
     <hr>
@@ -189,6 +291,7 @@ xhr.send();
        </tr>
      </table>
   </div>
+
 </form>
 
 </body>

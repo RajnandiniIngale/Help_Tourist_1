@@ -1,0 +1,60 @@
+Index: static/js/chingaritest.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/static/js/chingaritest.csv b/static/js/chingaritest.csv
+new file mode 100644
+--- /dev/null	(date 1683259142050)
++++ b/static/js/chingaritest.csv	(date 1683259142050)
+@@ -0,0 +1,50 @@
++ Truly a lovely experience and some of the best authentic Indian cuisine I 've tasted in a while,0.8979
++ The food was prepared with perfection and served with love,0.8689
++ Loved the spices ' 'Overall Good experience ' 'Good restaurant,0.8658
++ Chef Hemant and his staff is super awesome,0.8402
++ ' 'Wonderful decor and great food,0.8316
++ we really loved the gentle of gesture of the head chef,0.8104
++ he is an awesome cook and extremely nice man,0.8016
++ Excellent service and good portion of food served,0.765
++ Left with fond memories and a wonderful taste in our mouths,0.765
++ for Veg they have some good options ( though limited ) but still excellent,0.7615
++ '' 'Amazing food and warm hospitality by chef Harmeet Singh,0.6908
++ ' 'Amazing food and warm hospitality by chef Harmeet Singh,0.6908
++ ' 'Best dinning place,0.6369
++ ' 'This restaurant had the best dal makhani I have ever had,0.6369
++ chicken lababdar is a great one,0.6249
++ The service was great too,0.6249
++ ambience and the hospitality of the staff was awesome,0.6249
++ My dad loved it,0.5994
++ '' `` We were here for dinner & loved the ambience,0.5994
++ The atmosphere was lovely and the food was exceptional,0.5859
++ We 'd Dum Ki Biryani ( Prawns ) ; it was delicious,0.5719
++ We were treated to some delicious food by Chef Harmeet,0.5719
++ Good for a fine dine evening ' 'Chingari is one of the restaurants in Le Meridien,0.5719
++ Food is excellent,0.5719
++ The food was delicious and if there was one recommendation I could make it would be the Chakunder ki galouti,0.5719
++ ' 'The food quality is excellent,0.5719
++ \r\nSpecial shout out to chef Harmeet and Vishwanath to make our evening so special,0.541
++ Talented chefs,0.5106
++ Friendly staff,0.4939
++ Very good food,0.4927
++ we just trusted him and everything that came on our table was mind-blowing,0.4767
++ Rahul and Vishwanath were our hosts for the night and were always present anytime we required anything and were very helpful with their recommendations,0.4754
++ We went there to have our anniversary dinner and guys over there did n't let any stone unturned to make it more special,0.4576
++ The appetisers were also good,0.4404
++ ' `` I ca n't think of a better way to cap off a day of sightseeing than great food and that 's what Chingari provides,0.4007
++ But the food and service is worth it,0.3291
++ If you are going then please do ask for chef Harmeet,0.3182
++ who made sure to attend all the guests at time intervals fo a small chit chat over the experience and food served,0.3182
++ Chef Hemant specially prepared plain dal and dry sabzi for him outside the set menu,0.2263
++ Every bit was so sumptuous and savoury I couldn ’ t compare it with any,0.0
++ He suggested food based on our requirements,0.0
++ For the non vegetarians,0.0
++ We even got a congratulatory cake that the staff got together and baked for us,0.0
++ Extremely flavorful with optimum spice,0.0
++ We had beetroot galouti,0.0
++ We had ordered chicken roganjosh and bharwaan alu,0.0
++ dal makhni and kulcha ( all of these were lip smacking ),0.0
++ My father had an upset stomach and he wanted plain non spicy food,-0.3818
++ The food is pricey but you get what you pay for,-0.1531
++ The dal makhani truly steals the show,-0.1027
