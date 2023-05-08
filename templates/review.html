@@ -144,6 +144,15 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
+        if(pair[1]=='sayaji')
+       {
+
+        document.getElementById("nm").value = 'sayaji';
+
+        imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
         if(pair[1]=='maratha')
        {
 
@@ -153,13 +162,25 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='sayaji')
+        if(pair[1]=='parakh')
        {
 
-        document.getElementById("nm").value = 'sayaji';
-        imgu="http://localhost:8000/static/images/sayaji.jpg"
+        document.getElementById("nm").value = 'parakh';
+
+        imgu="http://localhost:8000/static/images/parakh.jpg"
+
         document.getElementById("myImg").src = imgu;
         }
+        if(pair[1]=='tandoor')
+       {
+
+        document.getElementById("nm").value = 'tandoor';
+
+        imgu="http://localhost:8000/static/images/tandoor.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+
 
 }
 
@@ -222,13 +243,6 @@ xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }
-if(nm1=='maratha')
-{
-
-xhr.open("GET", "/static/js/maratha_test.csv");
-
-xhr.send();
-}
 if(nm1=='sayaji')
 {
 
@@ -236,6 +250,14 @@ xhr.open("GET", "/static/js/sayaji_test.csv");
 
 xhr.send();
 }
+if(nm1=='maratha')
+{
+
+xhr.open("GET", "/static/js/maratha_test.csv");
+
+xhr.send();
+}
+
 if(nm1=='parakh')
 {
 
@@ -251,7 +273,6 @@ xhr.open("GET", "/static/js/tandoortest.csv");
 xhr.send();
 }
 }
-
 </script>
 
 

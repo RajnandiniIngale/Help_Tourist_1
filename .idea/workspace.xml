@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maratha.csv" beforeDir="false" afterPath="$PROJECT_DIR$/maratha.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parakh_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/tandoortest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/tandoortest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tandoor_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_analyse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +382,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added" />
+      <changelist id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
       <created>1678592822658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -650,7 +647,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683381981653</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683543573753</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1683543573753</updated>
+    </task>
+    <task id="LOCAL-00039" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683543591688</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1683543591688</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="UnknownFeatures">
