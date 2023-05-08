@@ -201,6 +201,18 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+    if name=='parakh':
+        file1 = open('parakh.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+    if name=='tandoor':
+        file1 = open('Tandoor.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
     if name=='chingari':
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")

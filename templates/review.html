@@ -136,6 +136,7 @@ for (let pair of queryString.entries())
         imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("myImg").src = imgu;
         }
+
         if(pair[1]=='chingari')
        {
         document.getElementById("nm").value = 'chingari';
@@ -143,25 +144,22 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='barbeque')
+        if(pair[1]=='maratha')
        {
-        document.getElementById("nm").value = 'barbeque';
-        imgu="http://localhost:8000/static/images/image.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='wilson')
-       {
-        document.getElementById("nm").value = 'wilson';
-        imgu="http://localhost:8000/static/images/wilson1.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='venna')
-       {
-        document.getElementById("nm").value = 'venna';
-        imgu="http://localhost:8000/static/images/venna1.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
 
+        document.getElementById("nm").value = 'maratha';
+
+        imgu="http://localhost:8000/static/images/maratha.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='sayaji')
+       {
+
+        document.getElementById("nm").value = 'sayaji';
+        imgu="http://localhost:8000/static/images/sayaji.jpg"
+        document.getElementById("myImg").src = imgu;
+        }
 
 }
 
@@ -224,34 +222,38 @@ xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }
-if(nm1=='barbeque')
+if(nm1=='maratha')
 {
 
-xhr.open("GET", "/static/js/bbqtest.csv");
+xhr.open("GET", "/static/js/maratha_test.csv");
 
 xhr.send();
 }
-if(nm1=='wilson')
+if(nm1=='sayaji')
 {
 
-xhr.open("GET", "/static/js/wilsontest.csv");
+xhr.open("GET", "/static/js/sayaji_test.csv");
 
 xhr.send();
 }
-
-if(nm1=='venna')
+if(nm1=='parakh')
 {
 
-xhr.open("GET", "/static/js/vennatest.csv");
+xhr.open("GET", "/static/js/parakhtest.csv");
 
 xhr.send();
 }
+if(nm1=='tandoor')
+{
 
+xhr.open("GET", "/static/js/tandoortest.csv");
 
-
+xhr.send();
+}
 }
 
 </script>
+
 
     <hr>
 	 <table width="50%" border="1" align="center">

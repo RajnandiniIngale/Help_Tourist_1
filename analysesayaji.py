@@ -169,6 +169,7 @@ print(sum)
 ffile.writelines("sayaji_location :" + ((str))(stars) + "\n")
 
 
+
 file1.close()
 reviewfile.close()
 file1 = open('sayajireviews.txt', 'r' ,encoding='UTF-8')
