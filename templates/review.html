@@ -89,6 +89,23 @@ font-family:"Times New Roman", Times, serif;
 
 <body onload="x()">
  <img src="" id="myImg" alt="" align="center">
+ <div class="container">
+    <h1>Reviews and Ratings</h1>
+ <table width="50%" border="1" align="center">
+
+        <tr>
+         <td>Write a Review </td>
+           <input type="hidden" name="nm" id="nm">
+         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
+       </tr>
+
+       <tr>
+           <td>  </td>
+         <td><input type="submit" name="Submit" value="Submit"></td>
+       </tr>
+
+</table>
+ <br><br>
  <table id="csvTable" border="1" align="center">
     <thead>
       <tr>
@@ -96,15 +113,16 @@ font-family:"Times New Roman", Times, serif;
         <th>Ratings</th>
 
       </tr>
+
     </thead>
     <tbody>
     </tbody>
   </table>
 
 <form method="post" style="border:1px solid #ccc" action="/insert_csv">
-  <div class="container">
-    <h1>Reviews and Ratings</h1>
 
+
+<hr>
 
 <script>
 var nm1=""
@@ -276,20 +294,7 @@ xhr.send();
 </script>
 
 
-    <hr>
-	 <table width="50%" border="1" align="center">
 
-       <tr>
-         <td>Write a Review </td>
-           <input type="hidden" name="nm" id="nm">
-         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
-       </tr>
-
-       <tr>
-           <td>  </td>
-         <td><input type="submit" name="Submit" value="Submit"></td>
-       </tr>
-     </table>
   </div>
 
 </form>
