@@ -89,8 +89,10 @@ font-family:"Times New Roman", Times, serif;
 
 <body onload="x()">
  <img src="" id="myImg" alt="" align="center">
- <div class="container">
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
+<div class="container">
     <h1>Reviews and Ratings</h1>
+</div>
  <table width="50%" border="1" align="center">
 
         <tr>
@@ -119,10 +121,10 @@ font-family:"Times New Roman", Times, serif;
     </tbody>
   </table>
 
-<form method="post" style="border:1px solid #ccc" action="/insert_csv">
 
 
 <hr>
+
 
 <script>
 var nm1=""
@@ -195,6 +197,24 @@ for (let pair of queryString.entries())
         document.getElementById("nm").value = 'tandoor';
 
         imgu="http://localhost:8000/static/images/tandoor.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='mahalaxmi')
+       {
+
+        document.getElementById("nm").value = 'mahalaxmi';
+
+        imgu="http://localhost:8000/static/images/mahalakshi.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='newpalace')
+       {
+
+        document.getElementById("nm").value = 'newpalace';
+
+        imgu="http://localhost:8000/static/images/shahu.jpg"
 
         document.getElementById("myImg").src = imgu;
         }
@@ -290,12 +310,23 @@ xhr.open("GET", "/static/js/tandoortest.csv");
 
 xhr.send();
 }
+if(nm1=='mahalaxmi')
+{
+
+xhr.open("GET", "/static/js/mahalaxmitest.csv");
+
+xhr.send();
+}
+if(nm1=='newpalace')
+{
+
+xhr.open("GET", "/static/js/newpalacetest.csv");
+
+xhr.send();
+}
 }
 </script>
 
-
-
-  </div>
 
 </form>
 

@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <change afterPath="$PROJECT_DIR$/static/js/mahalaxmitest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/newpalacetest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpalace_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpalace_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpalacereviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newpalacereviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/parakh.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh_reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/parakhtest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/parakhtest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +67,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.analysemaratha">
+  <component name="RunManager">
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +124,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analyse_mahalakshmi" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Help_Tourist_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.9 (Tourist_help0)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyse_mahalakshmi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,6 +391,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.analyse_mahalakshmi" />
       <item itemvalue="Python.analysemaratha" />
       <item itemvalue="Python.tandoor_analyse" />
       <item itemvalue="Python.analysesayaji" />
@@ -366,7 +409,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.preprocess1-2" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -667,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683565542033</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683571195531</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683571195531</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="UnknownFeatures">

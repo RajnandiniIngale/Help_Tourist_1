@@ -94,3 +94,4 @@
  ' ] [ 'Best place to visit for traditional Kolhapuri delicacies:0.6369
  times its special for mutton thali & chicken thali:0.4019
  this is the best place to visit:0.6369
+ ' ] [ 'this place is very good in kolhapur:0.4927

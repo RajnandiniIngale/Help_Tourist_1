@@ -33,3 +33,4 @@
  ' ] [ 'Best place to visit for traditional Kolhapuri delicacies 
  times its special for mutton thali & chicken thali 
  this is the best place to visit 
+ ' ] [ 'this place is very good in kolhapur 
