@@ -18,3 +18,5 @@ The rooms are nice and clean
  small rooms ' 
  Rooms are small ' 
  However the floor is not carpeted and therefore too cold to walk barefoot 
+ ] [ 'This hotel is very clean 
+ Provides good foodThis hotel is very clean' 
