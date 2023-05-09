@@ -205,7 +205,26 @@ def insert_keys_csv():
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
+
+    if name=='gateway':
+        file1 = open('gatewayindia.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+    if name=='cincin':
+        file1 = open('cincin.csv.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+    if name=='arbab':
+        file1 = open('Arbab.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+
+
     return render_template("review.html")
+
 
 
 @app.route('/mumbai')

@@ -193,7 +193,7 @@ sorted_value_index = np.argsort(values)[::-1]    #sort in descending order ==> l
 sorted_dict = {keys[i]: values[i] for i in sorted_value_index}      # create dictionary from list
 
 print(sorted_dict)
-with open('static/js/sayaji_test.csv', 'w',encoding='UTF-8') as f:
+with open('static/js/sayajitest.csv', 'w',encoding='UTF-8') as f:
     for key in sorted_dict.keys():
         f.write("%s,%s\n"%(key,sorted_dict[key]))
 

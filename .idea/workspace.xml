@@ -4,29 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="chingari modified">
-      <change afterPath="$PROJECT_DIR$/static/js/bbqtest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/vennatest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/wilsontest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="mahabaleshwar modified">
+      <change afterPath="$PROJECT_DIR$/arbabreviews.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cincinreviews.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/cincintest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venna_overall.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse-venna.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-venna.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analyse-wilson.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-wilson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysepark.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barbeque-analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barbeque-reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arbab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbab_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/arbab_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cincin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cincin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cincin_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/cincin_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayindia_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindia_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayindiareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindiareviews.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/overall_venna.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/park.csv" beforeDir="false" afterPath="$PROJECT_DIR$/park.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_plaza.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess-venna.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess-venna.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_service.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sayaji_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venna.csv" beforeDir="false" afterPath="$PROJECT_DIR$/venna.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wilson.csv" beforeDir="false" afterPath="$PROJECT_DIR$/wilson.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,19 +118,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cincin_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="arbab_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cincin_analyse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arbab_analyse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,9 +188,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -290,17 +290,17 @@
       <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.analyse" />
-      <item itemvalue="Python.cincin_analyse" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.preprocess1-2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.arbab_analyse" />
       </list>
     </recent_temporary>
   </component>
@@ -593,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683264828499</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="mahabaleshwar modified">
+      <created>1683442575625</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1683442575625</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -632,7 +639,8 @@
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
     <MESSAGE value="chingari modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="chingari modified" />
+    <MESSAGE value="mahabaleshwar modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="mahabaleshwar modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
