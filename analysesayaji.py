@@ -34,6 +34,7 @@ for line in Lines:
     sum=sum+scores["compound"]
 
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars = 0
 
 
@@ -74,6 +75,7 @@ for line in Lines:
 
     sum = sum + scores["compound"]
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars = 0
 
 sum=sum/10
@@ -111,6 +113,7 @@ for line in Lines:
     sum = sum + scores["compound"]
 
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars=0
 stars = 0
 sum = sum / 10
@@ -146,6 +149,7 @@ for line in Lines:
     sum = sum + scores["compound"]
 
     reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
     stars=0
 sum = sum / 10
 stars = 0
@@ -167,6 +171,7 @@ else:
                     stars = 5;
 print(sum)
 ffile.writelines("sayaji_location :" + ((str))(stars) + "\n")
+
 
 
 file1.close()

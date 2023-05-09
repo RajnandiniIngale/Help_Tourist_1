@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer

@@ -89,6 +89,25 @@ font-family:"Times New Roman", Times, serif;
 
 <body onload="x()">
  <img src="" id="myImg" alt="" align="center">
+<form method="post" style="border:1px solid #ccc" action="/insert_csv">
+<div class="container">
+    <h1>Reviews and Ratings</h1>
+</div>
+ <table width="50%" border="1" align="center">
+
+        <tr>
+         <td>Write a Review </td>
+           <input type="hidden" name="nm" id="nm">
+         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
+       </tr>
+
+       <tr>
+           <td>  </td>
+         <td><input type="submit" name="Submit" value="Submit"></td>
+       </tr>
+
+</table>
+ <br><br>
  <table id="csvTable" border="1" align="center">
     <thead>
       <tr>
@@ -96,14 +115,15 @@ font-family:"Times New Roman", Times, serif;
         <th>Ratings</th>
 
       </tr>
+
     </thead>
     <tbody>
     </tbody>
   </table>
 
-<form method="post" style="border:1px solid #ccc" action="/insert_csv">
-  <div class="container">
-    <h1>Reviews and Ratings</h1>
+
+
+<hr>
 
 
 <script>
@@ -136,6 +156,7 @@ for (let pair of queryString.entries())
         imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("myImg").src = imgu;
         }
+
         if(pair[1]=='chingari')
        {
         document.getElementById("nm").value = 'chingari';
@@ -143,22 +164,58 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='barbeque')
+        if(pair[1]=='sayaji')
        {
-        document.getElementById("nm").value = 'barbeque';
-        imgu="http://localhost:8000/static/images/image.jpg"
+
+        document.getElementById("nm").value = 'sayaji';
+
+        imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
+
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='wilson')
+        if(pair[1]=='maratha')
        {
-        document.getElementById("nm").value = 'wilson';
-        imgu="http://localhost:8000/static/images/wilson1.jpg"
+
+        document.getElementById("nm").value = 'maratha';
+
+        imgu="http://localhost:8000/static/images/maratha.jpg"
+
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='venna')
+        if(pair[1]=='parakh')
        {
-        document.getElementById("nm").value = 'venna';
-        imgu="http://localhost:8000/static/images/venna1.jpg"
+
+        document.getElementById("nm").value = 'parakh';
+
+        imgu="http://localhost:8000/static/images/parakh.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='tandoor')
+       {
+
+        document.getElementById("nm").value = 'tandoor';
+
+        imgu="http://localhost:8000/static/images/tandoor.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='mahalaxmi')
+       {
+
+        document.getElementById("nm").value = 'mahalaxmi';
+
+        imgu="http://localhost:8000/static/images/mahalakshi.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='newpalace')
+       {
+
+        document.getElementById("nm").value = 'newpalace';
+
+        imgu="http://localhost:8000/static/images/shahu.jpg"
+
         document.getElementById("myImg").src = imgu;
         }
 
@@ -224,50 +281,52 @@ xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }
-if(nm1=='barbeque')
+if(nm1=='sayaji')
 {
 
-xhr.open("GET", "/static/js/bbqtest.csv");
+xhr.open("GET", "/static/js/sayaji_test.csv");
 
 xhr.send();
 }
-if(nm1=='wilson')
+if(nm1=='maratha')
 {
 
-xhr.open("GET", "/static/js/wilsontest.csv");
-
-xhr.send();
-}
-
-if(nm1=='venna')
-{
-
-xhr.open("GET", "/static/js/vennatest.csv");
+xhr.open("GET", "/static/js/maratha_test.csv");
 
 xhr.send();
 }
 
+if(nm1=='parakh')
+{
 
+xhr.open("GET", "/static/js/parakhtest.csv");
 
+xhr.send();
 }
+if(nm1=='tandoor')
+{
 
+xhr.open("GET", "/static/js/tandoortest.csv");
+
+xhr.send();
+}
+if(nm1=='mahalaxmi')
+{
+
+xhr.open("GET", "/static/js/mahalaxmitest.csv");
+
+xhr.send();
+}
+if(nm1=='newpalace')
+{
+
+xhr.open("GET", "/static/js/newpalacetest.csv");
+
+xhr.send();
+}
+}
 </script>
 
-    <hr>
-	 <table width="50%" border="1" align="center">
-
-       <tr>
-         <td>Write a Review </td>
-           <input type="hidden" name="nm" id="nm">
-         <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
-       </tr>
-
-       <tr>
-           <td>  </td>
-         <td><input type="submit" name="Submit" value="Submit"></td>
-       </tr>
-     </table>
-  </div>
 
 </form>
 
