@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <change afterPath="$PROJECT_DIR$/static/js/mahalaxmitest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/newpalacetest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jwhoteltest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/silverinntest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmi_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bandrafort_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafort_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bandrafortreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafortreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwhotel_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotel_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwhotelreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotelreviews.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newpalace_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpalace_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newpalacereviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newpalacereviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parakh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/parakh.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parakh_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_location.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parakh_reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_reviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/parakhtest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/parakhtest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/silverinn_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/silverinn_analyse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/silverinnreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/silverinnreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -716,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683571195531</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683574769542</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683574769542</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">

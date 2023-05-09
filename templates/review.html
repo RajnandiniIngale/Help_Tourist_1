@@ -218,6 +218,33 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
+        if(pair[1]=='silverinn')
+       {
+
+        document.getElementById("nm").value = 'silverinn';
+
+        imgu="http://localhost:8000/static/images/mumbai-hotel1.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='jwhotel')
+       {
+
+        document.getElementById("nm").value = 'jwhotel';
+
+        imgu="http://localhost:8000/static/images/marroite.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='bandrafort')
+       {
+
+        document.getElementById("nm").value = 'bandrafort';
+
+        imgu="http://localhost:8000/static/images/bandra.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
 
 
 }
@@ -324,6 +351,28 @@ xhr.open("GET", "/static/js/newpalacetest.csv");
 
 xhr.send();
 }
+if(nm1=='silverinn')
+{
+
+xhr.open("GET", "/static/js/silverinntest.csv");
+
+xhr.send();
+}
+if(nm1=='jwhotel')
+{
+
+xhr.open("GET", "/static/js/jwhoteltest.csv");
+
+xhr.send();
+}
+if(nm1=='bandrafort')
+{
+
+xhr.open("GET", "/static/js/bandraforttest.csv");
+
+xhr.send();
+}
+
 }
 </script>
 
