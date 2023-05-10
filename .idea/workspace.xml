@@ -5,28 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="mahabaleshwar modified">
-      <change afterPath="$PROJECT_DIR$/arbabreviews.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cincinreviews.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cincintest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venna_overall.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/gatewaytest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse-wilson.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-wilson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysepark.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arbab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arbab.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arbab_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/arbab_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cincin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cincin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cincin_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/cincin_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayindia_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindia_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayindiareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindiareviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keys_hotel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park.csv" beforeDir="false" afterPath="$PROJECT_DIR$/park.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_clean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_food.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/park_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_plaza_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza_preprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/park_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_service.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sayaji_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parkreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/parktest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/parktest.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/park_plaza_preprocess.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,7 +74,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.park_plaza_preprocess">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,9 +187,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -265,19 +264,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="park_plaza_preprocess" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess1-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/park_plaza_preprocess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +295,7 @@
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
       <item itemvalue="Python.arbab_analyse" />
-      <item itemvalue="Python.preprocess1-2" />
+      <item itemvalue="Python.park_plaza_preprocess" />
     </list>
     <recent_temporary>
       <list>
@@ -600,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683442575625</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="mahabaleshwar modified">
+      <created>1683611583322</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611583322</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="UnknownFeatures">

@@ -1,5 +1,5 @@
 import csv
-
+import os
 import nltk
 
 from nltk import word_tokenize
@@ -98,6 +98,7 @@ for k in arr1:
 
 
 
+os.system('python analysepark.py')
 
 # print("Bigram text")
 # bigrm = list(nltk.bigrams(fin.split()))
