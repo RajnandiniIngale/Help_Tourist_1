@@ -98,7 +98,7 @@ for k in arr1:
 
 
 
-os.system('python analysepark.py')
+exec(compile(open("C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\analysepark.py","rb").read(),"C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\analysepark.py",'exec'))
 
 # print("Bigram text")
 # bigrm = list(nltk.bigrams(fin.split()))

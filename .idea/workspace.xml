@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="mahabaleshwar modified">
-      <change afterPath="$PROJECT_DIR$/gateway.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/gatewaytest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08-May-23_11_37_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clean.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/food.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys_hotel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/keys_hotel.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/location.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park.csv" beforeDir="false" afterPath="$PROJECT_DIR$/park.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_clean.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_food.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_location.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/park_plaza_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza_preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_service.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parkreviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/parktest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/parktest.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/park_plaza_preprocess.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -109,6 +93,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Help_Tourist_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysepark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,9 +301,11 @@
       <item itemvalue="Python.park_location_analyse" />
       <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.park_plaza_preprocess" />
+      <item itemvalue="Python.analysepark" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analysepark" />
         <item itemvalue="Python.arbab_analyse" />
       </list>
     </recent_temporary>
@@ -606,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683611583322</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="mahabaleshwar modified">
+      <created>1683716372819</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683716372820</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -655,6 +669,21 @@
           <url>file://$PROJECT_DIR$/tr.py</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysepark.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/analysepark.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/park_plaza_preprocess.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
