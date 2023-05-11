@@ -46,3 +46,6 @@ km away Dahanu Road station:0.0
  ' ] [ 'this place good kolhapur:0.4404
  amazing place kolhapur:0.5859
  nice stay:0.4215
+ ' ] [ 'this place good kolhapur:0.4404
+ amazing place kolhapur:0.5859
+ nice stay:0.4215
