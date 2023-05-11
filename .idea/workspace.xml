@@ -4,29 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="mahabaleshwar modified">
-      <change afterPath="$PROJECT_DIR$/arbabreviews.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cincinreviews.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/cincintest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venna_overall.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse-wilson.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse-wilson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyse_mahalakshmi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysepark.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysepark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysesayaji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arbab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arbab.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arbab_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/arbab_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cincin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cincin.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cincin_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/cincin_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayindia_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindia_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayindiareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindiareviews.txt" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_location.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/park_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_service.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sayaji_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -600,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683442575625</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
+      <created>1683821536337</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683821536337</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -635,12 +621,13 @@
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
-    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
     <MESSAGE value="chingari modified" />
     <MESSAGE value="mahabaleshwar modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="mahabaleshwar modified" />
+    <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
