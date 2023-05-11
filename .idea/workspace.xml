@@ -5,18 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
-      <change afterPath="$PROJECT_DIR$/static/js/jwhoteltest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/silverinntest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-05-2023_16_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03-05-2023_16_15__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_11_10_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_4_46_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_4_46_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_5_51_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_3_2023_5_51_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_09_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_09_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bandrafort_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafort_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bandrafortreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafortreviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwhotel_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotel_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jwhotelreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotelreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tandoor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tandoor.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyse_mahalakshmi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysemaratha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysesayaji.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalakshmi_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/mahalakshmi_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/silverinn_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/silverinn_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/silverinnreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/silverinnreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratha_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maratha_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratha_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/maratha_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marathareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marathareviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpalace_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpalace_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh_analyse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/maratha_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/maratha_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sayaji_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/tandoortest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/tandoortest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_analyse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_money.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_money.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_service.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +98,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.analyse_mahalakshmi">
+  <component name="RunManager">
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -415,13 +453,6 @@
       <option name="presentableId" value="Default" />
       <updated>1678592822658</updated>
     </task>
-    <task id="LOCAL-00001" summary="preprocess1 added">
-      <created>1678984216586</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678984216586</updated>
-    </task>
     <task id="LOCAL-00002" summary="analysis files added">
       <created>1679479597258</created>
       <option name="number" value="00002" />
@@ -716,7 +747,56 @@
       <option name="project" value="LOCAL" />
       <updated>1683574769542</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611248306</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611248306</updated>
+    </task>
+    <task id="LOCAL-00045" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611292970</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611292970</updated>
+    </task>
+    <task id="LOCAL-00046" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611325246</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611325246</updated>
+    </task>
+    <task id="LOCAL-00047" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611341680</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611341680</updated>
+    </task>
+    <task id="LOCAL-00048" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611358007</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611358007</updated>
+    </task>
+    <task id="LOCAL-00049" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611430415</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611430415</updated>
+    </task>
+    <task id="LOCAL-00050" summary="anayse.py,chingarianalyse.py,barbeque-analyse.py modified">
+      <created>1683611465308</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1683611465309</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -763,6 +843,11 @@
           <url>file://$PROJECT_DIR$/tr.py</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sayaji_preprocess.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

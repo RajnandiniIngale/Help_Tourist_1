@@ -33,13 +33,14 @@
  ' ] [ 'Its been done up a lot fancier than when it started off - but the food ( quality and taste ) have thankfully continued to please:0.7684
  everyone must try chicken patiala as its delicious:0.5719
  ' ] [ 'Excellent food quality and management ' ] [ 'The best place for tandoor items:0.836
+ ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] [ 'bestest tandoor in the kolhapur ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.8316
  ' ] [ 'Overpriced:0.0
  ' ] [ 'Its a restaurant with really good food at good prices:0.7496
  The prices are bit high but the quantity is more than other hotels:0.0
  Authentic Kolhapuri style spicy food Not very expensive Had the chicken Angara there:0.0
  It was highly recommended by local friends and it was truly worth:0.8399
  Food not worth for money:-0.1695
- ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] ]:-0.8481
+ ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] [ 'bestest tandoor in the kolhapur ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.8316
  Ayodhya park humiliating experinece The staff does n't know what hospitality means I went today for lunch with one lady engineer who holds a high position in Philips boasting her about Kolhapur 's hospitality\xa:-0.296
  '' ] [ 'Food service And hostile staff:-0.3818
  neither the Roti was served hot nor was the water in the finger bowl warm:0.2263
@@ -52,7 +53,7 @@ A uniques specialty is the Veg Pandhara Rassa which Otherwise is available only 
  Food quality and behavior of staff:0.0
  ' ] [ 'Bad mannered staff especially outside parcel counter person:-0.5423
  ' ] [ 'Excellent food quality and management ' ] [ 'The best place for tandoor items:0.836
- ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] ]:-0.8481
+ ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] [ 'bestest tandoor in the kolhapur ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.8316
  [ [ 'We visited this place looking for non spicy non vegetarian food:0.0
  ' ] [ 'With a touch of North Indian flavours and recipes Tandoor truely serves some great food:0.6249
  a great variety of typical Kolhapuri food to North Indian tandoori delicacies are served:0.6249
@@ -75,3 +76,4 @@ A uniques specialty is the Veg Pandhara Rassa which Otherwise is available only 
  '' ] [ 'biryani is a very good ' ] [ 'The Restaurant belongs to the same owner of Dehati:0.4927
  Food not worth for money:-0.1695
  ' ] [ 'Excellent food quality and management ' ] [ 'The best place for tandoor items:0.836
+ ' ] [ 'Worst food plus worst service ' ] [ 'Over priced ' ] [ 'Osm hotel ' ] [ 'bestest tandoor in the kolhapur ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.8316
