@@ -86,7 +86,7 @@ for line in Lines:
     review=line
     arr=review.split(":",1)
     if len(arr) > 1:
-        key=arr[0].replace(' ] [','')
+        key=arr[0].replace(' ] [','').replace('\r', '').replace('\n', '')
         my_dict[key]=(arr[1].rstrip())
     #print(review)
 

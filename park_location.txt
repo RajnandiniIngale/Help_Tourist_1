@@ -102,3 +102,4 @@ Pleasent view from balcony
  ' ] [ 'So nice but we discover later that they gave us high price than others ' ] [ 'Rates are on higher side 
  good food but far from market ' ] [ 'Nice ambience and calm place ' ] [ 'Awesome location ' ] [ 'Average hotel in Mahabaleshwar 
  ' ] [ 'expensive & dirty ' ] [ 'No Laundry 
+ No electricity ' ] [ 'Very costly place ' ] ]

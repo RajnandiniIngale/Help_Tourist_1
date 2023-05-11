@@ -1,11 +1,3 @@
-import os
-import csv
-import os
-import nltk
-
-from nltk import word_tokenize
-from nltk.corpus import stopwords
-
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 # nltk.download('vader_lexicon')
@@ -203,68 +195,35 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
-        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\sayaji_preprocess.py')
     if name=='maratha':
         file1 = open('maratha.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
         file1.close()
-    os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\maratha_preprocess.py')
-    if name=='parakh':
-        file1 = open('parakh.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev+"  ")
-
-        file1.close()
-    os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\parakh_preprocess.py')
-    if name=='tandoor':
-        file1 = open('Tandoor.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev+"  ")
-
-        file1.close()
-        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\tandoor_preprocess.py')
-    if name=='mahalaxmi':
-        file1 = open('mahalaxmi.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev+"  ")
-
-        file1.close()
-        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\mahalakshmi_preprocess.py')
-    if name=='newpalace':
-        file1 = open('newpalace.csv', 'a+')
-        file1.writelines("\n")
-        file1.writelines(rev+"  ")
-
-        file1.close()
-        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\newpalace_preprocess.py')
     if name=='chingari':
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
-        file1.close()
-    if name=='silverinn':
-        file1 = open('silverinn.csv', 'a+')
+
+    if name=='gateway':
+        file1 = open('gatewayindia.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
-        file1.close()
-    if name=='jwhotel':
-        file1 = open('jwhotel.csv', 'a+')
+    if name=='cincin':
+        file1 = open('cincin.csv.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
-        file1.close()
-    if name=='bandrafort':
-        file1 = open('bandrafort.csv', 'a+')
+    if name=='arbab':
+        file1 = open('Arbab.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
-        file1.close()
 
 
 
-    return render_template("index.html")
+    return render_template("review.html")
 
 
 
