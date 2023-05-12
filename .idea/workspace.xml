@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
+    <list default="true" id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/static/images/travel-agency.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/travel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/travel12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_11_47_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_8_2023_5_38_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmi_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahalaxmireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +52,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maithili\PycharmProjects\Help_Tourist_1\static\images" />
       <recent name="C:\Users\admin\PycharmProjects\Help_Tourist_1" />
       <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2" />
       <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\templates" />
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,19 +106,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arbab_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="cincin_analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\USER\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arbab_analyse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cincin_analyse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,9 +176,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Maithili\PycharmProjects\Tourist_help0\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -248,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="preprocess1-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,27 +275,28 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.analyse" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.cincin_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
-      <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.preprocess1-2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.arbab_analyse" />
+        <item itemvalue="Python.preprocess1-2" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="chingari modified" />
+      <changelist id="57958191-8005-42e5-8574-ff2db02df52e" name="Changes" comment="preprocess1 added" />
       <created>1678592822658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -527,77 +533,56 @@
       <option name="project" value="LOCAL" />
       <updated>1682692442249</updated>
     </task>
-    <task id="LOCAL-00034" summary="keysreviews modified">
-      <created>1683116545968</created>
+    <task id="LOCAL-00034" summary="preprocess1 added">
+      <created>1683112427431</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1683116545968</updated>
+      <updated>1683112427432</updated>
     </task>
-    <task id="LOCAL-00035" summary="keysreviews modified">
-      <created>1683259735315</created>
+    <task id="LOCAL-00035" summary="preprocess1 added">
+      <created>1683112457448</created>
       <option name="number" value="00035" />
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1683259735315</updated>
+      <updated>1683112457448</updated>
     </task>
-    <task id="LOCAL-00036" summary="chingari modified">
-      <created>1683260118170</created>
+    <task id="LOCAL-00036" summary="preprocess1 added">
+      <created>1683112529232</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1683260118170</updated>
+      <updated>1683112529232</updated>
     </task>
-    <task id="LOCAL-00037" summary="chingari modified">
-      <created>1683260192733</created>
+    <task id="LOCAL-00037" summary="preprocess1 added">
+      <created>1683213991250</created>
       <option name="number" value="00037" />
       <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1683260192733</updated>
+      <updated>1683213991250</updated>
     </task>
-    <task id="LOCAL-00038" summary="chingari modified">
-      <created>1683260583521</created>
+    <task id="LOCAL-00038" summary="preprocess1 added">
+      <created>1683214069570</created>
       <option name="number" value="00038" />
       <option name="presentableId" value="LOCAL-00038" />
       <option name="project" value="LOCAL" />
-      <updated>1683260583521</updated>
+      <updated>1683214069570</updated>
     </task>
-    <task id="LOCAL-00039" summary="chingari modified">
-      <created>1683264302039</created>
+    <task id="LOCAL-00039" summary="changed">
+      <created>1683530743451</created>
       <option name="number" value="00039" />
       <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1683264302039</updated>
+      <updated>1683530743451</updated>
     </task>
-    <task id="LOCAL-00040" summary="chingari modified">
-      <created>1683264828499</created>
+    <task id="LOCAL-00040" summary="changed">
+      <created>1683530757061</created>
       <option name="number" value="00040" />
       <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1683264828499</updated>
+      <updated>1683530757061</updated>
     </task>
-    <task id="LOCAL-00041" summary="mahabaleshwar modified">
-      <created>1683442575625</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1683442575625</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
-      <created>1683821536337</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1683821536337</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
-      <created>1683821952163</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1683821952164</updated>
-    </task>
-    <option name="localTasksCounter" value="44" />
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -632,13 +617,11 @@
     <MESSAGE value="main.py modified&#10;tours.html modified" />
     <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
-    <MESSAGE value="preprocess1 added" />
-    <MESSAGE value="keysreviews modified" />
-    <MESSAGE value="chingari modified" />
-    <MESSAGE value="mahabaleshwar modified" />
     <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py" />
+    <MESSAGE value="keysreviews modified" />
+    <MESSAGE value="preprocess1 added" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
