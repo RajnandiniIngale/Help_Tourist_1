@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/html">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -142,7 +143,7 @@ for (let pair of queryString.entries())
    console.log("Value is: " + pair[1]);
    nm1=pair[1];
    var imgu;
-      if(pair[1]=='keys')
+       if(pair[1]=='keys')
        {
         document.getElementById("nm").value = 'keys';
         imgu="http://localhost:8000/static/images/unnamed.jpg"
@@ -156,6 +157,7 @@ for (let pair of queryString.entries())
         imgu="http://localhost:8000/static/images/park.jpg"
         document.getElementById("myImg").src = imgu;
         }
+
         if(pair[1]=='chingari')
        {
         document.getElementById("nm").value = 'chingari';
@@ -163,43 +165,87 @@ for (let pair of queryString.entries())
 
         document.getElementById("myImg").src = imgu;
         }
-        if(pair[1]=='barbeque')
+        if(pair[1]=='sayaji')
        {
-        document.getElementById("nm").value = 'barbeque';
-        imgu="http://localhost:8000/static/images/image.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='wilson')
-       {
-        document.getElementById("nm").value = 'wilson';
-        imgu="http://localhost:8000/static/images/wilson1.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='venna')
-       {
-        document.getElementById("nm").value = 'venna';
-        imgu="http://localhost:8000/static/images/venna1.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='gateway')
-       {
-        document.getElementById("nm").value = 'gateway';
-        imgu="http://localhost:8000/static/images/gateway.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='cincin')
-       {
-        document.getElementById("nm").value = 'cincin';
-        imgu="http://localhost:8000/static/images/cincin.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
-        if(pair[1]=='arbab')
-       {
-        document.getElementById("nm").value = 'arbab';
-        imgu="http://localhost:8000/static/images/arbab.jpg"
-        document.getElementById("myImg").src = imgu;
-        }
 
+        document.getElementById("nm").value = 'sayaji';
+
+        imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='maratha')
+       {
+
+        document.getElementById("nm").value = 'maratha';
+
+        imgu="http://localhost:8000/static/images/maratha.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='parakh')
+       {
+
+        document.getElementById("nm").value = 'parakh';
+
+        imgu="http://localhost:8000/static/images/parakh.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='tandoor')
+       {
+
+        document.getElementById("nm").value = 'tandoor';
+
+        imgu="http://localhost:8000/static/images/tandoor.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='mahalaxmi')
+       {
+
+        document.getElementById("nm").value = 'mahalaxmi';
+
+        imgu="http://localhost:8000/static/images/mahalakshi.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='newpalace')
+       {
+
+        document.getElementById("nm").value = 'newpalace';
+
+        imgu="http://localhost:8000/static/images/shahu.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='silverinn')
+       {
+
+        document.getElementById("nm").value = 'silverinn';
+
+        imgu="http://localhost:8000/static/images/mumbai-hotel1.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='jwhotel')
+       {
+
+        document.getElementById("nm").value = 'jwhotel';
+
+        imgu="http://localhost:8000/static/images/marroite.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
+        if(pair[1]=='bandrafort')
+       {
+
+        document.getElementById("nm").value = 'bandrafort';
+
+        imgu="http://localhost:8000/static/images/bandra.jpg"
+
+        document.getElementById("myImg").src = imgu;
+        }
 
 
 }
@@ -263,50 +309,70 @@ xhr.open("GET", "/static/js/chingaritest.csv");
 
 xhr.send();
 }
-if(nm1=='barbeque')
+if(nm1=='sayaji')
 {
 
-xhr.open("GET", "/static/js/bbqtest.csv");
+xhr.open("GET", "/static/js/sayaji_test.csv");
 
 xhr.send();
 }
-if(nm1=='wilson')
+if(nm1=='maratha')
 {
 
-xhr.open("GET", "/static/js/wilsontest.csv");
-
-xhr.send();
-}
-
-if(nm1=='venna')
-{
-
-xhr.open("GET", "/static/js/vennatest.csv");
-
-xhr.send();
-}
-if(nm1=='gateway')
-{
-
-xhr.open("GET", "/static/js/gatewaytest.csv");
-
-xhr.send();
-}
-if(nm1=='arbab')
-{
-
-xhr.open("GET", "/static/js/arbabtest.csv");
-
-xhr.send();
-}
-if(nm1=='cincin')
-{
-
-xhr.open("GET", "/static/js/cincintest.csv");
+xhr.open("GET", "/static/js/maratha_test.csv");
 
 xhr.send();
 }
 
+if(nm1=='parakh')
+{
+
+xhr.open("GET", "/static/js/parakhtest.csv");
+
+xhr.send();
+}
+if(nm1=='tandoor')
+{
+
+xhr.open("GET", "/static/js/tandoortest.csv");
+
+xhr.send();
+}
+if(nm1=='mahalaxmi')
+{
+
+xhr.open("GET", "/static/js/mahalaxmitest.csv");
+
+xhr.send();
+}
+if(nm1=='newpalace')
+{
+
+xhr.open("GET", "/static/js/newpalacetest.csv");
+
+xhr.send();
+}
+if(nm1=='silverinn')
+{
+
+xhr.open("GET", "/static/js/silverinntest.csv");
+
+xhr.send();
+}
+if(nm1=='jwhotel')
+{
+
+xhr.open("GET", "/static/js/jwhoteltest.csv");
+
+xhr.send();
+}
+if(nm1=='bandrafort')
+{
+
+xhr.open("GET", "/static/js/bandraforttest.csv");
+
+xhr.send();
+}
 
 }
 </script>
