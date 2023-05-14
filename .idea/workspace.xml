@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-May-23_11_42_AM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_4_2023_10_37_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi_all.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmireviews.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -598,14 +597,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683821952164</updated>
     </task>
-    <task id="LOCAL-00044" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;analyse_mahalakshmi.py&#10;#&#9;analysesayaji.py&#10;#&#9;main.py">
-      <created>1683829349245</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1683829349245</updated>
-    </task>
-    <option name="localTasksCounter" value="45" />
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UnknownFeatures">
