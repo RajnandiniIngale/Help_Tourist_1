@@ -245,23 +245,49 @@ def insert_keys_csv():
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
+        file1.close()
+
+    if name=='jwhotel':
+        file1 = open('jwhotel.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\jwhotel_preprocess.py')
+
+    if name=='silverinn':
+        file1 = open('silverinn.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
+
+        file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\silverinn_preprocess.py')
 
     if name=='gateway':
         file1 = open('gatewayindia.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
-
+        file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\gatewayindia_preprocess.py')
     if name=='cincin':
         file1 = open('cincin.csv.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
-
+        file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\cincin_preprocess.py')
     if name=='arbab':
         file1 = open('Arbab.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
         file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\arbab_preprocess.py')
+    if name=='bandrafort':
+        file1 = open('bandrafort.csv', 'a+')
+        file1.writelines("\n")
+        file1.writelines(rev+"  ")
 
+        file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\bandrafort_preprocess.py')
 
     return render_template("index.html")
 
