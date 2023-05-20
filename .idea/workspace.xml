@@ -291,17 +291,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.analyse" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.analysepark" />
+      <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
-      <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.park_plaza_preprocess" />
-      <item itemvalue="Python.analysepark" />
     </list>
     <recent_temporary>
       <list>
