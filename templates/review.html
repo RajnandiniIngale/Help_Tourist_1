@@ -97,6 +97,13 @@
 
                         document.getElementById("myImg").src = imgu;
                         }
+                        if(pair[1]=='barbeque')
+                       {
+                        document.getElementById("nm").value = 'barbeque';
+                        imgu="http://localhost:8000/static/images/image.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        }
 
                         if(pair[1]=='park')
                        {
@@ -112,6 +119,21 @@
 
                         document.getElementById("myImg").src = imgu;
                         }
+                        if(pair[1]=='venna')
+                       {
+                        document.getElementById("nm").value = 'venna';
+                        imgu="http://localhost:8000/static/images/venna1.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        }
+                        if(pair[1]=='wilson')
+                       {
+                        document.getElementById("nm").value = 'wilson';
+                        imgu="http://localhost:8000/static/images/wilson1.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        }
+
                         if(pair[1]=='sayaji')
                        {
 
@@ -251,6 +273,27 @@
                 {
 
                 xhr.open("GET", "/static/js/chingaritest.csv");
+
+                xhr.send();
+                }
+                if(nm1=='barbeque')
+                {
+
+                xhr.open("GET", "/static/js/bbqtest.csv");
+
+                xhr.send();
+                }
+                if(nm1=='wilson')
+                {
+
+                xhr.open("GET", "/static/js/wilsontest.csv");
+
+                xhr.send();
+                }
+                if(nm1=='venna')
+                {
+
+                xhr.open("GET", "/static/js/vennatest.csv");
 
                 xhr.send();
                 }

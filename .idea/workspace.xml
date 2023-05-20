@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="mahabaleshwar modified">
-      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barbeque-preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barbeque-reviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/barbeque-reviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbqfood.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bbqfood.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbqlocation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bbqlocation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbqservice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bbqservice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chingari-preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/chingari-preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keys.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keysreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/keysreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overall.txt" beforeDir="false" afterPath="$PROJECT_DIR$/overall.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/park_plaza.txt" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/park_plaza_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/park_plaza_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parkreviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess-venna.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess-venna.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess1-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bbqtest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bbqtest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/parktest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/parktest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vennatest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vennatest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wilsontest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/wilsontest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vennareviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vennareviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wilson-preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/wilson-preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wilsonreviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wilsonreviews.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +68,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/park_plaza_preprocess.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wilson-preprocess.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -58,28 +79,7 @@
       <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.park_plaza_preprocess">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Help_Tourist_1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main">
     <configuration name="analyse" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="analysepark" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Help_Tourist_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,9 +192,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -290,22 +290,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="wilson-preprocess" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Help_Tourist_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wilson-preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.analyse" />
-      <item itemvalue="Python.analysepark" />
       <item itemvalue="Python.arbab_analyse" />
       <item itemvalue="Python.cincin_preprocess" />
       <item itemvalue="Python.displayrev" />
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.wilson-preprocess" />
       <item itemvalue="Python.parakh_analyse" />
       <item itemvalue="Python.parakh_preprocess" />
       <item itemvalue="Python.park_location_analyse" />
       <item itemvalue="Python.park_plaza_preprocess" />
+      <item itemvalue="Python.analysepark" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.analysepark" />
         <item itemvalue="Python.arbab_analyse" />
       </list>
     </recent_temporary>
@@ -620,7 +640,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683716372820</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="..">
+      <created>1684568098834</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684568098834</updated>
+    </task>
+    <task id="LOCAL-00045" summary="..">
+      <created>1684568163194</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1684568163194</updated>
+    </task>
+    <task id="LOCAL-00046" summary="..">
+      <created>1684568186114</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1684568186114</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -653,14 +694,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="analysis files added" />
     <MESSAGE value="main.py modified&#10;tours.html modified" />
-    <MESSAGE value=".." />
     <MESSAGE value="analyse &amp; anayse.py modified" />
     <MESSAGE value="anayse.py,chingarianalyse.py,barbeque-analyse.py modified" />
     <MESSAGE value="preprocess1 added" />
     <MESSAGE value="keysreviews modified" />
     <MESSAGE value="chingari modified" />
     <MESSAGE value="mahabaleshwar modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="mahabaleshwar modified" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,11 +720,6 @@
           <url>file://$PROJECT_DIR$/analysepark.py</url>
           <line>12</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/park_plaza_preprocess.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
