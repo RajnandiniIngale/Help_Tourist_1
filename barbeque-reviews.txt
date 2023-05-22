@@ -30,7 +30,7 @@
  best barbecue at mahabaleshwar:0.6369
  ' ] [ 'Food taste was good:0.4404
  although not enough variety of starters:0.0
-\r\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
+\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
  Special thanks to Manas and rahul team for best hospitality:0.8689
  Highly recommended to all must visit ' ] [ 'It is costlier as compared to other barbecue restaurant in the metro cities and even the quantity:0.2716
  quality and taste is not at par:0.0
@@ -74,7 +74,7 @@
  mojito was excellent:0.5719
  best barbecue at mahabaleshwar:0.6369
  They have tried to replicate Barbeque nation but couldn ’ t match the service:0.0
-\r\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
+\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
  Excellent food and services:0.5719
  Special thanks to Manas and rahul team for best hospitality:0.8689
  ' ] [ ' I went in for dine in but they should have kept some kid friendly food too ' ] [ 'Very good taste and personalized service:0.8621
@@ -102,6 +102,6 @@
  Highly recommended to all for any kind of celebration:0.2716
  best barbecue at mahabaleshwar:0.6369
 \r\nPerhaps only good side is open air and good weather:0.7003
-\r\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
+\nLive music was good 👍 ' ] [ 'One of the best restaurants in mahabaleshwar is Barbecue bay at Saj:0.7964
  Special thanks to Manas and rahul team for best hospitality:0.8689
  by chef Palash ' ] [ 'Very nice atmosphere ' ] [ 'Buffet Service:0.4754

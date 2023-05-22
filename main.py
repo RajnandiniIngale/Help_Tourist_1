@@ -163,6 +163,7 @@ def insert_keys_csv():
         file1.writelines(rev+",0,0,0")
 
         file1.close()
+    os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_2\\preprocess1-2.py')
 
     if name=='park':
         file1 = open('park.csv', 'a+')
@@ -170,18 +171,22 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_2\\park_plaza_preprocess.py')
     if name=='barbeque':
         file1 = open('barbequebay.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
         file1.close()
+        os.system('C:\\Users\\Admin\\PycharmProjects\\Help_Tourist_2\\barbeque-preprocess.py')
+
     if name=='chingari':
         file1 = open('chingari.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
         file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_2\\chingari-preprocess.py')
 
     if name=='wilson':
         file1 = open('wilson.csv', 'a+')
@@ -189,13 +194,14 @@ def insert_keys_csv():
         file1.writelines(rev+"  ")
 
         file1.close()
-
+    os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_2\\wilson-preprocess.py')
     if name=='venna':
         file1 = open('venna.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
 
         file1.close()
+        os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_2\\preprocess-venna.py')
 
     if name=='sayaji':
         file1 = open('sayaji.csv', 'a+')

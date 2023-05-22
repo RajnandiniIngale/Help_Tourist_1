@@ -26,7 +26,9 @@ overall = ["sunrise","excited","awesome","far ","disappointed","satisfied","Spac
            "offer","trek ","terrain "," hill view","Amazing ","quiet ","Super ","loved ","peaceful","Life time","steep slope","wonderful ","foggy",
            "shops ","serene","appetite ","tourist attraction","weekends ","parking","washroom ","like","star gazing","cold ","experience ","Best ",
            "clean","open place","Temperature ","safely ","patience","Ample ","kids","market area","waste ","time","fuel","happy ","terrible","chilly ",
-           "advertised","moonrise ","lake ","vibes","surrounding","chilled ","Summer","great ",]
+           "advertised","moonrise ","lake ","vibes","surrounding","chilled ","Summer","great "]
+
+
 
 stop_words = set(stopwords.words('english'))
 
@@ -57,17 +59,112 @@ arr1 = re.split("[.|,|!,0-9]", fin)
 print(arr1)     # arr after removing after removing punctuations
 
 print('')
-file = open("overall.txt", "w", encoding="utf-8")
+pfile = open("overall.txt", "w", encoding="utf-8")
 
 
-for k in arr1:           #traversing through the arr of useful words
+for k in arr1:
     for feat in overall:
         if feat.lower() in k:
-            file.writelines(k + "\n")
+            pfile.writelines(k + "\n")
             break
 
 
+pfile.close()
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+#nltk.download('vader_lexicon')
 
+import nltk
+import ssl
+import pandas as pd
+import numpy as np
+import ast
+import csv
+#
+# try:
+#      _create_unverified_https_context = ssl._create_unverified_context
+# except AttributeError:
+#      pass
+# else:
+#      ssl._create_default_https_context = _create_unverified_https_context
+
+#nltk.download()
+
+# Initialize the sentiment analyzer
+sia = SentimentIntensityAnalyzer()
+
+# Define a list of reviews to analyze
+
+# Using readlines()
+file1 = open('overall.txt', 'r',encoding="utf-8")
+Lines = file1.readlines()
+ffile = open("wilson.txt", "w", encoding="utf-8")
+reviewfile = open("wilsonreviews.txt","w",encoding="utf-8")
+count = 0
+sum=0
+# Strips the newline character
+for line in Lines:
+    review=line
+    scores = sia.polarity_scores(review)
+
+    sum = sum + scores["compound"]
+    reviewfile.writelines(review.rstrip() + ":" + str(scores['compound']))
+    reviewfile.writelines("\n")
+    stars=0
+
+sum=sum/10
+
+if sum < 0.3:
+    stars = 1
+else:
+
+    if sum <= 0.5:
+        stars = 2
+    else:
+        if sum <= 1.5:
+            stars = 3
+        else:
+            if sum <= 2.5:
+                stars = 4
+            else:
+                if sum > 2.5:
+                    stars = 5;
+
+
+
+
+ffile.writelines("wilson_overall:" +((str))(stars)+"\n")
+
+print(sum)
+
+
+file1.close()
+reviewfile.close()
+
+file1 = open('wilsonreviews.txt', 'r' ,encoding='UTF-8')
+
+Lines = file1.readlines()
+my_dict={}
+count = 0
+# Strips the newline character
+for line in Lines:
+    review=line
+    arr=review.split(":",1)
+    if len(arr) > 1:
+        key=arr[0].replace(' ] [','')
+        my_dict[key]=(arr[1].rstrip())
+    #print(review)
+
+keys = list(my_dict.keys())
+values = list(my_dict.values())
+
+sorted_value_index = np.argsort(values)[::-1]    #sort in descending order ==> list of values
+sorted_dict = {keys[i]: values[i] for i in sorted_value_index}      # create dictionary from list
+
+print(sorted_dict)
+with open('static/js/wilsontest.csv', 'w',encoding='UTF-8') as f:
+    for key in sorted_dict.keys():
+        f.write("%s,%s\n"%(key,sorted_dict[key]))
 
 
 # print("Bigram text")

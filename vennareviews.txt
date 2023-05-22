@@ -1,928 +1,928 @@
- [ [ 'Water is smelly:0.0
- Too dusty area:0.0
+ [ [ 'Water is smelly  [ [ 'Water is smelly:0.0
+ Too dusty area  Too dusty area:0.0
 :0.0
 :0.0
- Boats are not clean:-0.3089
- One time visit is ok:0.296
+ Boats are not clean  Boats are not clean:-0.5448
+ One time visit is ok  One time visit is ok:0.5267
 :0.0
- Good no of food stalls:0.1779
- parking is there:0.0
+ Good no of food stalls  Good no of food stalls:0.34
+ parking is there  parking is there:0.0
 :0.0
 :0.0
- ' ] [ `` One of the most famous and widely visited tourist attraction in Mahabaleshwar:0.4588
- specially know for the boat rides and the roadside snacks near to it:0.0
- also one can take horse rides next to the lake:0.0
- It 's a must visit place in Mahabaleshwar:0.0
- this is man made lake:0.0
- it 's recommended to visit this place in the Evening during sunset:0.2023
- as the sunset from this point is very beautiful and one shall enjoy the boat ride with a scenic view:0.8122
- '' ] [ 'Good experience:0.4404
- Enjoyed Row boat for:0.5106
-/:0.0
- hour:0.0
- Max:0.0
+ ' ] [ `` One of the most famous and widely visited tourist attraction in Mahabaleshwar  ' ] [ `` One of the most famous and widely visited tourist attraction in Mahabaleshwar:0.7184
+ specially know for the boat rides and the roadside snacks near to it  specially know for the boat rides and the roadside snacks near to it:0.0
+ also one can take horse rides next to the lake  also one can take horse rides next to the lake:0.0
+ It 's a must visit place in Mahabaleshwar  It 's a must visit place in Mahabaleshwar:0.0
+ this is man made lake  this is man made lake:0.0
+ it 's recommended to visit this place in the Evening during sunset  it 's recommended to visit this place in the Evening during sunset:0.3818
+ as the sunset from this point is very beautiful and one shall enjoy the boat ride with a scenic view  as the sunset from this point is very beautiful and one shall enjoy the boat ride with a scenic view:0.9412
+ '' ] [ 'Good experience  '' ] [ 'Good experience:0.7003
+ Enjoyed Row boat for  Enjoyed Row boat for:0.765
+//:0.0
+ hour  hour:0.0
+ Max  Max:0.0
 :0.0
- person including child:0.0
+ person including child  person including child:0.0
 :0.0
-/:0.0
- hour ride - INR:0.0
+//:0.0
+ hour ride - INR  hour ride - INR:0.0
 :0.0
 :0.0
 :0.0
- Paddle boat -:0.0
+ Paddle boat - Paddle boat -:0.0
 :0.0
- person - INR:0.0
+ person - INR  person - INR:0.0
 :0.0
 :0.0
- for:0.0
- hour:0.0
- Outside enjoy Boiled Corn:0.4939
- Mulberry:0.0
- Pear:0.0
- raw mangoes for INR:0.0
+ for  for:0.0
+ hour  hour:0.0
+ Outside enjoy Boiled Corn  Outside enjoy Boiled Corn:0.7506
+ Mulberry  Mulberry:0.0
+ Pear  Pear:0.0
+ raw mangoes for INR  raw mangoes for INR:0.0
 :0.0
--:0.0
+--:0.0
 :0.0
 :0.0
- Horse riding next to it @ INR:0.0
+ Horse riding next to it @ INR  Horse riding next to it @ INR:0.0
 :0.0
 :0.0
- per round:0.0
- ' ] [ 'Venna lake has good food stalls & parking area near it:0.4404
- There is boating facility out there:0.0
- The cost is really high of approx:0.0
+ per round  per round:0.0
+ ' ] [ 'Venna lake has good food stalls & parking area near it  ' ] [ 'Venna lake has good food stalls & parking area near it:0.7003
+ There is boating facility out there  There is boating facility out there:0.0
+ The cost is really high of approx  The cost is really high of approx:0.0
 :0.0
 :0.0
 :0.0
- for half hour &:0.0
+ for half hour &  for half hour &:0.0
 :0.0
 :0.0
- for:0.0
+ for  for:0.0
 :0.0
- mins:0.0
- But the boating experience is quite good:0.6474
-\r\n ' ] [ 'Venna Lake is a great tourist attraction spot in Mahabaleshwar:0.7964
- This lake was constructed by Shri Appasaheb Maharaj:0.0
- who was Raja ( King ) of Satara in:0.0
+ mins  mins:0.0
+ But the boating experience is quite good But the boating experience is quite good:0.8618
+\r\n ' ] [ 'Venna Lake is a great tourist attraction spot in Mahabaleshwar \r\n ' ] [ 'Venna Lake is a great tourist attraction spot in Mahabaleshwar:0.9349
+ This lake was constructed by Shri Appasaheb Maharaj  This lake was constructed by Shri Appasaheb Maharaj:0.0
+ who was Raja ( King ) of Satara in  who was Raja ( King ) of Satara in:0.0
 :0.0
 :0.0
 :0.0
 :0.0
- The length of the lake is:0.0
- km and width is:0.0
+ The length of the lake is  The length of the lake is:0.0
+ km and width is  km and width is:0.0
 :0.0
 :0.0
- kms:0.0
- The lake is surrounded by green trees:0.0
- In late evening one can see the clouds passing over lake water:0.0
- There is a horse ride just next to the lake:0.0
- Also:0.0
- lot of food joints on the road:0.0
- Few local vendors sell carrots and strawberry near the road:0.0
- I will highly recommend to buy carrots as they are organic and tastes great:0.7841
- Venna Lake is approx:0.0
- kms away from ST stand/ city market:0.0
- There are few attractions for kids like toy train:0.6486
- toy cups:0.0
- giant wheel etc:0.0
-\r\nThe rates for boating are:0.0
+ kms  kms:0.0
+ The lake is surrounded by green trees  The lake is surrounded by green trees:0.0
+ In late evening one can see the clouds passing over lake water  In late evening one can see the clouds passing over lake water:0.0
+ There is a horse ride just next to the lake  There is a horse ride just next to the lake:0.0
+ Also  Also:0.0
+ lot of food joints on the road  lot of food joints on the road:0.0
+ Few local vendors sell carrots and strawberry near the road  Few local vendors sell carrots and strawberry near the road:0.0
+ I will highly recommend to buy carrots as they are organic and tastes great  I will highly recommend to buy carrots as they are organic and tastes great:0.9298
+ Venna Lake is approx  Venna Lake is approx:0.0
+ kms away from ST stand/ city market  kms away from ST stand/ city market:0.0
+ There are few attractions for kids like toy train  There are few attractions for kids like toy train:0.8625
+ toy cups  toy cups:0.0
+ giant wheel etc giant wheel etc:0.0
+\r\nThe rates for boating are \r\nThe rates for boating are:0.0
 :0.0
 :0.0
-+:0.0
+++:0.0
 :0.0
 :0.0
- for:0.0
+ for  for:0.0
 :0.0
- mins assisted ride:0.0
+ mins assisted ride  mins assisted ride:0.0
 :0.0
 :0.0
 :0.0
- for the boating person:0.0
-\r\n\r\nBe careful while using google map as it can direct to other side of lake where you will not be able to reach main lake entrance:0.1779
- ' ] [ 'Refreshing 🌸 & beautiful lake in Mahabaleshwar:0.5994
-\r\nOne of the major tourist attraction & to do boating 🛶 lake:0.4588
-\r\nWe went in afternoon time:0.0
-\r\nThere is always long queue for tickets 🎫:0.0
-\r\nBut once you sit in boat you will forget everything:-0.2263
-\r\nCooling & soothing breeze will freshen you 🆙:0.3182
-\r\n\r\nColourful & yummy fruits 🍒🍓 🍉 🍎available outside lake is must haves:0.5267
- ' ] [ `` Veena lake is situated far from mahableshwar other famous point so any tourist package will charge:0.0
+ for the boating person for the boating person:0.0
+\r\n\r\nBe careful while using google map as it can direct to other side of lake where you will not be able to reach main lake entrance \r\n\r\nBe careful while using google map as it can direct to other side of lake where you will not be able to reach main lake entrance:0.34
+ ' ] [ 'Refreshing 🌸 & beautiful lake in Mahabaleshwar  ' ] [ 'Refreshing 🌸 & beautiful lake in Mahabaleshwar:0.8316
+\r\nOne of the major tourist attraction & to do boating 🛶 lake \r\nOne of the major tourist attraction & to do boating 🛶 lake:0.7184
+\r\nWe went in afternoon time \r\nWe went in afternoon time:0.0
+\r\nThere is always long queue for tickets 🎫\r\nThere is always long queue for tickets 🎫:0.0
+\r\nBut once you sit in boat you will forget everything\r\nBut once you sit in boat you will forget everything:-0.4215
+\r\nCooling & soothing breeze will freshen you 🆙\r\nCooling & soothing breeze will freshen you 🆙:0.5574
+\r\n\r\nColourful & yummy fruits 🍒🍓 🍉 🍎available outside lake is must haves \r\n\r\nColourful & yummy fruits 🍒🍓 🍉 🍎available outside lake is must haves:0.7783
+ ' ] [ `` Veena lake is situated far from mahableshwar other famous point so any tourist package will charge  ' ] [ `` Veena lake is situated far from mahableshwar other famous point so any tourist package will charge:0.0
 :0.0
 :0.0
--:0.0
+--:0.0
 :0.0
 :0.0
- extra to include Veena lake in the package:0.0
- You have booking option there which charges around:-0.2732
+ extra to include Veena lake in the package  extra to include Veena lake in the package:0.0
+ You have booking option there which charges around  You have booking option there which charges around:-0.4939
 :0.0
 :0.0
- per row boat and:0.0
+ per row boat and  per row boat and:0.0
 :0.0
 :0.0
- per padel boat for:0.0
+ per padel boat for  per padel boat for:0.0
 :0.0
- minutes:0.0
- If you are taking boat for ourselves you have to give:0.0
+ minutes  minutes:0.0
+ If you are taking boat for ourselves you have to give  If you are taking boat for ourselves you have to give:0.0
 :0.0
 :0.0
 :0.0
- deposit so in case you come delayed your extra charge will be deducted from the deposit:-0.2263
- If you pay:-0.1027
+ deposit so in case you come delayed your extra charge will be deducted from the deposit  deposit so in case you come delayed your extra charge will be deducted from the deposit:-0.4215
+ If you pay  If you pay:-0.2023
 :0.0
 :0.0
- extra you wo n't have to pay deposit and there will be a person to take you in the boat and you do n't have to row it:0.0762
- We can call it a trap but had no other option to take this option of paying:-0.5346
+ extra you wo n't have to pay deposit and there will be a person to take you in the boat and you do n't have to row it  extra you wo n't have to pay deposit and there will be a person to take you in the boat and you do n't have to row it:0.1511
+ We can call it a trap but had no other option to take this option of paying  We can call it a trap but had no other option to take this option of paying:-0.8481
 :0.0
 :0.0
- extra to avoid deposit losses and also was so tired that we ca n't row it else wo n't be able to enjoy also not so expert in rowing it:-0.6642
- I would recommend to pay:0.2732
+ extra to avoid deposit losses and also was so tired that we ca n't row it else wo n't be able to enjoy also not so expert in rowing it  extra to avoid deposit losses and also was so tired that we ca n't row it else wo n't be able to enjoy also not so expert in rowing it:-0.8715
+ I would recommend to pay  I would recommend to pay:0.4939
 :0.0
 :0.0
- extra better if you want to enjoy the trip:0.7506
- If you are:0.0
- people it 's hardly:0.0
+ extra better if you want to enjoy the trip  extra better if you want to enjoy the trip:0.9153
+ If you are  If you are:0.0
+ people it 's hardly  people it 's hardly:0.0
 :0.0
- rupees each which is worth:0.2263
-\r\n '' ] [ 'Loved that it was super clean:0.8885
- Eco sensitive area:0.0
-\r\nCan take self peddler boats or boat with a rower:0.0
-\r\nWould suggest self paddling boats for:0.0
--:0.0
- people:0.0
-\r\nYou get the boat for:0.0
+ rupees each which is worth rupees each which is worth:0.4215
+\r\n '' ] [ 'Loved that it was super clean \r\n '' ] [ 'Loved that it was super clean:0.9682
+ Eco sensitive area Eco sensitive area:0.0
+\r\nCan take self peddler boats or boat with a rower\r\nCan take self peddler boats or boat with a rower:0.0
+\r\nWould suggest self paddling boats for \r\nWould suggest self paddling boats for:0.0
+--:0.0
+ people people:0.0
+\r\nYou get the boat for \r\nYou get the boat for:0.0
 :0.0
- mins:0.0
-\r\nRates vary from:0.0
+ mins mins:0.0
+\r\nRates vary from \r\nRates vary from:0.0
 :0.0
 :0.0
--:0.0
+--:0.0
 :0.0
 :0.0
-₹:0.0
-\r\n ' ] [ `` A nice lake formed by River Venna:0.4215
- Crowded in the evenings as tourists flock it for boat rides and to have food at nearby small shops ( surprisingly mostly owned by Muslims ):0.296
- You can hire a boat for:0.0
+₹₹:0.0
+\r\n ' ] [ `` A nice lake formed by River Venna \r\n ' ] [ `` A nice lake formed by River Venna:0.6808
+ Crowded in the evenings as tourists flock it for boat rides and to have food at nearby small shops ( surprisingly mostly owned by Muslims )  Crowded in the evenings as tourists flock it for boat rides and to have food at nearby small shops ( surprisingly mostly owned by Muslims ):0.5267
+ You can hire a boat for  You can hire a boat for:0.0
 :0.0
 :0.0
--:0.0
+--:0.0
 :0.0
 :0.0
- Rupees for:0.0
- hour:0.0
- One family occupies one boat:0.0
- Google map to this place does n't show correct location so be careful while reaching here as you may have to return after going ahead some:0.3976
--:0.0
- km:0.0
-\r\n '' ] [ ' A good place:0.4404
- peaceful:0.4939
- calm:0.3182
- happening tourist spot:0.0
- It was Saturday:0.0
- huge crowd sas there:0.3182
- In the March as well:0.2732
- climate was cool:0.3182
- joyful:0.5994
+ Rupees for  Rupees for:0.0
+ hour  hour:0.0
+ One family occupies one boat  One family occupies one boat:0.0
+ Google map to this place does n't show correct location so be careful while reaching here as you may have to return after going ahead some  Google map to this place does n't show correct location so be careful while reaching here as you may have to return after going ahead some:0.6549
+--:0.0
+ km km:0.0
+\r\n '' ] [ ' A good place \r\n '' ] [ ' A good place:0.7003
+ peaceful  peaceful:0.7506
+ calm  calm:0.5574
+ happening tourist spot  happening tourist spot:0.0
+ It was Saturday  It was Saturday:0.0
+ huge crowd sas there  huge crowd sas there:0.5574
+ In the March as well  In the March as well:0.4939
+ climate was cool  climate was cool:0.5574
+ joyful  joyful:0.8316
 :0.0
- We did paddle boating:0.0
+ We did paddle boating  We did paddle boating:0.0
 :0.0
- hr timing:0.0
+ hr timing  hr timing:0.0
 :0.0
- Rste was reasonable:0.0
+ Rste was reasonable  Rste was reasonable:0.0
 :0.0
- ' ] [ 'Must visit place in Mahabaleshwar\r\n\r\nBoating available\r\n\r\nRow boat and paddle boat\r\n\r\nBoat charges:-0.2732
+ ' ] [ 'Must visit place in Mahabaleshwar\r\n\r\nBoating available\r\n\r\nRow boat and paddle boat\r\n\r\nBoat charges  ' ] [ 'Must visit place in Mahabaleshwar\r\n\r\nBoating available\r\n\r\nRow boat and paddle boat\r\n\r\nBoat charges:-0.4939
 :0.0
 :0.0
- and:0.0
+ and  and:0.0
 :0.0
 :0.0
- for boat driver\r\n\r\nAll people are cooperative\r\n\r\nWear life jackets\r\n\r\nRound of:0.0
+ for boat driver\r\n\r\nAll people are cooperative\r\n\r\nWear life jackets\r\n\r\nRound of  for boat driver\r\n\r\nAll people are cooperative\r\n\r\nWear life jackets\r\n\r\nRound of:0.0
 :0.0
- mins\r\n\r\nGood to spend time with loved one:0.5994
+ mins\r\n\r\nGood to spend time with loved one  mins\r\n\r\nGood to spend time with loved one:0.8316
 :0.0
- \r\n\r\nRecommended\r\n ' ] [ 'Nice boating experience:0.4215
- You can do it yourself and also share with others person on availability:0.296
- We had done with sharing and it cost us:0.4215
+ \r\n\r\nRecommended\r\n ' ] [ 'Nice boating experience  \r\n\r\nRecommended\r\n ' ] [ 'Nice boating experience:0.6808
+ You can do it yourself and also share with others person on availability  You can do it yourself and also share with others person on availability:0.5267
+ We had done with sharing and it cost us  We had done with sharing and it cost us:0.6808
 :0.0
 :0.0
- Rs:0.0
- per person:0.0
- You can take separate boat with Rs:0.0
+ Rs  Rs:0.0
+ per person  per person:0.0
+ You can take separate boat with Rs  You can take separate boat with Rs:0.0
 :0.0
 :0.0
 :0.0
 :0.0
-\r\n\r\nA lot activity happened around this places and a lot of shops and restaurants are close to Venna Lake:0.0
- ' ] [ 'Must visit place for boating:0.0
- horse riding:0.0
- game zone:0.0
- eateries with family and friends:0.4767
- Highly recommended:0.2716
- ' ] [ `` Venna Lake is a beautiful and serene destination in Mahabaleshwar:0.7845
- The lake is surrounded by lush greenery and hills:0.0
- providing a picturesque view:0.3818
- The boating facilities available here are a great way to enjoy the calm waters and take in the natural beauty:0.9423
- The park surrounding the lake is a perfect spot for a picnic or a relaxing walk:0.7845
- Overall:0.0
- Venna Lake is a must-visit for anyone looking to escape the hustle and bustle of the city and enjoy some peace and tranquility:0.8807
- Highly recommended:0.2716
- But it 's very crowded on weekends:0.0
- '' ] [ 'Very beautiful place to visit\r\nYou can enjoy beautiful sunset while boating if u visit in evening\r\n\r\nVery peaceful\r\nBoating and horse riding is available ' ] [ ':0.9116
+\r\n\r\nA lot activity happened around this places and a lot of shops and restaurants are close to Venna Lake \r\n\r\nA lot activity happened around this places and a lot of shops and restaurants are close to Venna Lake:0.0
+ ' ] [ 'Must visit place for boating  ' ] [ 'Must visit place for boating:0.0
+ horse riding  horse riding:0.0
+ game zone  game zone:0.0
+ eateries with family and friends  eateries with family and friends:0.7351
+ Highly recommended  Highly recommended:0.4915
+ ' ] [ `` Venna Lake is a beautiful and serene destination in Mahabaleshwar  ' ] [ `` Venna Lake is a beautiful and serene destination in Mahabaleshwar:0.93
+ The lake is surrounded by lush greenery and hills  The lake is surrounded by lush greenery and hills:0.0
+ providing a picturesque view  providing a picturesque view:0.6369
+ The boating facilities available here are a great way to enjoy the calm waters and take in the natural beauty  The boating facilities available here are a great way to enjoy the calm waters and take in the natural beauty:0.9846
+ The park surrounding the lake is a perfect spot for a picnic or a relaxing walk  The park surrounding the lake is a perfect spot for a picnic or a relaxing walk:0.93
+ Overall  Overall:0.0
+ Venna Lake is a must-visit for anyone looking to escape the hustle and bustle of the city and enjoy some peace and tranquility  Venna Lake is a must-visit for anyone looking to escape the hustle and bustle of the city and enjoy some peace and tranquility:0.9657
+ Highly recommended  Highly recommended:0.4915
+ But it 's very crowded on weekends  But it 's very crowded on weekends:0.0
+ '' ] [ 'Very beautiful place to visit\r\nYou can enjoy beautiful sunset while boating if u visit in evening\r\n\r\nVery peaceful\r\nBoating and horse riding is available ' ] [ ' '' ] [ 'Very beautiful place to visit\r\nYou can enjoy beautiful sunset while boating if u visit in evening\r\n\r\nVery peaceful\r\nBoating and horse riding is available ' ] [ ':0.9755
 :0.0
 :0.0
- Rs:0.0
- For Boating ( Paddle boat ) for:0.0
- hour:0.0
-\r\nThe sunset looks beautiful and the lake is huge:0.7351
+ Rs  Rs:0.0
+ For Boating ( Paddle boat ) for  For Boating ( Paddle boat ) for:0.0
+ hour hour:0.0
+\r\nThe sunset looks beautiful and the lake is huge \r\nThe sunset looks beautiful and the lake is huge:0.9081
 :0.0
 :0.0
 :0.0
- ' ] [ 'Average point:0.0
+ ' ] [ 'Average point  ' ] [ 'Average point:0.0
 :0.0
 :0.0
 :0.0
- horse riding is available there:0.0
+ horse riding is available there  horse riding is available there:0.0
 :0.0
 :0.0
 :0.0
 :0.0
- ⛵ Boating is also there ' ] [ 'One of the most popular tourist place in Mahabaleshwar:0.4754
- You can enjoy the Sunrise and sunset here with a mesmerizing view of Venna lake:0.4939
- Boat ride is the main attraction:0.4588
- You will get many food stall:-0.2023
- Horse ride:0.0
- parking facility here:0.0
- ' ] [ 'The sunset is amazing at this place:0.5859
- Better than Sunset point:0.4404
- Mahabaleshwar:0.0
- The boating entrance closes at:0.0
+ ⛵ Boating is also there ' ] [ 'One of the most popular tourist place in Mahabaleshwar  ⛵ Boating is also there ' ] [ 'One of the most popular tourist place in Mahabaleshwar:0.734
+ You can enjoy the Sunrise and sunset here with a mesmerizing view of Venna lake  You can enjoy the Sunrise and sunset here with a mesmerizing view of Venna lake:0.7506
+ Boat ride is the main attraction  Boat ride is the main attraction:0.7184
+ You will get many food stall  You will get many food stall:-0.3818
+ Horse ride  Horse ride:0.0
+ parking facility here  parking facility here:0.0
+ ' ] [ 'The sunset is amazing at this place  ' ] [ 'The sunset is amazing at this place:0.8225
+ Better than Sunset point  Better than Sunset point:0.7003
+ Mahabaleshwar  Mahabaleshwar:0.0
+ The boating entrance closes at  The boating entrance closes at:0.0
 :0.0
 :0.0
 :0.0
- pm sharp:0.0
- whereas once you are inside you can do boating till:0.0
-/:0.0
+ pm sharp  pm sharp:0.0
+ whereas once you are inside you can do boating till  whereas once you are inside you can do boating till:0.0
+//:0.0
 :0.0
 :0.0
 :0.0
-pm:0.0
- There is horse riding ground besides the lake costing around:0.0
+pm pm:0.0
+ There is horse riding ground besides the lake costing around  There is horse riding ground besides the lake costing around:0.0
 :0.0
 :0.0
- per person for:0.0
- round of approx:0.0
+ per person for  per person for:0.0
+ round of approx  round of approx:0.0
 :0.0
 :0.0
--:0.0
+--:0.0
 :0.0
 :0.0
-m:0.0
- There are many food stalls were you can try corn frankie and pattice:0.0
- the local speciality and Strawberry with cream as a dessert:0.0
- ' ] [ 'Nice Clean Lake:0.6705
- Too much rush for getting boat ticket:0.0
- Parking is another challange near venna lake:0.0
- ' ] [ `` This is one of the best views:0.6369
- I 've ever experienced:0.0
- This is one of the most amazing places to visit:0.624
- in Mahabaleshwar:0.0
- You 'll have nearly no wait to go in:-0.296
- You can click pictures:0.0
- have some snacks:0.0
- and spend some good time:0.4404
- with Nature:0.0
- Overall:0.0
- it 's Great:0.6249
-\r\n '' ] [ ' A blessing of nature:0.4939
- sangam of rivers and backwater of dam:0.0
- one can come to visit island or for boating:0.0
- natural scenes are mesmerizing:0.3612
+m m:0.0
+ There are many food stalls were you can try corn frankie and pattice  There are many food stalls were you can try corn frankie and pattice:0.0
+ the local speciality and Strawberry with cream as a dessert  the local speciality and Strawberry with cream as a dessert:0.0
+ ' ] [ 'Nice Clean Lake  ' ] [ 'Nice Clean Lake:0.875
+ Too much rush for getting boat ticket  Too much rush for getting boat ticket:0.0
+ Parking is another challange near venna lake  Parking is another challange near venna lake:0.0
+ ' ] [ `` This is one of the best views  ' ] [ `` This is one of the best views:0.8555
+ I 've ever experienced  I 've ever experienced:0.0
+ This is one of the most amazing places to visit  This is one of the most amazing places to visit:0.8476
+ in Mahabaleshwar  in Mahabaleshwar:0.0
+ You 'll have nearly no wait to go in  You 'll have nearly no wait to go in:-0.5267
+ You can click pictures  You can click pictures:0.0
+ have some snacks  have some snacks:0.0
+ and spend some good time  and spend some good time:0.7003
+ with Nature  with Nature:0.0
+ Overall  Overall:0.0
+ it 's Great it 's Great:0.8481
+\r\n '' ] [ ' A blessing of nature \r\n '' ] [ ' A blessing of nature:0.7506
+ sangam of rivers and backwater of dam  sangam of rivers and backwater of dam:0.0
+ one can come to visit island or for boating  one can come to visit island or for boating:0.0
+ natural scenes are mesmerizing  natural scenes are mesmerizing:0.6124
 :0.0
 :0.0
 :0.0
- ' ] [ 'If you want to do boating and horse ride:0.0772
+ ' ] [ 'If you want to do boating and horse ride  ' ] [ 'If you want to do boating and horse ride:0.1531
 :0.0
- then go for this place:0.0
- Be aware of heavy traffic and rush to plan the time ' ] [ `` Horses catch the attraction of whole place:0.4588
- Mashallah so many horses and with dissimilar cute names loved it:0.7845
- Near Lake there are some food stalls ( foodstuff ) to try it 's yummy 😋 …\r\n '' ] [ `` If u are on weekends:0.5267
+ then go for this place  then go for this place:0.0
+ Be aware of heavy traffic and rush to plan the time ' ] [ `` Horses catch the attraction of whole place  Be aware of heavy traffic and rush to plan the time ' ] [ `` Horses catch the attraction of whole place:0.7184
+ Mashallah so many horses and with dissimilar cute names loved it  Mashallah so many horses and with dissimilar cute names loved it:0.93
+ Near Lake there are some food stalls ( foodstuff ) to try it 's yummy 😋 …\r\n '' ] [ `` If u are on weekends  Near Lake there are some food stalls ( foodstuff ) to try it 's yummy 😋 …\r\n '' ] [ `` If u are on weekends:0.7783
 :0.0
 :0.0
- go for boating lil early:0.0
+ go for boating lil early  go for boating lil early:0.0
 :0.0
 :0.0
- closes arrd:0.0
-\r\n:0.0
+ closes arrd  closes arrd:0.0
+\r\n\r\n:0.0
 :0.0
 :0.0
 :0.0
 :0.0
 :0.0
- Always a queue:0.0
- Paddle boat is generally available easily but rowing does n't as it comes with person who rows the boat for u:0.1779
+ Always a queue  Always a queue:0.0
+ Paddle boat is generally available easily but rowing does n't as it comes with person who rows the boat for u  Paddle boat is generally available easily but rowing does n't as it comes with person who rows the boat for u:0.5859
 :0.0
 :0.0
 :0.0
- Rs for half an hour for rowing boat:0.0
- Board doesnt mentions how much you pay to the person who will be with you as rower but i guess they loot public depending upon the rush at the venue:-0.0516
- Lake is very old and main source of water for mahabaleshwar:0.0
- Freezes in winter:-0.0258
- '' ] [ `` Prices are really high:0.0
- SOMETHING IF REALLY FISHY IN TERMS OF THEY ARE CHARGING EXTRA MONEY AND ALSO DO N'T PROVIDE ANY BILLS ⚠️⚠️⚠️⚠️⚠️⚠️⚠️\r\n\r\nAS A CUSTOMER THE BOATING EXPERIENCE AND HORSE RIDING IS GOOD BUT AS A CONSUMER:0.3218
- THEY ARE DOING REALLY BIG MESS SOMEWHERE IN THE CORNER\r\n '' ] [ `` Boating here is quite nice:-0.2766
- The view is really satisfying:0.5095
- You 'll feel calm & refreshed after the boating:0.3182
- Also:0.0
- there are some food stalls outside the Venna Lake Boating:0.0
- And:0.0
- there is horse riding too:0.0
-\r\n '' ] [ 'Boating rowing type cost:0.0
+ Rs for half an hour for rowing boat  Rs for half an hour for rowing boat:0.0
+ Board doesnt mentions how much you pay to the person who will be with you as rower but i guess they loot public depending upon the rush at the venue  Board doesnt mentions how much you pay to the person who will be with you as rower but i guess they loot public depending upon the rush at the venue:-0.2023
+ Lake is very old and main source of water for mahabaleshwar  Lake is very old and main source of water for mahabaleshwar:0.0
+ Freezes in winter  Freezes in winter:-0.0516
+ '' ] [ `` Prices are really high  '' ] [ `` Prices are really high:0.0
+ SOMETHING IF REALLY FISHY IN TERMS OF THEY ARE CHARGING EXTRA MONEY AND ALSO DO N'T PROVIDE ANY BILLS ⚠️⚠️⚠️⚠️⚠️⚠️⚠️\r\n\r\nAS A CUSTOMER THE BOATING EXPERIENCE AND HORSE RIDING IS GOOD BUT AS A CONSUMER  SOMETHING IF REALLY FISHY IN TERMS OF THEY ARE CHARGING EXTRA MONEY AND ALSO DO N'T PROVIDE ANY BILLS ⚠️⚠️⚠️⚠️⚠️⚠️⚠️\r\n\r\nAS A CUSTOMER THE BOATING EXPERIENCE AND HORSE RIDING IS GOOD BUT AS A CONSUMER:0.8056
+ THEY ARE DOING REALLY BIG MESS SOMEWHERE IN THE CORNER\r\n '' ] [ `` Boating here is quite nice  THEY ARE DOING REALLY BIG MESS SOMEWHERE IN THE CORNER\r\n '' ] [ `` Boating here is quite nice:-0.4989
+ The view is really satisfying  The view is really satisfying:0.764
+ You 'll feel calm & refreshed after the boating  You 'll feel calm & refreshed after the boating:0.5574
+ Also  Also:0.0
+ there are some food stalls outside the Venna Lake Boating  there are some food stalls outside the Venna Lake Boating:0.0
+ And  And:0.0
+ there is horse riding too there is horse riding too:0.0
+\r\n '' ] [ 'Boating rowing type cost \r\n '' ] [ 'Boating rowing type cost:0.0
 :0.0
 :0.0
- per person\r\nPaddle boat cost ?:0.0
+ per person\r\nPaddle boat cost ?  per person\r\nPaddle boat cost ?:0.0
 :0.0
 :0.0
- for:0.0
+ for  for:0.0
 :0.0
- mins\r\nNice view\r\nGood fast food place just on front of venna lake ' ] [ 'Place is before Mahabaleshwar:0.0
- \r\nYou can enjoy boating and horse riding:0.4939
-\r\n\r\nCost approx:0.0
+ mins\r\nNice view\r\nGood fast food place just on front of venna lake ' ] [ 'Place is before Mahabaleshwar  mins\r\nNice view\r\nGood fast food place just on front of venna lake ' ] [ 'Place is before Mahabaleshwar:0.0
+ \r\nYou can enjoy boating and horse riding \r\nYou can enjoy boating and horse riding:0.7506
+\r\n\r\nCost approx \r\n\r\nCost approx:0.0
 :0.0
 :0.0
- for one shot boat ride ' ] [ 'Venna Lake in Mahabaleshwar is a picturesque spot that is known for its beauty and serenity:0.7506
- Located in the Satara district of Maharashtra:0.0
- this lake is one of the most popular tourist destinations in the area:0.4754
- Venna Lake is surrounded by lush green hills and is the perfect spot for a peaceful stroll or a leisurely boat ride:0.7845
- ' ] [ 'Pros -\r\n:0.0
- ) Clean and deep lake - scenic beauty\r\n\r\nCons-\r\n:0.4019
- ) Massive mismanagement:0.0
- Pandemic or otherwise:0.0
- there is always hundreds of folks in the evening:0.0
- particularly during the weekend:0.0
-\r\n:0.0
- ) The boat ride is for:0.0
+ for one shot boat ride ' ] [ 'Venna Lake in Mahabaleshwar is a picturesque spot that is known for its beauty and serenity  for one shot boat ride ' ] [ 'Venna Lake in Mahabaleshwar is a picturesque spot that is known for its beauty and serenity:0.9153
+ Located in the Satara district of Maharashtra  Located in the Satara district of Maharashtra:0.0
+ this lake is one of the most popular tourist destinations in the area  this lake is one of the most popular tourist destinations in the area:0.734
+ Venna Lake is surrounded by lush green hills and is the perfect spot for a peaceful stroll or a leisurely boat ride  Venna Lake is surrounded by lush green hills and is the perfect spot for a peaceful stroll or a leisurely boat ride:0.93
+ ' ] [ 'Pros -\r\n ' ] [ 'Pros -\r\n:0.0
+ ) Clean and deep lake - scenic beauty\r\n\r\nCons-\r\n ) Clean and deep lake - scenic beauty\r\n\r\nCons-\r\n:0.6597
+ ) Massive mismanagement  ) Massive mismanagement:0.0
+ Pandemic or otherwise  Pandemic or otherwise:0.0
+ there is always hundreds of folks in the evening  there is always hundreds of folks in the evening:0.0
+ particularly during the weekend particularly during the weekend:0.0
+\r\n\r\n:0.0
+ ) The boat ride is for  ) The boat ride is for:0.0
 :0.0
 :0.0
 :0.0
- for an hour which you are yourself supposed to row:0.0
-\r\n:0.0
- ) There was no sanitation around:-0.296
-\r\n:0.0
- ) The parking is a mess - visitors need to undertake a long walk\r\n\r\nWish authorities take note to make the place a better place:0.1027
- ' ] [ 'Venna Lake is a scenic manmade lake in Mahabaleshwar:0.0
- The lake offers rowboats:0.0
- and paddleboats ride to the visitors and hence is usually very crowded:0.0
- There is horse riding and rides for children such as merry go round and the toy train:0.5423
- There are a number of eateries around the lake famous for street food like corn:0.4215
- bhelpuri and fresh fruits like mulberries:0.5859
- strawberries and carrots:0.0
-\r\n\r\nVenna Lake was built by Shri Appasaheb Maharaj who was the ruler of Satara and a descendant of Chhatrapati Shivaji Maharaj:0.0
- in:0.0
+ for an hour which you are yourself supposed to row for an hour which you are yourself supposed to row:0.0
+\r\n\r\n:0.0
+ ) There was no sanitation around ) There was no sanitation around:-0.5267
+\r\n\r\n:0.0
+ ) The parking is a mess - visitors need to undertake a long walk\r\n\r\nWish authorities take note to make the place a better place  ) The parking is a mess - visitors need to undertake a long walk\r\n\r\nWish authorities take note to make the place a better place:0.2023
+ ' ] [ 'Venna Lake is a scenic manmade lake in Mahabaleshwar  ' ] [ 'Venna Lake is a scenic manmade lake in Mahabaleshwar:0.0
+ The lake offers rowboats  The lake offers rowboats:0.0
+ and paddleboats ride to the visitors and hence is usually very crowded  and paddleboats ride to the visitors and hence is usually very crowded:0.0
+ There is horse riding and rides for children such as merry go round and the toy train  There is horse riding and rides for children such as merry go round and the toy train:0.7906
+ There are a number of eateries around the lake famous for street food like corn  There are a number of eateries around the lake famous for street food like corn:0.6808
+ bhelpuri and fresh fruits like mulberries  bhelpuri and fresh fruits like mulberries:0.8225
+ strawberries and carrots strawberries and carrots:0.0
+\r\n\r\nVenna Lake was built by Shri Appasaheb Maharaj who was the ruler of Satara and a descendant of Chhatrapati Shivaji Maharaj \r\n\r\nVenna Lake was built by Shri Appasaheb Maharaj who was the ruler of Satara and a descendant of Chhatrapati Shivaji Maharaj:0.0
+ in  in:0.0
 :0.0
 :0.0
 :0.0
 :0.0
- The lake is spread over an area of:0.0
+ The lake is spread over an area of  The lake is spread over an area of:0.0
 :0.0
- acres with a periphery of:0.0
- to:0.0
- km:0.0
- It was initially built with the aim of catering to the water needs of the city of Mahabaleshwar ' ] [ 'Nice place for boating but be careful selecting rides:0.4215
- for rowing boat as they have not mention charges correctly:0.2057
-The rate displayed are for self drive and if you choose for driver they charge extra on the basis of hours:0.0
-For half hour Rs:0.0
+ acres with a periphery of  acres with a periphery of:0.0
+ to  to:0.0
+ km  km:0.0
+ It was initially built with the aim of catering to the water needs of the city of Mahabaleshwar ' ] [ 'Nice place for boating but be careful selecting rides  It was initially built with the aim of catering to the water needs of the city of Mahabaleshwar ' ] [ 'Nice place for boating but be careful selecting rides:0.8126
+ for rowing boat as they have not mention charges correctly for rowing boat as they have not mention charges correctly:0.3875
+The rate displayed are for self drive and if you choose for driver they charge extra on the basis of hoursThe rate displayed are for self drive and if you choose for driver they charge extra on the basis of hours:0.0
+For half hour RsFor half hour Rs:0.0
 :0.0
 :0.0
- and for:0.0
- hour Rs:0.0
+ and for  and for:0.0
+ hour Rs hour Rs:0.0
 :0.0
 :0.0
 :0.0
-So be careful many times they ask for more money at the end so discuss every thing before taking ride:0.2212
-\r\n ' ] [ 'Beautiful lake which was heart of Mahabaleshwar city:0.5994
-what a climate and green nature here:0.0
- ' ] [ 'Nice place:0.4215
- you can enjoy here boat:0.4939
- horse riding ' ] [ 'Enjoy the hot maggie and kullat chai with the cold foggy view of beautiful lake veena:0.7964
+So be careful many times they ask for more money at the end so discuss every thing before taking rideSo be careful many times they ask for more money at the end so discuss every thing before taking ride:0.4131
+\r\n ' ] [ 'Beautiful lake which was heart of Mahabaleshwar city\r\n ' ] [ 'Beautiful lake which was heart of Mahabaleshwar city:0.8316
+what a climate and green nature here what a climate and green nature here:0.0
+ ' ] [ 'Nice place  ' ] [ 'Nice place:0.6808
+ you can enjoy here boat  you can enjoy here boat:0.7506
+ horse riding ' ] [ 'Enjoy the hot maggie and kullat chai with the cold foggy view of beautiful lake veena  horse riding ' ] [ 'Enjoy the hot maggie and kullat chai with the cold foggy view of beautiful lake veena:0.9349
 :0.0
 :0.0
- Horse riding and boating is available:0.0
+ Horse riding and boating is available  Horse riding and boating is available:0.0
 :0.0
 :0.0
- ' ] [ `` One of the lakes available in Mahabaleshwar:0.0
- It 's at the peak in the month of September and October during the rainy season:-0.0772
-\r\n\r\nBoating at the location is a must and recommend as well:0.5574
- During the weekdays the cost is optimal and can be negotiated:0.3612
- During the weekend there is a long waiting for the boating at the location:0.0
-\r\n\r\nThe boating cost is per boat wise:0.4767
- Hence it you are a couple it 's recommended to patch up with another couple so that the cost is split among for boating:0.2023
- Per boat cost is:0.0
+ ' ] [ `` One of the lakes available in Mahabaleshwar  ' ] [ `` One of the lakes available in Mahabaleshwar:0.0
+ It 's at the peak in the month of September and October during the rainy season It 's at the peak in the month of September and October during the rainy season:-0.1531
+\r\n\r\nBoating at the location is a must and recommend as well \r\n\r\nBoating at the location is a must and recommend as well:0.802
+ During the weekdays the cost is optimal and can be negotiated  During the weekdays the cost is optimal and can be negotiated:0.6124
+ During the weekend there is a long waiting for the boating at the location During the weekend there is a long waiting for the boating at the location:0.0
+\r\n\r\nThe boating cost is per boat wise \r\n\r\nThe boating cost is per boat wise:0.7351
+ Hence it you are a couple it 's recommended to patch up with another couple so that the cost is split among for boating  Hence it you are a couple it 's recommended to patch up with another couple so that the cost is split among for boating:0.3818
+ Per boat cost is  Per boat cost is:0.0
 :0.0
 :0.0
- for a longest ride till the Hanuman Temple:0.0
- '' ] [ `` My family was excited and happy with the boat club ride:0.7269
+ for a longest ride till the Hanuman Temple  for a longest ride till the Hanuman Temple:0.0
+ '' ] [ `` My family was excited and happy with the boat club ride  '' ] [ `` My family was excited and happy with the boat club ride:0.9042
 :0.0
- they enjoyed it a lot:0.5106
- Vienna lake is especially known for the boat rides and the roadside snacks near it:0.0
- also one can take horse rides next to the lake:0.0
- It 's a must-visit place in Mahabaleshwar:0.0
- and it 's recommended to visit this place in the Evening during sunset:0.2023
- '' ] [ 'Best experience view is so amazing do visit ' ] [ 'This place is amazing you can do boating 🚣 🚣\u:0.9426
+ they enjoyed it a lot  they enjoyed it a lot:0.765
+ Vienna lake is especially known for the boat rides and the roadside snacks near it  Vienna lake is especially known for the boat rides and the roadside snacks near it:0.0
+ also one can take horse rides next to the lake  also one can take horse rides next to the lake:0.0
+ It 's a must-visit place in Mahabaleshwar  It 's a must-visit place in Mahabaleshwar:0.0
+ and it 's recommended to visit this place in the Evening during sunset  and it 's recommended to visit this place in the Evening during sunset:0.3818
+ '' ] [ 'Best experience view is so amazing do visit ' ] [ 'This place is amazing you can do boating 🚣 🚣\u '' ] [ 'Best experience view is so amazing do visit ' ] [ 'This place is amazing you can do boating 🚣 🚣\u:0.9847
 :0.0
 :0.0
-d♀️:0.0
- riding 🐴 🐎:0.0
- eating 🍱 and lots of fun:0.5106
-\r\nThey gave boats 🛶 on rents:0.0
-\r\nThey have two types of boats pedal boat and `` chapu '' boat 🛶:0.0
- ' ] [ 'Venna lake is one of the major tourist attractions in Mahabaleshwar:0.4215
- It is a beautiful place where one can enjoy boat ride and next to the lake horse ride:0.7964
- Near lake there are a lot of food joints where different varieties of mouthwatering snacks are available:0.0
- I visited the lake in monsoon so the lake is all covered with fog:0.0
- But next day the weather was clear so I could enjoyed the view:0.8507
- This is the place you can enjoy with your family and friends:0.743
- But one thing that is missing is cleanliness of the lake side area:-0.4215
-\r\n ' ] [ `` Boating - both options are good:0.4404
-\r\nHorse ride - depends on negotiation:0.0
- a:0.0
+d♀️ d♀️:0.0
+ riding 🐴 🐎  riding 🐴 🐎:0.0
+ eating 🍱 and lots of fun eating 🍱 and lots of fun:0.765
+\r\nThey gave boats 🛶 on rents\r\nThey gave boats 🛶 on rents:0.0
+\r\nThey have two types of boats pedal boat and `` chapu '' boat 🛶 \r\nThey have two types of boats pedal boat and `` chapu '' boat 🛶:0.0
+ ' ] [ 'Venna lake is one of the major tourist attractions in Mahabaleshwar  ' ] [ 'Venna lake is one of the major tourist attractions in Mahabaleshwar:0.6808
+ It is a beautiful place where one can enjoy boat ride and next to the lake horse ride  It is a beautiful place where one can enjoy boat ride and next to the lake horse ride:0.9349
+ Near lake there are a lot of food joints where different varieties of mouthwatering snacks are available  Near lake there are a lot of food joints where different varieties of mouthwatering snacks are available:0.0
+ I visited the lake in monsoon so the lake is all covered with fog  I visited the lake in monsoon so the lake is all covered with fog:0.0
+ But next day the weather was clear so I could enjoyed the view  But next day the weather was clear so I could enjoyed the view:0.9554
+ This is the place you can enjoy with your family and friends  This is the place you can enjoy with your family and friends:0.9118
+ But one thing that is missing is cleanliness of the lake side area But one thing that is missing is cleanliness of the lake side area:-0.6808
+\r\n ' ] [ `` Boating - both options are good\r\n ' ] [ `` Boating - both options are good:0.4404
+\r\nHorse ride - depends on negotiation \r\nHorse ride - depends on negotiation:0.0
+ a  a:0.0
 :0.0
 :0.0
- rs round is worth:0.2263
- horses are trained to go alone:-0.25
- U can enjoy riding it alone:0.296
-\r\nParking - available with a fees of:0.0
+ rs round is worth  rs round is worth:0.4215
+ horses are trained to go alone  horses are trained to go alone:-0.4588
+ U can enjoy riding it alone U can enjoy riding it alone:0.5267
+\r\nParking - available with a fees of \r\nParking - available with a fees of:0.0
 :0.0
-rs:0.0
-\r\nFood n eatery - good variety:0.4404
-\r\nIce gola - worth a try:0.2263
- It 's:0.0
+rsrs:0.0
+\r\nFood n eatery - good variety\r\nFood n eatery - good variety:0.7003
+\r\nIce gola - worth a try \r\nIce gola - worth a try:0.4215
+ It 's  It 's:0.0
 :0.0
-rs:0.0
- '' ] [ 'First of all don ’ t follow this Wala map it ’ s not correct route:0.0
- Follow ‘ venna lake boating ’ this is correct map location:0.0
- Beautiful place for outing with family and friends:0.7906
- horse riding and boating available but too much costly:-0.1531
- So many types of food available:0.0
- Due to horse riding this place is too dusty ' ] [ 'Place is beautiful but the cost of boating is same for:0.3506
- persons and for:0.0
- person also:0.0
+rs rs:0.0
+ '' ] [ 'First of all don ’ t follow this Wala map it ’ s not correct route  '' ] [ 'First of all don ’ t follow this Wala map it ’ s not correct route:0.0
+ Follow ‘ venna lake boating ’ this is correct map location  Follow ‘ venna lake boating ’ this is correct map location:0.0
+ Beautiful place for outing with family and friends  Beautiful place for outing with family and friends:0.9325
+ horse riding and boating available but too much costly  horse riding and boating available but too much costly:-0.296
+ So many types of food available  So many types of food available:0.0
+ Due to horse riding this place is too dusty ' ] [ 'Place is beautiful but the cost of boating is same for  Due to horse riding this place is too dusty ' ] [ 'Place is beautiful but the cost of boating is same for:0.8316
+ persons and for  persons and for:0.0
+ person also  person also:0.0
 :0.0
 :0.0
- not affordable for individual n couple:0.0
+ not affordable for individual n couple  not affordable for individual n couple:0.0
 :0.0
- for group the boating is worthy ' ] [ 'One of the lake with clean water and people of surrounding villages use this water for drinking:0.6808
- Visit:0.0
- enjoy rowing the boat:0.4939
- but keep the lake clean:0.5499
- ' ] [ 'pleasant boating experience in the evenings ' ] [ 'Beautiful lake with facilities for boating:0.802
- horse riding etc and lots of options for eating:0.0
- All sorts of street food and drinks available:0.0
-\r\nLooks crowded and sort of commercialized and crammed place rather than real natural beauty like Tapola lake:0.8316
-\r\nWeekends evenings:0.0
- school holiday seasons and festivals get really jam packed due to visitors from Mumbai and Pune looking for a break from routing life:0.6369
- ' ] [ 'Beautiful:0.5994
- peaceful:0.4939
- place:0.0
- Children love this place because of the boat ridings and horse ridings:0.6369
- not so clean:-0.3559
- but ok:0.4215
- Boating is cool:0.3182
- you can sail by peddle boats or by boats with assistants:0.0
- A lot of food stalls are there And there is one more like amusement park near by the Venna lake:0.6779
- Famous spot to hang out:0.0
- ' ] [ 'Beautiful lake view and you can do horse riding and boating here and on street food you can buy corn:0.5994
- fruit and other food shops are there:0.0
- ' ] [ 'It is very peaceful to sit here in the evening:0.5413
- There is also parking near this lake:0.0
- Can also ride a horse:0.0
- There are also food shops here:0.0
- Amazing place:0.5859
- Sunset is also visible from here:0.0
- It is a good place to enjoy boating:0.7269
- ' ] [ `` Its a great experience boating in the Venna lake:0.6249
- the view is awesome:0.6249
- I visited there nearly at:0.0
- pm:0.0
- it was the sunset time and weather was great:0.6249
+ for group the boating is worthy ' ] [ 'One of the lake with clean water and people of surrounding villages use this water for drinking  for group the boating is worthy ' ] [ 'One of the lake with clean water and people of surrounding villages use this water for drinking:0.8807
+ Visit  Visit:0.0
+ enjoy rowing the boat  enjoy rowing the boat:0.7506
+ but keep the lake clean  but keep the lake clean:0.7964
+ ' ] [ 'pleasant boating experience in the evenings ' ] [ 'Beautiful lake with facilities for boating  ' ] [ 'pleasant boating experience in the evenings ' ] [ 'Beautiful lake with facilities for boating:0.9371
+ horse riding etc and lots of options for eating  horse riding etc and lots of options for eating:0.0
+ All sorts of street food and drinks available All sorts of street food and drinks available:0.0
+\r\nLooks crowded and sort of commercialized and crammed place rather than real natural beauty like Tapola lake\r\nLooks crowded and sort of commercialized and crammed place rather than real natural beauty like Tapola lake:0.9485
+\r\nWeekends evenings \r\nWeekends evenings:0.0
+ school holiday seasons and festivals get really jam packed due to visitors from Mumbai and Pune looking for a break from routing life  school holiday seasons and festivals get really jam packed due to visitors from Mumbai and Pune looking for a break from routing life:0.8555
+ ' ] [ 'Beautiful  ' ] [ 'Beautiful:0.8316
+ peaceful  peaceful:0.7506
+ place  place:0.0
+ Children love this place because of the boat ridings and horse ridings  Children love this place because of the boat ridings and horse ridings:0.8555
+ not so clean  not so clean:-0.6059
+ but ok but ok:0.6808
+ Boating is cool  Boating is cool:0.5574
+ you can sail by peddle boats or by boats with assistants  you can sail by peddle boats or by boats with assistants:0.0
+ A lot of food stalls are there And there is one more like amusement park near by the Venna lake  A lot of food stalls are there And there is one more like amusement park near by the Venna lake:0.8791
+ Famous spot to hang out  Famous spot to hang out:0.0
+ ' ] [ 'Beautiful lake view and you can do horse riding and boating here and on street food you can buy corn  ' ] [ 'Beautiful lake view and you can do horse riding and boating here and on street food you can buy corn:0.8316
+ fruit and other food shops are there  fruit and other food shops are there:0.0
+ ' ] [ 'It is very peaceful to sit here in the evening  ' ] [ 'It is very peaceful to sit here in the evening:0.7897
+ There is also parking near this lake  There is also parking near this lake:0.0
+ Can also ride a horse  Can also ride a horse:0.0
+ There are also food shops here  There are also food shops here:0.0
+ Amazing place  Amazing place:0.8225
+ Sunset is also visible from here  Sunset is also visible from here:0.0
+ It is a good place to enjoy boating  It is a good place to enjoy boating:0.9042
+ ' ] [ `` Its a great experience boating in the Venna lake  ' ] [ `` Its a great experience boating in the Venna lake:0.8481
+ the view is awesome  the view is awesome:0.8481
+ I visited there nearly at  I visited there nearly at:0.0
+ pm  pm:0.0
+ it was the sunset time and weather was great  it was the sunset time and weather was great:0.8481
 :0.0
- The sunset view was so beautiful:0.7177
- Its a tourist attraction spot in Mahabaleshwar and you should n't miss it:0.5337
- The only thing is there 's a huge line and you have to struggle to get your chance:0.25
- '' ] [ 'Very nice place to visit during Mahabaleshwar trip:0.4754
- One can not miss to do boating in Venna lake:0.1139
- Water is clean:0.4019
- You have options to hire rowing boat or paddle boat:0.0
- For rowing boat:0.0
- boatman are available who row the boat for us on chargeable basis:0.0
-\r\n ' ] [ 'The only lake in Mahabaleshwar:0.0
+ The sunset view was so beautiful  The sunset view was so beautiful:0.8997
+ Its a tourist attraction spot in Mahabaleshwar and you should n't miss it  Its a tourist attraction spot in Mahabaleshwar and you should n't miss it:0.7838
+ The only thing is there 's a huge line and you have to struggle to get your chance  The only thing is there 's a huge line and you have to struggle to get your chance:0.4588
+ '' ] [ 'Very nice place to visit during Mahabaleshwar trip  '' ] [ 'Very nice place to visit during Mahabaleshwar trip:0.734
+ One can not miss to do boating in Venna lake  One can not miss to do boating in Venna lake:0.2235
+ Water is clean  Water is clean:0.6597
+ You have options to hire rowing boat or paddle boat  You have options to hire rowing boat or paddle boat:0.0
+ For rowing boat  For rowing boat:0.0
+ boatman are available who row the boat for us on chargeable basis boatman are available who row the boat for us on chargeable basis:0.0
+\r\n ' ] [ 'The only lake in Mahabaleshwar \r\n ' ] [ 'The only lake in Mahabaleshwar:0.0
 :0.0
 :0.0
- Nice place for boating:0.4215
+ Nice place for boating  Nice place for boating:0.6808
 :0.0
 :0.0
- The banks of the lake have all the touristy stuff:0.0
+ The banks of the lake have all the touristy stuff  The banks of the lake have all the touristy stuff:0.0
 :0.0
- Merrygo-rounds:0.0
- horse riding:0.0
- food stalls:0.0
- game stalls etc:0.0
+ Merrygo-rounds  Merrygo-rounds:0.0
+ horse riding  horse riding:0.0
+ food stalls  food stalls:0.0
+ game stalls etc  game stalls etc:0.0
 :0.0
 :0.0
- You will find it extremely crowded especially during the holidays:0.4336
- Parking is limited given the rush of folks to this place:-0.2263
-\r\nIt is right after the toll booth before entering Mahabaleshwar town:0.0
- ' ] [ 'Enjoyed the paddle boating:0.5106
- Awesome experience of self boating with friends:0.802
-\r\nAlso have a spot of hoarse riding:0.0
- but that is costly and not worth for the charges they make:-0.6427
-\r\nJai shree Ram 🚩 … ' ] [ 'Nice place to visit:0.4215
- awesome to boat during sunset ' ] [ 'Beautiful place to visit:0.8402
- View of the lake is simply awesome:0.6249
- We haven ’ t did boating here because of the closing time but we did horse riding:0.0
-\r\nHorse riding is little bit costly as it charges:-0.3008
+ You will find it extremely crowded especially during the holidays  You will find it extremely crowded especially during the holidays:0.6934
+ Parking is limited given the rush of folks to this place Parking is limited given the rush of folks to this place:-0.4215
+\r\nIt is right after the toll booth before entering Mahabaleshwar town \r\nIt is right after the toll booth before entering Mahabaleshwar town:0.0
+ ' ] [ 'Enjoyed the paddle boating  ' ] [ 'Enjoyed the paddle boating:0.765
+ Awesome experience of self boating with friends Awesome experience of self boating with friends:0.9371
+\r\nAlso have a spot of hoarse riding \r\nAlso have a spot of hoarse riding:0.0
+ but that is costly and not worth for the charges they make but that is costly and not worth for the charges they make:-0.859
+\r\nJai shree Ram 🚩 … ' ] [ 'Nice place to visit \r\nJai shree Ram 🚩 … ' ] [ 'Nice place to visit:0.6808
+ awesome to boat during sunset ' ] [ 'Beautiful place to visit  awesome to boat during sunset ' ] [ 'Beautiful place to visit:0.9517
+ View of the lake is simply awesome  View of the lake is simply awesome:0.8481
+ We haven ’ t did boating here because of the closing time but we did horse riding We haven ’ t did boating here because of the closing time but we did horse riding:0.0
+\r\nHorse riding is little bit costly as it charges \r\nHorse riding is little bit costly as it charges:-0.5336
 :0.0
 :0.0
- rs for a round:0.0
- and the round ends in a single minute:0.0
-\r\nWould like to do boating next time for sure:0.5859
- Overall it ’ s a nice place if you are visiting with your loved ones/family/friends:0.7717
- ' ] [ 'Venna lake is the major tourist attraction in Mahabaleshwar:0.4588
- You can enjoy a boat ride over the lake or horse ride next to the lake:0.4939
-\r\nSuch beautiful lake is surrounded by the trees:0.5994
-\r\n ' ] [ `` Venna lake is the one of the most popular and visited tourist spot in Mahabaleshwar which is located at a distance of around:0.4754
-km from bus stand:0.0
- This is famous lake located in Mahabaleshwar for boating activities:0.0
- One can choose among rowboats and pedal boats:0.0
- This lake was constructed by Shri Appasaheb Maharaj in:0.0
+ rs for a round  rs for a round:0.0
+ and the round ends in a single minute and the round ends in a single minute:0.0
+\r\nWould like to do boating next time for sure \r\nWould like to do boating next time for sure:0.8225
+ Overall it ’ s a nice place if you are visiting with your loved ones/family/friends  Overall it ’ s a nice place if you are visiting with your loved ones/family/friends:0.9246
+ ' ] [ 'Venna lake is the major tourist attraction in Mahabaleshwar  ' ] [ 'Venna lake is the major tourist attraction in Mahabaleshwar:0.7184
+ You can enjoy a boat ride over the lake or horse ride next to the lake You can enjoy a boat ride over the lake or horse ride next to the lake:0.7506
+\r\nSuch beautiful lake is surrounded by the trees\r\nSuch beautiful lake is surrounded by the trees:0.8316
+\r\n ' ] [ `` Venna lake is the one of the most popular and visited tourist spot in Mahabaleshwar which is located at a distance of around \r\n ' ] [ `` Venna lake is the one of the most popular and visited tourist spot in Mahabaleshwar which is located at a distance of around:0.734
+km from bus stand km from bus stand:0.0
+ This is famous lake located in Mahabaleshwar for boating activities  This is famous lake located in Mahabaleshwar for boating activities:0.0
+ One can choose among rowboats and pedal boats  One can choose among rowboats and pedal boats:0.0
+ This lake was constructed by Shri Appasaheb Maharaj in  This lake was constructed by Shri Appasaheb Maharaj in:0.0
 :0.0
 :0.0
 :0.0
 :0.0
- who was the King of Satara:0.0
- It was aimed to create a water reservoir for the Mahabaleshwar city:0.2732
- The lake is spread on a huge area of around:0.3182
+ who was the King of Satara  who was the King of Satara:0.0
+ It was aimed to create a water reservoir for the Mahabaleshwar city  It was aimed to create a water reservoir for the Mahabaleshwar city:0.4939
+ The lake is spread on a huge area of around  The lake is spread on a huge area of around:0.5574
 :0.0
- acres and its periphery is spread over:0.0
- to:0.0
- km:0.0
-\r\n\r\nThings to do at Venna Lake : \r\n:0.0
+ acres and its periphery is spread over  acres and its periphery is spread over:0.0
+ to  to:0.0
+ km km:0.0
+\r\n\r\nThings to do at Venna Lake : \r\n\r\n\r\nThings to do at Venna Lake : \r\n:0.0
 :0.0
- As it is spread in vast area:0.0
- Boating at Venna lake is mesmerized memory and most of the people specially couple comes here for boat riding:0.0
-\r\n:0.0
+ As it is spread in vast area  As it is spread in vast area:0.0
+ Boating at Venna lake is mesmerized memory and most of the people specially couple comes here for boat riding Boating at Venna lake is mesmerized memory and most of the people specially couple comes here for boat riding:0.0
+\r\n\r\n:0.0
 :0.0
- Traveler 's keep coming back here as classic Horse Riding offered here along with the beautiful views of gardens and mountains\r\n:0.5994
+ Traveler 's keep coming back here as classic Horse Riding offered here along with the beautiful views of gardens and mountains\r\n Traveler 's keep coming back here as classic Horse Riding offered here along with the beautiful views of gardens and mountains\r\n:0.8316
 :0.0
- Due to its beautiful surrounding gardens:0.5994
- tourists who have interest in photography feel attracted towards this location:0.7003
-\r\n:0.0
+ Due to its beautiful surrounding gardens  Due to its beautiful surrounding gardens:0.8316
+ tourists who have interest in photography feel attracted towards this location tourists who have interest in photography feel attracted towards this location:0.891
+\r\n\r\n:0.0
 :0.0
- A beautiful Garden is formed surrounding the lake which still offers an eye soothing experience:0.7351
-\r\n:0.0
+ A beautiful Garden is formed surrounding the lake which still offers an eye soothing experience A beautiful Garden is formed surrounding the lake which still offers an eye soothing experience:0.9081
+\r\n\r\n:0.0
 :0.0
- Lake surrounding area is fully crowded with Eatable stalls:0.0
- All type of street food is available here:0.0
- One can enjoy the same with loved ones:0.7964
-\r\n\r\nSmall Tip : \r\nAs this is most happening area of Mahabaleshwar getting parking for your four wheeler is task here:0.0
- So better park your vehicle at proper location and then walk towards Venna Lake to enjoy Boating:0.7501
- Walking in Garden and Eating street food '' ] [ `` Venna Lake is a good spot in Mahabaleshwar:0.4404
- I will start with the following topics : \r\n:0.0
+ Lake surrounding area is fully crowded with Eatable stalls  Lake surrounding area is fully crowded with Eatable stalls:0.0
+ All type of street food is available here  All type of street food is available here:0.0
+ One can enjoy the same with loved ones One can enjoy the same with loved ones:0.9349
+\r\n\r\nSmall Tip : \r\nAs this is most happening area of Mahabaleshwar getting parking for your four wheeler is task here \r\n\r\nSmall Tip : \r\nAs this is most happening area of Mahabaleshwar getting parking for your four wheeler is task here:0.0
+ So better park your vehicle at proper location and then walk towards Venna Lake to enjoy Boating  So better park your vehicle at proper location and then walk towards Venna Lake to enjoy Boating:0.915
+ Walking in Garden and Eating street food '' ] [ `` Venna Lake is a good spot in Mahabaleshwar  Walking in Garden and Eating street food '' ] [ `` Venna Lake is a good spot in Mahabaleshwar:0.7003
+ I will start with the following topics : \r\n I will start with the following topics : \r\n:0.0
 :0.0
- You have to pay for parking anywhere or everywhere you park your car\r\n:-0.1027
+ You have to pay for parking anywhere or everywhere you park your car\r\n You have to pay for parking anywhere or everywhere you park your car\r\n:-0.2023
 :0.0
- Visiting Venna lake in the afternoon time is less crowded:0.0
- If you plan to go post:0.0
--:0.0
- pm you have to stand in a queue which is a total waste of time:-0.4215
-\r\n:0.0
+ Visiting Venna lake in the afternoon time is less crowded  Visiting Venna lake in the afternoon time is less crowded:0.0
+ If you plan to go post  If you plan to go post:0.0
+--:0.0
+ pm you have to stand in a queue which is a total waste of time pm you have to stand in a queue which is a total waste of time:-0.6808
+\r\n\r\n:0.0
 :0.0
- Cost of the boats is very expensive in season:0.0
- Do n't get dragged by the local people there always play smart or they will loot you easily:0.7682
-\r\n:0.0
- You can have a short horse ride there too if you have a short duration in Mahabaleshwar:0.0
- Or you can go to table land which is better for a long ride:0.4404
-\r\n:0.0
+ Cost of the boats is very expensive in season  Cost of the boats is very expensive in season:0.0
+ Do n't get dragged by the local people there always play smart or they will loot you easily Do n't get dragged by the local people there always play smart or they will loot you easily:0.9231
+\r\n\r\n:0.0
+ You can have a short horse ride there too if you have a short duration in Mahabaleshwar  You can have a short horse ride there too if you have a short duration in Mahabaleshwar:0.0
+ Or you can go to table land which is better for a long ride Or you can go to table land which is better for a long ride:0.7003
+\r\n\r\n:0.0
 :0.0
- You will find fast food only near Venna Lake:0.0
- Make sure you have all the arrangements with you:0.3182
- Or just:0.0
-KM or:0.0
-KM from the location you will find a good restaurant:0.4404
-\r\n:0.0
+ You will find fast food only near Venna Lake  You will find fast food only near Venna Lake:0.0
+ Make sure you have all the arrangements with you  Make sure you have all the arrangements with you:0.5574
+ Or just  Or just:0.0
+KM or KM or:0.0
+KM from the location you will find a good restaurantKM from the location you will find a good restaurant:0.7003
+\r\n\r\n:0.0
 :0.0
- Make sure you pay using cash for the car park:0.2263
- If you pay using a fast tag there are additional charges:-0.3612
-\r\n:0.0
+ Make sure you pay using cash for the car park  Make sure you pay using cash for the car park:0.4215
+ If you pay using a fast tag there are additional charges If you pay using a fast tag there are additional charges:-0.6124
+\r\n\r\n:0.0
 :0.0
- Make sure to check the strawberry price everywhere if you want to save money:0.7003
- '' ] [ 'The venna boating location is the correct place fot this:0.0
+ Make sure to check the strawberry price everywhere if you want to save money  Make sure to check the strawberry price everywhere if you want to save money:0.891
+ '' ] [ 'The venna boating location is the correct place fot this  '' ] [ 'The venna boating location is the correct place fot this:0.0
 :0.0
- google map usually is showing wrong location:-0.4767
- Good place with lot of hawkers and vegetables vendors:0.4404
- was less crowded when i visited in march:0.0
- May see uptick in visits during rush days:0.0
- ' ] [ `` It 's Good:0.4404
- For boating:0.0
- It costs:0.0
+ google map usually is showing wrong location  google map usually is showing wrong location:-0.7351
+ Good place with lot of hawkers and vegetables vendors  Good place with lot of hawkers and vegetables vendors:0.7003
+ was less crowded when i visited in march  was less crowded when i visited in march:0.0
+ May see uptick in visits during rush days  May see uptick in visits during rush days:0.0
+ ' ] [ `` It 's Good  ' ] [ `` It 's Good:0.7003
+ For boating  For boating:0.0
+ It costs  It costs:0.0
 :0.0
 :0.0
- for:0.0
- people for pedal boat and for diesel boat it costs:0.0
+ for  for:0.0
+ people for pedal boat and for diesel boat it costs  people for pedal boat and for diesel boat it costs:0.0
 :0.0
 :0.0
- for:0.0
- hour:0.0
-\r\nRecommend time : -:0.0
- Pm to:0.0
- Pm '' ] [ 'This is good point to visit in Mahabaleshwar:0.4404
-\r\n\r\nWe reached first at the top to Mahadev Temple and slowly we came down to visit all the points:0.296
- On the midway before wax museum we have venna lake boating point:0.0
-\r\n\r\nThey take:0.0
+ for  for:0.0
+ hour hour:0.0
+\r\nRecommend time : - \r\nRecommend time : -:0.0
+ Pm to  Pm to:0.0
+ Pm '' ] [ 'This is good point to visit in Mahabaleshwar Pm '' ] [ 'This is good point to visit in Mahabaleshwar:0.7003
+\r\n\r\nWe reached first at the top to Mahadev Temple and slowly we came down to visit all the points \r\n\r\nWe reached first at the top to Mahadev Temple and slowly we came down to visit all the points:0.5267
+ On the midway before wax museum we have venna lake boating point On the midway before wax museum we have venna lake boating point:0.0
+\r\n\r\nThey take \r\n\r\nThey take:0.0
 :0.0
 :0.0
- for:0.0
- people boating for half an hour and\r\n:0.0
+ for  for:0.0
+ people boating for half an hour and\r\n people boating for half an hour and\r\n:0.0
 :0.0
 :0.0
- for:0.0
- people for:0.0
- hour:0.0
-\r\n\r\nHappy boating 😊 ' ] [ 'Amazing Place:0.5859
- \r\nI would love visit this place here again with blink of an eye:0.6369
- This place is so Serene that you can feel the calmness:0.7626
- this is the perfect place for sunset:0.5719
- the boating experience was exotic and I must tell you an interesting thing- the lake that you see is so clean that it is used for drinking:0.7344
- I loved the experience here:0.5994
- You have good parking space Available for a car:0.4404
- There are few horse riders that would tell you to board a horse for a nice ride:0.4215
- The boat ride charges are:-0.2732
+ for  for:0.0
+ people for  people for:0.0
+ hour hour:0.0
+\r\n\r\nHappy boating 😊 ' ] [ 'Amazing Place \r\n\r\nHappy boating 😊 ' ] [ 'Amazing Place:0.8225
+ \r\nI would love visit this place here again with blink of an eye  \r\nI would love visit this place here again with blink of an eye:0.8555
+ This place is so Serene that you can feel the calmness  This place is so Serene that you can feel the calmness:0.9206
+ this is the perfect place for sunset  this is the perfect place for sunset:0.8126
+ the boating experience was exotic and I must tell you an interesting thing- the lake that you see is so clean that it is used for drinking  the boating experience was exotic and I must tell you an interesting thing- the lake that you see is so clean that it is used for drinking:0.9078
+ I loved the experience here  I loved the experience here:0.8316
+ You have good parking space Available for a car  You have good parking space Available for a car:0.7003
+ There are few horse riders that would tell you to board a horse for a nice ride  There are few horse riders that would tell you to board a horse for a nice ride:0.6808
+ The boat ride charges are  The boat ride charges are:-0.4939
 :0.0
 :0.0
- for half an hour and:0.0
+ for half an hour and  for half an hour and:0.0
 :0.0
 :0.0
- for an hour:0.0
- They take:0.0
+ for an hour  for an hour:0.0
+ They take  They take:0.0
 :0.0
 :0.0
 :0.0
- for two people as a token amount and accordingly the amount would be returned:0.0
- ' ] [ 'Must visit attractions in Mahabaleshwar:0.4215
- local body maintains the boat ride here:0.0
- Morning boating experience is the best to have:0.6369
- ' ] [ 'This lake is Overhyped:0.0
- Overcrowded and Overpriced all the time:0.0
- Walk:0.0
- Enjoy the surrounding and eateries:0.4939
- ' ] [ 'Pleasant place:0.5106
- nice to visit with family also:0.4215
- Main attraction point in Mahabaleshwar:0.4588
+ for two people as a token amount and accordingly the amount would be returned  for two people as a token amount and accordingly the amount would be returned:0.0
+ ' ] [ 'Must visit attractions in Mahabaleshwar  ' ] [ 'Must visit attractions in Mahabaleshwar:0.6808
+ local body maintains the boat ride here  local body maintains the boat ride here:0.0
+ Morning boating experience is the best to have  Morning boating experience is the best to have:0.8555
+ ' ] [ 'This lake is Overhyped  ' ] [ 'This lake is Overhyped:0.0
+ Overcrowded and Overpriced all the time  Overcrowded and Overpriced all the time:0.0
+ Walk  Walk:0.0
+ Enjoy the surrounding and eateries  Enjoy the surrounding and eateries:0.7506
+ ' ] [ 'Pleasant place  ' ] [ 'Pleasant place:0.765
+ nice to visit with family also  nice to visit with family also:0.6808
+ Main attraction point in Mahabaleshwar  Main attraction point in Mahabaleshwar:0.7184
 :0.0
 :0.0
- plus boats are available so waiting is negligible:0.0
- You can also ride boat by self with:0.0
+ plus boats are available so waiting is negligible  plus boats are available so waiting is negligible:0.0
+ You can also ride boat by self with  You can also ride boat by self with:0.0
 :0.0
 :0.0
 :0.0
-rs deposit ' ] [ 'It was a place with full of dust because of people doing horse ride:0.0
- The boating experience is excellent:0.5719
- The place is lack of basic facilities and not at all clean otherwise it would have been a great place to visit:0.1386
- The local administration should spend some money and energy to do some upliftment:0.2732
- ' ] [ 'Nice place for boating and enjoying nature:0.7351
- There are lot of stalls for food and many have options for Jain food as well:0.2732
- Best time to visit in evenings:0.6369
- There is also space for horse riding:0.0
- The queue for boating is big but worth waiting:0.3291
- ' ] [ 'Excellent place:0.5719
- take the boat service from the counter:0.0
- do not fall for the jacks there:0.0
- they over charge and cheat on the time duration of the ride:-0.4588
- The boat club should do something to stop these jacks from looting people:-0.296
- ' ] [ 'It is a nice and lovely place:0.765
- Views are mesmerizing:0.0
- Horse riding is available and most of all you can run the horse:0.0
- There is also a boating club here with paddle boats and boats:0.0
- You can drive the boats if you like or if you want you can ride in one:0.4215
- A lot of street food is available there and parking is free:0.5106
- ' ] [ 'This is a beautiful lake where on one end there is Garden:0.5994
- series of vendors selling eatables and a place to hire boats:0.0
- There are both varietes of boats - self driven and with a driver:0.0
- There is too much rush for the boat during holiday season:0.4019
- One can just sit on the shore and enjoy the beauty:0.7906
- ' ] [ `` Good place for boating and amazing view:0.7717
- Charges for manual ( paddle ) boat:-0.2732
- persons are:0.0
+rs deposit ' ] [ 'It was a place with full of dust because of people doing horse ride rs deposit ' ] [ 'It was a place with full of dust because of people doing horse ride:0.0
+ The boating experience is excellent  The boating experience is excellent:0.8126
+ The place is lack of basic facilities and not at all clean otherwise it would have been a great place to visit  The place is lack of basic facilities and not at all clean otherwise it would have been a great place to visit:0.2695
+ The local administration should spend some money and energy to do some upliftment  The local administration should spend some money and energy to do some upliftment:0.4939
+ ' ] [ 'Nice place for boating and enjoying nature  ' ] [ 'Nice place for boating and enjoying nature:0.9081
+ There are lot of stalls for food and many have options for Jain food as well  There are lot of stalls for food and many have options for Jain food as well:0.4939
+ Best time to visit in evenings  Best time to visit in evenings:0.8555
+ There is also space for horse riding  There is also space for horse riding:0.0
+ The queue for boating is big but worth waiting  The queue for boating is big but worth waiting:0.5719
+ ' ] [ 'Excellent place  ' ] [ 'Excellent place:0.8126
+ take the boat service from the counter  take the boat service from the counter:0.0
+ do not fall for the jacks there  do not fall for the jacks there:0.0
+ they over charge and cheat on the time duration of the ride  they over charge and cheat on the time duration of the ride:-0.7184
+ The boat club should do something to stop these jacks from looting people  The boat club should do something to stop these jacks from looting people:-0.5267
+ ' ] [ 'It is a nice and lovely place  ' ] [ 'It is a nice and lovely place:0.9217
+ Views are mesmerizing  Views are mesmerizing:0.0
+ Horse riding is available and most of all you can run the horse  Horse riding is available and most of all you can run the horse:0.0
+ There is also a boating club here with paddle boats and boats  There is also a boating club here with paddle boats and boats:0.0
+ You can drive the boats if you like or if you want you can ride in one  You can drive the boats if you like or if you want you can ride in one:0.6808
+ A lot of street food is available there and parking is free  A lot of street food is available there and parking is free:0.765
+ ' ] [ 'This is a beautiful lake where on one end there is Garden  ' ] [ 'This is a beautiful lake where on one end there is Garden:0.8316
+ series of vendors selling eatables and a place to hire boats  series of vendors selling eatables and a place to hire boats:0.0
+ There are both varietes of boats - self driven and with a driver  There are both varietes of boats - self driven and with a driver:0.0
+ There is too much rush for the boat during holiday season  There is too much rush for the boat during holiday season:0.6597
+ One can just sit on the shore and enjoy the beauty  One can just sit on the shore and enjoy the beauty:0.9325
+ ' ] [ `` Good place for boating and amazing view  ' ] [ `` Good place for boating and amazing view:0.9246
+ Charges for manual ( paddle ) boat  Charges for manual ( paddle ) boat:-0.4939
+ persons are  persons are:0.0
 :0.0
 :0.0
-+ deposit of:0.0
++ deposit of + deposit of:0.0
 :0.0
- INR and time limit is:0.0
- hour:0.0
- For boating with a guide or trained pilot is:0.0
+ INR and time limit is  INR and time limit is:0.0
+ hour  hour:0.0
+ For boating with a guide or trained pilot is  For boating with a guide or trained pilot is:0.0
 :0.0
 :0.0
- approx for:0.0
- people and you do n't get a chance to drive and enjoy:0.3527
- '' ] [ `` Do visit this lake if you are visiting mahabaleshwar or panchgani:0.0
- Boating is available here:0.0
- Just near it:0.0
- there 's a open ground where you can enjoy horse riding:0.4939
- This place has a great crowd in the evening so plan accordingly:0.6249
- If you go on boating the nature surrounding the lake looks really beautiful:0.6361
- Overall a great place:0.6249
-\r\n '' ] [ 'Enjoy your day in this lazy lake with a view:0.0836
+ approx for  approx for:0.0
+ people and you do n't get a chance to drive and enjoy  people and you do n't get a chance to drive and enjoy:0.602
+ '' ] [ `` Do visit this lake if you are visiting mahabaleshwar or panchgani  '' ] [ `` Do visit this lake if you are visiting mahabaleshwar or panchgani:0.0
+ Boating is available here  Boating is available here:0.0
+ Just near it  Just near it:0.0
+ there 's a open ground where you can enjoy horse riding  there 's a open ground where you can enjoy horse riding:0.7506
+ This place has a great crowd in the evening so plan accordingly  This place has a great crowd in the evening so plan accordingly:0.8481
+ If you go on boating the nature surrounding the lake looks really beautiful  If you go on boating the nature surrounding the lake looks really beautiful:0.855
+ Overall a great place Overall a great place:0.8481
+\r\n '' ] [ 'Enjoy your day in this lazy lake with a view \r\n '' ] [ 'Enjoy your day in this lazy lake with a view:0.1655
 :0.0
 :0.0
- \r\nPs check the prices for half n hour and one hour:0.0
-\r\nThey also have horse riding near by:0.0
- ' ] [ 'Nice and crowded place for hangout\r\nOne of the best place in mahabaleshwar for chill out with loved ones:0.8979
-\r\nEven we can see sunset from the lake while riding the boat:0.0
-\r\nLove this place ' ] [ 'Beautiful lake near mahabaleshwar to visit with friends & family to spend your quality time:0.7906
- Boating and horse riding is available there:0.0
- They charge:0.0
+ \r\nPs check the prices for half n hour and one hour \r\nPs check the prices for half n hour and one hour:0.0
+\r\nThey also have horse riding near by \r\nThey also have horse riding near by:0.0
+ ' ] [ 'Nice and crowded place for hangout\r\nOne of the best place in mahabaleshwar for chill out with loved ones ' ] [ 'Nice and crowded place for hangout\r\nOne of the best place in mahabaleshwar for chill out with loved ones:0.9712
+\r\nEven we can see sunset from the lake while riding the boat\r\nEven we can see sunset from the lake while riding the boat:0.0
+\r\nLove this place ' ] [ 'Beautiful lake near mahabaleshwar to visit with friends & family to spend your quality time \r\nLove this place ' ] [ 'Beautiful lake near mahabaleshwar to visit with friends & family to spend your quality time:0.9325
+ Boating and horse riding is available there  Boating and horse riding is available there:0.0
+ They charge  They charge:0.0
 :0.0
 :0.0
- rs person for horse riding:0.0
- Must visit at evening time:0.0
- And many different chatpati food are available here:0.0
- ' ] [ 'It was nice experience to enjoy boating on venna lake:0.7184
- You will get various types of boat but you have to provide deposit before taking tickets:0.0
- Nice surrounding and nature:0.4215
+ rs person for horse riding  rs person for horse riding:0.0
+ Must visit at evening time  Must visit at evening time:0.0
+ And many different chatpati food are available here  And many different chatpati food are available here:0.0
+ ' ] [ 'It was nice experience to enjoy boating on venna lake  ' ] [ 'It was nice experience to enjoy boating on venna lake:0.9001
+ You will get various types of boat but you have to provide deposit before taking tickets  You will get various types of boat but you have to provide deposit before taking tickets:0.0
+ Nice surrounding and nature  Nice surrounding and nature:0.6808
 :0.0
 :0.0
 :0.0
- ' ] [ 'View of lake os very amazing:0.624
- you can do boating here and there is horse riding beside this:0.0
-\r\n ' ] [ 'The place is okay if you just want to roam and relax:0.6249
- Parking is a problem during weekends and all of the horse riding happens in the parking area:-0.4019
- The tickets to the boat is unorganised:0.0
- however the person rowing our boat was friendly:0.4939
- The small park next to the lake is good as it reminded me of the good old fun and fair days:0.886
- A lot of snacks joint next to the lake:0.0
- Surprisingly:0.296
- it was clean everywhere:0.4019
- ' ] [ 'Nice place:0.4215
- but very expensive rides\r\n ' ] [ 'Excellent spot in scenic Mahabaleshwar:0.754
- nice place to enjoy with family & friends:0.8442
- Boating:0.0
- horse riding:0.0
- many stalls to enjoy snacks:0.4939
- ice cream & milk shakes:0.0
- Small amusement for children:0.3612
- ' ] [ 'This is a must visit place when you are going mahabaleshawar:0.0
- The water is neat and clean:0.6908
- It offers boating on rent:0.0
- The boating starts from:0.0
+ ' ] [ 'View of lake os very amazing  ' ] [ 'View of lake os very amazing:0.8476
+ you can do boating here and there is horse riding beside this you can do boating here and there is horse riding beside this:0.0
+\r\n ' ] [ 'The place is okay if you just want to roam and relax \r\n ' ] [ 'The place is okay if you just want to roam and relax:0.8481
+ Parking is a problem during weekends and all of the horse riding happens in the parking area  Parking is a problem during weekends and all of the horse riding happens in the parking area:-0.6597
+ The tickets to the boat is unorganised  The tickets to the boat is unorganised:0.0
+ however the person rowing our boat was friendly  however the person rowing our boat was friendly:0.7506
+ The small park next to the lake is good as it reminded me of the good old fun and fair days  The small park next to the lake is good as it reminded me of the good old fun and fair days:0.9674
+ A lot of snacks joint next to the lake  A lot of snacks joint next to the lake:0.0
+ Surprisingly  Surprisingly:0.5267
+ it was clean everywhere  it was clean everywhere:0.6597
+ ' ] [ 'Nice place  ' ] [ 'Nice place:0.6808
+ but very expensive rides\r\n ' ] [ 'Excellent spot in scenic Mahabaleshwar  but very expensive rides\r\n ' ] [ 'Excellent spot in scenic Mahabaleshwar:0.9168
+ nice place to enjoy with family & friends  nice place to enjoy with family & friends:0.9531
+ Boating  Boating:0.0
+ horse riding  horse riding:0.0
+ many stalls to enjoy snacks  many stalls to enjoy snacks:0.7506
+ ice cream & milk shakes  ice cream & milk shakes:0.0
+ Small amusement for children  Small amusement for children:0.6124
+ ' ] [ 'This is a must visit place when you are going mahabaleshawar  ' ] [ 'This is a must visit place when you are going mahabaleshawar:0.0
+ The water is neat and clean  The water is neat and clean:0.886
+ It offers boating on rent  It offers boating on rent:0.0
+ The boating starts from  The boating starts from:0.0
 :0.0
- in the morning to till sunset:0.0
- Parking space is there:0.0
- In front of the lake some shops are there which offers food:0.0
- shakes and fun games:0.5106
- Strawberry shake is worth trying:0.0516
- Horse riding is also available there which will be fun for kids:0.5106
- ' ] [ 'This lake is really serene and peaceful in its own context:0.7755
- But one would find queue for boating tickets during peak season:0.0
- The rates are:0.0
+ in the morning to till sunset  in the morning to till sunset:0.0
+ Parking space is there  Parking space is there:0.0
+ In front of the lake some shops are there which offers food  In front of the lake some shops are there which offers food:0.0
+ shakes and fun games  shakes and fun games:0.765
+ Strawberry shake is worth trying  Strawberry shake is worth trying:0.1027
+ Horse riding is also available there which will be fun for kids  Horse riding is also available there which will be fun for kids:0.765
+ ' ] [ 'This lake is really serene and peaceful in its own context  ' ] [ 'This lake is really serene and peaceful in its own context:0.9262
+ But one would find queue for boating tickets during peak season  But one would find queue for boating tickets during peak season:0.0
+ The rates are  The rates are:0.0
 :0.0
 :0.0
-per row boat for:0.0
+per row boat for per row boat for:0.0
 :0.0
-mins for:0.0
- people max and you need to spend something additional for the person rowing the boat:0.0
- Here you can get two variety boats ( row boat & self paddle boat ):0.0
- The real experience starts when you go to the inside of the lake and the beauty absolutely appeals:0.5859
- A should to visit even for a second timer:0.0
- And not to worry the lake hosts just fresh water fish:0.5727
- So enjoy:0.5413
-\r\n ' ] [ 'Its a nice place and attracts quite a lot tourists:0.6705
- People can enjoy boating and horse riding:0.4939
- it ’ s beautiful and scenic and is a popular location with picturesque view ' ] [ 'My dream Location:0.8834
- Love this place:0.6369
-\r\nMy favourite place to visit while I am in Mahabaleshwar:0.0
- Parking is an issue there:0.0
- Lots of games and food available at that spot:0.0
- You can also enjoy horse riding at the same spot:0.4939
-\r\nThere is a temple there as well that can only be accesses if you take a boat ride:0.2732
-\r\n ' ] [ 'One of the best place to enjoy in Mahabaleshwar:0.8126
- Best time to visit is winter:0.6369
- Lake is clean:0.4019
- Boating is allowed on fare:0.0
- There are paddle type boats as well as rowing boats:0.2732
- Fares are charged on hourly base:-0.2023
- Horse ridings are available near lake:0.0
- ' ] [ `` Lovely clean place with boatsmen who have been around for ages:0.7579
- It 's worth paying the extra:0.2263
+mins for mins for:0.0
+ people max and you need to spend something additional for the person rowing the boat  people max and you need to spend something additional for the person rowing the boat:0.0
+ Here you can get two variety boats ( row boat & self paddle boat )  Here you can get two variety boats ( row boat & self paddle boat ):0.0
+ The real experience starts when you go to the inside of the lake and the beauty absolutely appeals  The real experience starts when you go to the inside of the lake and the beauty absolutely appeals:0.8225
+ A should to visit even for a second timer  A should to visit even for a second timer:0.0
+ And not to worry the lake hosts just fresh water fish  And not to worry the lake hosts just fresh water fish:0.8132
+ So enjoy So enjoy:0.7897
+\r\n ' ] [ 'Its a nice place and attracts quite a lot tourists \r\n ' ] [ 'Its a nice place and attracts quite a lot tourists:0.875
+ People can enjoy boating and horse riding  People can enjoy boating and horse riding:0.7506
+ it ’ s beautiful and scenic and is a popular location with picturesque view ' ] [ 'My dream Location  it ’ s beautiful and scenic and is a popular location with picturesque view ' ] [ 'My dream Location:0.9666
+ Love this place Love this place:0.8555
+\r\nMy favourite place to visit while I am in Mahabaleshwar \r\nMy favourite place to visit while I am in Mahabaleshwar:0.0
+ Parking is an issue there  Parking is an issue there:0.0
+ Lots of games and food available at that spot  Lots of games and food available at that spot:0.0
+ You can also enjoy horse riding at the same spot You can also enjoy horse riding at the same spot:0.7506
+\r\nThere is a temple there as well that can only be accesses if you take a boat ride\r\nThere is a temple there as well that can only be accesses if you take a boat ride:0.4939
+\r\n ' ] [ 'One of the best place to enjoy in Mahabaleshwar \r\n ' ] [ 'One of the best place to enjoy in Mahabaleshwar:0.9413
+ Best time to visit is winter  Best time to visit is winter:0.8555
+ Lake is clean  Lake is clean:0.6597
+ Boating is allowed on fare  Boating is allowed on fare:0.0
+ There are paddle type boats as well as rowing boats  There are paddle type boats as well as rowing boats:0.4939
+ Fares are charged on hourly base  Fares are charged on hourly base:-0.3818
+ Horse ridings are available near lake  Horse ridings are available near lake:0.0
+ ' ] [ `` Lovely clean place with boatsmen who have been around for ages  ' ] [ `` Lovely clean place with boatsmen who have been around for ages:0.9186
+ It 's worth paying the extra  It 's worth paying the extra:0.4215
 :0.0
 :0.0
- and taking a driver/boatman along:0.0
- The ride around the lake is:0.0
+ and taking a driver/boatman along  and taking a driver/boatman along:0.0
+ The ride around the lake is  The ride around the lake is:0.0
 :0.0
- minutes at the most:0.0
-\r\n '' ] [ ' A beautiful surroundings and boating facility is available:0.5994
- Plenty space for car parking:0.0
- They charge around:0.0
+ minutes at the most minutes at the most:0.0
+\r\n '' ] [ ' A beautiful surroundings and boating facility is available \r\n '' ] [ ' A beautiful surroundings and boating facility is available:0.8316
+ Plenty space for car parking  Plenty space for car parking:0.0
+ They charge around  They charge around:0.0
 :0.0
 :0.0
- for one hour boating:0.0
- ' ] [ 'Popular place of Mahabaleshwar:0.4215
- ' ] [ 'Lake with beautiful views😍:0.5994
- You can do boating here with very cheap rates:0.0
- If you cant boat:0.0
- you can hire a guy for Rs:0.0
+ for one hour boating  for one hour boating:0.0
+ ' ] [ 'Popular place of Mahabaleshwar  ' ] [ 'Popular place of Mahabaleshwar:0.6808
+ ' ] [ 'Lake with beautiful views😍  ' ] [ 'Lake with beautiful views😍:0.8316
+ You can do boating here with very cheap rates  You can do boating here with very cheap rates:0.0
+ If you cant boat  If you cant boat:0.0
+ you can hire a guy for Rs you can hire a guy for Rs:0.0
 :0.0
 :0.0
 :0.0
- and he will do it for you:0.0
- The place is lil crowdy:0.0
- You can do horse riding near this place:0.0
- …\r\n ' ] [ 'We went here on a weekend:0.0
- there was a rush and slot of people veven though it is during the pandemic:0.0
- Ensure you have your masks on and carry your sanitizer:0.3818
-\r\n\r\nAffordable prices for boating:0.0
- both peddle boat and row boating options available:0.0
- If you have a group of:0.0
- then go for the peddle boat option as it is cheaper and you can swap the positions midway:0.0
- Rowing boat is recommended for families as they have a person who does the rowing for you:0.2023
- while you enjoy the warm sun and cool breeze:0.7506
- It takes about:0.0
+ and he will do it for you  and he will do it for you:0.0
+ The place is lil crowdy  The place is lil crowdy:0.0
+ You can do horse riding near this place  You can do horse riding near this place:0.0
+ …\r\n ' ] [ 'We went here on a weekend  …\r\n ' ] [ 'We went here on a weekend:0.0
+ there was a rush and slot of people veven though it is during the pandemic  there was a rush and slot of people veven though it is during the pandemic:0.0
+ Ensure you have your masks on and carry your sanitizer Ensure you have your masks on and carry your sanitizer:0.6369
+\r\n\r\nAffordable prices for boating \r\n\r\nAffordable prices for boating:0.0
+ both peddle boat and row boating options available  both peddle boat and row boating options available:0.0
+ If you have a group of  If you have a group of:0.0
+ then go for the peddle boat option as it is cheaper and you can swap the positions midway  then go for the peddle boat option as it is cheaper and you can swap the positions midway:0.0
+ Rowing boat is recommended for families as they have a person who does the rowing for you  Rowing boat is recommended for families as they have a person who does the rowing for you:0.3818
+ while you enjoy the warm sun and cool breeze  while you enjoy the warm sun and cool breeze:0.9153
+ It takes about  It takes about:0.0
 :0.0
-minutes to reach to the other side of the lake:0.0258
- so plan your time accordingly:0.0
- ' ] [ 'Were on a family trip to Mahabaleshwar\r\nWe stopped while returning back to Pune:-0.2263
- The period when we were here was really nice as it was raining heavily hence surrounded by nice fog and chilled weather:0.734
- We did a horse riding ( bit expensive:0.0
+minutes to reach to the other side of the lake minutes to reach to the other side of the lake:0.0516
+ so plan your time accordingly  so plan your time accordingly:0.0
+ ' ] [ 'Were on a family trip to Mahabaleshwar\r\nWe stopped while returning back to Pune  ' ] [ 'Were on a family trip to Mahabaleshwar\r\nWe stopped while returning back to Pune:-0.4215
+ The period when we were here was really nice as it was raining heavily hence surrounded by nice fog and chilled weather  The period when we were here was really nice as it was raining heavily hence surrounded by nice fog and chilled weather:0.9076
+ We did a horse riding ( bit expensive  We did a horse riding ( bit expensive:0.0
 :0.0
 :0.0
 :0.0
- bucks for:0.0
--:0.0
+ bucks for  bucks for:0.0
+--:0.0
 :0.0
- minutes ride ):0.0
- But overall a must drive in monsoon:0.0
-The riding in Venna lake is closed as lake is full of water:0.0
- ' ] [ 'People who like boating can stop here:0.0772
- Rowing boat and paddle boats are available:0.0
- You get a person to row the boat or you can choose paddle if you want to paddle yourself:0.0772
- I think maximum:0.0
- person can be accomodated in one boat:0.0
- You pay for the boat and not per person charge:-0.1027
- Its around:0.0
+ minutes ride )  minutes ride ):0.0
+ But overall a must drive in monsoon But overall a must drive in monsoon:0.0
+The riding in Venna lake is closed as lake is full of water The riding in Venna lake is closed as lake is full of water:0.0
+ ' ] [ 'People who like boating can stop here  ' ] [ 'People who like boating can stop here:0.1531
+ Rowing boat and paddle boats are available  Rowing boat and paddle boats are available:0.0
+ You get a person to row the boat or you can choose paddle if you want to paddle yourself  You get a person to row the boat or you can choose paddle if you want to paddle yourself:0.1531
+ I think maximum  I think maximum:0.0
+ person can be accomodated in one boat  person can be accomodated in one boat:0.0
+ You pay for the boat and not per person charge  You pay for the boat and not per person charge:-0.2023
+ Its around  Its around:0.0
 :0.0
 :0.0
-₹ for one boat for a half hour with maximum of:0.0
- persons:0.0
-There are food stalls near by to pound on munchies:0.0
- ' ] [ 'Nice lake for boating:0.4215
- Two boating options available- rowing boat and paddle boat:0.0
- I have picture here describing prices and capacity of boats ( in Marathi ):0.0
- On the right side of lake is Horse Riding option costing Rs:0.0
+₹ for one boat for a half hour with maximum of ₹ for one boat for a half hour with maximum of:0.0
+ persons persons:0.0
+There are food stalls near by to pound on munchies There are food stalls near by to pound on munchies:0.0
+ ' ] [ 'Nice lake for boating  ' ] [ 'Nice lake for boating:0.6808
+ Two boating options available- rowing boat and paddle boat  Two boating options available- rowing boat and paddle boat:0.0
+ I have picture here describing prices and capacity of boats ( in Marathi )  I have picture here describing prices and capacity of boats ( in Marathi ):0.0
+ On the right side of lake is Horse Riding option costing Rs On the right side of lake is Horse Riding option costing Rs:0.0
 :0.0
 :0.0
 :0.0
- for very short ride of around a minute:0.0
- You can also buy strawberries here for Rs:0.0
+ for very short ride of around a minute  for very short ride of around a minute:0.0
+ You can also buy strawberries here for Rs You can also buy strawberries here for Rs:0.0
 :0.0
 :0.0
 :0.0
-/kg and fast food is also available:0.0
-\r\nLake is also very beautiful:0.6361
- ' ] [ `` Visiting Venna lake in Mahabaleswar during rains is once in a life time experience:0.0
- If you want to be amongst the cloud or wants to feel cloud touching your body visit Venna lake during monsoon season between June to September:0.0772
- Avoid heavy rainfall days as driving becomes extremely difficult:-0.6115
- Having makkai in it 's various form is very satisfying experience:0.5095
- Wollen cloths are mandatory in rainyseason:0.0772
- Your vehicle should be in perfect condition with fully functioning Head and tail light:0.5719
- '' ] [ 'Excellent get away from the shoe in the city : ) \r\nWent on a weekday hence the crowd was not much and had ample time to spend for boating:0.5719
+/kg and fast food is also available/kg and fast food is also available:0.0
+\r\nLake is also very beautiful \r\nLake is also very beautiful:0.855
+ ' ] [ `` Visiting Venna lake in Mahabaleswar during rains is once in a life time experience  ' ] [ `` Visiting Venna lake in Mahabaleswar during rains is once in a life time experience:0.0
+ If you want to be amongst the cloud or wants to feel cloud touching your body visit Venna lake during monsoon season between June to September  If you want to be amongst the cloud or wants to feel cloud touching your body visit Venna lake during monsoon season between June to September:0.1531
+ Avoid heavy rainfall days as driving becomes extremely difficult  Avoid heavy rainfall days as driving becomes extremely difficult:-0.8396
+ Having makkai in it 's various form is very satisfying experience  Having makkai in it 's various form is very satisfying experience:0.764
+ Wollen cloths are mandatory in rainyseason  Wollen cloths are mandatory in rainyseason:0.1531
+ Your vehicle should be in perfect condition with fully functioning Head and tail light  Your vehicle should be in perfect condition with fully functioning Head and tail light:0.8126
+ '' ] [ 'Excellent get away from the shoe in the city : ) \r\nWent on a weekday hence the crowd was not much and had ample time to spend for boating  '' ] [ 'Excellent get away from the shoe in the city : ) \r\nWent on a weekday hence the crowd was not much and had ample time to spend for boating:0.8126
 :0.0
- \r\nA must go:0.0
+ \r\nA must go  \r\nA must go:0.0
 :0.0
 :0.0
- serene feeling:0.5423
+ serene feeling  serene feeling:0.7906
 :0.0
- \r\nThere are horse rides too available on the shores:0.0
+ \r\nThere are horse rides too available on the shores  \r\nThere are horse rides too available on the shores:0.0
 :0.0
- \r\n:0.0
+ \r\n \r\n:0.0
 :0.0
 :0.0
- for half an hour for rowing boat\r\n ' ] [ 'Average place:0.0
- Better if you visit in the evening:0.4404
- Boating and horse riding is available:0.0
- ' ] [ 'Nice place to boating in evening:0.4215
-\r\nBest place to take natural photos while boating:0.3612
-\r\nTry to avoid visit in lunch time as you will get dehydrated during lunch time:-0.296
-\r\nAlso beside lake there is one big hours riding place:0.0
- you can see some pictures of hours riding ground:0.0
- ' ] [ `` Boating and horse riding are main attraction:0.4588
+ for half an hour for rowing boat\r\n ' ] [ 'Average place  for half an hour for rowing boat\r\n ' ] [ 'Average place:0.0
+ Better if you visit in the evening  Better if you visit in the evening:0.7003
+ Boating and horse riding is available  Boating and horse riding is available:0.0
+ ' ] [ 'Nice place to boating in evening ' ] [ 'Nice place to boating in evening:0.6808
+\r\nBest place to take natural photos while boating\r\nBest place to take natural photos while boating:0.6124
+\r\nTry to avoid visit in lunch time as you will get dehydrated during lunch time\r\nTry to avoid visit in lunch time as you will get dehydrated during lunch time:-0.5267
+\r\nAlso beside lake there is one big hours riding place \r\nAlso beside lake there is one big hours riding place:0.0
+ you can see some pictures of hours riding ground  you can see some pictures of hours riding ground:0.0
+ ' ] [ `` Boating and horse riding are main attraction  ' ] [ `` Boating and horse riding are main attraction:0.7184
 :0.0
- you will also get fresh strawberries and sweet corns Must visit place in mahabeshwar:0.6486
- It 's near to main market:0.0
- I like this place:0.3612
- My favourite place\r\na month ago\r\nIt 's a big lake:0.0
- one can enjoy a boat ride with their families:0.4939
- One can take a driver for boat or ride itself also:0.0
- '' ] [ 'Venna Lake is the most beautiful and happy place to stay:0.8464
- Here you can enjoy a boat trip:0.4939
- Great place to hang out with family:0.6249
- ' ] [ 'Best place to spend time and enjoy the lake view\r\n ' ] [ 'Beautiful Lake:0.9062
- ' ] [ 'Its very beautiful place:0.6361
- Must visit in life for sure:0.3182
- ' ] ]:0.0
+ you will also get fresh strawberries and sweet corns Must visit place in mahabeshwar  you will also get fresh strawberries and sweet corns Must visit place in mahabeshwar:0.8625
+ It 's near to main market  It 's near to main market:0.0
+ I like this place  I like this place:0.6124
+ My favourite place\r\na month ago\r\nIt 's a big lake  My favourite place\r\na month ago\r\nIt 's a big lake:0.0
+ one can enjoy a boat ride with their families  one can enjoy a boat ride with their families:0.7506
+ One can take a driver for boat or ride itself also  One can take a driver for boat or ride itself also:0.0
+ '' ] [ 'Venna Lake is the most beautiful and happy place to stay  '' ] [ 'Venna Lake is the most beautiful and happy place to stay:0.9539
+ Here you can enjoy a boat trip  Here you can enjoy a boat trip:0.7506
+ Great place to hang out with family  Great place to hang out with family:0.8481
+ ' ] [ 'Best place to spend time and enjoy the lake view\r\n ' ] [ 'Beautiful Lake  ' ] [ 'Best place to spend time and enjoy the lake view\r\n ' ] [ 'Beautiful Lake:0.9738
+ ' ] [ 'Its very beautiful place  ' ] [ 'Its very beautiful place:0.855
+ Must visit in life for sure  Must visit in life for sure:0.5574
+ ' ] ] ' ] ]:0.0

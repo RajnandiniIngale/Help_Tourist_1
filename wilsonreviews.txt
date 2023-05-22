@@ -162,3 +162,4 @@ I recommend to go on this point by walking from Mahabaleshwar main market its ro
  Not that great view from the end ' ] [ 'Good point to observe beautiful sunrise of Mahabaleshwar:0.5432
  It is the highest point of Mahabaleshwar:0.0
  ' ] [ 'Best ever view during sunset time:0.6369
+ ' ] [ 'best place in mahabaleshwar ' ] ]:0.6369
