@@ -317,6 +317,8 @@ with open('static/js/maratha_test.csv', 'w',encoding='UTF-8') as f:
         f.write("%s,%s\n"%(key,sorted_dict[key]))
 file1.close()
 
+
+
 file1 = open('marathareviews.txt', 'r')
 Lines = file1.readlines()
 my_dict={}
@@ -327,7 +329,10 @@ for line in Lines:
     review=line
     arr=review.split(":")
     my_dict[arr[0]]=arr[1]
+    #try:
     vv=float(arr[1].rstrip())
+    #except:
+        #print("error")
     sumc=sumc+vv
 
 
