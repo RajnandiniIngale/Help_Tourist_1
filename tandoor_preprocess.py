@@ -320,7 +320,10 @@ for line in Lines:
     review=line
     arr=review.split(":")
     my_dict[arr[0]]=arr[1]
-    vv=float(arr[1].rstrip())
+    try:
+        vv=float(arr[1].rstrip())
+    except:
+        print("error")
     sumc=sumc+vv
 
 
