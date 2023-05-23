@@ -20,6 +20,10 @@ app = Flask(__name__)
 mimetypes.add_type("text/css", ".css", True)
 
 
+@app.route('/newhotel')
+def newhotel():
+    return render_template("newhotel.html")
+
 @app.route('/')
 def index():
     return render_template("index.html")
@@ -35,6 +39,7 @@ def blog():
 @app.route('/contacts')
 def contacts():
     return render_template("contacts.html")
+
 
 @app.route('/gallery')
 def gallery():

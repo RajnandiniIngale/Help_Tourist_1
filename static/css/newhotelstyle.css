@@ -10,7 +10,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('static/images/hotel1.jpg');
 }
 .wrapper{
   position: relative;
