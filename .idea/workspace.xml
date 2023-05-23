@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment=".." />
+    <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="..">
+      <change afterPath="$PROJECT_DIR$/static/css/newhotelstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/hotel1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/newhotel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,15 +47,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/preprocess1-2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\static\images" />
+      <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\static\css" />
+      <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\templates" />
       <recent name="C:\Users\admin\PycharmProjects\Help_Tourist_1" />
       <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2" />
-      <recent name="C:\Users\Admin\PycharmProjects\Help_Tourist_2\templates" />
-      <recent name="C:\Users\USER\PycharmProjects\Help_Tourist_1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -642,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684817219507</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="..">
+      <created>1684817353839</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1684817353839</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="UnknownFeatures">
