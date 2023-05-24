@@ -158,14 +158,11 @@ else:
                 if sum > 2.5:
                     stars = 5;
 
-
-
-
 ffile.writelines("arbab_food:" +((str))(stars)+"\n")
-
+print(sum)
 file1 = open('arbab_money.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
-print(sum)
+
 
 count = 0
 sum = 0
@@ -237,10 +234,11 @@ else:
                     stars = 5;
 
 ffile.writelines("arbab_service:" + ((str))(stars) + "\n")
+print(sum)
 
 file1 = open('arbab_location.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
-print(sum)
+
 
 count = 0
 sum = 0
@@ -273,11 +271,11 @@ else:
                     stars = 5;
 print(sum)
 ffile.writelines("arbab_location:" + ((str))(stars) + "\n")
-
-
-
 file1.close()
 reviewfile.close()
+
+
+
 file1 = open('arbabreviews.txt', 'r' ,encoding='UTF-8')
 
 Lines = file1.readlines()
@@ -307,7 +305,8 @@ with open('static/js/arbabtest.csv', 'w',encoding='UTF-8') as f:
 file1.close()
 
 file1 = open('arbabreviews.txt', 'r')
-Lines = file1.readlines()
+
+#Lines = file1.readlines()
 my_dict={}
 count = 0
 sumc=0;
@@ -316,7 +315,10 @@ for line in Lines:
     review=line
     arr=review.split(":")
     my_dict[arr[0]]=arr[1]
-    vv=float(arr[1].rstrip())
+    try:
+        vv=float(arr[1].rstrip())
+    except:
+        print("error")
     sumc=sumc+vv
 
 
@@ -345,6 +347,8 @@ else:
 
 
 print("stars",stars)
+ffile.writelines("arbab_compound :" + ((str))(stars) + "\n")
+
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 sorted_value_index = np.argsort(values)[::-1]

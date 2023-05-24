@@ -1,1 +1,2 @@
 bandrafort_all :4
+bandrafort_compound :1

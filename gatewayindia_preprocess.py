@@ -1,5 +1,5 @@
 import csv
-
+import os
 import nltk
 
 from nltk import word_tokenize
@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 
 import pandas as pd
 import numpy as np
+
 
 #read csv file
 
@@ -126,7 +127,7 @@ reviewfile = open("gatewayindiareviews.txt","w",encoding="utf-8")
 
 file1 = open('gatewayindia_all.txt', 'r', encoding="utf-8")
 Lines = file1.readlines()
-print(sum)
+
 
 count = 0
 sum = 0
@@ -157,8 +158,9 @@ else:
             else:
                 if sum > 2.5:
                     stars = 5;
-print(sum)
+
 ffile.writelines("gatewayindia_all:" + ((str))(stars) + "\n")
+print(sum)
 
 
 
@@ -231,6 +233,8 @@ else:
 
 
 print("stars",stars)
+ffile.writelines("gateway_compound :" + ((str))(stars) + "\n")
+
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 sorted_value_index = np.argsort(values)[::-1]

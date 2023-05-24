@@ -65,7 +65,27 @@ $(function () {
                 <p class="text1"><strong>Silver Inn Hotel</strong></p>
                 <p class="price">147, Marol Maroshi Road, Near Marol Fire Bridge Station, Mumbai 400059</p>
                 <p class="price"> 1 day 1 Night<span>₹ 12,000</span></p>
-                <a href="/review?name=silverinn" class="btn">Reviews</a> </div>
+                  {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['silverinn_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                <a href="/review?name=silverinn&cmp={{ cmp }}" class="btn">Reviews</a> </div>
 
                 <br/>
                {% if ratingsk | length >1 %}
@@ -168,7 +188,27 @@ $(function () {
                 <p class="text1"><strong>JW Marriott Hotel</strong></p>
                 <p class="price">Juhu Tara Rd, Juhu Tara, Juhu, Mumbai, Maharashtra 400049</span></p>
                 <p class="price">2 days 2 Nights<span>₹ 30,000</span></p>
-                <a href="/review?name=jwhotel" class="btn">Reviews</a> </div>
+                  {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['jwhotel_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                <a href="/review?name=jwhotel&cmp={{ cmp }}" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -272,7 +312,27 @@ $(function () {
                 <p class="text1"><strong>Arbab Restaurant</strong></p>
                 <p class="price">Plot no 117, Shop, no 4, 28th Rd, Bandra West, Mumbai, Maharashtra 400050</p>
                 <p class="price">Indian, Arabian </p>
-                <a href="/review?name=arbab" class="btn">Reviews</a> </div>
+                  {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['arbab_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                <a href="/review?name=arbab&cmp={{ cmp }}" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -374,7 +434,27 @@ $(function () {
                 <p class="text1"><strong>Cincin BKC </strong></p>
                 <p class="price">Ground Floor, Raheja Towers , Near Yauatcha Restaurant, Mumbai, Maharashtra 400051</p>
                 <p class="price">Italian, European</p>
-                <a href="/review?name=cincin" class="btn">Reviews</a> </div>
+                  {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['cincin_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                <a href="/review?name=cincin&cmp={{ cmp }}" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
 
@@ -477,7 +557,32 @@ $(function () {
               <div class="extra_wrapper">
                 <p class="text1"><strong>Gateway of India</strong> </p>
                 <p class="price">The Gateway of India is one of the significant and unique landmarks located in Mumbai, Maharashtra, India. The colossal structure of the Gateway of India was constructed in 1924.</p>
-                <a href="/review?name=gateway" class="btn">Reviews</a> </div>
+                 {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['gateway_compound'] %}
+                {% if
+                  cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif
+                  (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif
+                  cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif
+                  cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif
+                  cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                  <a href="/review?name=gateway&cmp={{ cmp }}" class="btn">Reviews</a> </div>
 
                 <br/>
                 {% if ratingsk | length >1 %}
@@ -513,7 +618,27 @@ $(function () {
               <div class="extra_wrapper">
                 <p class="text1"><strong>Bandra Fort </strong></p>
                 <p class="price">The Bandra fort is one of the Portuguese forts from Mumbai. Bandra fort provides scenic views of the Arabian sea, river Mahim and the Bandra-Worli Sealink road at the same time. </p>
-                <a href="/review?name=bandrafort" class="btn">Reviews</a> </div>
+                {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['bandrafort_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                  <a href="/review?name=bandrafort&cmp={{ cmp }}" class="btn">Reviews</a> </div>
                  <br/>
                 {% if ratingsk | length >1 %}
 

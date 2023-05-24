@@ -2,3 +2,4 @@ sayaji_food :3
 sayaji_clean :1
 sayaji_service :2
 sayaji_location :3
+sayaji_compound :1
