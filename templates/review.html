@@ -46,8 +46,9 @@
   <div class="content">
     <div class="container_12">
             <img class="review-img"alt="Can't load" id="myImg" src="">
-        <div  id="myval" align=""></div>
-            <img class="review-img"alt="Can't load" id="ratingImg" src="">
+        <div  id="hname" align=""></div>
+        <div  id="myval" align=""></div><img class="review-img"alt="Can't load" id="ratingImg" src="">
+
 
 
 
@@ -86,6 +87,7 @@
                 <script>
                 var nm1=""
                 var nm2=""
+                var nm3=""
                 function x()
                 {
                      paramString = window.location.href.split('?')[1];
@@ -93,6 +95,7 @@
 
                      console.log("Key is: " +queryString.get('name'));
                      console.log("Key is: " +queryString.get('cmp'));
+                     console.log("Key is: " +queryString.get('hnm'));
 
 
                // for(let pair of queryString.entries())
@@ -103,9 +106,11 @@
 
                    nm1=queryString.get('name');
                    nm2=queryString.get('cmp');
+                   nm3=queryString.get('hnm');
                    console.log("Value is: " + nm1);
 
-                      console.log("Value is: " + nm2);
+                   console.log("Value is: " + nm2);
+                   console.log("Value is: " + nm3);
                    var imgu;
                        if(nm1=='keys')
                        {
@@ -158,6 +163,7 @@
                         imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
+                        document.getElementById("hname").innerHTML=nm3;
 
                         if(nm2==1)
                         {
@@ -195,6 +201,8 @@
                         imgu="http://localhost:8000/static/images/maratha.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                       document.getElementById("hname").innerHTML=nm3;
+
                         }
                         if(nm1=='parakh')
                        {
@@ -205,6 +213,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
+                        document.getElementById("hname").innerHTML=nm3;
 
                         if(nm2==1)
                         {
@@ -242,7 +251,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
-
+                        document.getElementById("hname").innerHTML=nm3;
                         if(nm2==1)
                         {
                         imgu1="http://localhost:8000/static/images/1star.png"
@@ -279,6 +288,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
+                        document.getElementById("hname").innerHTML=nm3;
 
                         if(nm2==1)
                         {
@@ -316,7 +326,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
-
+                        document.getElementById("hname").innerHTML=nm3;
                         if(nm2==1)
                         {
                         imgu1="http://localhost:8000/static/images/1star.png"
@@ -353,6 +363,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         document.getElementById("myval").innerHTML=nm2;
+                        document.getElementById("hname").innerHTML=nm3;
 
                         if(nm2==1)
                         {

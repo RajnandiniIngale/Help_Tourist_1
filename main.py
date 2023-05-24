@@ -17,14 +17,7 @@ import ssl
 import mimetypes
 from flask import Flask, render_template, request
 app = Flask(__name__)
-
-
-
-
 mimetypes.add_type("text/css", ".css", True)
-
-
-
 
 
 @app.route('/newhotel')
@@ -344,6 +337,7 @@ def mumbai():
         review = line.split(":")
         stars[review[0].rstrip()] = int(review[1])
     file1.close()
+
     file1 = open("gatewayindia.txt")
     lines = file1.readlines()
 
