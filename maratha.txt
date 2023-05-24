@@ -2,3 +2,4 @@ maratha_food :1
 maratha_clean :3
 maratha_service :3
 maratha_location :4
+maratha_compound :2

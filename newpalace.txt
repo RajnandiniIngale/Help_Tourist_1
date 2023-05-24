@@ -1,1 +1,2 @@
 newpalace_all :3
+newpalace_compound :1

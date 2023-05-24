@@ -276,7 +276,7 @@ def insert_keys_csv():
         file1.close()
         os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\gatewayindia_preprocess.py')
     if name=='cincin':
-        file1 = open('cincin.csv.csv', 'a+')
+        file1 = open('cincin.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
         file1.close()

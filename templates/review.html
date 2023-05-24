@@ -46,6 +46,12 @@
   <div class="content">
     <div class="container_12">
             <img class="review-img"alt="Can't load" id="myImg" src="">
+        <div  id="myval" align=""></div>
+            <img class="review-img"alt="Can't load" id="ratingImg" src="">
+
+
+
+
             <div class="review-ratings">
                 <form method="post" style="border:1px solid #ccc" action="/insert_csv">
                 <div class="container">
@@ -79,25 +85,36 @@
                 <hr>
                 <script>
                 var nm1=""
-
+                var nm2=""
                 function x()
                 {
                      paramString = window.location.href.split('?')[1];
                      queryString = new URLSearchParams(paramString);
-                for (let pair of queryString.entries())
+
+                     console.log("Key is: " +queryString.get('name'));
+                     console.log("Key is: " +queryString.get('cmp'));
+
+
+               // for(let pair of queryString.entries())
                 {
-                   console.log("Key is: " + pair[0]);
-                   console.log("Value is: " + pair[1]);
-                   nm1=pair[1];
+                  // console.log("Key is: " + pair[0]);
+                   //
+
+
+                   nm1=queryString.get('name');
+                   nm2=queryString.get('cmp');
+                   console.log("Value is: " + nm1);
+
+                      console.log("Value is: " + nm2);
                    var imgu;
-                       if(pair[1]=='keys')
+                       if(nm1=='keys')
                        {
                         document.getElementById("nm").value = 'keys';
                         imgu="http://localhost:8000/static/images/unnamed.jpg"
 
                         document.getElementById("myImg").src = imgu;
                         }
-                        if(pair[1]=='barbeque')
+                        if(nm1=='barbeque')
                        {
                         document.getElementById("nm").value = 'barbeque';
                         imgu="http://localhost:8000/static/images/image.jpg"
@@ -105,28 +122,28 @@
                         document.getElementById("myImg").src = imgu;
                         }
 
-                        if(pair[1]=='park')
+                        if(nm1=='park')
                        {
                         document.getElementById("nm").value = 'park';
                         imgu="http://localhost:8000/static/images/park.jpg"
                         document.getElementById("myImg").src = imgu;
                         }
 
-                        if(pair[1]=='chingari')
+                        if(nm1=='chingari')
                        {
                         document.getElementById("nm").value = 'chingari';
                         imgu="http://localhost:8000/static/images/chingari-restaurant.jpg"
 
                         document.getElementById("myImg").src = imgu;
                         }
-                        if(pair[1]=='venna')
+                        if(nm1=='venna')
                        {
                         document.getElementById("nm").value = 'venna';
                         imgu="http://localhost:8000/static/images/venna1.jpg"
 
                         document.getElementById("myImg").src = imgu;
                         }
-                        if(pair[1]=='wilson')
+                        if(nm1=='wilson')
                        {
                         document.getElementById("nm").value = 'wilson';
                         imgu="http://localhost:8000/static/images/wilson1.jpg"
@@ -134,16 +151,43 @@
                         document.getElementById("myImg").src = imgu;
                         }
 
-                        if(pair[1]=='sayaji')
+                        if(nm1=='sayaji')
                        {
 
                         document.getElementById("nm").value = 'sayaji';
-
                         imgu="http://localhost:8000/static/images/sayaji_hotel.jpg"
-
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='maratha')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+
+                        }
+                        if(nm1=='maratha')
                        {
 
                         document.getElementById("nm").value = 'maratha';
@@ -152,7 +196,7 @@
 
                         document.getElementById("myImg").src = imgu;
                         }
-                        if(pair[1]=='parakh')
+                        if(nm1=='parakh')
                        {
 
                         document.getElementById("nm").value = 'parakh';
@@ -160,8 +204,36 @@
                         imgu="http://localhost:8000/static/images/parakh.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='tandoor')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='tandoor')
                        {
 
                         document.getElementById("nm").value = 'tandoor';
@@ -169,8 +241,36 @@
                         imgu="http://localhost:8000/static/images/tandoor.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='mahalaxmi')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='mahalaxmi')
                        {
 
                         document.getElementById("nm").value = 'mahalaxmi';
@@ -178,8 +278,36 @@
                         imgu="http://localhost:8000/static/images/mahalakshi.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='newpalace')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='newpalace')
                        {
 
                         document.getElementById("nm").value = 'newpalace';
@@ -187,8 +315,36 @@
                         imgu="http://localhost:8000/static/images/shahu.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='silverinn')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='silverinn')
                        {
 
                         document.getElementById("nm").value = 'silverinn';
@@ -196,8 +352,36 @@
                         imgu="http://localhost:8000/static/images/mumbai-hotel1.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='jwhotel')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='jwhotel')
                        {
 
                         document.getElementById("nm").value = 'jwhotel';
@@ -205,8 +389,149 @@
                         imgu="http://localhost:8000/static/images/marroite.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
                         }
-                        if(pair[1]=='bandrafort')
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='arbab')
+                       {
+
+                        document.getElementById("nm").value = 'arbab';
+
+                        imgu="http://localhost:8000/static/images/arbab.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
+                        }
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+
+                        if(nm1=='cincin')
+                       {
+
+                        document.getElementById("nm").value = 'cincin';
+
+                        imgu="http://localhost:8000/static/images/cincin.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
+                        }
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+                        if(nm1=='gateway')
+                       {
+
+                        document.getElementById("nm").value = 'gateway';
+
+                        imgu="http://localhost:8000/static/images/gateway.jpg"
+
+                        document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
+                        }
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        }
+
+                        if(nm1=='bandrafort')
                        {
 
                         document.getElementById("nm").value = 'bandrafort';
@@ -214,6 +539,34 @@
                         imgu="http://localhost:8000/static/images/bandra.jpg"
 
                         document.getElementById("myImg").src = imgu;
+                        document.getElementById("myval").innerHTML=nm2;
+
+                        if(nm2==1)
+                        {
+                        imgu1="http://localhost:8000/static/images/1star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+
+                        }
+                        else if(nm2==2)
+                        {
+                         imgu1="http://localhost:8000/static/images/2star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==3)
+                        {
+                         imgu1="http://localhost:8000/static/images/3star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==4)
+                        {
+                         imgu1="http://localhost:8000/static/images/4star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
+                        else if(nm2==5)
+                        {
+                         imgu1="http://localhost:8000/static/images/5star.png"
+                        document.getElementById("ratingImg").src = imgu1;
+                        }
                         }
                 }
 
@@ -361,7 +714,27 @@
 
                 xhr.send();
                 }
+                if(nm1=='arbab')
+                {
 
+                xhr.open("GET", "/static/js/arbabtest.csv");
+
+                xhr.send();
+                }
+                if(nm1=='cincin')
+                {
+
+                xhr.open("GET", "/static/js/cincintest.csv");
+
+                xhr.send();
+                }
+                if(nm1=='gateway')
+                {
+
+                xhr.open("GET", "/static/js/gatewaytest.csv");
+
+                xhr.send();
+                }
                 }
                 </script>
             </form>

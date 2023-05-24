@@ -2,3 +2,4 @@ jwhotel_food :2
 jwhotel_clean :3
 jwhotel_service :3
 jwhotel_location :3
+jwhotel_compound :2
