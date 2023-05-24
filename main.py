@@ -4,7 +4,7 @@ import os
 import nltk
 
 from nltk import word_tokenize
-from flask_mysqldb import MySQL
+#from flask_mysqldb import MySQL
 from nltk.corpus import stopwords
 
 import nltk
@@ -18,40 +18,12 @@ import mimetypes
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'hotel'
 
-mysql = MySQL(app)
 
 
 mimetypes.add_type("text/css", ".css", True)
 
 
-
-@app.route('/register_hotel',methods=['GET', 'POST'])
-def register_hotel():
-    x = request.form
-    print(x)
-
-    mycursor = mysql.connection.cursor()
-
-
-    params = {
-        'name': request.form.get('name',False),
-        'address': request.form.get('address',False),
-        'image': request.form.get('uimg',False),
-        'price': request.form.get('price',False)
-    }
-
-
-    sql = """INSERT INTO  registerhotel(name,address,price,image) VALUES ( %(name)s, %(address)s, %(price)s, %(image)s)""";
-
-    mycursor.execute(sql,params)
-
-    mysql.connection.commit()
-    return render_template("newhotel.html")
 
 
 
@@ -67,9 +39,9 @@ def index():
 def about():
     return render_template("about.html")
 
-@app.route('/blog')
+@app.route('/feedback')
 def blog():
-    return render_template("blog.html")
+    return render_template("feedback.html")
 
 @app.route('/contacts')
 def contacts():
