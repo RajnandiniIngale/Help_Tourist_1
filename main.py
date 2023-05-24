@@ -4,6 +4,7 @@ import os
 import nltk
 
 from nltk import word_tokenize
+from flask_mysqldb import MySQL
 from nltk.corpus import stopwords
 
 import nltk
@@ -17,8 +18,46 @@ import mimetypes
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'hotel'
+
+mysql = MySQL(app)
+
+
 mimetypes.add_type("text/css", ".css", True)
 
+
+
+@app.route('/register_hotel',methods=['GET', 'POST'])
+def register_hotel():
+    x = request.form
+    print(x)
+
+    mycursor = mysql.connection.cursor()
+
+
+    params = {
+        'name': request.form.get('name',False),
+        'address': request.form.get('address',False),
+        'image': request.form.get('uimg',False),
+        'price': request.form.get('price',False)
+    }
+
+
+    sql = """INSERT INTO  registerhotel(name,address,price,image) VALUES ( %(name)s, %(address)s, %(price)s, %(image)s)""";
+
+    mycursor.execute(sql,params)
+
+    mysql.connection.commit()
+    return render_template("newhotel.html")
+
+
+
+@app.route('/newhotel')
+def newhotel():
+    return render_template("newhotel.html")
 
 @app.route('/')
 def index():
@@ -35,6 +74,7 @@ def blog():
 @app.route('/contacts')
 def contacts():
     return render_template("contacts.html")
+
 
 @app.route('/gallery')
 def gallery():
@@ -148,6 +188,8 @@ def tours1():
             stars[review[0].rstrip()] = int(review[1])
     print(stars)
     return render_template("tours1.html", ratingsk=stars)
+
+
 
 
 @app.route('/insert_csv',methods=['GET', 'POST'])
