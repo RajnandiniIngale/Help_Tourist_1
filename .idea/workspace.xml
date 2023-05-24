@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="..">
+      <change beforePath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Help_Tourist_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/newhotelstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/newhotelstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/newhotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/newhotel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,13 +319,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678592822658</updated>
-    </task>
-    <task id="LOCAL-00002" summary="analysis files added">
-      <created>1679479597258</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679479597259</updated>
     </task>
     <task id="LOCAL-00003" summary="analysis files added">
       <created>1679479772020</created>
@@ -662,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684843478650</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="..">
+      <created>1684844538739</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684844538739</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="UnknownFeatures">
