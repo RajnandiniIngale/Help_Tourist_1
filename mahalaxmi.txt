@@ -1,2 +1,2 @@
 mahalaxmi_all :4
-mahalaxmi_compound :1
+mahalaxmi_compound :3

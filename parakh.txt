@@ -2,4 +2,4 @@ parakh_food :3
 parakh_money :1
 parakh_service :3
 parakh_location :3
-parakh_compound :1
+parakh_compound :3

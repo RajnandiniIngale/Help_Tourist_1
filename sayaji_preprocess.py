@@ -308,7 +308,7 @@ with open('static/js/sayaji_test.csv', 'w',encoding='UTF-8') as f:
 file1.close()
 
 file1 = open('sayajireviews.txt', 'r')
-Lines = file1.readlines()
+#Lines = file1.readlines()
 my_dict={}
 count = 0
 sumc=0;
@@ -328,20 +328,20 @@ sumc = sumc / 100
 
 
 
-if sumc < 0.3:
+if sumc < 0.1:
     stars = 1
 else:
 
-    if sumc <= 0.5:
+    if sumc <= 0.2:
         stars = 2
     else:
-        if sumc <= 1.5:
+        if sumc <= 0.3:
             stars = 3
         else:
-            if sumc <= 2.5:
+            if sumc <= 0.4:
                 stars = 4
             else:
-                if sumc > 2.5:
+                if sumc > 0.5:
                     stars = 5;
 
 

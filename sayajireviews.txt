@@ -20,7 +20,15 @@ the buffet spread huge:0.3182
  seems reviews done others food quality:0.0
  ] [ 'this hotel food good nd tasty ' nan nan nan nan ] [ 'food good also environment also good:0.8271
  ' nan nan nan nan ] [ 'food good also environment also good:0.7003
- ' nan nan nan nan ] [ 'food good ' nan nan nan nan ] [ 'food delicious ' nan nan nan nan ] [ `` Definitely worth visit `` 'Mutton Thali restaurant - love taste please dont go expecting wonderful ambience `` nan nan nan nan ] [ 'this place good kolhapur:0.9485
+ ' nan nan nan nan ] [ 'food good ' nan nan nan nan ] [ 'food delicious ' nan nan nan nan ] [ 'Very Good experience:0.8687
+ The food wonderful:0.5719
+ food amazing 👏 visit 😊 suggest Peeples come enjoy food Special thanks Mr:0.9118
+sunil They always restaurant help us food items' nan nan nan nan ] [ 'Stay comfortable superior room decent size balcony:0.8591
+ The breakfast buffet tasty good quality hygiene:0.4404
+ food hotel good:0.4404
+ terms food ’ excellent:0.5719
+ Good family stay well' nan nan nan nan ] [ 'We good experience staff gentle good especially food court mr mohit thakur good services good behavior dinner:0.9552
+ food tasty love deserts' nan nan nan nan ] [ 'This osm time spent marina shimla came spend good time choosing place truly good decesion enjoy lot special thanx goes mr sunil dolta superb courtious helpfu' nan nan nan nan ] [ `` Definitely worth visit `` 'Mutton Thali restaurant - love taste please dont go expecting wonderful ambience `` nan nan nan nan ] [ 'this place good kolhapur:0.986
  ' nan nan nan nan ] [ 'this hotel food good nd tasty ' nan nan nan nan ] ]:0.4404
 Good room cleaning & housekeeping:0.4404
  Barbeque nations top floor '' nan:0.2023
@@ -28,6 +36,8 @@ Good room cleaning & housekeeping:0.4404
  ] [ 'The room clean comfortable:0.7184
  twin bed rooms city view ( facing Mumbai-Pune highway ) The rooms clean nice:0.6705
  rooms:0.0
+sunil They always restaurant help us food items' nan nan nan nan ] [ 'Stay comfortable superior room decent size balcony:0.8591
+ rooms good modern:0.4404
  served personalized courteous manner:0.5106
 All staff arevery helpfull & gentle:0.4404
  ' nan nan nan nan ] [ 'The manager vijay & staff mention name niraj:0.0
@@ -55,6 +65,13 @@ All staff arevery helpfull & gentle:0.4404
  ' nan nan nan nan ] [ 'The staff spaced:0.0
  ] [ 'The service prompt staff helpful:0.4215
  service etc:0.0
+ Very good staff specially Mr Devendar:0.4927
+ staff brilliant service outstanding:0.8316
+ ' nan nan nan nan ] [ 'Very Friendly smiling staff:0.7764
+ The staff friendly helpful:0.7184
+ The hotel 's staff always ready help service levels outstanding:0.8481
+ Location excellent staff also good:0.765
+ Good family stay well' nan nan nan nan ] [ 'We good experience staff gentle good especially food court mr mohit thakur good services good behavior dinner:0.9552
  Ambience around pool side music n singing Venkatash' 'business ':0.0
  fire safety spaces occupied usages:0.1027
  It wonderful experience:0.5719
@@ -79,5 +96,8 @@ All staff arevery helpfull & gentle:0.4404
  If happen visit Pune want comfortable place stay far city center:0.5574
  ] [ 'this hotel food good nd tasty ' nan nan nan nan ] [ 'food good also environment also good:0.8271
  ' nan nan nan nan ] [ 'food good also environment also good:0.7003
- ' nan nan nan nan ] [ 'food good ' nan nan nan nan ] [ 'food delicious ' nan nan nan nan ] [ `` Definitely worth visit `` 'Mutton Thali restaurant - love taste please dont go expecting wonderful ambience `` nan nan nan nan ] [ 'this place good kolhapur:0.9485
+ A brilliant hotel great location town:0.836
+ The food wonderful:0.5719
+ We could walk lot places Shimla important:0.2023
+ food tasty love deserts' nan nan nan nan ] [ 'This osm time spent marina shimla came spend good time choosing place truly good decesion enjoy lot special thanx goes mr sunil dolta superb courtious helpfu' nan nan nan nan ] [ `` Definitely worth visit `` 'Mutton Thali restaurant - love taste please dont go expecting wonderful ambience `` nan nan nan nan ] [ 'this place good kolhapur:0.986
  amazing place kolhapur:0.5859
