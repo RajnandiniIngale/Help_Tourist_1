@@ -2,4 +2,4 @@ arbab_food:3
 arbab_money:1
 arbab_service:3
 arbab_location:4
-arbab_compound :2
+arbab_compound :4

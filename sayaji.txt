@@ -1,5 +1,5 @@
-sayaji_food :3
-sayaji_clean :1
-sayaji_service :2
+sayaji_food :4
+sayaji_clean :2
+sayaji_service :3
 sayaji_location :3
-sayaji_compound :1
+sayaji_compound :4

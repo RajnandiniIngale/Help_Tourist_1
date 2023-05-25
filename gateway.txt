@@ -1,2 +1,2 @@
 gatewayindia_all:3
-gateway_compound :1
+gateway_compound :2

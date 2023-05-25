@@ -2,4 +2,4 @@ cincin_food:3
 cincin_money:1
 cincin_service:3
 cincin_location:3
-cincin_compound :2
+cincin_compound :4

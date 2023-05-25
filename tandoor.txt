@@ -2,4 +2,4 @@ tandoor_food :3
 tandoor_money :1
 tandoor_service :1
 tandoor_location :3
-tandoor_compound :1
+tandoor_compound :3

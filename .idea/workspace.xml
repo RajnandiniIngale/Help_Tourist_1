@@ -6,9 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="41a0fb03-7071-4400-b8eb-795ed5e459d2" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mumbai.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mumbai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tours1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/arbab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arbab_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/arbab_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bandrafort.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafort.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bandrafort_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/bandrafort_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cincin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cincin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cincin_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/cincin_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gateway.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayindia_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayindia_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwhotel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotel.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwhotel_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwhotel_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalakshmi_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/mahalakshmi_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahalaxmi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mahalaxmi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratha.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maratha.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratha_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/maratha_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpalace.txt" beforeDir="false" afterPath="$PROJECT_DIR$/newpalace.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpalace_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpalace_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parakh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parakh_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/parakh_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_clean.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_food.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_food.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_location.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayaji_service.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayaji_service.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sayajireviews.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sayajireviews.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/silverinn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/silverinn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/silverinn_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/silverinn_preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/sayaji_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sayaji_test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tandoor_preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tandoor_preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,20 +530,6 @@
       <option name="presentableId" value="Default" />
       <updated>1678592822658</updated>
     </task>
-    <task id="LOCAL-00008" summary="main.py modified&#10;tours.html modified">
-      <created>1680017194549</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680017194549</updated>
-    </task>
-    <task id="LOCAL-00009" summary="main.py modified&#10;tours.html modified">
-      <created>1680087149073</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680087149073</updated>
-    </task>
     <task id="LOCAL-00010" summary="main.py modified&#10;tours.html modified">
       <created>1680087550338</created>
       <option name="number" value="00010" />
@@ -845,7 +859,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684941061518</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1684944025523</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1684944025523</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1684944039356</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1684944039356</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="UnknownFeatures">
