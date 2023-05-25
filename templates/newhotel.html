@@ -3,9 +3,13 @@
 <head>
 <title>Journey | Tours</title>
 <meta charset="utf-8">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="icon" href="static/images/favicon.ico">
 <link rel="shortcut icon" href="static/images/favicon.ico">
-<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/newhotelstyle.css">
 <script src="static/js/jquery.js"></script>
 <script src="static/js/jquery-migrate-1.1.1.js"></script>
 <script src="static/js/superfish.js"></script>
@@ -17,7 +21,6 @@
 <!--[if lt IE 9]>
 <script src="static/js/html5shiv.js"></script>
 <link rel="stylesheet" media="screen" href="static/css/ie.css">
-<link rel="stylesheet" media="screen" href="static/css/newhotelstyle.css">
 <![endif]-->
 </head>
 <body>
@@ -43,29 +46,103 @@
     <div class="clear"></div>
   </div>
 </header>
-<body>
-  <div class="wrapper">
-    <h2>Add New Hotel</h2>
-    <form action="/register_hotel" method="POST">
-      <div class="input-box">
-        <input type="text" placeholder="Enter hotel name" name="name" id="name" required>
-      </div>
-      <div class="input-box">
-        <input type="text" placeholder="Enter hotel address" name="address" id="address" required>
-      </div>
-      <div class="input-box">
-        <input type="text" placeholder="Enter hotel price" name="price" id="price" required>
-      </div>
-      <div class="input-box">
-        <input type="text" placeholder="Enter your phone number" name="phno" id="phno" required>
-      </div>
-      <div>
-        <small>Upload image : </small>
-        <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image/*" name="uimg" id="uimg">
+
+<div class="main">
+  <div class="content">
+    <div class="container_12">
+    <form class="form-horizontal" action="register_hotel" method="POST">
+      <fieldset class="form-handle">
+
+        <!-- Form Name -->
+        <h3 style="text-align:center;">Add New Hotel</h3>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+            <input id="name" name="name" type="text" placeholder="Enter Hotel Name here" class="form-control input-md" required="">
+          </div>
         </div>
-      <div class="input-box button">
-        <input type="submit" value="Add Now">
-      </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <div class="col-md-4">
+            <textarea class="form-control" id="address" name="address" placeholder="Enter Hotel Address here" ></textarea>
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="textinput" name="price" type="text" placeholder="Enter Price here" class="form-control input-md" required="">
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="number" name="phno" type="text" placeholder="Enter Phone Number here" class="form-control input-md" required="">
+          </div>
+        </div>
+
+        <!-- File Button -->
+        <div class="form-group" style="font-size:16px;">
+          <label class="col-md-2 control-label" for="filebutton">Upload Image: </label>
+          <div class="col-md-3">
+            <input id="filebutton" name="umig" class="input-file" type="file">
+          </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="button1id"></label>
+          <div class="col-md-8">
+            <button id="button1id" name="button1id" class="btn btn-success">Register</button>
+            <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+          </div>
+        </div>
+      </fieldset>
     </form>
+
+      <div class="clear"></div>
+    </div>
   </div>
+
+<div class="bottom_block">
+    <div class="container_12">
+      <div class="grid_3 prefix_2">
+        <ul>
+          <li><a href="#">FAQS Page</a></li>
+          <li><a href="#">People Say</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#">Useful links</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#">Insurance</a></li>
+          <li><a href="#">Family Travel</a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <h4>Contact Us:</h4>
+        TEL: 1-800-234-5678<br>
+        <a href="#">info@helptour.org</a> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
 </body>
+</html>
