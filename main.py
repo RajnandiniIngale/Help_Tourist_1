@@ -3,8 +3,13 @@ import csv
 import os
 import nltk
 
+import smtplib
+from email.message import EmailMessage
+
+
 from nltk import word_tokenize
-#from flask_mysqldb import MySQL
+from flask_mysqldb import MySQL
+from flask_mail import Mail,Message
 from nltk.corpus import stopwords
 
 import nltk
@@ -17,11 +22,130 @@ import ssl
 import mimetypes
 from flask import Flask, render_template, request
 app = Flask(__name__)
+mail = Mail(app)        #initialize var
 
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'hotel'
 
+mysql = MySQL(app)
 
 
 mimetypes.add_type("text/css", ".css", True)
+
+
+# @app.route('/send_email')
+# def send_email():
+#     msg = EmailMessage()
+#
+#     my_address = "ingalerajnandini22@gmail.com"  # sender address
+#
+#     app_generated_password = "ufuxfknvlisptbuk"  # gmail generated password
+#
+#     msg["Subject"] = "HelpTourist"  # email subject
+#
+#     msg["From"] = my_address  # sender address
+#
+#     msg["To"] = "siyaingale2002@gmail.com"  # reciver address
+#
+#     msg.set_content("A new hotel has been added")  # message body
+#
+#     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+#         smtp.login(my_address, app_generated_password)  # login gmail account
+#
+#         print("sending mail")
+#         smtp.send_message(msg)  # send message
+#         print("mail has sent")
+
+
+@app.route('/review_us',methods=['GET', 'POST'])
+def review_us():
+    x = request.form
+    print(x)
+
+    mycursor = mysql.connection.cursor()
+
+    params = {
+        'name': request.form.get('name', False),
+        'feedback': request.form.get('feedback', False),
+    }
+
+    sql = """INSERT INTO  reviewus(name,feedback) VALUES ( %(name)s, %(feedback)s)""";
+
+    mycursor.execute(sql, params)
+
+    mysql.connection.commit()
+    msg = EmailMessage()
+
+    my_address = "ingalerajnandini22@gmail.com"  # sender address
+
+    app_generated_password = "ufuxfknvlisptbuk"  # gmail generated password
+
+    msg["Subject"] = "HelpTourist"  # email subject
+
+    msg["From"] = my_address  # sender address
+
+    msg["To"] = "siyaingale2002@gmail.com"  # reciver address
+
+    msg.set_content("Dear Admin, a new review has been added!!")  # message body
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+        smtp.login(my_address, app_generated_password)  # login gmail account
+
+        print("sending mail")
+        smtp.send_message(msg)  # send message
+        print("mail has sent")
+
+    return render_template("feedback.html")
+
+
+@app.route('/register_hotel',methods=['GET', 'POST'])
+def register_hotel():
+    x = request.form
+    print(x)
+
+    mycursor = mysql.connection.cursor()
+
+
+    params = {
+        'name': request.form.get('name',False),
+        'address': request.form.get('address',False),
+        'image': request.form.get('uimg',False),
+        'price': request.form.get('price',False),
+        'phno': request.form.get('phno',False)
+    }
+
+
+    sql = """INSERT INTO  registerhotel(name,address,price,image,phno) VALUES ( %(name)s, %(address)s, %(price)s, %(image)s, %(phno)s)""";
+
+    mycursor.execute(sql,params)
+
+    mysql.connection.commit()
+
+    msg = EmailMessage()
+
+    my_address = "ingalerajnandini22@gmail.com"  # sender address
+
+    app_generated_password = "ufuxfknvlisptbuk"  # gmail generated password
+
+    msg["Subject"] = "HelpTourist"  # email subject
+
+    msg["From"] = my_address  # sender address
+
+    msg["To"] = "siyaingale2002@gmail.com"  # reciver address
+
+
+    msg.set_content("Dear Admin, a new hotel has been added")  # message body
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+        smtp.login(my_address, app_generated_password)  # login gmail account
+
+        print("sending mail")
+        smtp.send_message(msg)  # send message
+        print("mail has sent")
+
+    return render_template("newhotel.html")
 
 
 
@@ -40,7 +164,7 @@ def about():
     return render_template("about.html")
 
 @app.route('/feedback')
-def blog():
+def feedback():
     return render_template("feedback.html")
 
 @app.route('/contacts')
@@ -51,6 +175,8 @@ def contacts():
 @app.route('/gallery')
 def gallery():
     return render_template("gallery.html")
+
+
 
 
 @app.route('/tours')
@@ -290,7 +416,7 @@ def insert_keys_csv():
         file1.close()
         os.system('python C:\\Users\\USER\\PycharmProjects\\Help_Tourist_1\\gatewayindia_preprocess.py')
     if name=='cincin':
-        file1 = open('cincin.csv', 'a+')
+        file1 = open('cincin.csv.csv', 'a+')
         file1.writelines("\n")
         file1.writelines(rev+"  ")
         file1.close()
