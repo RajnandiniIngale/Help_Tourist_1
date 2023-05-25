@@ -86,7 +86,7 @@ def review_us():
 
     msg["From"] = my_address  # sender address
 
-    msg["To"] = "siyaingale2002@gmail.com"  # reciver address
+    msg["To"] = "info.helptour@gmail.com"  # reciver address
 
     msg.set_content("Dear Admin, a new review has been added!!")  # message body
 
@@ -133,7 +133,7 @@ def register_hotel():
 
     msg["From"] = my_address  # sender address
 
-    msg["To"] = "siyaingale2002@gmail.com"  # reciver address
+    msg["To"] = "info.helptour@gmail.com"  # reciver address
 
 
     msg.set_content("Dear Admin, a new hotel has been added")  # message body
