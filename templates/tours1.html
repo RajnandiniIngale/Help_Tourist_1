@@ -32,19 +32,19 @@ $(function () {
 <header>
   <div class="container_12">
     <div class="grid_12">
-      <h1><a href="/"><img src="static/images/logo.png" alt=""></a></h1>
+      <h1><a href="/index"><img src="static/images/logo.png" alt=""></a></h1>
       <div class="clear"></div>
     </div>
     <div class="menu_block">
       <nav>
         <ul class="sf-menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a>
+          <li><a href="/index">Home</a></li>
+          <li class="with_ul"><a href="/about">About</a>
 
           </li>
-          <li><a href="/gallery>Gallery</a></li>
+          <li><a href="/gallery">Gallery</a></li>
           <li class="current"><a href="/tours">Tours</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="/feedback">Feedback</a></li>
           <li><a href="/contacts">Contacts</a></li>
         </ul>
       </nav>
@@ -53,6 +53,7 @@ $(function () {
     <div class="clear"></div>
   </div>
 </header>
+
 <div class="main">
   <div class="content">
     <div class="container_12">
@@ -60,33 +61,35 @@ $(function () {
         <h3>Hotels</h3>
         <div class="tours">
           <div class="grid_4 alpha">
-            <div class="tour"> <img src="static/images/sayaji_hotel.jpg" alt="" width="180" height="150" class="img_inner fleft">
+            <div class="tour">
+                <img src="static/images/sayaji_hotel.jpg" alt="" width="180" height="150" class="img_inner fleft">
 
                 <div class="extra_wrapper">
                 <p class="text1"><strong>Sayaji Hotel</strong></p>
-                <p class="price">2104/15, E Ward, Old Pune-Bangalore Hwy, Kawala Naka, Shahupuri, Kolhapur, Maharashtra 416005</p>
-                <p class="price"> 1 Day 1 Night<span>₹ 5,600</span></p>
 
                 {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['sayaji_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star" src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+                <p class="price">2104/15, E Ward, Old Pune-Bangalore Hwy, Kawala Naka, Shahupuri, Kolhapur, Maharashtra 416005</p>
+                <p class="price"> 1 Day 1 Night<span>₹ 5,600</span></p>
+
 
                   <a href="/review?name=sayaji&cmp={{ cmp }}&hnm=SAYAJI HOTEL" class="btn">Reviews</a> </div>
 
@@ -194,28 +197,28 @@ $(function () {
             <div class="tour"> <img src="static/images/maratha.jpg" alt="" width="180" height="150" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Hotel Maratha Regency </strong></p>
-                <p class="price">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>
-                <p class="price">1 day 1 Night<span>₹ 2,707</span></p>
-                  {% if ratingsk | length  > 1 %}
+                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['maratha_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star" src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+                <p class="price">No.205, A/E, Tarabai Rd, near Sasne Ground, New Shahupuri, Kolhapur, Maharashtra 416001</span></p>
+                <p class="price">1 day 1 Night<span>₹ 2,707</span></p>
                 <a href="/review?name=maratha&cmp={{ cmp }}&hnm=HOTEL MARATHA" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -321,28 +324,29 @@ $(function () {
             <div class="tour"> <img src="static/images/parakh.jpg" width="180" height="150" alt="" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Hotel Parakh</strong></p>
-                <p class="price">No.266, E Ward, Patole Wadi, near Gajanan Nagari Patsanstha, Kolhapur, Maharashtra 416005</p>
-                <p class="price">Mutton Thali of Kolhapur with tambda and pandhra rassa</p>
                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['parakh_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star" src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+
+                <p class="price">No.266, E Ward, Patole Wadi, near Gajanan Nagari Patsanstha, Kolhapur, Maharashtra 416005</p>
+                <p class="price">Mutton Thali of Kolhapur with tambda and pandhra rassa</p>
 
                 <a href="/review?name=parakh&cmp={{ cmp }}&hnm=HOTEL PARAKH" class="btn">Reviews</a> </div>
                  <br/>
@@ -444,28 +448,29 @@ $(function () {
             <div class="tour"> <img src="static/images/tandoor.jpg" width="180" height="150" alt="img" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>HOTEL TANDOOR </strong></p>
-                <p class="price">Shop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</p>
-                <p class="price">Indian, Chicken Specialities ,Vegetarian Friendly, Vegan Options</p>
                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['tandoor_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star" src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+
+                <p class="price">Shop No. 17/18, Old P B Road, beside Hotel Sayaji, Ayodhya Park, Shahupuri, Kolhapur, Maharashtra 416005</p>
+                <p class="price">Indian, Chicken Specialities ,Vegetarian Friendly, Vegan Options</p>
                 <a href="/review?name=tandoor&cmp={{ cmp }}&hnm=HOTEL TANDOOR" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -568,27 +573,28 @@ $(function () {
             <div class="tour"> <img src="static/images/mahalakshi.jpg" width="180" height="150" alt="" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Shri Mahalaxmi - Ambabai Temple</strong> </p>
-                <p class="price">Ambabai Temple is an important Hindu temple dedicated to Goddess Lakshmi, worshipped by locals as Ambabai.</p>
-                {% if ratingsk | length  > 1 %}
+                  {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['mahalaxmi_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star" src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+
+                <p class="price">Ambabai Temple is an important Hindu temple dedicated to Goddess Lakshmi, worshipped by locals as Ambabai.</p>
                   <a href="/review?name=mahalaxmi&cmp={{ cmp }}&hnm=Shri Mahalaxmi - Ambabai Temple" class="btn">Reviews</a> </div>
                 <br/>
                 {% if ratingsk | length >1 %}
@@ -623,27 +629,28 @@ $(function () {
             <div class="tour"> <img src="static/images/shahu.jpg" width="180" height="150" alt="img" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Chhatrapati Shahu Palace </strong></p>
-                <p class="price">New Palace, Kolhapur is a palace situated in Kolhapur. The Palace took 7 years to complete, from 1877 to 1884.</p>
-                {% if ratingsk | length  > 1 %}
+                  {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['newpalace_compound'] %}
                 {% if cmp==1 %}:
-                 <img src="static/images/1star.png"  >
+                 <img class="tours-review-star" src="static/images/1star.png"  >
                {% elif (cmp) == 2 %}
-                <img src="static/images/2star.png">
+                <img class="tours-review-star" src="static/images/2star.png">
 
                {% elif cmp == 3 %}
-                 <img src="static/images/3star.png">
+                 <img class="tours-review-star" src="static/images/3star.png">
 
                {% elif cmp == 4 %}
-                 <img src="static/images/4star.png" >
+                 <img class="tours-review-star" src="static/images/4star.png" >
 
                {% elif cmp == 5 %}
-                <img src="static/images/5star.png">
+                <img class="tours-review-star"src="static/images/5star.png">
 
                {% endif %}
                 {% endif %}
 
                   {{ cmp }}
+                <p class="price">New Palace, Kolhapur is a palace situated in Kolhapur. The Palace took 7 years to complete, from 1877 to 1884.</p>
+
                   <a href="/review?name=newpalace&cmp={{ cmp }}&hnm=Chhatrapati Shahu Palace" class="btn">Reviews</a> </div>
                 <br/>
                 {% if ratingsk | length >1 %}

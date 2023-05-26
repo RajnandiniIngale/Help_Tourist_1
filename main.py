@@ -35,28 +35,6 @@ mysql = MySQL(app)
 mimetypes.add_type("text/css", ".css", True)
 
 
-# @app.route('/send_email')
-# def send_email():
-#     msg = EmailMessage()
-#
-#     my_address = "ingalerajnandini22@gmail.com"  # sender address
-#
-#     app_generated_password = "ufuxfknvlisptbuk"  # gmail generated password
-#
-#     msg["Subject"] = "HelpTourist"  # email subject
-#
-#     msg["From"] = my_address  # sender address
-#
-#     msg["To"] = "siyaingale2002@gmail.com"  # reciver address
-#
-#     msg.set_content("A new hotel has been added")  # message body
-#
-#     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-#         smtp.login(my_address, app_generated_password)  # login gmail account
-#
-#         print("sending mail")
-#         smtp.send_message(msg)  # send message
-#         print("mail has sent")
 
 
 @app.route('/review_us',methods=['GET', 'POST'])

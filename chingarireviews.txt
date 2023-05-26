@@ -104,7 +104,7 @@
  The atmosphere was lovely and the food was exceptional:0.5859
  and a warm welcome is what we experienced here:0.5994
  Truly a lovely experience and some of the best authentic Indian cuisine I 've tasted in a while:0.8979
-\n '' ] [ `` As expected it was a five-star experience:0.0
+\r\n '' ] [ `` As expected it was a five-star experience:0.0
  he is an awesome cook and extremely nice man:0.8016
  food everything was perfect:0.5719
  We went there to have our anniversary dinner and guys over there did n't let any stone unturned to make it more special:0.4576
