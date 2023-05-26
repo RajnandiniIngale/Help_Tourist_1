@@ -65,7 +65,27 @@ $(function () {
                 <p class="text1"><strong>The KEYS Hotel</strong></p>
                 <p class="price">Kasam Sadan Rd, Mahabaleshwar, Maharashtra 412806</p>
                 <p class="price"> 2 days 1 Night<span>₹ 4,999</span></p>
-                <a href="/review?name=keys" class="btn">Reviews</a> </div>
+                {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['keys_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+                {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+                {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                <a href="/review?name=keys&cmp={{ cmp }}&hnm=HOTEL KEYS" class="btn">Reviews</a> </div>
                <br/>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -167,7 +187,27 @@ $(function () {
                 <p class="text1"><strong>Hotel Park Plaza </strong></p>
                 <p class="price">WJFV+R7F, Mahabaleshwar, Maharashtra 412806</span></p>
                 <p class="price">2 days 1 Night<span>₹ 3,893</span></p>
-                 <a href="/review?name=park" class="btn">Reviews</a> </div>
+                   {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['park_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                 <a href="/review?name=park&cmp={{ cmp }}&hnm=Hotel Park Plaza" class="btn">Reviews</a> </div>
            <br/>
                {% if ratingsk | length >1 %}
 
@@ -272,7 +312,27 @@ $(function () {
                 <p class="text1"><strong>Chingari</strong></p>
                 <p class="price">211 212 Le Meridien Mahabaleshwar Resort & Spa, Mahabaleshwar 412806 India</p>
                 <p class="price">Vegetarian Friendly, Vegan Options, Halal, Gluten Free Options</p>
-              <a href="/review?name=chingari" class="btn">Reviews</a> </div>
+                   {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['chingari_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+              <a href="/review?name=chingari&cmp={{ cmp }}&hnm=Chingari Hotel" class="btn">Reviews</a> </div>
                <br/>
                {% if ratingsk | length >1 %}
 
@@ -374,7 +434,27 @@ $(function () {
                 <p class="text1"><strong>Barbeque Bay </strong></p>
                 <p class="price">Metgutad Village, Mahabaleshar Panchgani Road, Mahabaleshwar 412806 India</p>
                 <p class="price">Indian, Barbecue, Grill, Fusion</p>
-                  <a href="/review?name=barbeque" class="btn">Reviews</a> </div>
+                   {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['barbeque_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                  <a href="/review?name=barbeque&cmp={{ cmp }}&hnm=Barbeque Bay" class="btn">Reviews</a> </div>
                  <br/>
                {% if ratingsk | length >1 %}
 
@@ -477,7 +557,27 @@ $(function () {
               <div class="extra_wrapper">
                 <p class="text1"><strong>Wilson Point</strong> </p>
                 <p class="price">Situated at an altitude of 1439 m, Wilson Point is also known as Sunrise Point and one can experience the beautiful sunrise from this point.</p>
-                <a href="/review?name=wilson" class="btn">Reviews</a> </div>
+                 {% if ratingsk | length  > 1 %}
+                {% set cmp=ratingsk['venna_compound'] %}
+                {% if cmp==1 %}:
+                 <img src="static/images/1star.png"  >
+               {% elif (cmp) == 2 %}
+                <img src="static/images/2star.png">
+
+               {% elif cmp == 3 %}
+                 <img src="static/images/3star.png">
+
+               {% elif cmp == 4 %}
+                 <img src="static/images/4star.png" >
+
+               {% elif cmp == 5 %}
+                <img src="static/images/5star.png">
+
+               {% endif %}
+                {% endif %}
+
+                  {{ cmp }}
+                  <a href="/review?name=wilson&cmp={{ cmp }}&hnm=Wilson Point" class="btn">Reviews</a> </div>
                 <br>
                  {% if ratingsk | length >1 %}
 
@@ -514,7 +614,7 @@ $(function () {
               <div class="extra_wrapper">
                 <p class="text1"><strong>Venna Lake </strong></p>
                 <p class="price">Venna lake is a man made lake and not a natural lake. It is surrounded by trees. Tourists can enjoy a boat ride over the lake or a horse ride next to the lake. </p>
-                 <a href="/review?name=venna" class="btn">Reviews</a> </div>
+                 <a href="/review?name=venna&cmp={{ cmp }}&hnm=Venna Lake" class="btn">Reviews</a> </div>
                  <br>
                  {% if ratingsk | length >1 %}
 

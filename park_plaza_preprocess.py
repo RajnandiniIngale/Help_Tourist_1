@@ -349,24 +349,25 @@ sumc = sumc / 100
 
 
 
-if sumc < 0.3:
+if sumc < 0.1:
     stars = 1
 else:
 
-    if sumc <= 0.5:
+    if sumc <= 0.2:
         stars = 2
     else:
-        if sumc <= 1.5:
+        if sumc <= 0.3:
             stars = 3
         else:
-            if sumc <= 2.5:
+            if sumc <= 0.4:
                 stars = 4
             else:
-                if sumc > 2.5:
+                if sumc > 0.5:
                     stars = 5;
 
 
 print("stars",stars)
+ffile.writelines("park_compound :" + ((str))(stars) + "\n")
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 sorted_value_index = np.argsort(values)[::-1]
