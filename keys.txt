@@ -2,4 +2,4 @@ stars_food:3
 stars_clean:3
 stars_service:3
 stars_location:5
-keys_compound :5
+stars_compound:5

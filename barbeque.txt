@@ -2,4 +2,4 @@ barbeque_food:4
 barbeque_money:2
 barbeque_service:4
 barbeque_location:3
-barbeque_compound :3
+barbeque_compound:3

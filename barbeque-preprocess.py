@@ -366,7 +366,7 @@ else:
 
 
 print("stars",stars)
-ffile.writelines("barbeque_compound :" + ((str))(stars) + "\n")
+ffile.writelines("barbeque_compound:" + ((str))(stars) + "\n")
 
 keys = list(my_dict.keys())
 values = list(my_dict.values())

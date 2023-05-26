@@ -367,7 +367,7 @@ else:
 
 
 print("stars",stars)
-ffile.writelines("park_compound :" + ((str))(stars) + "\n")
+ffile.writelines("park_compound:" + ((str))(stars) + "\n")
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 sorted_value_index = np.argsort(values)[::-1]

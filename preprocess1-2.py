@@ -323,8 +323,8 @@ with open('static/js/test.csv', 'w',encoding='UTF-8') as f:
 
 file1.close()
 
-file1 = open('keysreviews.txt', 'r',encoding="utf-8")
-Lines = file1.readlines()
+file1 = open('keysreviews.txt', 'r')
+#Lines = file1.readlines()
 my_dict={}
 count = 0
 sumc=0;
@@ -333,10 +333,7 @@ for line in Lines:
     review=line
     arr=review.split(":")
     my_dict[arr[0]]=arr[1]
-    try:
-        vv=float(arr[1].rstrip())
-    except:
-         continue
+    vv=float(arr[1].rstrip())
     sumc=sumc+vv
 
 
@@ -363,8 +360,9 @@ else:
                 if sumc > 0.5:
                     stars = 5;
 
+
 print("stars",stars)
-ffile.writelines("keys_compound :" + ((str))(stars) + "\n")
+ffile.writelines("stars_compound:" + ((str))(stars) + "\n")
 keys = list(my_dict.keys())
 values = list(my_dict.values())
 sorted_value_index = np.argsort(values)[::-1]

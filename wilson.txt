@@ -1,2 +1,2 @@
 wilson_overall:5
-wilson_compound :5
+wilson_compound:5

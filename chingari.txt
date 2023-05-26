@@ -2,4 +2,4 @@ chingari_food:4
 chingari_money:1
 chingari_service:4
 chingari_location:4
-chingari_compound :5
+chingari_compound:5
