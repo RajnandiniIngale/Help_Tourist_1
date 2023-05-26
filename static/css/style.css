@@ -1065,3 +1065,77 @@ footer {
 #toTop:hover {
 	background-position: right 0;
 }
+
+#hname{
+        font-weight: 900;
+        font-size:75px;
+	    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.review-fonts{
+
+       font-size:60px; font-weight:600;
+}
+.review-text-input{
+            width:250px;
+            height:90px;
+            margin-left:0%;
+            margin-right:0%;
+}
+.review-write{
+        padding:20px 20px 0px 20px;
+        margin-top:20px;
+        margin-left:300px;
+        text-align:center;
+        font-size:40px;
+        font-weight: 400;
+	    font-family: 'Pathway Gothic One', sans-serif;
+}
+.review-table{
+     padding: 70px;
+     text-align: left;
+     text-size:40px;
+     justify-content: center;
+     width:90%;
+     height:50%;
+     border-collapse:collapse;
+     margin:25px 0;
+     font-size:1.1em;
+     min-width:200px;
+     overflow:hidden;
+}
+.review-table thead tr{
+    background-color:#3a6066 ;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+}
+.review-table th,
+.review-table td{
+    padding : 12px 15px;
+}
+.review-table tbody tr{
+    border-bottom:1px solid #dddddd;
+}
+.review-table tbody tr:nth-of-type(even){
+    background-color:#3a6066;
+    color: #e0ffff;
+}
+.review-table tbody tr:last-of-type{
+       border-bottom:2px solid #3a6066 ;
+}
+.review-table tbody tr.active-row{
+        font-weight:bold;
+        color:#3a6066;
+}
+.btn-review-input{
+    margin-top:20px;
+    width:70px;
+    height:35px;
+    background-color:#dddd;
+    margin-left:80px;
+    color:#00000;
+}
+.tours-review-star{
+    padding-bottom:20px;
+}

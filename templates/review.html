@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<title>Journey | Reviews</title>
 <html xmlns="http://www.w3.org/1999/html">
 <link rel="icon" href="static/images/favicon.ico">
 <link rel="shortcut icon" href="static/images/favicon.ico">
@@ -45,32 +45,50 @@
 <div class="main">
   <div class="content">
     <div class="container_12">
-            <img class="review-img"alt="Can't load" id="myImg" src="">
-        <div  id="hname" align="" ></div>
-        <div  id="myval" align="" ></div>
-        <img class="review-img"alt="Can't load" id="ratingImg" src="">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.4568912777304!2d74.24809767432546!3d16.704039722132876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1004651f06853%3A0x9200a5fb5bdfda75!2sSayaji%20Hotel!5e0!3m2!1sen!2sin!4v1685074893081!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       <div class="review-ratings">
-                <form method="post" style="border:1px solid #ccc" action="/insert_csv">
+        <div class="grid_6">
+            <img class="review-img" alt="Can't load" id="myImg" src="" style="margin-left:100px;">
+        </div>
+        <div class="grid_6">
+            <div id="hname" align="" ></div>
+            <div id="myval" align="" ></div>
+            <h3 style="margin-top:30px; display:inline-block; font-size:26px;">Ratings :</h3>
+            <img class="review-img" alt="Can't load" id="ratingImg" src="" style="display:inline-block; margin-top:40px;">
+        </div>
+    </div>
+
+    <div class="container_12" style="display:inline-block; padding:20px; margin-top:80px; margin-left:150px;">
+        <div class="grid_6">
+            <h3 class="review-fonts">Visit Us..</h3>
+            <img src="/static/images/right-arrow.gif" style="height:140px;width:140px;">
+        </div>
+        <div class="grid_6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.4568912777304!2d74.24809767432546!3d16.704039722132876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1004651f06853%3A0x9200a5fb5bdfda75!2sSayaji%20Hotel!5e0!3m2!1sen!2sin!4v1685081201192!5m2!1sen!2sin" width="600" height="450"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="container_12" style="margin-top:80px; margin-left:150px;">
+            <div class="review-ratings">
+                <form method="post" action="/insert_csv">
                 <div class="container">
-                    <h3>Reviews and Ratings</h3>
+                    <h3 class="review-fonts">Reviews and Ratings</h3>
                 </div>
-                <table width="50%" border="1" align="center">
+                <table width="90%" align="center">
                     <tr>
-                     <td>Write a Review </td>
+                     <td class="review-write">Write a Review </td>
                        <input type="hidden" name="nm" id="nm">
-                     <td><input type="text" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
+                     <td><input type="text" class="review-text-input" placeholder="Enter atleast 10 words  " name="reviews2" required></td>
                    </tr>
 
                    <tr>
-                       <td>  </td>
-                     <td><input type="submit" name="Submit" value="Submit"></td>
+                       <td></td>
+                     <td><input class="btn-review-input" type="submit" name="Submit" value="Submit"></td>
                    </tr>
                 </table>
                 <br><br>
-                <table id="csvTable" border="1" align="center">
+                <table class="review-table" id="csvTable" border="1" align="center">
                     <thead>
-                      <tr>
+                      <tr class="active-row">
                         <th>Review</th>
                         <th>Ratings</th>
 
@@ -80,7 +98,7 @@
                     <tbody>
                     </tbody>
                   </table>
-                <hr>
+                <hr style="border-right-width: 0px;margin-right: 110px;">
                 <script>
                 var nm1=""
                 var nm2=""
@@ -109,7 +127,6 @@
                    console.log("Value is: " + nm2);
                    console.log("Value is: " + nm3);
                    var imgu;
-
                        if(nm1=='keys')
                        {
                         document.getElementById("nm").value = 'keys';
@@ -349,7 +366,6 @@
                         document.getElementById("myval").innerHTML=nm2;
                         document.getElementById("hname").innerHTML=nm3;
 
-
                         if(nm2==1)
                         {
                         imgu1="http://localhost:8000/static/images/1star.png"
@@ -386,34 +402,8 @@
                         imgu="http://localhost:8000/static/images/maratha.jpg"
 
                         document.getElementById("myImg").src = imgu;
-                        document.getElementById("myval").innerHTML=nm2;
                        document.getElementById("hname").innerHTML=nm3;
-                        if(nm2==1)
-                        {
-                        imgu1="http://localhost:8000/static/images/1star.png"
-                        document.getElementById("ratingImg").src = imgu1;
 
-                        }
-                        else if(nm2==2)
-                        {
-                         imgu1="http://localhost:8000/static/images/2star.png"
-                        document.getElementById("ratingImg").src = imgu1;
-                        }
-                        else if(nm2==3)
-                        {
-                         imgu1="http://localhost:8000/static/images/3star.png"
-                        document.getElementById("ratingImg").src = imgu1;
-                        }
-                        else if(nm2==4)
-                        {
-                         imgu1="http://localhost:8000/static/images/4star.png"
-                        document.getElementById("ratingImg").src = imgu1;
-                        }
-                        else if(nm2==5)
-                        {
-                         imgu1="http://localhost:8000/static/images/5star.png"
-                        document.getElementById("ratingImg").src = imgu1;
-                        }
                         }
                         if(nm1=='parakh')
                        {
