@@ -39,11 +39,9 @@
  '' ] [ 'if you are non veg food lover:0.5859
  this is the best place to visit:0.6369
  What a taste:0.0
- it was an amazing hotel in kolhapur ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.936
- ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.9169
+ ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.9169
  ' ] [ `` The mutton thali was awesome & priced reasonably:0.6249
- it was an amazing hotel in kolhapur ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.936
- ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.9169
+ ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.9169
  the service is very good:0.4927
  the owner is very humble too:0.0
  ' ] [ 'Hotel Parakh is the best option for Family restaurant also for all:0.6369
@@ -94,8 +92,4 @@
  ' ] [ 'Best place to visit for traditional Kolhapuri delicacies:0.6369
  times its special for mutton thali & chicken thali:0.4019
  this is the best place to visit:0.6369
- ' ] [ 'this place is very good in kolhapur:0.4927
- it was an amazing hotel in kolhapur ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.936
- It is a very simple and no frills place and the only attraction is the food:0.1372
- ' ] [ 'Definitely worth a visit Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience:0.9169
- It is a very simple and no frills place and the only attraction is the food:0.1372
+ ' ] [ `` Definitely worth a visit `` 'Mutton Thali restaurant - you will love the taste but please dont go here expecting a wonderful ambience `` ] ]:0.9169

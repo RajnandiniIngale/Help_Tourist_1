@@ -44,7 +44,7 @@ $(function () {
           </li>
           <li><a href="/gallery">Gallery</a></li>
           <li class="current"><a href="/tours">Tours</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="/feedback">Feedback</a></li>
           <li><a href="/contacts">Contacts</a></li>
         </ul>
       </nav>
@@ -63,8 +63,6 @@ $(function () {
             <div class="tour"> <img src="static/images/mumbai-hotel1.jpg" alt="" width="180" height="150" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Silver Inn Hotel</strong></p>
-                <p class="price">147, Marol Maroshi Road, Near Marol Fire Bridge Station, Mumbai 400059</p>
-                <p class="price"> 1 day 1 Night<span>₹ 12,000</span></p>
                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['silverinn_compound'] %}
                 {% if cmp==1 %}:
@@ -85,6 +83,12 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <br><br>
+                   <img src="static/images/call.png" height="20" width="15"> <span class="call"><a href="tel:09004693441">09004693441</a></span><br>
+                    <br>
+                  <p class="price"><img src="static/images/location.png" height="20" width="15"> <a href="https://www.google.com/maps/place/Hotel+Silver+Inn/@19.1112839,72.8763723,17z/data=!3m2!4b1!5s0x3be7c816b3c899c7:0xb7f3fb81ddb40e35!4m9!3m8!1s0x3be7c8151f79ddab:0x2a4fcf30a8d5b182!5m2!4m1!1i2!8m2!3d19.1112839!4d72.8789472!16s%2Fg%2F1tm1ny36?entry=ttu">147, Marol Maroshi Road, Near Marol Fire Bridge Station, Mumbai 400059</a></p>
+                <p class="price"> 1 day 1 Night<span>₹ 12,000</span></p>
+
                 <a href="/review?name=silverinn&cmp={{ cmp }}&hnm=Silver Inn HOTEL" class="btn">Reviews</a> </div>
 
                 <br/>
@@ -186,9 +190,7 @@ $(function () {
             <div class="tour"> <img src="static/images/marroite.jpg" alt="" width="180" height="150" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>JW Marriott Hotel</strong></p>
-                <p class="price">Juhu Tara Rd, Juhu Tara, Juhu, Mumbai, Maharashtra 400049</span></p>
-                <p class="price">2 days 2 Nights<span>₹ 30,000</span></p>
-                  {% if ratingsk | length  > 1 %}
+                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['jwhotel_compound'] %}
                 {% if cmp==1 %}:
                  <img src="static/images/1star.png"  >
@@ -208,6 +210,12 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <br><br>
+                   <img src="static/images/call.png" height="20" width="15"> <span class="call"><a href="tel:02266933000">02266933000</a></span><br>
+                    <br>
+                  <p class="price"><img src="static/images/location.png" height="20" width="15"> <a href="https://www.google.com/maps/place/JW+Marriott+Mumbai+Juhu/@19.1018504,72.8236484,17z/data=!3m1!4b1!4m9!3m8!1s0x3be7c9bf6271e62d:0x12861889e9de122a!5m2!4m1!1i2!8m2!3d19.1018504!4d72.8262233!16s%2Fg%2F11b7ldmr7v?entry=ttu">Juhu Tara Rd, Juhu Tara, Juhu, Mumbai, Maharashtra 400049</a></p>
+                <p class="price">2 days 2 Nights<span>₹ 30,000</span></p>
+
                 <a href="/review?name=jwhotel&cmp={{ cmp }}&hnm=JW Marriott Hotel" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -302,8 +310,8 @@ $(function () {
                {% endif %}
               {% endif %}
                 <br/>
-                <br><br>
-                    <a href="/newhotel" class="btn">Add a new hotel</a>
+                <br>
+
             </div>
           </div>
           <div class="clear"></div>
@@ -312,8 +320,6 @@ $(function () {
             <div class="tour"> <img src="static/images/arbab.jpg" width="180" height="150" alt="" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Arbab Restaurant</strong></p>
-                <p class="price">Plot no 117, Shop, no 4, 28th Rd, Bandra West, Mumbai, Maharashtra 400050</p>
-                <p class="price">Indian, Arabian </p>
                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['arbab_compound'] %}
                 {% if cmp==1 %}:
@@ -334,6 +340,12 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <br><br>
+                   <img src="static/images/call.png" height="20" width="15"> <span class="call"><a href="tel:02226410000">02226410000</a></span><br>
+                    <br>
+                <p class="price"><img src="static/images/location.png" height="20" width="15"> <a href="https://www.google.com/maps/place/Arbab/@19.0598743,72.831529,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c924430e78bb:0xb9a860926dfb094f!8m2!3d19.0598743!4d72.8341039!16s%2Fg%2F11h3ldt6m6?entry=ttu">Plot no 117, Shop, no 4, 28th Rd, Bandra West, Mumbai, Maharashtra 400050</a></p>
+                <p class="price">Indian, Arabian </p>
+
                 <a href="/review?name=arbab&cmp={{ cmp }}&hnm=Arbab Restaurant" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -434,8 +446,6 @@ $(function () {
             <div class="tour"> <img src="static/images/cincin.jpg" width="180" height="150" alt="img" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Cincin BKC </strong></p>
-                <p class="price">Ground Floor, Raheja Towers , Near Yauatcha Restaurant, Mumbai, Maharashtra 400051</p>
-                <p class="price">Italian, European</p>
                   {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['cincin_compound'] %}
                 {% if cmp==1 %}:
@@ -456,6 +466,12 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <br><br>
+                   <img src="static/images/call.png" height="20" width="15"> <span class="call"><a href="tel:08355870000">08355870000</a></span><br>
+                    <br>
+                  <p class="price"><img src="static/images/location.png" height="20" width="15">  <a href="https://www.google.com/maps/place/CinCin+Mumbai/@19.0608441,72.8604911,17z/data=!3m2!4b1!5s0x3be7c8e7fca4d545:0x1b9fbb071dd1068d!4m6!3m5!1s0x3be7c8e81185e7e3:0xacf7b26f032ae292!8m2!3d19.0608441!4d72.863066!16s%2Fg%2F11f1lfm8t6?entry=ttu">Ground Floor, Raheja Towers , Near Yauatcha Restaurant, Mumbai, Maharashtra 400051</a></p>
+                <p class="price">Italian, European</p>
+
                 <a href="/review?name=cincin&cmp={{ cmp }}&hnm=Cincin BKC" class="btn">Reviews</a> </div>
                 <br/>
                {% if ratingsk | length >1 %}
@@ -558,8 +574,7 @@ $(function () {
             <div class="tour"> <img src="static/images/gateway.jpg" width="180" height="150" alt="" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Gateway of India</strong> </p>
-                <p class="price">The Gateway of India is one of the significant and unique landmarks located in Mumbai, Maharashtra, India. The colossal structure of the Gateway of India was constructed in 1924.</p>
-                 {% if ratingsk | length  > 1 %}
+                  {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['gateway_compound'] %}
                 {% if
                   cmp==1 %}:
@@ -584,6 +599,9 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <p class="price"><img src="static/images/location.png" height="20" width="15"><a href="https://www.google.com/maps/place/Gateway+Of+India+Mumbai/@18.9219841,72.8320794,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7d1c73a0d5cad:0xc70a25a7209c733c!8m2!3d18.9219841!4d72.8346543!16zL20vMDJoN3Iy?entry=ttu">Apollo Bandar, Colaba, Mumbai, Maharashtra 400001</a></p>
+                <p class="price">The Gateway of India is one of the significant and unique landmarks located in Mumbai, Maharashtra, India. The colossal structure of the Gateway of India was constructed in 1924.</p>
+
                   <a href="/review?name=gateway&cmp={{ cmp }}&hnm=Gateway of India" class="btn">Reviews</a> </div>
 
                 <br/>
@@ -619,8 +637,7 @@ $(function () {
             <div class="tour"> <img src="static/images/bandra.jpg" width="180" height="150" alt="img" class="img_inner fleft">
               <div class="extra_wrapper">
                 <p class="text1"><strong>Bandra Fort </strong></p>
-                <p class="price">The Bandra fort is one of the Portuguese forts from Mumbai. Bandra fort provides scenic views of the Arabian sea, river Mahim and the Bandra-Worli Sealink road at the same time. </p>
-                {% if ratingsk | length  > 1 %}
+                  {% if ratingsk | length  > 1 %}
                 {% set cmp=ratingsk['bandrafort_compound'] %}
                 {% if cmp==1 %}:
                  <img src="static/images/1star.png"  >
@@ -640,6 +657,11 @@ $(function () {
                 {% endif %}
 
                   {{ cmp }}
+                  <br>
+                <br>
+                  <p class="price"><img src="static/images/location.png" height="20" width="15"><a href="https://www.google.com/maps/place/Bandra+Fort/@19.0418892,72.8157845,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c94fec37e32f:0xbd1c604e235425bc!8m2!3d19.0418892!4d72.8183594!16zL20vMDhxZ3Bu?entry=ttu">2RR9+Q85, Byramji Jeejeebhoy Road, Bandstand Road, Mumbai, Maharashtra 400050</a></p>
+                <p class="price">The Bandra fort is one of the Portuguese forts from Mumbai. Bandra fort provides scenic views of the Arabian sea, river Mahim and the Bandra-Worli Sealink road at the same time. </p>
+
                   <a href="/review?name=bandrafort&cmp={{ cmp }}&hnm=Bandra Fort" class="btn">Reviews</a> </div>
                  <br/>
                 {% if ratingsk | length >1 %}
@@ -675,12 +697,8 @@ $(function () {
       <div class="grid_3">
         <h3>Browse Tours</h3>
         <form method="post" id="form1" class="form1" action="#">
-          <label class="mb0"> <span>Browse by Tour Operator</span>
-            <select name="select">
-              <option value="">Browse by Tour Operator</option>
-              <option value="">...</option>
-            </select>
-          </label>
+          <a href="/newhotel" class="btn">Add a new hotel</a>
+            <br>
           <div class="clear"></div>
           <a onClick="document.getElementById('form1').submit()" href="#" class="btn"> Search</a>
         </form>
